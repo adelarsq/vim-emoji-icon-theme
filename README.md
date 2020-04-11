@@ -35,6 +35,13 @@ Plug 'https://github.com/ryanoasis/vim-webdevicons'
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] [ale](https://github.com/dense-analysis/ale) support
 
+## Bugs
+
+Vim and NeoVim have some bugs rendering emojis in some situations. So some
+emoji can't be used or need some tweeks.
+
+For NeoVim blend shows emojis behind window or popup. See [bug](https://github.com/neovim/neovim/issues/12012).
+
 ## License
 
 MIT
