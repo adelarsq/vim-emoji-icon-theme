@@ -29,7 +29,7 @@ Plug 'https://github.com/ryanoasis/vim-webdevicons'
 - [ ] [vim-clap](https://github.com/liuchengxu/vim-clap) support
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] [ale](https://github.com/dense-analysis/ale) support
-- [ ] [vista](https://github.com/liuchengxu/vista.vim) support
+- [x] [vista](https://github.com/liuchengxu/vista.vim) support
 
 ## License
 
