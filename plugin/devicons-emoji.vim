@@ -7,6 +7,10 @@ function! s:getemoji(arg0, arg1)
     endif
 endfunction
 
+" NERDTree
+let g:WebDevIconsUnicodeDecorateFolderNodesDefaultSymbol = s:getemoji('file_folder', 'ƛ')
+let g:DevIconsDefaultFolderOpenSymbol = s:getemoji('open_file_folder', 'ƛ')
+
 " Extensions
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['7z'] = s:getemoji('package','') " 7-Zip compressed file
