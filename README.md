@@ -4,6 +4,8 @@ Add support for icons on Vim and Neovim using emojis.
 
 This plugin depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [vim-webdevicons](https://github.com/junegunn/vim-plug).
 
+Also the editor will be using Emoji fonts, so one have to be configured. A have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
+
 [NERDTree](https://github.com/preservim/nerdtree) with this plugin using [Ayu](https://github.com/ayu-theme/ayu-vim) colorscheme:
 
 ![nerdtree](https://user-images.githubusercontent.com/430272/79052360-5e31df80-7c0c-11ea-830e-84f516b0b3ec.png)
@@ -17,10 +19,10 @@ This plugin depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [v
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
-```
+```vim
 Plug 'https://github.com/junegunn/vim-emoji'
 Plug 'https://github.com/ryanoasis/vim-webdevicons'
-\ | Plug 'https://github.com/adelarsq/vim-devicons-emoji'
+Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
 
 ## Motivations 💓
