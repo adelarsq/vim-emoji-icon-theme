@@ -1,3 +1,6 @@
+" Vim Emoji Icon Theme
+" By Adelar da Silva Queiróz - 2020
+" MIT License
 
 function! s:getemoji(arg0, arg1)
     silent! if emoji#available()
@@ -8,8 +11,46 @@ function! s:getemoji(arg0, arg1)
 endfunction
 
 " NERDTree
+let g:NERDTreeDirArrowExpandable = ''
+let g:NERDTreeDirArrowCollapsible = ''
 let g:WebDevIconsUnicodeDecorateFolderNodesDefaultSymbol = s:getemoji('file_folder', 'ƛ')
 let g:DevIconsDefaultFolderOpenSymbol = s:getemoji('open_file_folder', 'ƛ')
+
+" Vista
+let g:vista#renderer#icons = {
+            \   'autocommand groups': '🚗',
+            \   'cmd': '🐚',
+            \   'commands': '🐚',
+            \   'implementation': '🏞 ',
+            \   'maps': '🌎',
+            \   'targets': '⛳',
+            \   'module': '🚛',
+            \   'modules': '🚛',
+            \   'namespace': '🕋',
+            \   'namespaces': '🕋',
+            \   'class': '📦',
+            \   'classes': '📦',
+            \   'struct': '🧱',
+            \   'unit': '🗳 ',
+            \   'units': '🗳 ',
+            \   'interface': '🧩',
+            \   'interfaces': '🧩',
+            \   'function': '𝝺',
+            \   'functions': '𝝺',
+            \   'method': 'ƒ',
+            \   'methods': 'ƒ',
+            \   'variable': '🌡 ',
+            \   'variables': '🌡 ',
+            \   'property': '🩸',
+            \   'properties': '🩸',
+            \   'field': '💧',
+            \   'fields': '💧',
+            \   'constant': '🧊',
+            \   'type': '🧬',
+            \   'enumerators': '🧫',
+            \   'enums': '🦠',
+            \   'default': '🪐',
+            \  }
 
 " Extensions
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
