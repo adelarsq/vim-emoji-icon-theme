@@ -1,4 +1,4 @@
-# Vim Emoji Icon Theme
+# Vim Emoji Icon Theme 🎨
 
 Add support for icons on Vim and Neovim using emojis.
 
@@ -8,12 +8,12 @@ How [NERDTree](https://github.com/preservim/nerdtree) looks like with this plugi
 
 ![nerdtree](https://user-images.githubusercontent.com/430272/79052360-5e31df80-7c0c-11ea-830e-84f516b0b3ec.png)
 
-## Plugins Supported
+## Plugins Supported 🤗
 
 - [x] [NERDTree](https://github.com/preservim/nerdtree)
 - [x] [Vista](https://github.com/liuchengxu/vista.vim)
 
-## Installation
+## Installation 🧙
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
@@ -23,26 +23,26 @@ Plug 'https://github.com/ryanoasis/vim-webdevicons'
 \ | Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
 
-## Motivations
+## Motivations 💓
 
 - There is no need for a patched fond.
 - It's beautifull.
 
-## TODO
+## TODO 🔨
 
 - [ ] Add more ways to install
 - [ ] [vim-clap](https://github.com/liuchengxu/vim-clap) support
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] [ale](https://github.com/dense-analysis/ale) support
 
-## Bugs
+## Bugs 🐛
 
 Vim and NeoVim have some bugs rendering emojis in some situations. So some
 emoji can't be used or need some tweeks.
 
 For NeoVim blend shows emojis behind window or popup. See [bug](https://github.com/neovim/neovim/issues/12012).
 
-## License
+## License 📜
 
-MIT
+[MIT](License)
 
