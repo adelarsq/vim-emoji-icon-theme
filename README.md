@@ -27,7 +27,8 @@ Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 
 ## Motivations 💓
 
-- There is no need for a patched fond.
+- The idea from it is to support n plugins with minimal configuration;
+- There is no need for a patched font;
 - It's beautifull.
 
 ## TODO 🔨
