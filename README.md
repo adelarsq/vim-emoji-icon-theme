@@ -4,7 +4,7 @@ Emoji support for Vim icons for various plugins.
 
 This plugin depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [vim-webdevicons](https://github.com/junegunn/vim-plug).
 
-![nerdtree](images/nerdtree.png)
+![nerdtree](https://user-images.githubusercontent.com/430272/79052360-5e31df80-7c0c-11ea-830e-84f516b0b3ec.png)
 
 ## Installation
 
