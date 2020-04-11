@@ -1,10 +1,12 @@
-# Vim Devicons Emoji
+# Vim Emoji Icon Theme
 
-Emoji support for [vim-devicons](https://github.com/ryanoasis/vim-devicons)
+Emoji support for Vim icons for various plugins.
+
+This plugin depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [vim-webdevicons](https://github.com/junegunn/vim-plug).
+
+![nerdtree](images/nerdtree.png)
 
 ## Installation
-
-**vim-devicons-emoji** depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [vim-webdevicons](https://github.com/junegunn/vim-plug).
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
@@ -21,9 +23,11 @@ Plug 'https://github.com/ryanoasis/vim-webdevicons'
 
 ## TODO
 
+- [ ] Add more ways to install
 - [ ] [vim-clap](https://github.com/liuchengxu/vim-clap) support
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] [ale](https://github.com/dense-analysis/ale) support
+- [ ] [vista](https://github.com/liuchengxu/vista.vim) support
 
 ## License
 
