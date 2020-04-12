@@ -27,13 +27,14 @@ Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 
 ## Motivations 💓
 
-- The idea from it is to support n plugins with minimal configuration;
+- Support n plugins and filetypes without a patched font;
 - There is no need for a patched font;
 - It's beautifull.
 
 ## TODO 🔨
 
 - [ ] Add more ways to install
+- [ ] Remove vim-emoji dependency
 - [ ] [vim-clap](https://github.com/liuchengxu/vim-clap) support
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] [ale](https://github.com/dense-analysis/ale) support

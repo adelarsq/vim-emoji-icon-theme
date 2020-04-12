@@ -72,6 +72,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bmp'] = s:getemoji('a
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bmp'] = s:getemoji('art','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bz2'] = s:getemoji('package','') " Bzip2 compressed file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = s:getemoji('cow','')
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cbl'] = '⚙️ ' " Cobol source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cer'] = s:getemoji('key','') " Certificate file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['class'] = s:getemoji('tea','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['clj'] = s:getemoji('closed_umbrella','') " Clojure source code
