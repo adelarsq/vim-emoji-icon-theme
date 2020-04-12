@@ -12,6 +12,7 @@ Also the editor will be using Emoji fonts, so one have to be configured. A have 
 
 ## Plugins Supported 🤗
 
+- [x] [CtrlSpace](https://github.com/vim-ctrlspace)
 - [x] [NERDTree](https://github.com/preservim/nerdtree)
 - [x] [Vista](https://github.com/liuchengxu/vista.vim)
 

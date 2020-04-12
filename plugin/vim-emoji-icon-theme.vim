@@ -10,6 +10,29 @@ function! s:getemoji(arg0, arg1)
     endif
 endfunction
 
+" CtrlSpace
+let g:CtrlSpaceSymbols = {
+            \ 'CS'     : '🪐',
+            \ 'Zoom'   : '🔎',
+            \ 'BM'     : '💕',
+            \ 'Vis'    : '🌟',
+            \ 'IA'     : '👀',
+            \ 'Sin'    : '🛸',
+            \ 'IV'     : '⭐️',
+            \ "All"    : '✨',
+            \ "File"   : '💾',
+            \ "Tabs"   : '📥',
+            \ "CTab"   : '📤',
+            \ "NTM"    : '⁺',
+            \ "WLoad"  : '🔼',
+            \ "WSave"  : '🔽',
+            \ "SLeft"  : '▶️ ',
+            \ "SRight" : '◀️ ',
+            \ "Help"   : '🧠',
+            \ "IM"     : '➕',
+            \ "Dots"   : '...'
+            \ }
+
 " NERDTree
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
