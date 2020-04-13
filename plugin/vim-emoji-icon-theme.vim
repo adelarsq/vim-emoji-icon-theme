@@ -10,6 +10,29 @@ function! s:getemoji(arg0, arg1)
     endif
 endfunction
 
+" webdevicons config
+let g:webdevicons_enable_nerdtree = 1
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ' '
+
+" ale
+let g:ale_sign_error = '💥'
+let g:ale_sign_warning = '💩'
+let g:ale_sign_info = '💬'
+let g:ale_sign_style_error = '💥'
+let g:ale_sign_style_warning = '💩'
+
+" vim-dadbod-ui
+let g:db_ui_icons = {
+	  \ 'expanded': '▾',
+	  \ 'collapsed': '▸',
+	  \ 'saved_query': '💾',
+	  \ 'new_query': '➕',
+	  \ 'tables': '🗂 ',
+	  \ 'buffers': '🅱 ',
+	  \ 'connection_ok': '✅',
+	  \ 'connection_error': '💥',
+ \ }
+
 " CtrlSpace
 let g:CtrlSpaceSymbols = {
             \ 'CS'     : '🪐',
@@ -26,12 +49,17 @@ let g:CtrlSpaceSymbols = {
             \ "NTM"    : '⁺',
             \ "WLoad"  : '🔼',
             \ "WSave"  : '🔽',
-            \ "SLeft"  : '▶️ ',
-            \ "SRight" : '◀️ ',
+            \ "SLeft"  : '...',
+            \ "SRight" : '...',
             \ "Help"   : '🧠',
             \ "IM"     : '➕',
             \ "Dots"   : '...'
             \ }
+
+" puremourning/vimspector                                                     "
+sign define vimspectorBP text=🔴 texthl=Normal
+sign define vimspectorBPDisabled text=🔵 texthl=Normal
+sign define vimspectorPC text=🔶 texthl=SpellBad
 
 " NERDTree
 let g:NERDTreeDirArrowExpandable = ''
@@ -75,6 +103,9 @@ let g:vista#renderer#icons = {
             \   'default': '🪐',
             \  }
 
+" webdevicons
+let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = '📄'
+
 " Extensions
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['7z'] = s:getemoji('package','') " 7-Zip compressed file
@@ -109,7 +140,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cr'] = s:getemoji('ge
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['crt'] = s:getemoji('key','') " cert file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cs'] = s:getemoji('ocean','') " C# source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cshtml'] = s:getemoji('ocean','') " Razor C# source file
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['csproj'] = s:getemoji('hammer','') " C# config file xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['csproj'] = s:getemoji('hammer','') " C# config file XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['css'] = s:getemoji('hibiscus','') " CSS file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['csv'] = s:getemoji('bar_chart','') " CSV file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['csx'] = s:getemoji('ocean','') " C# source file
@@ -123,7 +154,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dll'] = s:getemoji('b
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dmg'] = s:getemoji('package','') " Apple compressed/encrypted format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['doc'] = s:getemoji('green_book','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['docx'] = s:getemoji('green_book','')
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dtd'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dtd'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['duel'] = s:getemoji('u5408','') " http://www.duelengine.org/
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dump'] = s:getemoji('bomb','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dylib'] = s:getemoji('battery','')
@@ -134,7 +165,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['elmi'] = s:getemoji('
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['elmo'] = s:getemoji('keycap_ten','') " Elm internal binary file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erb'] = s:getemoji('small_red_triangle_down','') " Ruby source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erl'] = s:getemoji('satellite','') " Erlang source code
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erm'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erm'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erwin'] = s:getemoji('game_die','') " Erwin file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ex'] = s:getemoji('droplet','') " Elixir source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['exe'] = s:getemoji('rocket','')
@@ -144,13 +175,13 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fbx'] = s:getemoji('g
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fish'] = s:getemoji('fish','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['flr'] = s:getemoji('fireworks','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fnl'] = s:getemoji('last_quarter_moon_with_face','') " Fennel lang source file
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['frxml'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['frxml'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fs'] = s:getemoji('large_blue_diamond','') " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsi'] = s:getemoji('large_blue_diamond','') " F# source code
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsproj'] = s:getemoji('anger','') " F# config file xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsproj'] = s:getemoji('anger','') " F# config file XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsx'] = s:getemoji('large_blue_diamond','') " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['functions'] = s:getemoji('shell','')
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fxml'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fxml'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gdb'] = s:getemoji('beetle','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gif'] = s:getemoji('art','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['git'] = s:getemoji('octopus','') " polvo - simbolo do github
@@ -186,11 +217,11 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['java'] = s:getemoji('
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jenkinsfile'] = s:getemoji('tophat','') " Jenkins
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jks'] = s:getemoji('key','') " Java cert
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jl'] = s:getemoji('dango','') " Julia language files
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jmx'] = s:getemoji('anger','') " JMX file (xml)
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jnlp'] = s:getemoji('anger','') " JNLP file (xml)
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jmx'] = s:getemoji('anger','') " JMX file (XML)
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jnlp'] = s:getemoji('anger','') " JNLP file (XML)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jpeg'] = s:getemoji('art','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jpg'] = s:getemoji('art','')
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jrxml'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jrxml'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['js'] = s:getemoji('large_orange_diamond','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['json'] = s:getemoji('large_orange_diamond','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jsx'] = s:getemoji('fish','') " jsx language
@@ -212,7 +243,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mdj'] = s:getemoji('m
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mdl'] = s:getemoji('genie','') " mdl 3D file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mk'] = s:getemoji('hammer','') " Makefile
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mkd'] = s:getemoji('capital_abcd','') " Markdown
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mlt'] = s:getemoji('film_frames','') " Xml media config file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mlt'] = s:getemoji('film_frames','') " XML media config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mo'] = s:getemoji('statue_of_liberty','') " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['moon'] = s:getemoji('full_moon','') " Moonscript filetype
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mp3'] = s:getemoji('musical_note','')
@@ -225,7 +256,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mqlh'] = s:getemoji('
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nib'] = s:getemoji('battery','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nim'] = s:getemoji('crown','') " Nim source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nupkg'] = s:getemoji('package','') " NuGet package config
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nuspec'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nuspec'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['obj'] = s:getemoji('video_game','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['odp'] = s:getemoji('performing_arts','') "OpenOffice/StarOffice presentation file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ods'] = s:getemoji('bar_chart','') " OpenOffice/StarOffice spreadsheet file
@@ -241,7 +272,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pgsql'] = s:getemoji(
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['php'] = s:getemoji('elephant','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkg'] = s:getemoji('package','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pl'] = s:getemoji('camel','') " Perl
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['plist'] = s:getemoji('anger','') " Xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['plist'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['png'] = s:getemoji('art','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['po'] = s:getemoji('statue_of_liberty','') " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pot'] = s:getemoji('statue_of_liberty','') " GNU gettext file
@@ -250,7 +281,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppt'] = s:getemoji('p
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['prefs'] = s:getemoji('hammer','') " Eclipse preferences file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['profile'] = s:getemoji('bust_in_silhouette','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['properties'] = s:getemoji('wrench','')
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['props'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['props'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['proto'] = s:getemoji('atom_symbol','') " Proto
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ps1'] = s:getemoji('shell','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['psd'] = s:getemoji('art','')
@@ -266,7 +297,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rar'] = s:getemoji('p
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rb'] = s:getemoji('small_red_triangle_down','') " Ruby source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['reg'] = s:getemoji('closed_lock_with_key','') " windows register file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rest'] = s:getemoji('ant','') " icon because ant carry things
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resx'] = s:getemoji('anger','') " Android xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resx'] = s:getemoji('anger','') " Android XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rlib'] = s:getemoji('battery','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rpm'] = s:getemoji('package','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rql'] = s:getemoji('telephone_receiver','') " restQL https://github.com/B2W-BIT/restQL-core
@@ -287,8 +318,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['slime'] = s:getemoji(
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sln'] = s:getemoji('hammer','') " Solution file config for .NET
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['so'] = s:getemoji('battery','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sql'] = s:getemoji('game_die','') " sql -> SQLYog
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['storyboard'] = s:getemoji('anger','') " xml
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['strings'] = s:getemoji('anger','') " Xml plist strings file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['storyboard'] = s:getemoji('anger','') " XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['strings'] = s:getemoji('anger','') " XML plist strings file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['styl'] = s:getemoji('hibiscus','') " stylus
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['suo'] = s:getemoji('ocean','') " C# source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['svg'] = s:getemoji('art','')
@@ -305,10 +336,10 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tsx'] = s:getemoji('l
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ttf'] = s:getemoji('mortar_board','') " font
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['txt'] = s:getemoji('pencil','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['uml'] = s:getemoji('diamond_shape_with_a_dot_inside','')
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['userprefs'] = s:getemoji('hammer','') " xml user preferences file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['userprefs'] = s:getemoji('hammer','') " XML user preferences file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['v'] = s:getemoji('violin','') " v language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vbs'] = s:getemoji('cyclone','') " VisualBasic
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vcxproj'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vcxproj'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vgb'] = s:getemoji('hammer','') " Visual Basic Project file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vh'] = s:getemoji('violin','') " v language header
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vim'] = s:getemoji('leaves','') " vim script
@@ -320,18 +351,18 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = s:getemoji('e
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['war'] = s:getemoji('package','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wav'] = s:getemoji('musical_note','') " wav audio file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['woff'] = s:getemoji('mortar_board','') " font
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wscene'] = s:getemoji('film_frames','') " Xml media config file
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wsdl'] = s:getemoji('anger','') " xml
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xaml'] = s:getemoji('anger','') " xml
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xcf'] = s:getemoji('art','') " gimp image file format
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wscene'] = s:getemoji('film_frames','') " XML media config file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wsdl'] = s:getemoji('anger','') " XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xaml'] = s:getemoji('anger','') " XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xcf'] = s:getemoji('art','') " Gimp image file format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xhtml'] = s:getemoji('earth_asia','')
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xib'] = s:getemoji('anger','') " xml
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xjb'] = s:getemoji('anger','') " jaxb external curstomization binding file - xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xib'] = s:getemoji('anger','') " XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xjb'] = s:getemoji('anger','') " jaxb external curstomization binding file - XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xls'] = s:getemoji('bar_chart','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xlsx'] = s:getemoji('bar_chart','')
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xml'] = s:getemoji('anger','') " xml
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xsd'] = s:getemoji('anger','') " xml
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xsl'] = s:getemoji('anger','') " xml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xml'] = s:getemoji('anger','') " XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xsd'] = s:getemoji('anger','') " XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xsl'] = s:getemoji('anger','') " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['yaml'] = s:getemoji('flower_playing_cards','') " YAML file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['yml'] = s:getemoji('flower_playing_cards','') " YAML file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zig'] = s:getemoji('zap','')

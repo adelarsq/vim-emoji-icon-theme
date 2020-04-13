@@ -12,9 +12,12 @@ Also the editor will be using Emoji fonts, so one have to be configured. A have 
 
 ## Plugins Supported 🤗
 
-- [x] [CtrlSpace](https://github.com/vim-ctrlspace)
 - [x] [NERDTree](https://github.com/preservim/nerdtree)
 - [x] [Vista](https://github.com/liuchengxu/vista.vim)
+- [x] [ale](https://github.com/dense-analysis/ale)
+- [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
+- [x] [vim-dadbod-ui](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA)
+- [x] [vimspector](https://github.com/puremourning/vimspector)
 
 ## Installation 🧙
 
@@ -25,6 +28,9 @@ Plug 'https://github.com/junegunn/vim-emoji'
 Plug 'https://github.com/ryanoasis/vim-webdevicons'
 Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
+## How to use 🤔
+
+This plugin should work out of box.
 
 ## Motivations 💓
 
@@ -38,7 +44,6 @@ Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 - [ ] Remove vim-emoji dependency
 - [ ] [vim-clap](https://github.com/liuchengxu/vim-clap) support
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
-- [ ] [ale](https://github.com/dense-analysis/ale) support
 
 ## Bugs 🐛
 
@@ -46,6 +51,14 @@ Vim and NeoVim have some bugs rendering emojis in some situations. So some
 emoji can't be used or need some tweeks.
 
 For NeoVim blend shows emojis behind window or popup. See [bug](https://github.com/neovim/neovim/issues/12012).
+
+## Acknowledgments 💡
+
+Thanks goes to these people/projects for inspiration:
+
+- [vim-emoji](https://github.com/junegunn/vim-emoji)
+- [vim-webdevicons](https://github.com/junegunn/vim-plug)
+- [vscode file icon theme](https://code.visualstudio.com/api/extension-guides/file-icon-theme)
 
 ## License 📜
 
