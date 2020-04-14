@@ -1,10 +1,8 @@
 # Vim Emoji Icon Theme 🎨
 
-Add support for icons on Vim and Neovim using emojis.
+**Work in progress**
 
-This plugin depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [vim-webdevicons](https://github.com/junegunn/vim-plug).
-
-Also the editor will be using Emoji fonts, so one have to be configured. A have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
+This plugin is a extension from [vim-webdevicons](https://github.com/junegunn/vim-plug) adding support for icons as emojis on Vim and Neovim.
 
 [NERDTree](https://github.com/preservim/nerdtree) with this plugin using [Ayu](https://github.com/ayu-theme/ayu-vim) colorscheme:
 
@@ -18,6 +16,15 @@ Also the editor will be using Emoji fonts, so one have to be configured. A have 
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
 - [x] [vim-dadbod-ui](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA)
 - [x] [vimspector](https://github.com/puremourning/vimspector)
+- [x] all plugins supported by [vim-webdevicons](https://github.com/junegunn/vim-plug)
+
+## How to use 🤔
+
+This plugin should work out of box.
+
+This plugin depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [vim-webdevicons](https://github.com/junegunn/vim-plug).
+
+Also the editor will be using Emoji fonts, so one have to be configured. A have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
 
 ## Installation 🧙
 
@@ -28,10 +35,6 @@ Plug 'https://github.com/junegunn/vim-emoji'
 Plug 'https://github.com/ryanoasis/vim-webdevicons'
 Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
-## How to use 🤔
-
-This plugin should work out of box.
-
 ## Motivations 💓
 
 - Support n plugins and filetypes without a patched font;
@@ -44,6 +47,8 @@ This plugin should work out of box.
 - [ ] Remove vim-emoji dependency
 - [ ] [vim-clap](https://github.com/liuchengxu/vim-clap) support
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
+- [ ] fzf
+- [ ] denite
 
 ## Bugs 🐛
 

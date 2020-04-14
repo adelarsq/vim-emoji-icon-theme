@@ -34,6 +34,7 @@ let g:db_ui_icons = {
  \ }
 
 " CtrlSpace
+" CTab - Current tab
 let g:CtrlSpaceSymbols = {
             \ 'CS'     : '🪐',
             \ 'Zoom'   : '🔎',
@@ -44,8 +45,8 @@ let g:CtrlSpaceSymbols = {
             \ 'IV'     : '⭐️',
             \ "All"    : '✨',
             \ "File"   : '💾',
-            \ "Tabs"   : '📥',
-            \ "CTab"   : '📤',
+            \ "Tabs"   : '🔴',
+            \ "CTab"   : '🟢',
             \ "NTM"    : '⁺',
             \ "WLoad"  : '🔼',
             \ "WSave"  : '🔽',
@@ -299,6 +300,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['reg'] = s:getemoji('c
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rest'] = s:getemoji('ant','') " icon because ant carry things
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resx'] = s:getemoji('anger','') " Android XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rlib'] = s:getemoji('battery','')
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rmd'] = s:getemoji('performing_arts','') " RMD file presentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rpm'] = s:getemoji('package','')
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rql'] = s:getemoji('telephone_receiver','') " restQL https://github.com/B2W-BIT/restQL-core
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rs'] = s:getemoji('crab','') " Rust
