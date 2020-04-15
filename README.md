@@ -15,10 +15,10 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [ale](https://github.com/dense-analysis/ale)
 - [x] [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
-- [x] [vim-dadbod-ui](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA)
+- [x] [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
 - [x] [vim-signify](https://github.com/mhinz/vim-signify)
 - [x] [vimspector](https://github.com/puremourning/vimspector)
-- [x] all plugins supported by [vim-webdevicons](https://github.com/junegunn/vim-plug)
+- [x] all plugins supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
 
 ## How to use 🤔
 
