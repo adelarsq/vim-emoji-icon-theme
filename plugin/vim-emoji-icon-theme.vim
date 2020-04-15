@@ -21,6 +21,10 @@ let g:ale_sign_info = '💬'
 let g:ale_sign_style_error = '💥'
 let g:ale_sign_style_warning = '💩'
 
+" vim-bookmarks
+let g:bookmark_sign = '⭐'
+let g:bookmark_annotation_sign = '🔖'
+
 " vim-dadbod-ui
 let g:db_ui_icons = {
 	  \ 'expanded': '▾',
