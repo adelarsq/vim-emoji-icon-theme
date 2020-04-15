@@ -16,6 +16,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
 - [x] [vim-dadbod-ui](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA)
+- [x] [vim-signify](https://github.com/mhinz/vim-signify)
 - [x] [vimspector](https://github.com/puremourning/vimspector)
 - [x] all plugins supported by [vim-webdevicons](https://github.com/junegunn/vim-plug)
 
