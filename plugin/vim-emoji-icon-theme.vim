@@ -385,6 +385,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitignore'] = s:getemoji
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.git'] = s:getemoji('octopus','') " github symbol
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gqlconfig'] = s:getemoji('basketball','')
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.hackernews'] = s:getemoji('newspaper','')
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.svn'] = '🐢'
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.vimspector.json'] = s:getemoji('beetle','') " vimspector config file
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.vscode'] = '🆚'
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.zshrc'] = s:getemoji('shell','')
