@@ -3,6 +3,7 @@
 " MIT License
 
 " Icons by type
+let s:iconDefault = '📄'
 let s:icon3D = '🦖'
 let s:iconAngel = '👼🏻'
 let s:iconAssembly = '🔢'
@@ -224,7 +225,7 @@ let g:signify_sign_delete_first_line = '■'
 let g:signify_sign_change            = '■'
 
 " webdevicons
-let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = '📄'
+let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 
 " Extensions
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
