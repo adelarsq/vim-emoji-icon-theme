@@ -114,7 +114,6 @@ let s:iconGradle = '🐘'
 let s:iconGroovy = '🌟'
 let s:iconHaskell = '🎩'
 let s:iconIso = '💿'
-let s:iconJade = '🐇'
 let s:iconJasper = '💹'
 
 " webdevicons config
@@ -331,7 +330,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ini'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipa'] = s:iconPackage " iOS App Store Package
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipynb'] = s:iconPython " Jupyter notebook - Python
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['iso'] = s:iconIso
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jade'] = s:iconJade " jade template language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jade'] = s:iconTemplate " jade template language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jar'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jasper'] = s:iconJasper " Jasper files
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['java'] = s:iconJava
