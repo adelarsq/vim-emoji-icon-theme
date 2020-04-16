@@ -25,6 +25,9 @@ let g:ale_sign_style_warning = '💩'
 let g:bookmark_sign = '⭐'
 let g:bookmark_annotation_sign = '🔖'
 
+" vim-clap
+let g:clap_spinner_frames =  ['🌎','🌍','🌏']
+
 " vim-dadbod-ui
 let g:db_ui_icons = {
 	  \ 'expanded': '▾',

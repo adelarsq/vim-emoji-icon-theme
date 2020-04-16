@@ -10,15 +10,29 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 
 ## Plugins Supported 🤗
 
-- [x] [NERDTree](https://github.com/preservim/nerdtree)
+- [x] [NERDTree](https://github.com/preservim/nerdtree) *
 - [x] [Vista](https://github.com/liuchengxu/vista.vim)
 - [x] [ale](https://github.com/dense-analysis/ale)
+- [x] [vim-clap](https://github.com/liuchengxu/vim-clap) **
 - [x] [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
 - [x] [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
 - [x] [vim-signify](https://github.com/mhinz/vim-signify)
 - [x] [vimspector](https://github.com/puremourning/vimspector)
-- [x] all plugins supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
+- [x] [denite](https://github.com/Shougo/denite.nvim) *
+- [x] [vim-airline](https://github.com/vim-airline/vim-airline) *
+- [x] [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) *
+- [x] [powerline](https://github.com/powerline/powerline) *
+- [x] [unite](https://github.com/Shougo/unite.vim) *
+- [x] [lightline.vim](https://github.com/itchyny/lightline.vim) *
+- [x] [vim-startify](https://github.com/mhinz/vim-startify) *
+- [x] [vimfiler](https://github.com/Shougo/vimfiler.vim) *
+- [x] [vim-buffet](https://github.com/bagrat/vim-buffet) *
+- [x] [flagship](https://github.com/tpope/vim-flagship) *
+
+Labels:
+ - * Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
+ - ** Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392)
 
 ## How to use 🤔
 
@@ -47,10 +61,8 @@ Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 
 - [ ] Add more ways to install
 - [ ] Remove vim-emoji dependency
-- [ ] [vim-clap](https://github.com/liuchengxu/vim-clap) support
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] fzf
-- [ ] denite
 
 ## Bugs 🐛
 
