@@ -31,8 +31,8 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [flagship](https://github.com/tpope/vim-flagship) *
 
 Labels:
- - * Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
- - ** Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392)
+ - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
+ - `**` Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392)
 
 ## How to use 🤔
 
