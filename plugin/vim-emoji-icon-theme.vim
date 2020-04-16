@@ -223,6 +223,50 @@ let g:signify_sign_delete            = '■'
 let g:signify_sign_delete_first_line = '■'
 let g:signify_sign_change            = '■'
 
+" coc.nvim
+let g:coc_user_config = {
+\ "codeLens.separator": "🔎",
+\ "diagnostic.errorSign": "💥",
+\ "diagnostic.hintSign": "💡",
+\ "diagnostic.infoSign": "💬",
+\ "diagnostic.virtualTextPrefix": "💭",
+\ "diagnostic.warningSign": "💩",
+\ "coc.source.around.shortcut":"🅰 ",
+\ "coc.source.buffer.shortcut":"🅱 ",
+\ "coc.source.file.shortcut": "🗄 ",
+\ "coc.source.omni.shortcut":"🅾 ",
+\ "coc.source.emoji.shortcut": "🦄",
+\ "coc.source.neco.shortcut":"🐈",
+\ "coc.preferences.snippetStatusText": "🌱",
+\ "suggest.completionItemKindLabels": {
+\     "module": "🚛",
+\     "class": "📦",
+\     "struct": "🧱",
+\     "unit": "🗳 ",
+\     "interface": "🧩",
+\     "function": "𝝺",
+\     "method": "ƒ",
+\     "variable": "🌡 ",
+\     "property": "🩸",
+\     "field": "💧",
+\     "constant": "🧊",
+\     "typeParameter": "🧬",
+\     "enum": "🧫",
+\     "enumMember": "🦠",
+\     "text": "📜",
+\     "value": "🧪",
+\     "color": "🎨",
+\     "event": "📅",
+\     "file": "🗄 ",
+\     "folder": "📁",
+\     "keyword": "🔑",
+\     "snippet": "🌱",
+\     "operator": "❎",
+\     "reference": "⛳",
+\     "default": "🪐"
+\ },
+\ }
+
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 

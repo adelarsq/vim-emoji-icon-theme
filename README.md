@@ -15,6 +15,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [ale](https://github.com/dense-analysis/ale)
 - [x] [vim-clap](https://github.com/liuchengxu/vim-clap) **
 - [x] [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
+- [x] [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
 - [x] [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
 - [x] [vim-signify](https://github.com/mhinz/vim-signify)
@@ -75,7 +76,6 @@ Then open the editor and install with `call dein#install()`.
 ## TODO 🔨
 
 - [ ] Add more ways to install
-- [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] fzf
 
 ## Bugs 🐛
