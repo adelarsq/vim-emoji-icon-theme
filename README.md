@@ -38,7 +38,7 @@ Labels:
 
 This plugin should work out of box.
 
-This plugin depends on [vim-emoji](https://github.com/junegunn/vim-emoji) and [vim-webdevicons](https://github.com/junegunn/vim-plug).
+This plugin depends on [vim-webdevicons](https://github.com/junegunn/vim-plug).
 
 Also the editor will be using Emoji fonts, so one have to be configured. A have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
 
@@ -47,7 +47,6 @@ Also the editor will be using Emoji fonts, so one have to be configured. A have 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'https://github.com/junegunn/vim-emoji'
 Plug 'https://github.com/ryanoasis/vim-webdevicons'
 Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
@@ -60,7 +59,6 @@ Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ## TODO 🔨
 
 - [ ] Add more ways to install
-- [ ] Remove vim-emoji dependency
 - [ ] [coc.nvim](https://github.com/neoclide/coc.nvim) support
 - [ ] fzf
 
