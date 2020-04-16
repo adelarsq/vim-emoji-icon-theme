@@ -44,12 +44,28 @@ Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/e
 
 ## Installation 🧙
 
-Using [vim-plug](https://github.com/junegunn/vim-plug):
+### [Plug](https://github.com/junegunn/vim-plug)
+
+Add the following lines on the Vim/NeoVim config file:
 
 ```vim
 Plug 'https://github.com/ryanoasis/vim-webdevicons'
 Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
+
+Then open the editor and install with `PlugInstall`.
+
+### [Dein](https://github.com/Shougo/dein.vim)
+
+Add the following lines on the Vim/NeoVim config file:
+
+```vim
+call dein#add('ryanoasis/vim-webdevicons')
+call dein#add('adelarsq/vim-devicons-emoji')
+```
+
+Then open the editor and install with `call dein#install()`.
+
 ## Motivations 💓
 
 - Support n plugins and filetypes without a patched font;
