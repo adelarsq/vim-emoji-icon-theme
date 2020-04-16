@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Work in progress**
+🚧 **Work in progress** 🚧
 
 This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/vim-devicons) adding support for icons as emojis on Vim and Neovim.
 
