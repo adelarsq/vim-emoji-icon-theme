@@ -175,6 +175,10 @@ sign define vimspectorBP text=🔴 texthl=Normal
 sign define vimspectorBPDisabled text=🔵 texthl=Normal
 sign define vimspectorPC text=🔶 texthl=SpellBad
 
+" idanarye/vim-vebugger
+let g:vebugger_breakpoint_text='🔴'
+let g:vebugger_currentline_text='⭐'
+
 " NERDTree
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''

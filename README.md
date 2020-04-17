@@ -28,6 +28,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
 - [x] [vim-signify](https://github.com/mhinz/vim-signify)
 - [x] [vim-startify](https://github.com/mhinz/vim-startify) *
+- [x] [vim-vebugger](https://github.com/idanarye/vim-vebugger)
 - [x] [vimfiler](https://github.com/Shougo/vimfiler.vim) *
 - [x] [vimspector](https://github.com/puremourning/vimspector)
 
