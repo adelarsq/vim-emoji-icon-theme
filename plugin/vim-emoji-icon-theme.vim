@@ -133,6 +133,8 @@ let g:bookmark_annotation_sign = '🔖'
 
 " vim-clap
 let g:clap_spinner_frames =  ['🌎 ','🌍 ','🌏 ']
+let g:clap_current_selection_sign = { 'text': '▶️ ', 'texthl': 'WarningMsg', 'linehl': 'ClapCurrentSelection'}
+let g:clap_selected_sign = { 'text': '✅', 'texthl': 'WarningMsg', 'linehl': 'ClapSelected'}
 
 " vim-dadbod-ui
 let g:db_ui_icons = {
@@ -143,7 +145,7 @@ let g:db_ui_icons = {
 	  \ 'tables': '🗂 ',
 	  \ 'buffers': '🅱 ',
 	  \ 'connection_ok': '✅',
-	  \ 'connection_error': '💥',
+	  \ 'connection_error': '⛔️',
  \ }
 
 " CtrlSpace
@@ -177,7 +179,7 @@ sign define vimspectorPC text=🔶 texthl=SpellBad
 
 " idanarye/vim-vebugger
 let g:vebugger_breakpoint_text='🔴'
-let g:vebugger_currentline_text='⭐'
+let g:vebugger_currentline_text='▶️ '
 
 " NERDTree
 let g:NERDTreeDirArrowExpandable = ''
@@ -208,12 +210,12 @@ let g:vista#renderer#icons = {
             \   'functions': '𝝺',
             \   'method': 'ƒ',
             \   'methods': 'ƒ',
-            \   'variable': '🌡 ',
-            \   'variables': '🌡 ',
-            \   'property': '🩸',
-            \   'properties': '🩸',
-            \   'field': '💧',
-            \   'fields': '💧',
+            \   'variable': '🔻',
+            \   'variables': '🔻',
+            \   'field': '🔸',
+            \   'fields': '🔸',
+            \   'property': '🔹',
+            \   'properties': '🔹',
             \   'constant': '🧊',
             \   'type': '🧬',
             \   'enumerators': '🧫',
@@ -250,9 +252,9 @@ let g:coc_user_config = {
 \     "interface": "🧩",
 \     "function": "𝝺",
 \     "method": "ƒ",
-\     "variable": "🌡 ",
-\     "property": "🩸",
-\     "field": "💧",
+\     "variable": "🔻 ",
+\     "field": "🔸",
+\     "property": "🔹",
 \     "constant": "🧊",
 \     "typeParameter": "🧬",
 \     "enum": "🧫",
