@@ -115,6 +115,9 @@ let s:iconVue = '🌲'
 let s:iconXml = '💢'
 let s:iconYaml = '🎴'
 let s:iconZig = '⚡'
+let s:iconDeps = '🚼'
+let s:iconLib = '📚'
+let s:iconTest = '🦋'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -597,6 +600,9 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['react.jsx'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['routes'] = s:iconConfig " Playframework routes file
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['tags'] = s:iconTag
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['todo.md'] = s:iconTodo
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['deps'] = s:iconDeps
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['lib'] = s:iconLib
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['test'] = s:iconTest
 
 " File patterns
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}
