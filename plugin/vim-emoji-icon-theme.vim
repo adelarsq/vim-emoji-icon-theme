@@ -119,6 +119,8 @@ let s:iconZig = '💤'
 let s:iconDeps = '🚼'
 let s:iconLib = '📚'
 let s:iconTest = '🦋'
+let s:iconIOS = '📱'
+let s:iconAndroid = '🤖'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -171,7 +173,7 @@ let g:CtrlSpaceSymbols = {
             \ "WSave"  : '🔽',
             \ "SLeft"  : '...',
             \ "SRight" : '...',
-            \ "Help"   : '🧠',
+            \ "Help"   : '❓',
             \ "IM"     : '➕',
             \ "Dots"   : '...'
             \ }
@@ -605,6 +607,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['todo.md'] = s:iconTodo
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['deps'] = s:iconDeps
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['lib'] = s:iconLib
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['test'] = s:iconTest
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['android'] = s:iconAndroid
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['ios'] = s:iconIOS
 
 " File patterns
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}
