@@ -2,11 +2,13 @@
 " By Adelar da Silva Queiróz - 2020
 " MIT License
 
-" Icons by type
+" Default
 let s:iconDefault = '📄'
+
+" Icons by type
 let s:icon3D = '🦖'
 let s:iconAngel = '👼🏻'
-let s:iconAssembly = '🔢'
+let s:iconAssembly = '🧮'
 let s:iconBat = '🦇'
 let s:iconBinary = '🔟'
 let s:iconBsdl = '🅱️ '
@@ -135,7 +137,7 @@ let g:ale_sign_style_warning = '💩'
 
 " vim-bookmarks
 let g:bookmark_sign = '⭐'
-let g:bookmark_annotation_sign = '🔖'
+let g:bookmark_annotation_sign = '❤️ '
 
 " vim-clap
 let g:clap_spinner_frames =  ['🌎 ','🌍 ','🌏 ']
@@ -155,27 +157,31 @@ let g:db_ui_icons = {
  \ }
 
 " CtrlSpace
+" CS - CtrlSpace
 " CTab - Current tab
+" IA - Active Item
+" SIN - Single Mode
+" VIS - Visible Mode
 let g:CtrlSpaceSymbols = {
             \ 'CS'     : '🪐',
-            \ 'Zoom'   : '🔎',
-            \ 'BM'     : '💕',
-            \ 'Vis'    : '🌟',
-            \ 'IA'     : '👀',
-            \ 'Sin'    : '🛸',
-            \ 'IV'     : '⭐️',
-            \ "All"    : '✨',
-            \ "File"   : '💾',
-            \ "Tabs"   : '🔴',
-            \ "CTab"   : '🟢',
+            \ 'Zoom'   : '🔭',
+            \ 'BM'     : '⭐️',
+            \ 'Vis'    : '🌃',
+            \ 'IA'     : '🌍',
+            \ 'Sin'    : '💫',
+            \ 'IV'     : '✨',
+            \ "All"    : '🌌',
+            \ "File"   : '🛸',
+            \ "Tabs"   : '🌘',
+            \ "CTab"   : '🌔',
             \ "NTM"    : '⁺',
-            \ "WLoad"  : '🔼',
-            \ "WSave"  : '🔽',
-            \ "SLeft"  : '...',
-            \ "SRight" : '...',
+            \ "WLoad"  : '🚀',
+            \ "WSave"  : '🪂',
+            \ "SLeft"  : '›',
+            \ "SRight" : '‹',
             \ "Help"   : '❓',
-            \ "IM"     : '➕',
-            \ "Dots"   : '...'
+            \ "IM"     : '🛰 ',
+            \ "Dots"   : '…'
             \ }
 
 " puremourning/vimspector                                                     "
@@ -229,6 +235,12 @@ let g:vista#renderer#icons = {
             \   'default': '🪐',
             \  }
 
+" vim-import-cost
+let g:import_cost_virtualtext_prefix = " 💰 "
+
+" vim-package-info
+let g:vim_package_info_virutaltext_prefix = ' 🎉 '
+
 " vim-signify
 let g:signify_sign_add               = '■'
 let g:signify_sign_delete            = '■'
@@ -278,6 +290,9 @@ let g:coc_user_config = {
 \     "default": "🪐"
 \ },
 \ }
+
+" crunch
+let g:crunch_prompt = '🪁 '
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault

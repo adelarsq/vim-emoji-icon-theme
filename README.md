@@ -14,6 +14,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [Vista](https://github.com/liuchengxu/vista.vim)
 - [x] [ale](https://github.com/dense-analysis/ale)
 - [x] [coc.nvim](https://github.com/neoclide/coc.nvim)
+- [x] [vim-crunch](https://github.com/arecarn/vim-crunch)
 - [x] [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) *
 - [x] [denite](https://github.com/Shougo/denite.nvim) *
 - [x] [flagship](https://github.com/tpope/vim-flagship) *
@@ -26,6 +27,8 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [vim-clap](https://github.com/liuchengxu/vim-clap) **
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
 - [x] [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
+- [x] [vim-import-cost](https://github.com/yardnsm/vim-import-cost)
+- [x] [vim-package-info](https://github.com/meain/vim-package-info)
 - [x] [vim-signify](https://github.com/mhinz/vim-signify)
 - [x] [vim-startify](https://github.com/mhinz/vim-startify) *
 - [x] [vim-vebugger](https://github.com/idanarye/vim-vebugger)
