@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.3
+
+- Added support for the plugins:
+- [x] [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
 ## Version 0.2
 
 - Removed [vim-emoji](https://github.com/junegunn/vim-emoji) dependency
