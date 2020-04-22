@@ -301,6 +301,10 @@ let g:coc_user_config = {
 " crunch
 let g:crunch_prompt = '🪁 '
 
+" pomodoro
+let g:vim_pomodoro_icon='🍅'
+let g:vim_pomodoro_icon_break='🧃'
+
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 

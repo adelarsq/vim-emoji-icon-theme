@@ -37,6 +37,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [vimfiler](https://github.com/Shougo/vimfiler.vim) *
 - [x] [vimspector](https://github.com/puremourning/vimspector)
 - [x] [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+- [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
