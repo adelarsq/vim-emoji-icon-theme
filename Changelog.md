@@ -4,6 +4,7 @@
 
 - Added support for the plugins:
 - [x] [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+- [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
 
 ## Version 0.2
 
