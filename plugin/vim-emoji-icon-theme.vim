@@ -301,9 +301,20 @@ let g:coc_user_config = {
 " crunch
 let g:crunch_prompt = '🪁 '
 
-" pomodoro
+" adelar/vim-pomodoro
 let g:vim_pomodoro_icon='🍅'
 let g:vim_pomodoro_icon_break='🧃'
+
+" drzel/vim-line-no-indicator
+let g:line_no_indicator_chars = [
+ \ '🔴',
+ \ '🟠',
+ \ '🟡',
+ \ '🟢',
+ \ '🔵',
+ \ '🟣',
+ \ '🟤',
+ \ ]
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault

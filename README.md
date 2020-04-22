@@ -38,6 +38,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [vimspector](https://github.com/puremourning/vimspector)
 - [x] [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 - [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
+- [x] [drzel/vim-line-no-indicator](https://github.com/drzel/vim-line-no-indicator)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
