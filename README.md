@@ -1,12 +1,14 @@
 # Vim Emoji Icon Theme 🎨
 
+**Version 0.2**
+
 🚧 **Work in progress** 🚧
 
 This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/vim-devicons) adding support for icons as emojis on Vim and Neovim.
 
 [NERDTree](https://github.com/preservim/nerdtree) with this plugin using [Ayu](https://github.com/ayu-theme/ayu-vim) colorscheme:
 
-![nerdtree](https://user-images.githubusercontent.com/430272/79052360-5e31df80-7c0c-11ea-830e-84f516b0b3ec.png)
+![nerdtree](https://user-images.githubusercontent.com/430272/79928601-bb524000-8419-11ea-9c76-bd450918b962.png)
 
 ## Plugins Supported 🤗
 
