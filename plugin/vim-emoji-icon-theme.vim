@@ -232,7 +232,7 @@ let g:vista#renderer#icons = {
             \   'type': '🧬',
             \   'enumerators': '🧫',
             \   'enums': '🦠',
-            \   'default': '🪐',
+            \   'default': s:iconDefault,
             \  }
 
 " vim-import-cost
