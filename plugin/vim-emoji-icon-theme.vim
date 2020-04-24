@@ -307,14 +307,18 @@ let g:vim_pomodoro_icon_break='🧃'
 
 " drzel/vim-line-no-indicator
 let g:line_no_indicator_chars = [
- \ '🔴',
- \ '🟠',
- \ '🟡',
- \ '🟢',
- \ '🔵',
- \ '🟣',
- \ '🟤',
- \ ]
+            \ '🌒',
+            \ '🌓',
+            \ '🌔',
+            \ '🌕',
+            \ '🌖',
+            \ '🌗',
+            \ '🌘',
+            \ '🌑',
+            \ ]
+
+" skywind3000/asyncrun.vim
+" g:asyncrun_status - 'running', 'success' or 'failure'
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
