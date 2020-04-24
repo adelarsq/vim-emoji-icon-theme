@@ -318,7 +318,18 @@ let g:line_no_indicator_chars = [
             \ ]
 
 " skywind3000/asyncrun.vim
-" g:asyncrun_status - 'running', 'success' or 'failure'
+function! g:Emoji_Icon_Theme_Asyncrun()
+    if exists('g:asyncrun_status')
+        if g:asyncrun_status ==# 'running'
+            return '🚀'
+        elseif g:asyncrun_status ==# 'success'
+            return '🎉'
+        elseif g:asyncrun_status ==# 'failure'
+            return '💥'
+        endif
+    endif
+    return ''
+endfunction
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault

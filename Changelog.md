@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.4
+
+- Added support for the plugins:
+  - [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)
+
 ## Version 0.3
 
 - Added support for the plugins:

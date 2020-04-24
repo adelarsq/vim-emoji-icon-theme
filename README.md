@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.3**
+**Version 0.4**
 
 🚧 **Work in progress** 🚧
 
@@ -39,7 +39,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 - [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
 - [x] [drzel/vim-line-no-indicator](https://github.com/drzel/vim-line-no-indicator)
-<!-- - [x] [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim) -->
+- [x] [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
@@ -52,6 +52,9 @@ This plugin should work out of box.
 This plugin depends on [vim-webdevicons](https://github.com/junegunn/vim-plug).
 
 Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/emoji-12.0)), so one have to be configured. A have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
+
+For [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim) you
+use the `Emoji_Icon_Theme_Asyncrun()` function to show on the statusline.
 
 ## Installation 🧙
 
