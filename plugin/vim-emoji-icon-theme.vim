@@ -166,21 +166,21 @@ let g:CtrlSpaceSymbols = {
             \ 'CS'     : '🪐',
             \ 'Zoom'   : '🔭',
             \ 'BM'     : '⭐️',
-            \ 'Vis'    : '🌃',
+            \ 'Vis'    : '👀',
             \ 'IA'     : '🌍',
             \ 'Sin'    : '💫',
             \ 'IV'     : '✨',
-            \ "All"    : '🌌',
-            \ "File"   : '🛸',
-            \ "Tabs"   : '🌘',
-            \ "CTab"   : '🌔',
+            \ "All"    : '🅰️ ',
+            \ "File"   : '💾',
+            \ "Tabs"   : '🔵',
+            \ "CTab"   : '🟢',
             \ "NTM"    : '⁺',
             \ "WLoad"  : '🚀',
             \ "WSave"  : '🪂',
             \ "SLeft"  : '›',
             \ "SRight" : '‹',
             \ "Help"   : '❓',
-            \ "IM"     : '🛰 ',
+            \ "IM"     : '+',
             \ "Dots"   : '…'
             \ }
 
@@ -326,6 +326,16 @@ function! g:Emoji_Icon_Theme_Asyncrun()
             return '🎉'
         elseif g:asyncrun_status ==# 'failure'
             return '💥'
+        endif
+    endif
+    return ''
+endfunction
+
+" voldikss/vim-translator
+function! g:Emoji_Icon_Theme_Translator()
+    if exists('g:translator_status')
+        if g:translator_status ==# 'translating'
+            return '🔎'
         endif
     endif
     return ''

@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.5
+
+- Added support for the plugins:
+  - [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
+
 ## Version 0.4
 
 - Added support for the plugins:
