@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Versio 0.6
+
+- Added [Beef](https://www.beeflang.org) language support
+- Added [D](https://www.dlang.org) language support
+
 ## Version 0.5
 
 - Added support for the plugins:
