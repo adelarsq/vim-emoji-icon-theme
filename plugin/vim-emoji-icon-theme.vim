@@ -146,6 +146,7 @@ let g:clap_selected_sign = { 'text': '✅', 'texthl': 'WarningMsg', 'linehl': 'C
 
 " vim-dadbod-ui
 let g:db_ui_icons = {
+      \ 'database': '🎲',
 	  \ 'expanded': '▾',
 	  \ 'collapsed': '▸',
 	  \ 'saved_query': '💾',
