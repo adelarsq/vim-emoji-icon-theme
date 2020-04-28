@@ -89,8 +89,8 @@ Then open the editor and install with `call dein#install()`.
 
 ## TODO 🔨
 
-- [ ] Add more ways to install
-- [ ] fzf
+- [ ] Add more ways to install;
+- [ ] FZF support. See [link](https://github.com/ryanoasis/vim-devicons/issues/106).
 
 ## Bugs 🐛
 
