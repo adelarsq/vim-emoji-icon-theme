@@ -67,6 +67,7 @@ let s:iconJsx = '🐟'
 let s:iconJulia = '🍡'
 let s:iconKotlyn = '🗼'
 let s:iconLock = '🔐'
+let s:iconLocked = '🔒'
 let s:iconLog = '🦎'
 let s:iconLua = '🌕'
 let s:iconMarkdown = '🔠'
@@ -343,6 +344,14 @@ function! g:Emoji_Icon_Theme_Translator()
     endif
     return ''
 endfunction
+
+" Shougo/vimfiler.vim
+let g:vimfiler_tree_leaf_icon = ' '
+let g:vimfiler_tree_opened_icon = s:iconFolderOpen
+let g:vimfiler_tree_closed_icon = s:iconFolder
+let g:vimfiler_file_icon = '-'
+let g:vimfiler_marked_file_icon = '*'
+let g:vimfiler_readonly_file_icon = s:iconLocked
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault

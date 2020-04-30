@@ -1,6 +1,12 @@
 # Changelog 🍁
 
-## Versio 0.6
+## Version 0.7
+
+- Added support for `xdata` files.
+- Added support for the plugins:
+  - [Shougo/vimfiler.vim](https://github.com/Shougo/vimfiler.vim)
+
+## Version 0.6
 
 - Added [Beef](https://www.beeflang.org) language support
 - Added [D](https://www.dlang.org) language support

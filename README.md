@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.6**
+**Version 0.7**
 
 🚧 **Work in progress** 🚧
 
@@ -41,6 +41,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [drzel/vim-line-no-indicator](https://github.com/drzel/vim-line-no-indicator)
 - [x] [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)
 - [x] [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
+- [x] [Shougo/vimfiler.vim](https://github.com/Shougo/vimfiler.vim)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
