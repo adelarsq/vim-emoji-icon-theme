@@ -360,6 +360,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['as'] = s:iconAngel " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asm'] = s:iconAssembly " Assembly source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['avi'] = s:iconVideo " *.avi video file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['axml'] = s:iconXml " Android XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xdata'] = s:iconXml " XML data file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bat'] = s:iconBat " MS DOS bat file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['beam'] = s:iconBinary " compile Elixir file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bf'] = s:iconBeef " Beef language source code
