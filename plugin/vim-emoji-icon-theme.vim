@@ -353,6 +353,13 @@ let g:vimfiler_file_icon = '-'
 let g:vimfiler_marked_file_icon = '*'
 let g:vimfiler_readonly_file_icon = s:iconLocked
 
+" Shougo/defx.nvim
+" call defx#custom#column('icon', {
+		  " \ 'directory_icon': '▸',
+		  " \ 'opened_icon': '▾',
+		  " \ 'root_icon': ' ',
+		  " \ })
+
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 
@@ -378,6 +385,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsdl'] = s:iconBsdl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['blend'] = s:icon3D " 3D Blender
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['blob'] = s:iconBinary " blob file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bmp'] = s:iconImage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dds'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bmp'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bz2'] = s:iconPackage " Bzip2 compressed file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = s:iconC
