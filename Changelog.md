@@ -1,5 +1,14 @@
 # Changelog 🍁
 
+## Version 0.9
+
+- Added [Gravity](https://marcobambini.github.io/gravity) language support
+
+## Version 0.8
+
+- Added vrx file support
+- Disable clap icons temporary
+
 ## Version 0.7
 
 - Added support for `xdata` files.
