@@ -572,6 +572,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cmi'] = s:iconBinary 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['reg'] = s:iconLock " windows register file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rest'] = s:iconRest
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resx'] = s:iconXml " Android XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rh'] = s:iconShell " Rash script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rlib'] = s:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rmd'] = s:iconOfficePresentation " RMD file presentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rpm'] = s:iconPackage

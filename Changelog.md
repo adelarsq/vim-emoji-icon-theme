@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.10
+
+- Added [Rash](https://rash.sh) script support
+
 ## Version 0.9
 
 - Added [Gravity](https://marcobambini.github.io/gravity) language support
