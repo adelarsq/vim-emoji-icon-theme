@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.11
+
+- Update support for ReasonML using the new syntax (https://reasonml.org/blog/bucklescript-8-1-new-syntax)
+
 ## Version 0.10
 
 - Added [Rash](https://rash.sh) script support
