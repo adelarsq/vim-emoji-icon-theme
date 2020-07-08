@@ -364,6 +364,25 @@ let g:vimfiler_readonly_file_icon = s:iconLocked
 		  " \ 'root_icon': ' ',
 		  " \ })
 
+" neovim/nvim-lsp
+if has('nvim')
+lua << EOF
+  local lsp_status = require('lsp-status')
+
+  lsp_status.config {
+    status_symbol = '🔥'
+  }
+EOF
+endif
+
+" nvim-lua/diagnostic-nvim
+if has('nvim')
+    call sign_define("LspDiagnosticsErrorSign", {"text" : "💥", "texthl" : "LspDiagnosticsError"})
+    call sign_define("LspDiagnosticsWarningSign", {"text" : "💩", "texthl" : "LspDiagnosticsWarning"})
+    call sign_define("LspDiagnosticsInformationSign", {"text" : "🙃", "texthl" : "LspDiagnosticsInformation"})
+    call sign_define("LspDiagnosticsHintSign", {"text" : "💡", "texthl" : "LspDiagnosticsHint"})
+endif
+
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 

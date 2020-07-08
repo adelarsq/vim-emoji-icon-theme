@@ -1,5 +1,11 @@
 # Changelog 🍁
 
+## Version 0.12
+
+- Added support for the plugins:
+  - [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
+  - [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
+
 ## Version 0.11
 
 - Update support for ReasonML using the new syntax (https://reasonml.org/blog/bucklescript-8-1-new-syntax)
