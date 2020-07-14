@@ -44,6 +44,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [Shougo/vimfiler.vim](https://github.com/Shougo/vimfiler.vim)
 - [x] [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [x] [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
+- [x] [fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
@@ -91,7 +92,6 @@ Then open the editor and install with `call dein#install()`.
 ## TODO 🔨
 
 - [ ] Add more ways to install;
-- [ ] FZF support. See [link](https://github.com/ryanoasis/vim-devicons/issues/106);
 - [ ] [defx.nvim](https://github.com/Shougo/defx.nvim).
 
 ## Bugs 🐛

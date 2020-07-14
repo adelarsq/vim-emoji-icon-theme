@@ -3,6 +3,8 @@
 ## Version 0.13
 
 - Added asta file support
+- Added support for the plugins:
+  - [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 
 ## Version 0.12
 
