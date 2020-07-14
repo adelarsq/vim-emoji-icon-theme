@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.13
+
+- Added asta file support
+
 ## Version 0.12
 
 - Added support for the plugins:
