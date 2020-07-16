@@ -124,7 +124,7 @@ let s:iconYaml = '🎴'
 let s:iconZig = '💤'
 let s:iconDeps = '🚼'
 let s:iconLib = '📚'
-let s:iconTest = '🦋'
+let s:iconTest = '🧪'
 let s:iconIOS = '📱'
 let s:iconAndroid = '🤖'
 
@@ -724,6 +724,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['todo.md'] = s:iconTodo
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['deps'] = s:iconDeps
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['lib'] = s:iconLib
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['test'] = s:iconTest
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['config'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['android'] = s:iconAndroid
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['ios'] = s:iconIOS
 
