@@ -735,6 +735,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['android'] = s:iconAndroid
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['ios'] = s:iconIOS
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['paket.references'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['paket.dependencies'] = s:iconConfig
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['gradlew'] = s:iconShell
 
 " File patterns
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}
