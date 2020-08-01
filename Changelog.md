@@ -1,8 +1,8 @@
 # Changelog 🍁
 
-## Unreleased
+## Version 0.14
 
-- Added gradlew file support
+- Added `gradlew` file support
 
 ## Version 0.13
 
