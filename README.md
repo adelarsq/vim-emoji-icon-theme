@@ -92,7 +92,8 @@ Then open the editor and install with `call dein#install()`.
 ## TODO 🔨
 
 - [ ] Add more ways to install;
-- [ ] [defx.nvim](https://github.com/Shougo/defx.nvim).
+- [ ] [defx.nvim](https://github.com/Shougo/defx.nvim);
+- [ ] [chadtree](https://github.com/ms-jpq/chadtree).
 
 ## Bugs 🐛
 
