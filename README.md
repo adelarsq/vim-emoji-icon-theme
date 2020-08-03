@@ -59,6 +59,15 @@ Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/e
 For [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim) you
 use the `Emoji_Icon_Theme_Asyncrun()` function to show on the statusline.
 
+## How to Add Support for Plugins 🔌
+
+Icons for filetypes are supported by `WebDevIconsGetFileTypeSymbol()` function
+from the [vim-webdevicons](https://github.com/ryanoasis/vim-webdevicons). So if
+the plugin use this function the support is already there. 
+
+For others configs, like specify symbols for plugins please open an issue
+request.
+
 ## Installation 🧙
 
 ### [Plug](https://github.com/junegunn/vim-plug)
