@@ -127,6 +127,7 @@ let s:iconLib = '📚'
 let s:iconTest = '🧪'
 let s:iconIOS = '📱'
 let s:iconAndroid = '🤖'
+let s:iconYarn = '🐈'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -737,6 +738,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['ios'] = s:iconIOS
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['paket.references'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['paket.dependencies'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['gradlew'] = s:iconShell
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['yarn.lock'] = s:iconYarn
 
 " File patterns
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}

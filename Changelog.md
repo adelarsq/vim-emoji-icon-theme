@@ -4,6 +4,7 @@
 
 - Better support for Markdown
 - Added .tool-versions file support
+- Added yarn.lock file support
 
 ## Version 0.14
 
