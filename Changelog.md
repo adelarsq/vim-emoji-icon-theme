@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.15
+
+- Better support for Markdown
+- Added .tool-versions file support
+
 ## Version 0.14
 
 - Added `gradlew` file support

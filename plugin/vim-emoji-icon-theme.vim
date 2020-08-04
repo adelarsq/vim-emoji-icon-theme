@@ -691,6 +691,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.hackernews'] = s:iconNew
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.idea'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.merlin'] = s:iconReasonMerlin " ReasonML metadata
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.svn'] = s:iconSvn " SVN metadata
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.tool-versions'] = s:iconConfig " asdf config file - https://asdf-vm.com
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.vimspector.json'] = s:iconDebugger " vimspector config file
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.vscode'] = s:iconVSCode " VSCode metadata
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.zshrc'] = s:iconShell " zshel config file
