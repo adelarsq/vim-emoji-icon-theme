@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.16
+
+- Added [Svelte](https://svelte.dev) support
+
 ## Version 0.15
 
 - Better support for Markdown
