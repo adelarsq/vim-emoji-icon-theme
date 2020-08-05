@@ -12,29 +12,29 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 
 ## Plugins Supported 🤗
 
-- [x] [NERDTree](https://github.com/preservim/nerdtree) *
+- [x] [NERDTree](https://github.com/preservim/nerdtree) `*`
 - [x] [Vista](https://github.com/liuchengxu/vista.vim)
 - [x] [ale](https://github.com/dense-analysis/ale)
 - [x] [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [x] [vim-crunch](https://github.com/arecarn/vim-crunch)
-- [x] [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) *
-- [x] [denite](https://github.com/Shougo/denite.nvim) *
-- [x] [flagship](https://github.com/tpope/vim-flagship) *
-- [x] [lightline.vim](https://github.com/itchyny/lightline.vim) *
-- [x] [powerline](https://github.com/powerline/powerline) *
-- [x] [unite](https://github.com/Shougo/unite.vim) *
-- [x] [vim-airline](https://github.com/vim-airline/vim-airline) *
+- [x] [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) `*`
+- [x] [denite](https://github.com/Shougo/denite.nvim) `*`
+- [x] [flagship](https://github.com/tpope/vim-flagship) `*`
+- [x] [lightline.vim](https://github.com/itchyny/lightline.vim) `*`
+- [x] [powerline](https://github.com/powerline/powerline) `*`
+- [x] [unite](https://github.com/Shougo/unite.vim) `*`
+- [x] [vim-airline](https://github.com/vim-airline/vim-airline) `*`
 - [x] [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
-- [x] [vim-buffet](https://github.com/bagrat/vim-buffet) *
-- [x] [vim-clap](https://github.com/liuchengxu/vim-clap) **
+- [x] [vim-buffet](https://github.com/bagrat/vim-buffet) `*`
+- [x] [vim-clap](https://github.com/liuchengxu/vim-clap) `**`
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
 - [x] [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
 - [x] [vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [x] [vim-package-info](https://github.com/meain/vim-package-info)
 - [x] [vim-signify](https://github.com/mhinz/vim-signify)
-- [x] [vim-startify](https://github.com/mhinz/vim-startify) *
+- [x] [vim-startify](https://github.com/mhinz/vim-startify) `*`
 - [x] [vim-vebugger](https://github.com/idanarye/vim-vebugger)
-- [x] [vimfiler](https://github.com/Shougo/vimfiler.vim) *
+- [x] [vimfiler](https://github.com/Shougo/vimfiler.vim) `*`
 - [x] [vimspector](https://github.com/puremourning/vimspector)
 - [x] [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 - [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
@@ -45,10 +45,13 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
 - [x] [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
 - [x] [fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
+- [x] [chadtree](https://github.com/ms-jpq/chadtree) `***`
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
  - `**` Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392)
+ - `***` Support by an automated process using CI pipeline whenever this plugin
+     has an update
 
 ## How to use 🤔
 
@@ -102,7 +105,6 @@ Then open the editor and install with `call dein#install()`.
 
 - [ ] Add more ways to install;
 - [ ] [defx.nvim](https://github.com/Shougo/defx.nvim);
-- [ ] [chadtree](https://github.com/ms-jpq/chadtree).
 
 ## Bugs 🐛
 
