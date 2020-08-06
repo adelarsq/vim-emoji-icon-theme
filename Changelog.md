@@ -3,6 +3,9 @@
 ## Version 0.16
 
 - Added [Svelte](https://svelte.dev) support
+- Added support for the plugins:
+  - [defx.nvim](https://github.com/Shougo/defx.nvim)
+  - [defx-icons](https://github.com/kristijanhusak/defx-icons)
 
 ## Version 0.15
 

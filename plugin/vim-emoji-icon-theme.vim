@@ -129,6 +129,9 @@ let s:iconTest = '🧪'
 let s:iconIOS = '📱'
 let s:iconAndroid = '🤖'
 let s:iconYarn = '🐈'
+let s:iconLink = '🔗'
+let s:iconCopy = '✂️ '
+let s:iconMove = '📋'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -360,11 +363,28 @@ let g:vimfiler_marked_file_icon = '*'
 let g:vimfiler_readonly_file_icon = s:iconLocked
 
 " Shougo/defx.nvim
-" call defx#custom#column('icon', {
-		  " \ 'directory_icon': '▸',
-		  " \ 'opened_icon': '▾',
-		  " \ 'root_icon': ' ',
-		  " \ })
+if exists('g:loaded_defx')
+    call defx#custom#column('icon', {
+                \ 'directory_icon': s:iconFolder,
+                \ 'opened_icon': s:iconFolderOpen,
+                \ 'root_icon': ' ',
+                \ })
+	call defx#custom#column('mark', {
+                \ 'readonly_icon': s:iconLocked,
+                \ 'selected_icon': '✓',
+                \ })
+endif
+" kristijanhusak/defx-icons
+let g:defx_icons_directory_icon = s:iconFolder
+let g:defx_icons_mark_icon = '✅'
+let g:defx_icons_copy_icon = s:iconCopy
+let g:defx_icons_move_icon = s:iconMove
+let g:defx_icons_parent_icon = s:iconFolder
+let g:defx_icons_default_icon = s:iconDefault
+let g:defx_icons_directory_symlink_icon = s:iconLink
+let g:defx_icons_root_opened_tree_icon = s:iconFolderOpen
+let g:defx_icons_nested_opened_tree_icon = s:iconFolderOpen
+let g:defx_icons_nested_closed_tree_icon = s:iconFolder
 
 " neovim/nvim-lsp
 if has('nvim')

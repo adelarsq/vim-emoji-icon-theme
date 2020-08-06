@@ -46,6 +46,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
 - [x] [fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 - [x] [chadtree](https://github.com/ms-jpq/chadtree) `***`
+- [x] [defx.nvim](https://github.com/Shougo/defx.nvim)/[defx-icons](https://github.com/kristijanhusak/defx-icons)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
@@ -104,7 +105,6 @@ Then open the editor and install with `call dein#install()`.
 ## TODO 🔨
 
 - [ ] Add more ways to install;
-- [ ] [defx.nvim](https://github.com/Shougo/defx.nvim);
 
 ## Bugs 🐛
 
