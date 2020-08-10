@@ -581,6 +581,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['odt'] = s:iconOfficeD
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ogg'] = s:iconSound
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['org'] = s:iconOrg " Org-mode file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ovpn'] = s:iconCert " cert file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pages'] = s:iconOfficeDoc
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pas'] = s:iconPascal
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pdb'] = s:iconBinary " C# program database (PDB) file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pdf'] = s:iconPdf

@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.17
+
+- Added pages file support
+
 ## Version 0.16
 
 - Added [Svelte](https://svelte.dev) support
