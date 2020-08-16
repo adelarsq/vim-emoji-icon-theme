@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.18
+
+- Added mkv file support
+
 ## Version 0.17
 
 - Added pages file support

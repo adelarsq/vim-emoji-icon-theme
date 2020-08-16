@@ -560,6 +560,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mdj'] = s:iconDiagram
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mdl'] = s:icon3D " mdl 3D file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mk'] = s:iconConfig " Makefile
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mkd'] = s:iconMarkdown " Markdown
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mkv'] = s:iconVideo " MKV multimedia file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mlt'] = s:iconVideo " XML media config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mo'] = s:iconGnuText " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['moon'] = s:iconLua " Moonscript filetype
