@@ -58,7 +58,7 @@ Labels:
 
 This plugin depends on [vim-webdevicons](https://github.com/junegunn/vim-plug). With this dependency satisfied the plugin should work out of box.
 
-Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/emoji-12.0)), so one have to be configured. A have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
+Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/emoji-12.0)), so one have to be configured. I have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
 
 For [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim) you
 use the `Emoji_Icon_Theme_Asyncrun()` function to show on the statusline.
