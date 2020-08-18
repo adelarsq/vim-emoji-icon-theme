@@ -571,6 +571,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mpg'] = s:iconVideo
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mq4'] = s:iconMql " Metatrader language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mq5'] = s:iconMql " Metatrader language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mqlh'] = s:iconInterface " Metatrader language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mov'] = s:iconVideo " *.mov video file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nib'] = s:iconInterface
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nim'] = s:iconNim " Nim source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nupkg'] = s:iconPackage " NuGet package config
