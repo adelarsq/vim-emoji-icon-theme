@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.20
+
+- Added pepk file support
+
 ## Version 0.19
 
 - Added mov file support
