@@ -132,6 +132,7 @@ let s:iconYarn = '🐈'
 let s:iconLink = '🔗'
 let s:iconCopy = '✂️ '
 let s:iconMove = '📋'
+let s:iconNotebook = '📝'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -464,6 +465,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dae'] = s:icon3D " 3D
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dart'] = s:iconDart
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dat'] = s:iconBinary " DAT file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['db'] = s:iconSql
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dib'] = s:iconNotebook
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['deb'] = s:iconPackage " Debian install package
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['diff'] = s:iconDiff " diff file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dll'] = s:iconBinary
@@ -525,7 +527,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['iml'] = s:iconConfig 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['info'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ini'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipa'] = s:iconPackage " iOS App Store Package
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipynb'] = s:iconPython " Jupyter notebook - Python
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipynb'] = s:iconNotebook " Jupyter notebook - Python
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['iso'] = s:iconIso
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jade'] = s:iconTemplate " jade template language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jar'] = s:iconPackage

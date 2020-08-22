@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.21
+
+- Added dib file support (https://github.com/dotnet/interactive/issues/467#issuecomment-632829729)
+- New icon for Notebooks
+
 ## Version 0.20
 
 - Added pepk file support
