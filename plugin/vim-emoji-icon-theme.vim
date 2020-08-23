@@ -197,9 +197,10 @@ let g:CtrlSpaceSymbols = {
             \ }
 
 " puremourning/vimspector                                                     "
-sign define vimspectorBP text=🔴 texthl=Normal
+sign define vimspectorBP         text=🔴 texthl=Normal
+sign define vimspectorBPCond     text=🟢 texthl=WarningMsg
 sign define vimspectorBPDisabled text=🔵 texthl=Normal
-sign define vimspectorPC text=🔶 texthl=SpellBad
+sign define vimspectorPC         text=🔶 texthl=SpellBad
 
 " idanarye/vim-vebugger
 let g:vebugger_breakpoint_text='🔴'
