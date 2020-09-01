@@ -597,6 +597,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkg'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pl'] = s:iconPerl " Perl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['plist'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['png'] = s:iconImage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['psb'] = s:iconImage " *.psb image (large format size for photoshop)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['po'] = s:iconGnuText " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pot'] = s:iconGnuText " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppk'] = s:iconCert " putty key file

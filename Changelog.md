@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.23
+
+- Added psb file support
+
 ## Version 0.22
 
 - Update vimspector support
