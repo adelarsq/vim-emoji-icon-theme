@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.24
+
+- Added swo and swp files support
+
 ## Version 0.23
 
 - Added psb file support

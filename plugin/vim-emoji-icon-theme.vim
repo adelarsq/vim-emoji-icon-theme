@@ -133,6 +133,7 @@ let s:iconLink = '🔗'
 let s:iconCopy = '✂️ '
 let s:iconMove = '📋'
 let s:iconNotebook = '📝'
+let s:iconTemp = '⏳'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -658,6 +659,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['styl'] = s:iconCss " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['suo'] = s:iconCSharp " C# source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['svelte'] = s:iconSvelte
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['svg'] = s:iconImage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['swo'] = s:iconTemp " Vim swap file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['swp'] = s:iconTemp " Vim swap file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['swift'] = s:iconSwift " Swift file source
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['t'] = s:iconT " Turing Source Code File
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tar'] = s:iconPackage
