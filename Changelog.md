@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.25
+
+- Temporary disabled icons for grep on [vim-clap](https://github.com/liuchengxu/vim-clap)
+
 ## Version 0.24
 
 - Added swo and swp files support

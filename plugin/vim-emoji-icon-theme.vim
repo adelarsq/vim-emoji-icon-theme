@@ -155,6 +155,7 @@ let g:clap_spinner_frames =  ['🌎 ','🌍 ','🌏 ']
 let g:clap_current_selection_sign = { 'text': '➤', 'texthl': 'WarningMsg', 'linehl': 'ClapCurrentSelection'}
 let g:clap_selected_sign = { 'text': '✓', 'texthl': 'WarningMsg', 'linehl': 'ClapSelected'}
 let g:clap_enable_icon = 0 " TODO disabled for now
+let g:clap_provider_grep_enable_icon = 0 " TODO disabled for now
 
 " vim-dadbod-ui
 let g:db_ui_icons = {
