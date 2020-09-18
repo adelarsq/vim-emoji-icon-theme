@@ -1,5 +1,11 @@
 # Changelog 🍁
 
+## Version 0.26
+
+- Add .gitattributes file name support
+- Add .gitlab-ci.yml file name support
+- Change icon for Makefile
+
 ## Version 0.25
 
 - Temporary disabled icons for grep on [vim-clap](https://github.com/liuchengxu/vim-clap)
