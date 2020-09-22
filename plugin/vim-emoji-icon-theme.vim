@@ -539,6 +539,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jasper'] = s:iconJasp
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['java'] = s:iconJava
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jenkinsfile'] = s:iconJenkins " Jenkins
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jks'] = s:iconCert " Java cert
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pem'] = s:iconCert " Privacy Enhanced Mail (PEM)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jl'] = s:iconJulia " Julia language files
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jmx'] = s:iconXml " JMX file (XML)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jnlp'] = s:iconXml " JNLP file (XML)

@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.27
+
+- Add pem (Privacy Enhanced Mail) file support
+
 ## Version 0.26
 
 - Add .gitattributes file name support
