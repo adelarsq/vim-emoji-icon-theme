@@ -27,6 +27,7 @@ let s:iconCsv = '📊'
 let s:iconD = '🆔'
 let s:iconDart = '🎯'
 let s:iconDebugger = '🐞'
+let s:iconDelphi = '🥏'
 let s:iconDiff = '💊'
 let s:iconDiagram = '🔀'
 let s:iconDocker= '🐳'
@@ -709,6 +710,9 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['yml'] = s:iconYaml " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zig'] = s:iconZig " Zig source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zip'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zsh'] = s:iconShell " zsh script
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dpk'] = s:iconDelphi " Delphi config file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dproj'] = s:iconDelphi " Delphi config file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rc'] = s:iconDelphi " Delphi resource file
 
 " Files
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
@@ -797,4 +801,5 @@ let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*mootools.*\.js$'] = s
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*require.*\.js$'] = s:iconJavaScript
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*vcxproj.filters'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*vimrc.*'] = s:iconVim
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*.UnitDoc'] = s:iconDelphi
 
