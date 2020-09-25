@@ -417,6 +417,18 @@ if has('nvim')
     call sign_define("LspDiagnosticsHintSign", {"text" : "💡", "texthl" : "LspDiagnosticsHint"})
 endif
 
+" glepnir/dashboard-nvim
+if has('nvim')
+    let g:dashboard_custom_shortcut_icon={}
+    let g:dashboard_custom_shortcut_icon['last_session'] = '⏳ '
+    let g:dashboard_custom_shortcut_icon['find_history'] = '🏯 '
+    let g:dashboard_custom_shortcut_icon['find_file'] = '🔎 '
+    let g:dashboard_custom_shortcut_icon['new_file'] = '🗒  '
+    let g:dashboard_custom_shortcut_icon['change_colorscheme'] = '🎨 '
+    let g:dashboard_custom_shortcut_icon['find_word'] = '🐸 '
+    let g:dashboard_custom_shortcut_icon['book_marks'] = '⭐️ '
+endif
+
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 

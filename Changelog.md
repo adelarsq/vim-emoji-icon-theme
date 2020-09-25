@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.29
+
+- Added support for the plugins:
+  - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
+
 ## Version 0.28
 
 - Add support for Delphi file extensions

@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.28**
+**Version 0.29**
 
 🚧 **Work in progress** 🚧
 
@@ -47,6 +47,7 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 - [x] [chadtree](https://github.com/ms-jpq/chadtree) `***`
 - [x] [defx.nvim](https://github.com/Shougo/defx.nvim)/[defx-icons](https://github.com/kristijanhusak/defx-icons)
+- [x] [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
