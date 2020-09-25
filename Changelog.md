@@ -4,6 +4,7 @@
 
 - Added support for the plugins:
   - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
+- Solution for issue #3
 
 ## Version 0.28
 
