@@ -395,17 +395,19 @@ let g:defx_icons_nested_closed_tree_icon = s:iconFolder
 " neovim/nvim-lsp
 if has('nvim')
 lua << EOF
-  local lsp_status = require('lsp-status')
+  local use, imported = pcall(require, "lsp-status")
 
-  lsp_status.config {
-    status_symbol = '🔥',
-    indicator_errors = '💥',
-    indicator_warnings = '💩',
-    indicator_info = '🙃',
-    indicator_hint = '💡',
-    indicator_ok = '✅',
-    spinner_frames = {'🌎','🌍','🌏'}
-  }
+  if use then
+    imported.config {
+      status_symbol = '🔥',
+      indicator_errors = '💥',
+      indicator_warnings = '💩',
+      indicator_info = '🙃',
+      indicator_hint = '💡',
+      indicator_ok = '✅',
+      spinner_frames = {'🌎','🌍','🌏'}
+    }
+  end
 EOF
 endif
 
