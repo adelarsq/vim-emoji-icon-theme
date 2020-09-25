@@ -4,7 +4,11 @@
 
 - Added support for the plugins:
   - [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
+  - [glepnir/spaceline.vim](https://github.com/glepnir/spaceline.vim) `*`
 - Solution for issue #3
+
+Labels:
+ - `*` Partial support by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
 
 ## Version 0.28
 

@@ -48,12 +48,14 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 - [x] [chadtree](https://github.com/ms-jpq/chadtree) `***`
 - [x] [defx.nvim](https://github.com/Shougo/defx.nvim)/[defx-icons](https://github.com/kristijanhusak/defx-icons)
 - [x] [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
+- [x] [glepnir/spaceline.vim](https://github.com/glepnir/spaceline.vim) `****`
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
  - `**` Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392)
  - `***` Support by an automated process using CI pipeline whenever this plugin
      has an update
+ - `****` Partial support by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
 
 ## How to use 🤔
 
