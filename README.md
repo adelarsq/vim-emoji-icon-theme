@@ -12,43 +12,44 @@ This plugin is a extension from [vim-webdevicons](https://github.com/ryanoasis/v
 
 ## Plugins Supported 🤗
 
-- [x] [NERDTree](https://github.com/preservim/nerdtree) `*`
-- [x] [Vista](https://github.com/liuchengxu/vista.vim)
-- [x] [ale](https://github.com/dense-analysis/ale)
-- [x] [coc.nvim](https://github.com/neoclide/coc.nvim)
-- [x] [vim-crunch](https://github.com/arecarn/vim-crunch)
-- [x] [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) `*`
-- [x] [denite](https://github.com/Shougo/denite.nvim) `*`
-- [x] [flagship](https://github.com/tpope/vim-flagship) `*`
-- [x] [lightline.vim](https://github.com/itchyny/lightline.vim) `*`
-- [x] [powerline](https://github.com/powerline/powerline) `*`
-- [x] [unite](https://github.com/Shougo/unite.vim) `*`
-- [x] [vim-airline](https://github.com/vim-airline/vim-airline) `*`
-- [x] [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
-- [x] [vim-buffet](https://github.com/bagrat/vim-buffet) `*`
-- [x] [vim-clap](https://github.com/liuchengxu/vim-clap) `**`
-- [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
-- [x] [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
-- [x] [vim-import-cost](https://github.com/yardnsm/vim-import-cost)
-- [x] [vim-package-info](https://github.com/meain/vim-package-info)
-- [x] [vim-signify](https://github.com/mhinz/vim-signify)
-- [x] [vim-startify](https://github.com/mhinz/vim-startify) `*`
-- [x] [vim-vebugger](https://github.com/idanarye/vim-vebugger)
-- [x] [vimfiler](https://github.com/Shougo/vimfiler.vim) `*`
-- [x] [vimspector](https://github.com/puremourning/vimspector)
-- [x] [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 - [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
+- [x] [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+- [x] [arecarn/vim-crunch](https://github.com/arecarn/vim-crunch)
+- [x] [bagrat/vim-buffet](https://github.com/bagrat/vim-buffet) `*`
+- [x] [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) `*`
+- [x] [dense-analysis/ale](https://github.com/dense-analysis/ale)
 - [x] [drzel/vim-line-no-indicator](https://github.com/drzel/vim-line-no-indicator)
-- [x] [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)
-- [x] [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
-- [x] [Shougo/vimfiler.vim](https://github.com/Shougo/vimfiler.vim)
-- [x] [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
-- [x] [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
-- [x] [fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
-- [x] [chadtree](https://github.com/ms-jpq/chadtree) `***`
-- [x] [defx.nvim](https://github.com/Shougo/defx.nvim)/[defx-icons](https://github.com/kristijanhusak/defx-icons)
 - [x] [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
 - [x] [glepnir/spaceline.vim](https://github.com/glepnir/spaceline.vim) `****`
+- [x] [idanarye/vim-vebugger](https://github.com/idanarye/vim-vebugger)
+- [x] [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) `*`
+- [x] [kristijanhusak/defx-icons](https://github.com/kristijanhusak/defx-icons)
+- [x] [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
+- [x] [liuchengxu/Vista](https://github.com/liuchengxu/vista.vim)
+- [x] [liuchengxu/vim-clap](https://github.com/liuchengxu/vim-clap) `**`
+- [x] [mattesgroeger/vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
+- [x] [meain/vim-package-info](https://github.com/meain/vim-package-info)
+- [x] [mhinz/vim-signify](https://github.com/mhinz/vim-signify)
+- [x] [mhinz/vim-startify](https://github.com/mhinz/vim-startify) `*`
+- [x] [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) `***`
+- [x] [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+- [x] [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
+- [x] [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
+- [x] [powerline/powerline](https://github.com/powerline/powerline) `*`
+- [x] [preservim/nerdtree](https://github.com/preservim/nerdtree) `*`
+- [x] [puremourning/vimspector](https://github.com/puremourning/vimspector)
+- [x] [shougo/defx.nvim](https://github.com/shougo/defx.nvim)
+- [x] [shougo/denite](https://github.com/Shougo/denite.nvim) `*`
+- [x] [shougo/unite](https://github.com/shougo/unite.vim) `*`
+- [x] [shougo/vimfiler.vim](https://github.com/Shougo/vimfiler.vim)
+- [x] [shougo/vimfiler](https://github.com/shougo/vimfiler.vim) `*`
+- [x] [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)
+- [x] [tpope/flagship](https://github.com/tpope/vim-flagship) `*`
+- [x] [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) `*`
+- [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
+- [x] [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
+- [x] [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
+- [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
