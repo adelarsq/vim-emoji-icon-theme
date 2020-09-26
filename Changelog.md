@@ -3,6 +3,7 @@
 ## Version 0.30
 
 - Better support for [vista](https://github.com/liuchengxu/vista.vim)
+- Better support for [bagrat/vim-buffet](https://github.com/bagrat/vim-buffet)
 
 ## Version 0.29
 

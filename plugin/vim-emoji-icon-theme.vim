@@ -412,6 +412,13 @@ lua << EOF
 EOF
 endif
 
+" bagrat/vim-buffet
+let g:buffet_tab_icon = '🗂 ' 
+let g:buffet_new_buffer_name = '🗒 '
+let g:buffet_modified_icon = '+'
+let g:buffet_left_trun_icon = '›'
+let g:buffet_right_trun_icon = '‹'
+
 " nvim-lua/diagnostic-nvim
 if has('nvim')
     call sign_define("LspDiagnosticsErrorSign", {"text" : "💥", "texthl" : "LspDiagnosticsError"})
