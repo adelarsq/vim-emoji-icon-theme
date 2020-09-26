@@ -224,6 +224,7 @@ let g:vista#renderer#icons = {
             \   'implementation': '🏛 ',
             \   'maps': '🌎',
             \   'targets': '⛳',
+            \   'macros': '🔂',
             \   'module': '🚛',
             \   'modules': '🚛',
             \   'namespace': '🕋',
