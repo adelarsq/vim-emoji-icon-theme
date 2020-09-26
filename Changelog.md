@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.30
+
+- Better support for [vista](https://github.com/liuchengxu/vista.vim)
+
 ## Version 0.29
 
 - Added support for the plugins:
