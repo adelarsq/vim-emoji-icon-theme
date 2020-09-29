@@ -6,7 +6,7 @@
 
 This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.
 
-For filetypes support this plugins extends [vim-webdevicons](https://github.com/ryanoasis/vim-devicons), adding support for icons as emojis on Vim and Neovim.
+For filetypes support this plugins extends [vim-devicons](https://github.com/ryanoasis/vim-devicons), adding support for icons as emojis on Vim and Neovim.
 
 [NERDTree](https://github.com/preservim/nerdtree) with this plugin using [Ayu](https://github.com/ayu-theme/ayu-vim) colorscheme:
 
@@ -42,7 +42,7 @@ For filetypes support this plugins extends [vim-webdevicons](https://github.com/
 - [powerline/powerline](https://github.com/powerline/powerline) `*`
 - [preservim/nerdtree](https://github.com/preservim/nerdtree) `*`
 - [puremourning/vimspector](https://github.com/puremourning/vimspector)
-- [ryanoasis/vim-webdevicons](https://github.com/ryanoasis/vim-devicons) - For filetype support
+- [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - For filetype support
 - [shougo/defx.nvim](https://github.com/shougo/defx.nvim)
 - [shougo/denite](https://github.com/Shougo/denite.nvim) `*`
 - [shougo/unite](https://github.com/shougo/unite.vim) `*`
@@ -57,16 +57,16 @@ For filetypes support this plugins extends [vim-webdevicons](https://github.com/
 - [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 
 Labels:
- - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
+ - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
  - `**` Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392)
  - `***` Support by an automated process using CI pipeline whenever this plugin
      has an update
- - `****` Partial support by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
+ - `****` Partial support by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
  - `*****` Need support for kyazdani42/nvim-web-devicons.
 
 ## How to use 🤔
 
-This plugin depends on [vim-webdevicons](https://github.com/junegunn/vim-plug). With this dependency satisfied the plugin should work out of box.
+This plugin depends on [vim-devicons](https://github.com/ryanoasis/vim-devicons). With this dependency satisfied the plugin should work out of box.
 
 Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/emoji-12.0)), so one have to be configured. I have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
 
@@ -76,7 +76,7 @@ use the `Emoji_Icon_Theme_Asyncrun()` function to show on the statusline.
 ## How to Add Support for Plugins 🔌
 
 Icons for filetypes are supported by `WebDevIconsGetFileTypeSymbol()` function
-from the [vim-webdevicons](https://github.com/ryanoasis/vim-webdevicons). So if
+from the [vim-devicons](https://github.com/ryanoasis/vim-webdevicons). So if
 the plugin use this function the support is already there. 
 
 For others configs, like specify symbols for plugins please open an issue
@@ -89,7 +89,7 @@ request.
 Add the following lines on the Vim/NeoVim config file:
 
 ```vim
-Plug 'https://github.com/ryanoasis/vim-webdevicons'
+Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
 
@@ -100,7 +100,7 @@ Then open the editor and install with `PlugInstall`.
 Add the following lines on the Vim/NeoVim config file:
 
 ```vim
-call dein#add('ryanoasis/vim-webdevicons')
+call dein#add('ryanoasis/vim-devicons')
 call dein#add('adelarsq/vim-devicons-emoji')
 ```
 
@@ -123,9 +123,10 @@ For NeoVim blend shows emojis behind window or popup. See [bug](https://github.c
 
 Thanks goes to these people/projects for inspiration:
 
-- [vim-emoji](https://github.com/junegunn/vim-emoji)
-- [vim-webdevicons](https://github.com/junegunn/vim-plug)
+- [junegunn/vim-emoji](https://github.com/junegunn/vim-emoji)
+- [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - [vscode file icon theme](https://code.visualstudio.com/api/extension-guides/file-icon-theme)
+- [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree)
 
 ## License 📜
 
