@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.30**
+**Version 0.31**
 
 🚧 **Work in progress** 🚧
 
@@ -53,6 +53,7 @@ For filetypes support this plugins extends [vim-webdevicons](https://github.com/
 - [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
 - [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
+- [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) `*****`
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
@@ -60,6 +61,7 @@ Labels:
  - `***` Support by an automated process using CI pipeline whenever this plugin
      has an update
  - `****` Partial support by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
+ - `*****` Need support for kyazdani42/nvim-web-devicons.
 
 ## How to use 🤔
 

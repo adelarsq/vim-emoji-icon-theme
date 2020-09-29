@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.31
+
+- Added support for the plugins:
+  - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+
 ## Version 0.30
 
 - Better support for [vista](https://github.com/liuchengxu/vista.vim)

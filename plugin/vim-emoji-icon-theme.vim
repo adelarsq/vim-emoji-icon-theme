@@ -136,6 +136,11 @@ let s:iconCopy = '✂️ '
 let s:iconMove = '📋'
 let s:iconNotebook = '📝'
 let s:iconTemp = '⏳'
+let s:iconGitUnstaged = '❎'
+let s:iconGitStaged = '✅'
+let s:iconGitUnmerged = '⛎'
+let s:iconGitRenamed = '🔄'
+let s:iconGitUntracked = '❓'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -438,6 +443,23 @@ if has('nvim')
     let g:dashboard_custom_shortcut_icon['find_word'] = '🐸 '
     let g:dashboard_custom_shortcut_icon['book_marks'] = '⭐️ '
 endif
+
+" kyazdani42/nvim-tree.lua
+let g:lua_tree_icons = {
+    \ 'default': s:iconDefault,
+    \ 'symlink': s:iconLink,
+    \ 'git': {
+    \   'unstaged': s:iconGitUnstaged,
+    \   'staged': s:iconGitStaged,
+    \   'unmerged': s:iconGitUnmerged,
+    \   'renamed': s:iconGitRenamed,
+    \   'untracked': s:iconGitUntracked
+    \   },
+    \ 'folder': {
+    \   'default': s:iconFolder,
+    \   'open': s:iconFolderOpen
+    \   }
+    \ }
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
