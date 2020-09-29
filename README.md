@@ -14,6 +14,7 @@ For filetypes support this plugins extends [vim-webdevicons](https://github.com/
 
 ## Plugins Supported 🤗
 
+- [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) `*`
 - [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
 - [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 - [arecarn/vim-crunch](https://github.com/arecarn/vim-crunch)
@@ -27,6 +28,7 @@ For filetypes support this plugins extends [vim-webdevicons](https://github.com/
 - [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) `*`
 - [kristijanhusak/defx-icons](https://github.com/kristijanhusak/defx-icons)
 - [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
+- [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) `*****`
 - [liuchengxu/Vista](https://github.com/liuchengxu/vista.vim)
 - [liuchengxu/vim-clap](https://github.com/liuchengxu/vim-clap) `**`
 - [mattesgroeger/vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
@@ -53,8 +55,6 @@ For filetypes support this plugins extends [vim-webdevicons](https://github.com/
 - [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
 - [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
-- [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) `*****`
-- [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) `*`
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)
