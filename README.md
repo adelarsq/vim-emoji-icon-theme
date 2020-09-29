@@ -112,10 +112,6 @@ Then open the editor and install with `call dein#install()`.
 - There is no need for a patched font;
 - It's beautifull.
 
-## TODO 🔨
-
-- [ ] Add more ways to install;
-
 ## Bugs 🐛
 
 Vim and NeoVim have some bugs rendering emojis in some situations. So some
