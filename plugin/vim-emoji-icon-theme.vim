@@ -234,6 +234,8 @@ let g:vista#renderer#icons = {
             \   'modules': '🚛',
             \   'namespace': '🕋',
             \   'namespaces': '🕋',
+            \   'package': '🕋',
+            \   'packages': '🕋',
             \   'class': '📦',
             \   'classes': '📦',
             \   'struct': '🧱',
