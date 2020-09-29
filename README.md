@@ -54,6 +54,7 @@ For filetypes support this plugins extends [vim-webdevicons](https://github.com/
 - [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) `*****`
+- [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) `*`
 
 Labels:
  - `*` Supported by [vim-webdevicons](https://github.com/ryanoasis/vim-devicons)

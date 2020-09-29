@@ -4,6 +4,7 @@
 
 - Added support for the plugins:
   - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+  - [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim)
 
 ## Version 0.30
 
