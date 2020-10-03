@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.33
+
+- Add support for bpg (Better Portable Graphics) file extensions
+
 ## Version 0.32
 
 - Better support for [vista](https://github.com/liuchengxu/vista.vim)

@@ -490,6 +490,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsdl'] = s:iconBsdl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['blend'] = s:icon3D " 3D Blender
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['blob'] = s:iconBinary " blob file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bmp'] = s:iconImage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bpg'] = s:iconImage " BPG (Better Portable Graphics) image format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tga'] = s:iconImage " Truevision TGA/Targa file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dds'] = s:iconImage " DirectDraw Surface (DDS) container format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = s:iconC
