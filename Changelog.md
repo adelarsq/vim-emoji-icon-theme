@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.34
+
+- Better support for [V](https://vlang.io)
+
 ## Version 0.33
 
 - Add support for bpg (Better Portable Graphics) file extensions
