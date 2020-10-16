@@ -3,6 +3,7 @@
 ## Version 0.35
 
 - Add support for VDF file (Valve's Source game engine config file)
+- Add support for ProGuard rules files 
 
 ## Version 0.34
 
