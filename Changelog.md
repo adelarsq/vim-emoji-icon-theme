@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.35
+
+- Add support for VDF file (Valve's Source game engine config file)
+
 ## Version 0.34
 
 - Better support for [V](https://vlang.io)

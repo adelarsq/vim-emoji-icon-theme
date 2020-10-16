@@ -727,6 +727,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['txt'] = s:iconText
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['uml'] = s:iconDiagram
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['userprefs'] = s:iconConfig " XML user preferences file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['v'] = s:iconV " v language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vdf'] = s:iconConfig " VDF file (Valve's Source game engine config file)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vv'] = s:iconV " v language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vsh'] = s:iconV " v language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vbs'] = s:iconVisualBasic " VisualBasic
