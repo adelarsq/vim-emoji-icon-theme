@@ -557,6 +557,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gif'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['git'] = s:iconGit " polvo - simbolo do github
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gleam'] = s:iconGleam " Gleam source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['glsl'] = s:icon3D " glsl shader 3D file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gltf'] = s:icon3D " glTF Model Format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['go'] = s:iconGo
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gql'] = s:iconGraphQL " graphql source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gradle'] = s:iconGradle

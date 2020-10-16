@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.36
+
+- Add support for glTF model format
+
 ## Version 0.35
 
 - Add support for VDF file (Valve's Source game engine config file)
