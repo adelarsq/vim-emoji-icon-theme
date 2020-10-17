@@ -836,12 +836,12 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['yarn.lock'] = s:iconYarn
 
 " File patterns
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}
-let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*.UnitDoc'] = s:iconDelphi
-let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*.db-journal'] = s:iconSql
-let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*.dockerfile'] = s:iconDocker
-let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*.mobileprovision'] = s:iconMobile
-let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*.xaml'] = s:iconConfig
-let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*.xaml.cs'] = s:iconConfig
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.UnitDoc'] = s:iconDelphi
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.db-journal'] = s:iconSql
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.dockerfile'] = s:iconDocker
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.mobileprovision'] = s:iconMobile
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.xaml'] = s:iconConfig
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.xaml.cs'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.csproj.user'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*LICENSE.*'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*\.css\.map$'] = s:iconCss
