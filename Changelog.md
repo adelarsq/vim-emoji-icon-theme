@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.37
+
+- Better Docker support
+
 ## Version 0.36
 
 - Add support for glTF model format
