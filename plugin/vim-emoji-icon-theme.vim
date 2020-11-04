@@ -165,17 +165,36 @@ let g:clap_enable_icon = 0 " TODO disabled for now
 let g:clap_provider_grep_enable_icon = 0 " TODO disabled for now
 
 " vim-dadbod-ui
+let s:db_ui_expanded_icon = '▾'
+let s:db_ui_collapsed_icon = '▸'
+
 let g:db_ui_icons = {
-      \ 'database': '🎲',
-	  \ 'expanded': '▾',
-	  \ 'collapsed': '▸',
-	  \ 'saved_query': '💾',
-	  \ 'new_query': '➕',
-	  \ 'tables': '🗂 ',
-	  \ 'buffers': '🅱 ',
-	  \ 'connection_ok': '✅',
-	  \ 'connection_error': '⛔️',
- \ }
+    \ 'expanded': {
+    \   'db': s:db_ui_expanded_icon.' 🎲',
+    \   'buffers': s:db_ui_expanded_icon.' 🅱️ ',
+    \   'saved_queries': s:db_ui_expanded_icon.' 💾',
+    \   'schemas': s:db_ui_expanded_icon.' 🗄 ',
+    \   'schema': s:db_ui_expanded_icon.' 🗂',
+    \   'tables': s:db_ui_expanded_icon.' 📋',
+    \   'table': s:db_ui_expanded_icon.' 📄',
+    \ },
+    \ 'collapsed': {
+    \   'db': s:db_ui_collapsed_icon.' 🎲',
+    \   'buffers': s:db_ui_collapsed_icon.' 🅱️ ',
+    \   'saved_queries': s:db_ui_collapsed_icon.' 💾',
+    \   'schemas': s:db_ui_collapsed_icon.' 🗄 ',
+    \   'schema': s:db_ui_collapsed_icon.' 🗂',
+    \   'tables': s:db_ui_collapsed_icon.' 📋',
+    \   'table': s:db_ui_collapsed_icon.' 📄',
+    \ },
+    \ 'saved_query': '  📀',
+    \ 'new_query': '  📄',
+    \ 'tables': '  📋',
+    \ 'buffers': '  🅱️',
+    \ 'add_connection': '  🔋',
+    \ 'connection_ok': '✅',
+    \ 'connection_error': '❌',
+    \ }
 
 " CtrlSpace
 " CS - CtrlSpace
@@ -289,10 +308,10 @@ let g:coc_user_config = {
 \ "diagnostic.infoSign": "💬",
 \ "diagnostic.virtualTextPrefix": "💭",
 \ "diagnostic.warningSign": "💩",
-\ "coc.source.around.shortcut":"🅰 ",
-\ "coc.source.buffer.shortcut":"🅱 ",
+\ "coc.source.around.shortcut":"🅰️ ",
+\ "coc.source.buffer.shortcut":"🅱️ ",
 \ "coc.source.file.shortcut": "🗄 ",
-\ "coc.source.omni.shortcut":"🅾 ",
+\ "coc.source.omni.shortcut":"🅾️ ",
 \ "coc.source.emoji.shortcut": "🦄",
 \ "coc.source.neco.shortcut":"🐈",
 \ "coc.preferences.snippetStatusText": "🌱",
