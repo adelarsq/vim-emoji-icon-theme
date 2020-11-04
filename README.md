@@ -55,7 +55,7 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 - [x] [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
 - [x] [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
-- [ ] https://github.com/romgrk/barbar.nvim
+- [ ] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
