@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.39
+
+- Add support for glb model format
+
 ## Version 0.38
 
 - Better support for [vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)

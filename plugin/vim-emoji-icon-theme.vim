@@ -492,6 +492,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['7z'] = s:iconPackage 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['aar'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ahk'] = s:iconConfig " AutoHotkey file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ani'] = s:icon3D " ani 3D file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['glb'] = s:icon3D " glb 3D file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apk'] = s:iconPackage " Android package file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['as'] = s:iconAngel " angel script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asm'] = s:iconAssembly " Assembly source code
