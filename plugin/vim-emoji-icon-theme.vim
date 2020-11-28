@@ -841,6 +841,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['ios'] = s:iconIOS
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['jenkinsfile'] = s:iconJenkins " Jenkins
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['justfile'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['lib'] = s:iconLib
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['todo'] = s:iconTodo
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['license'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['license.txt'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['makefile'] = s:iconMake

@@ -7,6 +7,7 @@
 - Add support for tgz files
 - Add support for podspec files
 - Add support for Podfile files
+- Add support for TODO files
 
 ## Version 0.38
 
