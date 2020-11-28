@@ -3,6 +3,7 @@
 ## Version 0.39
 
 - Add support for glb model format
+- Add support for Objective-C (*.m) and Objective-C++ (*.mm) source files
 
 ## Version 0.38
 
