@@ -879,4 +879,5 @@ let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*mootools.*\.js$'] = s
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*require.*\.js$'] = s:iconJavaScript
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*vcxproj.filters'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*vimrc.*'] = s:iconVim
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.podspec'] = s:iconConfig
 
