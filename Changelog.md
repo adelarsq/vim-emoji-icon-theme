@@ -4,6 +4,7 @@
 
 - Add support for glb model format
 - Add support for Objective-C (*.m) and Objective-C++ (*.mm) source files
+- Add support for tgz files
 
 ## Version 0.38
 

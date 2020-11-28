@@ -744,6 +744,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tera'] = s:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tga'] = s:iconImage " Truevision TGA/Targa file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tif'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tiff'] = s:iconFont " font
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tgz'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['toml'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tpl'] = s:iconTemplate " ariatemplates.com
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ts'] = s:iconTs
