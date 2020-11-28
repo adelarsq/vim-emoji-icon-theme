@@ -6,6 +6,7 @@
 - Add support for Objective-C (*.m) and Objective-C++ (*.mm) source files
 - Add support for tgz files
 - Add support for podspec files
+- Add support for Podfile files
 
 ## Version 0.38
 

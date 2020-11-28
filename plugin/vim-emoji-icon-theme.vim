@@ -844,6 +844,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['lib'] = s:iconLib
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['license'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['license.txt'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['makefile'] = s:iconMake
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['podfile'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['mix.lock'] = s:iconLock
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['node_modules'] = s:iconJavaScript
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['paket.dependencies'] = s:iconConfig
