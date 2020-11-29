@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.40
+
+- Add support for hdr files
+
 ## Version 0.39
 
 - Add support for glb model format

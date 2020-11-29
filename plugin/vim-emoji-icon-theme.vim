@@ -614,6 +614,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jmx'] = s:iconXml " J
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jnlp'] = s:iconXml " JNLP file (XML)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jpeg'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jpg'] = s:iconImage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hdr'] = s:iconImage " raster image or digital photo saved in HDRsoft's High Dynamic Range (HDR) image format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jrxml'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['js'] = s:iconJavaScript
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['json'] = s:iconJavaScript
