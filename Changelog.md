@@ -3,6 +3,7 @@
 ## Version 0.40
 
 - Add support for hdr files
+- Change zig icon
 
 ## Version 0.39
 

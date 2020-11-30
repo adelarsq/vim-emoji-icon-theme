@@ -141,7 +141,7 @@ let s:iconVue = '🌲'
 let s:iconXml = '💢'
 let s:iconYaml = '🎴'
 let s:iconYarn = '🐈'
-let s:iconZig = '💤'
+let s:iconZig = '⚡️'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
