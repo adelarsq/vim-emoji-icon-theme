@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.41
+
+- Add support for epub files
+
 ## Version 0.40
 
 - Add support for hdr files
