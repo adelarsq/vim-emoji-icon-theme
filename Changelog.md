@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.42
+
+- Better support for TypeScript
+
 ## Version 0.41
 
 - Add support for epub files
