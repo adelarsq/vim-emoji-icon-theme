@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.43
+
+- Add support for [Universal Scene Description](https://en.wikipedia.org/wiki/Universal_Scene_Description) files
+
 ## Version 0.42
 
 - Better support for TypeScript
