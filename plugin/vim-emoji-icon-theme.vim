@@ -795,6 +795,9 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['yaml'] = s:iconYaml "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['yml'] = s:iconYaml " YAML file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zig'] = s:iconZig " Zig source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zip'] = s:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zst'] = s:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xz'] = s:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lz4'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zsh'] = s:iconShell " zsh script
 
 " Files
