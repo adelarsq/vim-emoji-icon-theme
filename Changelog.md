@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.45
+
+- Add support for `.data` file
+
 ## Version 0.44
 
 - Add support for `.zst`, `.xz` and `.lz4` files

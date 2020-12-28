@@ -278,6 +278,8 @@ let g:vista#renderer#icons = {
             \   'type': '🧬',
             \   'enumerators': '🧫',
             \   'enums': '🦠',
+            \   'enummember': "🦠",
+            \   'constructor': "🚧",
             \   'default': s:iconDefault,
             \  }
 
@@ -534,6 +536,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['d'] = s:iconD " Dlang
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dae'] = s:icon3D " 3D arkit
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dart'] = s:iconDart
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dat'] = s:iconBinary " DAT file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['data'] = s:iconBinary " data file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['db'] = s:iconSql
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dds'] = s:iconImage " DirectDraw Surface (DDS) container format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['deb'] = s:iconPackage " Debian install package
