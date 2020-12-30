@@ -778,6 +778,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vrx'] = s:icon3D " Vi
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vsh'] = s:iconV " v language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = s:iconVue " VueJS file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vv'] = s:iconV " v language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wad'] = s:iconBinary " WAD file used by Doom and Doom II
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['war'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wav'] = s:iconSound " wav audio file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['woff'] = s:iconFont " font

@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.46
+
+- Add support for `.wad` file
+
 ## Version 0.45
 
 - Add support for `.data` file
