@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.47
+
+- Add support for `.reality` file
+
 ## Version 0.46
 
 - Add support for `.wad` file

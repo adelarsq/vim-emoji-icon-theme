@@ -762,6 +762,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['usd'] = s:icon3D " Un
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['usda'] = s:icon3D " Universal Scene Description file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['usdc'] = s:icon3D " Universal Scene Description file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['usdz'] = s:icon3D " Universal Scene Description file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['reality'] = s:icon3D " Reality Composer files
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['userprefs'] = s:iconConfig " XML user preferences file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['v'] = s:iconV " v language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vbs'] = s:iconVisualBasic " VisualBasic
