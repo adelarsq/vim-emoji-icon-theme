@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.48
+
+- Better support for Docker
+
 ## Version 0.47
 
 - Add support for `.reality` file

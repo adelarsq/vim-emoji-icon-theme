@@ -880,6 +880,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.UnitDoc'] = s:iconDelphi
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.db-journal'] = s:iconSql
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.dockerfile'] = s:iconDocker
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['dockerfile..*'] = s:iconDocker
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.mobileprovision'] = s:iconMobile
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.xaml'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*.xaml.cs'] = s:iconConfig
