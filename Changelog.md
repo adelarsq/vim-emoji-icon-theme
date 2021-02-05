@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.49
+
+- Add support for [Grain](https://grain-lang.org/) source files
+
 ## Version 0.48
 
 - Better support for Docker
