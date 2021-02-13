@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.50
+
+- Add support for [SupperCollider](https://supercollider.github.io) source files
+
 ## Version 0.49
 
 - Add support for [Grain](https://grain-lang.org/) source files

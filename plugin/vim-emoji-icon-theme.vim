@@ -440,6 +440,37 @@ lua << EOF
       spinner_frames = {'🌎','🌍','🌏'}
     }
   end
+
+    -- TODO
+    -- https://github.com/onsails/lspkind-nvim
+    -- require('vim.lsp.protocol').completionItemKind = {
+    -- '';             -- Text          = 1;
+    -- '';             -- Method        = 2;
+    -- 'ƒ';             -- Function      = 3;
+    -- '';             -- Constructor   = 4;
+    -- 'Field';         -- Field         = 5;
+    -- '';             -- Variable      = 6;
+    -- '';             -- Class         = 7;
+    -- 'ﰮ';             -- Interface     = 8;
+    -- '';             -- Module        = 9;
+    -- '';             -- Property      = 10;
+    -- '';             -- Unit          = 11;
+    -- '';             -- Value         = 12;
+    -- '了';            -- Enum          = 13;
+    -- '';             -- Keyword       = 14;
+    -- '﬌';             -- Snippet       = 15;
+    -- '';             -- Color         = 16;
+    -- '';             -- File          = 17;
+    -- 'Reference';     -- Reference     = 18;
+    -- '';             -- Folder        = 19;
+    -- '';             -- EnumMember    = 20;
+    -- '';             -- Constant      = 21;
+    -- '';             -- Struct        = 22;
+    -- 'Event';         -- Event         = 23;
+    -- 'Operator';      -- Operator      = 24;
+    -- 'TypeParameter'; -- TypeParameter = 25;
+	-- }
+
 EOF
 endif
 
@@ -729,6 +760,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sass'] = s:iconSass "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sbt'] = s:iconConfig " Simply Build Tool
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['scala'] = s:iconScala " Scala source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['scm'] = s:iconScheme " Scheme source code http://people.csail.mit.edu/jaffer/Scheme
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['scd'] = s:iconSound " SuperCollider source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['scss'] = s:iconCss " SASS style sheet
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sfb'] = s:icon3D " 3D filmbox
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sfz'] = s:iconSound " *.sfz files
