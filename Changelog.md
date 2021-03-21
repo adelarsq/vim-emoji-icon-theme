@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.51
+
+- Add support for `atom` and `rss` files
+
 ## Version 0.50
 
 - Add support for [SupperCollider](https://supercollider.github.io) source files

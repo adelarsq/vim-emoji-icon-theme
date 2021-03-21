@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.50**
+**Version 0.51**
 
 🚧 **Work in progress** 🚧
 
