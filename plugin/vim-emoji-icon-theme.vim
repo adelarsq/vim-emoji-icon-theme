@@ -345,6 +345,7 @@ let g:coc_user_config = {
 \     "snippet": "🌱",
 \     "operator": "❎",
 \     "reference": "⛳",
+\     "constructor": "🚧",
 \     "default": "🪐"
 \ },
 \ }
@@ -441,35 +442,36 @@ lua << EOF
     }
   end
 
-    -- TODO
-    -- https://github.com/onsails/lspkind-nvim
-    -- require('vim.lsp.protocol').completionItemKind = {
-    -- '';             -- Text          = 1;
-    -- '';             -- Method        = 2;
-    -- 'ƒ';             -- Function      = 3;
-    -- '';             -- Constructor   = 4;
-    -- 'Field';         -- Field         = 5;
-    -- '';             -- Variable      = 6;
-    -- '';             -- Class         = 7;
-    -- 'ﰮ';             -- Interface     = 8;
-    -- '';             -- Module        = 9;
-    -- '';             -- Property      = 10;
-    -- '';             -- Unit          = 11;
-    -- '';             -- Value         = 12;
-    -- '了';            -- Enum          = 13;
-    -- '';             -- Keyword       = 14;
-    -- '﬌';             -- Snippet       = 15;
-    -- '';             -- Color         = 16;
-    -- '';             -- File          = 17;
-    -- 'Reference';     -- Reference     = 18;
-    -- '';             -- Folder        = 19;
-    -- '';             -- EnumMember    = 20;
-    -- '';             -- Constant      = 21;
-    -- '';             -- Struct        = 22;
-    -- 'Event';         -- Event         = 23;
-    -- 'Operator';      -- Operator      = 24;
-    -- 'TypeParameter'; -- TypeParameter = 25;
-	-- }
+  -- https://github.com/onsails/lspkind-nvim
+  local useLspKind, importedLspKind = pcall(require, "lspkind")
+  if useLspKind then
+    importedLspKind.init({
+       with_text = true,
+       symbol_map = {
+         Text = '📜',
+         Method = '🧶',
+         Function = '🧵',
+         Constructor = '🚧',
+         Variable = '🔻',
+         Class = '📦',
+         Interface = '🧩',
+         Module = '🚛',
+         Property = '💊',
+         Unit = '🗳 ',
+         Value = '🧪',
+         Enum = '🧫',
+         Keyword = '🔑',
+         Snippet = '🌱',
+         Color = '🎨',
+         File = '🗄 ',
+         Folder = '📁',
+         EnumMember = '🦠',
+         Constant = '🧊',
+         Struct = '🧱',
+         Operator = '❎'
+       },
+    })
+  end
 
 EOF
 endif

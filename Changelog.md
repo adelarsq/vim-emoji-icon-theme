@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.52
+
+- Added support for the [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim) plugin.
+
 ## Version 0.51
 
 - Add support for `atom` and `rss` files
