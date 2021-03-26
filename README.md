@@ -8,9 +8,9 @@ This plugin uses emojis to represent filetypes, signs and symbols for many plugi
 
 For filetypes support this plugins extends [vim-devicons](https://github.com/ryanoasis/vim-devicons), adding support for icons as emojis on Vim and Neovim.
 
-[NERDTree](https://github.com/preservim/nerdtree) with this plugin using [Ayu](https://github.com/ayu-theme/ayu-vim) colorscheme:
+[NERDTree](https://github.com/preservim/nerdtree) with this plugin using [material.nvim](https://github.com/marko-cerovac/material.nvim) colorscheme:
 
-![nerdtree](https://user-images.githubusercontent.com/430272/79928601-bb524000-8419-11ea-9c76-bd450918b962.png)
+![nerdtree](https://user-images.githubusercontent.com/430272/112572478-fd71c780-8dc8-11eb-8a5d-eda343deb467.png)
 
 ## Plugins Support 🤗
 
