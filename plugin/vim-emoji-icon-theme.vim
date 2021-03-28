@@ -442,6 +442,23 @@ lua << EOF
     }
   end
 
+  -- https://github.com/glepnir/lspsaga.nvim
+  local useLspSaga, importedLspSaga = pcall(require, "lspsaga")
+  if useLspSaga then
+      importedLspSaga.init_lsp_saga({
+        error_sign = '💥',
+        warn_sign = '💩',
+        hint_sign = '💡',
+        infor_sign = '⚠️ ',
+        dianostic_header_icon = ' 🐞  ',
+        code_action_icon = '💭',
+        finder_definition_icon = '🐣  ',
+        finder_reference_icon = '⛳️  ',
+        definition_preview_icon = '🔭 '
+      })
+
+  end
+
   -- https://github.com/onsails/lspkind-nvim
   local useLspKind, importedLspKind = pcall(require, "lspkind")
   if useLspKind then

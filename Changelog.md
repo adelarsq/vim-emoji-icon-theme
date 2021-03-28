@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.53
+
+- Added support for the [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) plugin.
+
 ## Version 0.52
 
 - Added support for the [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim) plugin.

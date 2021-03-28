@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.52**
+**Version 0.53**
 
 🚧 **Work in progress** 🚧
 
@@ -56,6 +56,7 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 - [x] [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 - [x] [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim)
+- [x] [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 - [ ] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
 
 Labels:
