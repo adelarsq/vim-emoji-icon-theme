@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.54
+
+- Add support for `snap` files
+
 ## Version 0.53
 
 - Added support for the [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) plugin.

@@ -485,7 +485,8 @@ lua << EOF
          EnumMember = '🦠',
          Constant = '🧊',
          Struct = '🧱',
-         Operator = '❎'
+         Operator = '❎',
+         Buffer = '🪐'
        },
     })
   end
@@ -788,6 +789,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sfz'] = s:iconSound "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sh'] = s:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['slime'] = s:iconSlime " http://slime-lang.com/
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sln'] = s:iconConfig " Solution file config for .NET
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snap'] = s:iconPackage " SNAP file 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['so'] = s:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sql'] = s:iconSql " sql -> SQLYog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['storyboard'] = s:iconXml " XML
