@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.55
+
+- Add support for `tflite` files
+
 ## Version 0.54
 
 - Add support for `snap` files
