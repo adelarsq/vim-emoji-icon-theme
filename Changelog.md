@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.56
+
+- Add support for [*.idl](https://fileinfo.com/extension/idl) and [*.tlb](https://fileinfo.com/extension/tlb) files.
+
 ## Version 0.55
 
 - Add support for `tflite` files
