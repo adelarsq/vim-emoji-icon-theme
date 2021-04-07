@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.57
+
+- Custom icon for `*.config.js` files.
+
 ## Version 0.56
 
 - Add support for [*.idl](https://fileinfo.com/extension/idl) and [*.tlb](https://fileinfo.com/extension/tlb) files.

@@ -940,6 +940,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['yarn.lock'] = s:iconYarn
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*LICENSE.*'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*\.UnitDoc'] = s:iconDelphi
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*\.config.js'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*\.csproj.user'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*\.css\.map$'] = s:iconCss
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*\.db-journal'] = s:iconSql
