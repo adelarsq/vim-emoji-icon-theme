@@ -935,6 +935,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['tags'] = s:iconTag
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['test'] = s:iconTest
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['todo.md'] = s:iconTodo
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['yarn.lock'] = s:iconYarn
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.zshenv'] = s:iconConfig
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.zprofile'] = s:iconConfig
 
 " File patterns
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}

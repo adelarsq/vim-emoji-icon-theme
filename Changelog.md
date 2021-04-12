@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.58
+
+- Add support for `.zshenv` and `.zprofile` files.
+
 ## Version 0.57
 
 - Custom icon for `*.config.js` files.
