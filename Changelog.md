@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.59
+
+- Add flag to load only once the plugin.
+
 ## Version 0.58
 
 - Add support for `.zshenv` and `.zprofile` files.
