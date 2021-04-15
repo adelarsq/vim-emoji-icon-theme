@@ -2,9 +2,10 @@
 " By Adelar da Silva Queiróz - 2020
 " MIT License
 
-if !exists('g:vim-emoji-icon-theme')
-    let g:vim-emoji-icon-theme=1
+if exists('g:vim-emoji-icon-theme')
+    finish
 endif
+let g:vim-emoji-icon-theme=1
 
 " Default
 let s:iconDefault = '📄'
