@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.60
+
+- Add support for `*.gift` and `*.psl` files.
+
 ## Version 0.59
 
 - Add flag to load only once the plugin.
