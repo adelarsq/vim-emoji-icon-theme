@@ -749,6 +749,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['po'] = s:iconGnuText 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pot'] = s:iconGnuText " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppk'] = s:iconCert " putty key file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppt'] = s:iconOfficePresentation
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pptx'] = s:iconOfficePresentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['prefs'] = s:iconConfig " Eclipse preferences file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pro'] = s:iconConfig " ProGuard rules file 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['profile'] = s:iconProfile

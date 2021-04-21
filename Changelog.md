@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.61
+
+- Add support for `*.pptx` files.
+
 ## Version 0.60
 
 - Add support for `*.gift` and `*.psl` files.
