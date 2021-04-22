@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.62
+
+- Add support for `*.drc` and `*.drcs` files.
+
 ## Version 0.61
 
 - Add support for `*.pptx` files.
