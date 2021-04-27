@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.63
+
+- Add support for `*.webp` and `*.wbmp` files.
+
 ## Version 0.62
 
 - Add support for `*.drc` and `*.drcs` files.
