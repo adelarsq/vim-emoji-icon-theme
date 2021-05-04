@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.64
+
+- Add support for `*.ino` and `*.pde` files for Arduino.
+
 ## Version 0.63
 
 - Add support for `*.webp` and `*.wbmp` files.
