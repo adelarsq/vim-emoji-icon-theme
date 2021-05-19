@@ -58,6 +58,7 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 - [x] [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim)
 - [x] [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 - [ ] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
+- [ ] [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) [WIP](https://github.com/kyazdani42/nvim-web-devicons/pull/11)
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
