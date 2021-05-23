@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.65
+
+- Better Haskell support.
+
 ## Version 0.64
 
 - Add support for `*.ino` and `*.pde` files for Arduino.
