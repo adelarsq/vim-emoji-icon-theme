@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.66
+
+- Add support for `*.norg` files.
+
 ## Version 0.65
 
 - Better Haskell support.

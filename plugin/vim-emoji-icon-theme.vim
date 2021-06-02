@@ -732,6 +732,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mq5'] = s:iconMql " M
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mqlh'] = s:iconInterface " Metatrader language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nib'] = s:iconInterface
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nim'] = s:iconNim " Nim source code
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['norg'] = s:iconOrg " Org-mode file for neorg neovim plugin
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nupkg'] = s:iconPackage " NuGet package config
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nuspec'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['obj'] = s:icon3D
