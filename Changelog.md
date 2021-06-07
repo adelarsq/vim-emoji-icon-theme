@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.67
+
+- Add support for `*.bsl` and `*.so` files.
+
 ## Version 0.66
 
 - Add support for `*.norg` files.
