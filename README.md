@@ -136,3 +136,10 @@ Thanks goes to these people/projects for inspiration:
 
 [MIT](License)
 
+## Self-plug 🔌
+
+If you liked this plugin, also check out:
+
+- [neoline.vim](https://github.com/adelarsq/neoline.vim) - Status Line for Neovim focused on beauty and performance
+- [neovcs.vim](https://github.com/adelarsq/neovcs.vim) - VCS support for Neovim
+
