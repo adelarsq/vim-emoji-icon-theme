@@ -128,6 +128,7 @@ let s:iconSass = '👓'
 let s:iconScala = '💈'
 let s:iconScheme = '🌻'
 let s:iconShell = '🐚'
+let s:iconGui = '🦋'
 let s:iconSlime = '🍨'
 let s:iconSound = '🎶'
 let s:iconSql = '🎲'
@@ -553,6 +554,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 " Extensions
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['3ds'] = s:icon3D " Autodesk 3ds Max 3D modeling file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['60'] = s:iconGui " SixtyFPS toolkit source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['7z'] = s:iconPackage " 7-Zip compressed file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['aar'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ahk'] = s:iconConfig " AutoHotkey file
