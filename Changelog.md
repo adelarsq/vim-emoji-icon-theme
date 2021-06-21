@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.69
+
+- Add support for `*.jxl` files.
+
 ## Version 0.68
 
 - Add support for `*.60` files.
