@@ -3,6 +3,7 @@
 ## Version 0.70
 
 - Add support for `*.ics` files.
+- Add support for `*.cu` and `*.cuh` files.
 
 ## Version 0.69
 
