@@ -676,6 +676,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = s:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hx'] = s:iconGraphQL " Haxe source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['icns'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ico'] = s:iconImage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ics'] = s:iconTemp " iCalendar file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['idl'] = s:iconInterface " Source code file created using the Microsoft Interface Definition Language (MIDL)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['iml'] = s:iconConfig " Intellig IDEA config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['info'] = s:iconDocument

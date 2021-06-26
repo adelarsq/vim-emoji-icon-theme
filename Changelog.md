@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.70
+
+- Add support for `*.ics` files.
+
 ## Version 0.69
 
 - Add support for `*.jxl` files.
