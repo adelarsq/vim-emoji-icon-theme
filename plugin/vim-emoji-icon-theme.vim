@@ -813,6 +813,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['s'] = s:iconAssembly
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sar'] = s:iconPackage " Java file *.sar
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sass'] = s:iconSass " SASS symbol
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sbt'] = s:iconConfig " Simply Build Tool
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sc'] = s:iconScala " Scala source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['scala'] = s:iconScala " Scala source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['scd'] = s:iconSound " SuperCollider source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['scm'] = s:iconScheme " Scheme source code http://people.csail.mit.edu/jaffer/Scheme

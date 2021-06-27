@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.71
+
+- Add support for `*.sc` (Scala) files.
+
 ## Version 0.70
 
 - Add support for `*.ics` files.
