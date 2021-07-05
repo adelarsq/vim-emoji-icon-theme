@@ -1,5 +1,11 @@
 # Changelog 🍁
 
+## Version 0.72
+
+- Add support for Wireshark files (`5vw`, `acp`, `apc`, `atc`, `bfr`, `cap`, `enc`, `erf`, `fdc`, `ipfix`, `lcap`,
+`mplog`, `out`, `pcap`, `pcapng`, `pklg`, `pkt`, `rf5`, `snoop`, `syc`, `tpc`, `tr1`, `trace`, `trc`, `vwr`,
+`wpc` and `wpz`).
+
 ## Version 0.71
 
 - Add support for `*.sc` (Scala) files.

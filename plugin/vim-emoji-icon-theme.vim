@@ -154,6 +154,7 @@ let s:iconXml = '💢'
 let s:iconYaml = '🎴'
 let s:iconYarn = '🐈'
 let s:iconZig = '⚡️'
+let s:iconNetworkTrace = '🔬'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -897,6 +898,33 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zig'] = s:iconZig " Z
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zip'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zsh'] = s:iconShell " zsh script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zst'] = s:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['5vw'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['acp'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['atc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bfr'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cap'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['enc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erf'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fdc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipfix'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lcap'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mplog'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['out'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcap'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcapng'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pklg'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkt'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rf5'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snoop'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['syc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tpc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tr1'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trace'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vwr'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpz'] = s:iconNetworkTrace " network file trace (Wireshark) and others
 
 " Files
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
