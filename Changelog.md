@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.73
+
+- Add support for `*.wasm`, `*.wast` and `*.wat` (WebAssembly) files.
+
 ## Version 0.72
 
 - Add support for Wireshark files (`5vw`, `acp`, `apc`, `atc`, `bfr`, `cap`, `enc`, `erf`, `fdc`, `ipfix`, `lcap`,
