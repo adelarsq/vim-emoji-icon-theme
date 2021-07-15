@@ -564,6 +564,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apk'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['as'] = s:iconAngel " angel script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asm'] = s:iconAssembly " Assembly source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asta'] = s:iconDiagram " Astah diagrams
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['astro'] = s:iconJavaScript " Astro JavaScript framework
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['atom'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['avi'] = s:iconVideo " *.avi video file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['axml'] = s:iconXml " Android XML

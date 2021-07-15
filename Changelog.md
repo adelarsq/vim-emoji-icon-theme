@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.74
+
+- Add support for `*.astro` files.
+
 ## Version 0.73
 
 - Add support for `*.wasm`, `*.wast` and `*.wat` (WebAssembly) files.
