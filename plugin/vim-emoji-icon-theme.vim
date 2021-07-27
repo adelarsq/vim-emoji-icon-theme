@@ -886,6 +886,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xcf'] = s:iconImage "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xdata'] = s:iconXml " XML data file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xhtml'] = s:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xib'] = s:iconXml " XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xlf'] = s:iconXml " XLIFF (XML Localization Interchange File Format) 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xjb'] = s:iconXml " jaxb external curstomization binding file - XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xls'] = s:iconOfficeSpreadsheet
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xlsx'] = s:iconOfficeSpreadsheet

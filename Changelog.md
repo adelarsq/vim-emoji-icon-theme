@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.75
+
+- Add support for `*.xlf` files.
+
 ## Version 0.74
 
 - Add support for `*.astro` files.
