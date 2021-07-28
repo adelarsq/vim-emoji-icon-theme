@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.76
+
+- Add support for `*.bib` and `*.cff` files.
+
 ## Version 0.75
 
 - Add support for `*.xlf` files.

@@ -12,7 +12,7 @@ let s:iconDefault = '📄'
 
 " Icons by type
 let s:icon3D = '🦖'
-let s:iconsSpec = '🖌 ' " iconfor specification languages/tools
+let s:iconsSpec = '🖌 ' " icon for specification languages/tools
 let s:iconLanguage = '🐲' " icon for other languages
 let s:iconAndroid = '🤖'
 let s:iconAngel = '👼🏻'
@@ -571,6 +571,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['axml'] = s:iconXml " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bat'] = s:iconBat " MS DOS bat file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['beam'] = s:iconBinary " compile Elixir file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bf'] = s:iconBeef " Beef language source code
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bib'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bin'] = s:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['blend'] = s:icon3D " 3D Blender
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['blob'] = s:iconBinary " blob file
@@ -581,6 +582,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsl'] = s:iconLanguag
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = s:iconC
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cbl'] = s:iconCobol " Cobol source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cer'] = s:iconCert " Certificate file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cff'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['chs'] = s:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['class'] = s:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['clj'] = s:iconClojure " Clojure source code
