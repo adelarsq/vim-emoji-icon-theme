@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.77
+
+- Add support for `*.rproj` and `*.sol` files.
+
 ## Version 0.76
 
 - Add support for `*.bib` and `*.cff` files.

@@ -292,6 +292,12 @@ let g:vista#renderer#icons = {
             \   'enums': '🦠',
             \   'enummember': "🦠",
             \   'constructor': "🚧",
+            \   'reference': '⛳',
+            \   'references': '⛳',
+            \   'event': '📅',
+            \   'events': '📅',
+            \   'typeparameter': '🧬',
+            \   'typeparameters': '🧬',
             \   'default': s:iconDefault,
             \  }
 
@@ -480,6 +486,7 @@ lua << EOF
          Method = '🧶',
          Function = '🧵',
          Constructor = '🚧',
+         Field = '🔘',
          Variable = '🔻',
          Class = '📦',
          Interface = '🧩',
@@ -492,12 +499,15 @@ lua << EOF
          Snippet = '🌱',
          Color = '🎨',
          File = '🗄 ',
+         Reference = '⛳',
          Folder = '📁',
          EnumMember = '🦠',
          Constant = '🧊',
          Struct = '🧱',
+         Event = '📅',
          Operator = '❎',
-         Buffer = '🪐'
+         Buffer = '🪐',
+         TypeParameter = '🧬'
        },
     })
   end
@@ -809,6 +819,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rlib'] = s:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rmd'] = s:iconOfficePresentation " RMD file presentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rpm'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rql'] = s:iconRest " restQL https://github.com/B2W-BIT/restQL-core
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rproj'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rs'] = s:iconRust " Rust
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rss'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rst'] = s:iconRST
@@ -829,6 +840,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['slime'] = s:iconSlime
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sln'] = s:iconConfig " Solution file config for .NET
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snap'] = s:iconPackage " SNAP file 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['so'] = s:iconBinary
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sol'] = s:iconLanguage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sql'] = s:iconSql " sql -> SQLYog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['storyboard'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['strings'] = s:iconXml " XML plist strings file
