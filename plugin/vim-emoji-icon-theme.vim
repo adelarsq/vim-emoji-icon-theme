@@ -938,6 +938,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tpc'] = s:iconNetwork
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tr1'] = s:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trace'] = s:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tup'] = s:iconMake " Tup build system config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vwr'] = s:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wasm'] = s:iconBinary " WebAssembly binary format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wast'] = s:iconBinary " WebAssembly text format

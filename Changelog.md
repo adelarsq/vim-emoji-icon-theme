@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.78
+
+- Add support for `*.tup` files.
+
 ## Version 0.77
 
 - Add support for `*.rproj` and `*.sol` files.
