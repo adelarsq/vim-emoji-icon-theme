@@ -1017,6 +1017,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['react.jsx'] = s:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['routes'] = s:iconConfig " Playframework routes file
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['tags'] = s:iconTag
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['test'] = s:iconTest
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['tests'] = s:iconTest
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['todo'] = s:iconTodo
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['todo.md'] = s:iconTodo
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['yarn.lock'] = s:iconYarn

@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.79
+
+- Add tests folder support.
+
 ## Version 0.78
 
 - Add support for `*.tup` files;
