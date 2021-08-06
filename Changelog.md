@@ -2,7 +2,8 @@
 
 ## Version 0.78
 
-- Add support for `*.tup` files.
+- Add support for `*.tup` files;
+- Better icons for Pascal and PDF files.
 
 ## Version 0.77
 
