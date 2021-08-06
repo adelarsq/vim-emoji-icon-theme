@@ -2,7 +2,8 @@
 
 ## Version 0.79
 
-- Add tests folder support.
+- Add tests folder support;
+- Add support for `*.hive` files.
 
 ## Version 0.78
 

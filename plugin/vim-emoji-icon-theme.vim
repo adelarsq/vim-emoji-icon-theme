@@ -682,6 +682,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gz'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['h'] = s:iconInterface " *.h do C e C++
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hbs'] = s:iconTemplate " https://github.com/pillarjs/hbs
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hdr'] = s:iconImage " raster image or digital photo saved in HDRsoft's High Dynamic Range (HDR) image format
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hive'] = s:iconBinary " HiveDB file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hs'] = s:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hs-boot'] = s:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hsc'] = s:iconHaskell
