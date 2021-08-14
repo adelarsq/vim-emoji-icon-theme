@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.80
+
+- Change some config files with better icons.
+
 ## Version 0.79
 
 - Add tests folder support;
