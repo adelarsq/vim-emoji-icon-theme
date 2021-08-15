@@ -1206,1160 +1206,1163 @@ imported.setup {
 
     override = {
 
-['default'] = {
+["default"] = {
     icon = iconDefault,
     color = "#000000",
     name = "3ds"
     };
-['3ds'] = {
+["3ds"] = {
     icon = icon3D,
     color = "#000000",
     name = "3ds"
     };
-['60'] = {icon = iconGui,
+["60"] = {icon = iconGui,
 color = "#000000",name = "60"
 };
-['7z'] = {icon = iconPackage,
+["7z"] = {icon = iconPackage,
 color = "#000000",name = "7z"
 };
-['aar'] = {icon = iconPackage,
+["aar"] = {icon = iconPackage,
 color = "#000000",name = "aar"
 };
-['ahk'] = {icon = iconConfig,
+["ahk"] = {icon = iconConfig,
 color = "#000000",name = "ahk"
 };
-['ani'] = {icon = icon3D,
+["ani"] = {icon = icon3D,
 color = "#000000",name = "ani"
 };
-['apk'] = {icon = iconPackage,
+["apk"] = {icon = iconPackage,
 color = "#000000",name = "apk"
 };
-['as'] = {icon = iconAngel,
+["as"] = {icon = iconAngel,
 color = "#000000",name = "as"
 };
-['asm'] = {icon = iconAssembly,
+["asm"] = {icon = iconAssembly,
 color = "#000000",name = "asm"
 };
-['asta'] = {icon = iconDiagram,
+["asta"] = {icon = iconDiagram,
 color = "#000000",name = "asta"
 };
-['astro'] = {icon = iconJavaScript,
+["astro"] = {icon = iconJavaScript,
 color = "#000000",name = "astro"
 };
-['atom'] = {icon = iconXml,
+["atom"] = {icon = iconXml,
 color = "#000000",name = "atom"
 };
-['avi'] = {icon = iconVideo,
+["avi"] = {icon = iconVideo,
 color = "#000000",name = "avi"
 };
-['axml'] = {icon = iconXml,
+["axml"] = {icon = iconXml,
 color = "#000000",name = "axml"
 };
-['bat'] = {icon = iconBat,
+["bat"] = {icon = iconBat,
 color = "#000000",name = "bat"
 };
-['beam'] = {icon = iconBinary,
+["beam"] = {icon = iconBinary,
 color = "#000000",name = "beam"
 };
-['bf'] = {icon = iconBeef,
+["bf"] = {icon = iconBeef,
 color = "#000000",name = "bf"
 };
-['bib'] = {icon = iconDocument,
+["bib"] = {icon = iconDocument,
 color = "#000000",name = "bib"
 };
-['bin'] = {icon = iconBinary,
+["bin"] = {icon = iconBinary,
 color = "#000000",name = "bin"
 };
-['blend'] = {icon = icon3D,
+["blend"] = {icon = icon3D,
 color = "#000000",name = "blend"
 };
-['blob'] = {icon = iconBinary,
+["blob"] = {icon = iconBinary,
 color = "#000000",name = "blob"
 };
-['bmp'] = {icon = iconImage,
+["bmp"] = {icon = iconImage,
 color = "#000000",name = "bmp"
 };
-['bpg'] = {icon = iconImage,
+["bpg"] = {icon = iconImage,
 color = "#000000",name = "bpg"
 };
-['bsdl'] = {icon = iconBsdl,
+["bsdl"] = {icon = iconBsdl,
 color = "#000000",name = "bsdl"
 };
-['bsl'] = {icon = iconLanguage,
+["bsl"] = {icon = iconLanguage,
 color = "#000000",name = "bsl"
 };
-['c'] = {icon = iconC,
+["c"] = {icon = iconC,
 color = "#000000",name = "c"
 };
-['cbl'] = {icon = iconCobol,
+["cbl"] = {icon = iconCobol,
 color = "#000000",name = "cbl"
 };
-['cer'] = {icon = iconCert,
+["cer"] = {icon = iconCert,
 color = "#000000",name = "cer"
 };
-['cff'] = {icon = iconDocument,
+["cff"] = {icon = iconDocument,
 color = "#000000",name = "cff"
 };
-['chs'] = {icon = iconHaskell,
+["chs"] = {icon = iconHaskell,
 color = "#000000",name = "chs"
 };
-['class'] = {icon = iconBinary,
+["class"] = {icon = iconBinary,
 color = "#000000",name = "class"
 };
-['clj'] = {icon = iconClojure,
+["clj"] = {icon = iconClojure,
 color = "#000000",name = "clj"
 };
-['cmd'] = {icon = iconBat,
+["cmd"] = {icon = iconBat,
 color = "#000000",name = "cmd"
 };
-['cmi'] = {icon = iconBinary,
+["cmi"] = {icon = iconBinary,
 color = "#000000",name = "cmi"
 };
-['coffee'] = {icon = iconCoffee,
+["coffee"] = {icon = iconCoffee,
 color = "#000000",name = "coffee"
 };
-['conf'] = {icon = iconConfig,
+["conf"] = {icon = iconConfig,
 color = "#000000",name = "conf"
 };
-['config'] = {icon = iconConfig,
+["config"] = {icon = iconConfig,
 color = "#000000",name = "config"
 };
-['cpp'] = {icon = iconC,
+["cpp"] = {icon = iconC,
 color = "#000000",name = "cpp"
 };
-['cql'] = {icon = iconSql,
+["cql"] = {icon = iconSql,
 color = "#000000",name = "cql"
 };
-['cr'] = {icon = iconCrystal,
+["cr"] = {icon = iconCrystal,
 color = "#000000",name = "cr"
 };
-['crt'] = {icon = iconCert,
+["crt"] = {icon = iconCert,
 color = "#000000",name = "crt"
 };
-['cs'] = {icon = iconCSharp,
+["cs"] = {icon = iconCSharp,
 color = "#000000",name = "cs"
 };
-['cshtml'] = {icon = iconCSharp,
+["cshtml"] = {icon = iconCSharp,
 color = "#000000",name = "cshtml"
 };
-['csproj'] = {icon = iconConfig,
+["csproj"] = {icon = iconConfig,
 color = "#000000",name = "csproj"
 };
-['css'] = {icon = iconCss,
+["css"] = {icon = iconCss,
 color = "#000000",name = "css"
 };
-['csv'] = {icon = iconCsv,
+["csv"] = {icon = iconCsv,
 color = "#000000",name = "csv"
 };
-['csx'] = {icon = iconCSharp,
+["csx"] = {icon = iconCSharp,
 color = "#000000",name = "csx"
 };
-['cu'] = {icon = icon3D,
+["cu"] = {icon = icon3D,
 color = "#000000",name = "cu"
 };
-['cuh'] = {icon = icon3D,
+["cuh"] = {icon = icon3D,
 color = "#000000",name = "cuh"
 };
-['d'] = {icon = iconD,
+["d"] = {icon = iconD,
 color = "#000000",name = "d"
 };
-['dae'] = {icon = icon3D,
+["dae"] = {icon = icon3D,
 color = "#000000",name = "dae"
 };
-['dart'] = {icon = iconDart,
+["dart"] = {icon = iconDart,
 color = "#000000",name = "dart"
 };
-['dat'] = {icon = iconBinary,
+["dat"] = {icon = iconBinary,
 color = "#000000",name = "dat"
 };
-['data'] = {icon = iconBinary,
+["data"] = {icon = iconBinary,
 color = "#000000",name = "data"
 };
-['db'] = {icon = iconSql,
+["db"] = {icon = iconSql,
 color = "#000000",name = "db"
 };
-['dds'] = {icon = iconImage,
+["dds"] = {icon = iconImage,
 color = "#000000",name = "dds"
 };
-['deb'] = {icon = iconPackage,
+["deb"] = {icon = iconPackage,
 color = "#000000",name = "deb"
 };
-['dib'] = {icon = iconNote,
+["dib"] = {icon = iconNote,
 color = "#000000",name = "dib"
 };
-['diff'] = {icon = iconDiff,
+["diff"] = {icon = iconDiff,
 color = "#000000",name = "diff"
 };
-['dll'] = {icon = iconBinary,
+["dll"] = {icon = iconBinary,
 color = "#000000",name = "dll"
 };
-['dmg'] = {icon = iconPackage,
+["dmg"] = {icon = iconPackage,
 color = "#000000",name = "dmg"
 };
-['doc'] = {icon = iconOfficeDoc,
+["doc"] = {icon = iconOfficeDoc,
 color = "#000000",name = "doc"
 };
-['docx'] = {icon = iconOfficeDoc,
+["docx"] = {icon = iconOfficeDoc,
 color = "#000000",name = "docx"
 };
-['dpk'] = {icon = iconDelphi,
+["dpk"] = {icon = iconDelphi,
 color = "#000000",name = "dpk"
 };
-['dproj'] = {icon = iconDelphi,
+["dproj"] = {icon = iconDelphi,
 color = "#000000",name = "dproj"
 };
-['drc'] = {icon = iconVideo,
+["drc"] = {icon = iconVideo,
 color = "#000000",name = "drc"
 };
-['drcs'] = {icon = iconVideo,
+["drcs"] = {icon = iconVideo,
 color = "#000000",name = "drcs"
 };
-['dtd'] = {icon = iconXml,
+["dtd"] = {icon = iconXml,
 color = "#000000",name = "dtd"
 };
-['duel'] = {icon = iconDuel,
+["duel"] = {icon = iconDuel,
 color = "#000000",name = "duel"
 };
-['dump'] = {icon = iconDump,
+["dump"] = {icon = iconDump,
 color = "#000000",name = "dump"
 };
-['dxf'] = {icon = icon3D,
+["dxf"] = {icon = icon3D,
 color = "#000000",name = "dxf"
 };
-['dylib'] = {icon = iconBinary,
+["dylib"] = {icon = iconBinary,
 color = "#000000",name = "dylib"
 };
-['ear'] = {icon = iconPackage,
+["ear"] = {icon = iconPackage,
 color = "#000000",name = "ear"
 };
-['eex'] = {icon = iconElixir,
+["eex"] = {icon = iconElixir,
 color = "#000000",name = "eex"
 };
-['elm'] = {icon = iconElm,
+["elm"] = {icon = iconElm,
 color = "#000000",name = "elm"
 };
-['elmi'] = {icon = iconBinary,
+["elmi"] = {icon = iconBinary,
 color = "#000000",name = "elmi"
 };
-['elmo'] = {icon = iconBinary,
+["elmo"] = {icon = iconBinary,
 color = "#000000",name = "elmo"
 };
-['epub'] = {icon = iconBook,
+["epub"] = {icon = iconBook,
 color = "#000000",name = "epub"
 };
-['erb'] = {icon = iconRuby,
+["erb"] = {icon = iconRuby,
 color = "#000000",name = "erb"
 };
-['erl'] = {icon = iconErlang,
+["erl"] = {icon = iconErlang,
 color = "#000000",name = "erl"
 };
-['erm'] = {icon = iconXml,
+["erm"] = {icon = iconXml,
 color = "#000000",name = "erm"
 };
-['erwin'] = {icon = iconSql,
+["erwin"] = {icon = iconSql,
 color = "#000000",name = "erwin"
 };
-['ex'] = {icon = iconElixir,
+["ex"] = {icon = iconElixir,
 color = "#000000",name = "ex"
 };
-['exe'] = {icon = iconExe,
+["exe"] = {icon = iconExe,
 color = "#000000",name = "exe"
 };
-['exs'] = {icon = iconElixir,
+["exs"] = {icon = iconElixir,
 color = "#000000",name = "exs"
 };
-['ez'] = {icon = iconPackage,
+["ez"] = {icon = iconPackage,
 color = "#000000",name = "ez"
 };
-['fbx'] = {icon = icon3D,
+["fbx"] = {icon = icon3D,
 color = "#000000",name = "fbx"
 };
-['fish'] = {icon = iconShell,
+["fish"] = {icon = iconShell,
 color = "#000000",name = "fish"
 };
-['flr'] = {icon = iconFlare,
+["flr"] = {icon = iconFlare,
 color = "#000000",name = "flr"
 };
-['fnl'] = {icon = iconFennel,
+["fnl"] = {icon = iconFennel,
 color = "#000000",name = "fnl"
 };
-['frxml'] = {icon = iconXml,
+["frxml"] = {icon = iconXml,
 color = "#000000",name = "frxml"
 };
-['fs'] = {icon = iconFsharp,
+["fs"] = {icon = iconFsharp,
 color = "#000000",name = "fs"
 };
-['fsi'] = {icon = iconFsharp,
+["fsi"] = {icon = iconFsharp,
 color = "#000000",name = "fsi"
 };
-['fsproj'] = {icon = iconFsharp,
+["fsproj"] = {icon = iconFsharp,
 color = "#000000",name = "fsproj"
 };
-['fsx'] = {icon = iconFsharp,
+["fsx"] = {icon = iconFsharp,
 color = "#000000",name = "fsx"
 };
-['functions'] = {icon = iconShell,
+["functions"] = {icon = iconShell,
 color = "#000000",name = "functions"
 };
-['fxml'] = {icon = iconXml,
+["fxml"] = {icon = iconXml,
 color = "#000000",name = "fxml"
 };
-['gdb'] = {icon = iconDebugger,
+["gdb"] = {icon = iconDebugger,
 color = "#000000",name = "gdb"
 };
-['gif'] = {icon = iconImage,
+["gif"] = {icon = iconImage,
 color = "#000000",name = "gif"
 };
-['gift'] = {icon = iconNote,
+["gift"] = {icon = iconNote,
 color = "#000000",name = "gift"
 };
-['git'] = {icon = iconGit,
+["git"] = {icon = iconGit,
 color = "#000000",name = "git"
 };
-['glb'] = {icon = icon3D,
+["glb"] = {icon = icon3D,
 color = "#000000",name = "glb"
 };
-['gleam'] = {icon = iconGleam,
+["gleam"] = {icon = iconGleam,
 color = "#000000",name = "gleam"
 };
-['glsl'] = {icon = icon3D,
+["glsl"] = {icon = icon3D,
 color = "#000000",name = "glsl"
 };
-['gltf'] = {icon = icon3D,
+["gltf"] = {icon = icon3D,
 color = "#000000",name = "gltf"
 };
-['go'] = {icon = iconGo,
+["go"] = {icon = iconGo,
 color = "#000000",name = "go"
 };
-['gql'] = {icon = iconGraphQL,
+["gql"] = {icon = iconGraphQL,
 color = "#000000",name = "gql"
 };
-['gr'] = {icon = iconGrain,
+["gr"] = {icon = iconGrain,
 color = "#000000",name = "gr"
 };
-['gradle'] = {icon = iconGradle,
+["gradle"] = {icon = iconGradle,
 color = "#000000",name = "gradle"
 };
-['graphql'] = {icon = iconGraphQL,
+["graphql"] = {icon = iconGraphQL,
 color = "#000000",name = "graphql"
 };
-['graphqls'] = {icon = iconGraphQL,
+["graphqls"] = {icon = iconGraphQL,
 color = "#000000",name = "graphqls"
 };
-['gravity'] = {icon = iconGravity,
+["gravity"] = {icon = iconGravity,
 color = "#000000",name = "gravity"
 };
-['groovy'] = {icon = iconGroovy,
+["groovy"] = {icon = iconGroovy,
 color = "#000000",name = "groovy"
 };
-['gvdesign'] = {icon = iconDiagram,
+["gvdesign"] = {icon = iconDiagram,
 color = "#000000",name = "gvdesign"
 };
-['gz'] = {icon = iconPackage,
+["gz"] = {icon = iconPackage,
 color = "#000000",name = "gz"
 };
-['h'] = {icon = iconInterface,
+["h"] = {icon = iconInterface,
 color = "#000000",name = "h"
 };
-['hbs'] = {icon = iconTemplate,
+["hbs"] = {icon = iconTemplate,
 color = "#000000",name = "hbs"
 };
-['hdr'] = {icon = iconImage,
+["hdr"] = {icon = iconImage,
 color = "#000000",name = "hdr"
 };
-['hive'] = {icon = iconBinary,
+["hive"] = {icon = iconBinary,
 color = "#000000",name = "hive"
 };
-['hs'] = {icon = iconHaskell,
+["hs"] = {icon = iconHaskell,
 color = "#000000",name = "hs"
 };
-['hs-boot'] = {icon = iconHaskell,
-color = "#000000",name = "hs-boot"
-};
-['hsc'] = {icon = iconHaskell,
+-- FIXME
+-- ["hs-boot"] = {icon = iconHaskell,
+-- color = "#000000",name = "hs-boot"
+-- };
+["hsc"] = {icon = iconHaskell,
 color = "#000000",name = "hsc"
 };
-['hsig'] = {icon = iconHaskell,
+["hsig"] = {icon = iconHaskell,
 color = "#000000",name = "hsig"
 };
-['hss'] = {icon = iconCss,
+["hss"] = {icon = iconCss,
 color = "#000000",name = "hss"
 };
-['htm'] = {icon = iconHtml,
+["htm"] = {icon = iconHtml,
 color = "#000000",name = "htm"
 };
-['html'] = {icon = iconHtml,
+["html"] = {icon = iconHtml,
 color = "#000000",name = "html"
 };
-['hx'] = {icon = iconGraphQL,
+["hx"] = {icon = iconGraphQL,
 color = "#000000",name = "hx"
 };
-['icns'] = {icon = iconImage,
+["icns"] = {icon = iconImage,
 color = "#000000",name = "icns"
 };
-['ico'] = {icon = iconImage,
+["ico"] = {icon = iconImage,
 color = "#000000",name = "ico"
 };
-['ics'] = {icon = iconTemp,
+["ics"] = {icon = iconTemp,
 color = "#000000",name = "ics"
 };
-['idl'] = {icon = iconInterface,
+["idl"] = {icon = iconInterface,
 color = "#000000",name = "idl"
 };
-['iml'] = {icon = iconConfig,
+["iml"] = {icon = iconConfig,
 color = "#000000",name = "iml"
 };
-['info'] = {icon = iconDocument,
+["info"] = {icon = iconDocument,
 color = "#000000",name = "info"
 };
-['ini'] = {icon = iconConfig,
+["ini"] = {icon = iconConfig,
 color = "#000000",name = "ini"
 };
-['ino'] = {icon = iconArduino,
+["ino"] = {icon = iconArduino,
 color = "#000000",name = "ino"
 };
-['ipa'] = {icon = iconPackage,
+["ipa"] = {icon = iconPackage,
 color = "#000000",name = "ipa"
 };
-['ipynb'] = {icon = iconNote,
+["ipynb"] = {icon = iconNote,
 color = "#000000",name = "ipynb"
 };
-['iso'] = {icon = iconIso,
+["iso"] = {icon = iconIso,
 color = "#000000",name = "iso"
 };
-['jade'] = {icon = iconTemplate,
+["jade"] = {icon = iconTemplate,
 color = "#000000",name = "jade"
 };
-['jar'] = {icon = iconPackage,
+["jar"] = {icon = iconPackage,
 color = "#000000",name = "jar"
 };
-['jasper'] = {icon = iconJasper,
+["jasper"] = {icon = iconJasper,
 color = "#000000",name = "jasper"
 };
-['java'] = {icon = iconJava,
+["java"] = {icon = iconJava,
 color = "#000000",name = "java"
 };
-['jenkinsfile'] = {icon = iconJenkins,
+["jenkinsfile"] = {icon = iconJenkins,
 color = "#000000",name = "jenkinsfile"
 };
-['jks'] = {icon = iconCert,
+["jks"] = {icon = iconCert,
 color = "#000000",name = "jks"
 };
-['jl'] = {icon = iconJulia,
+["jl"] = {icon = iconJulia,
 color = "#000000",name = "jl"
 };
-['jmx'] = {icon = iconXml,
+["jmx"] = {icon = iconXml,
 color = "#000000",name = "jmx"
 };
-['jnlp'] = {icon = iconXml,
+["jnlp"] = {icon = iconXml,
 color = "#000000",name = "jnlp"
 };
-['jpeg'] = {icon = iconImage,
+["jpeg"] = {icon = iconImage,
 color = "#000000",name = "jpeg"
 };
-['jpg'] = {icon = iconImage,
+["jpg"] = {icon = iconImage,
 color = "#000000",name = "jpg"
 };
-['jrxml'] = {icon = iconXml,
+["jrxml"] = {icon = iconXml,
 color = "#000000",name = "jrxml"
 };
-['js'] = {icon = iconJavaScript,
+["js"] = {icon = iconJavaScript,
 color = "#000000",name = "js"
 };
-['json'] = {icon = iconJavaScript,
+["json"] = {icon = iconJavaScript,
 color = "#000000",name = "json"
 };
-['jsx'] = {icon = iconJsx,
+["jsx"] = {icon = iconJsx,
 color = "#000000",name = "jsx"
 };
-['jws'] = {icon = iconConfig,
+["jws"] = {icon = iconConfig,
 color = "#000000",name = "jws"
 };
-['jxl'] = {icon = iconImage,
+["jxl"] = {icon = iconImage,
 color = "#000000",name = "jxl"
 };
-['key'] = {icon = iconCert,
+["key"] = {icon = iconCert,
 color = "#000000",name = "key"
 };
-['kt'] = {icon = iconKotlyn,
+["kt"] = {icon = iconKotlyn,
 color = "#000000",name = "kt"
 };
-['kts'] = {icon = iconKotlyn,
+["kts"] = {icon = iconKotlyn,
 color = "#000000",name = "kts"
 };
-['latex'] = {icon = iconDocument,
+["latex"] = {icon = iconDocument,
 color = "#000000",name = "latex"
 };
-['leex'] = {icon = iconElixir,
+["leex"] = {icon = iconElixir,
 color = "#000000",name = "leex"
 };
-['less'] = {icon = iconCss,
+["less"] = {icon = iconCss,
 color = "#000000",name = "less"
 };
-['lhs'] = {icon = iconHaskell,
+["lhs"] = {icon = iconHaskell,
 color = "#000000",name = "lhs"
 };
-['lock'] = {icon = iconLock,
+["lock"] = {icon = iconLock,
 color = "#000000",name = "lock"
 };
-['log'] = {icon = iconLog,
+["log"] = {icon = iconLog,
 color = "#000000",name = "log"
 };
-['lua'] = {icon = iconLua,
+["lua"] = {icon = iconLua,
 color = "#000000",name = "lua"
 };
-['lz4'] = {icon = iconPackage,
+["lz4"] = {icon = iconPackage,
 color = "#000000",name = "lz4"
 };
-['m'] = {icon = iconObjective,
+["m"] = {icon = iconObjective,
 color = "#000000",name = "m"
 };
-['mak'] = {icon = iconMake,
+["mak"] = {icon = iconMake,
 color = "#000000",name = "mak"
 };
-['markdown'] = {icon = iconMarkdown,
+["markdown"] = {icon = iconMarkdown,
 color = "#000000",name = "markdown"
 };
-['marko'] = {icon = iconMarkdown,
+["marko"] = {icon = iconMarkdown,
 color = "#000000",name = "marko"
 };
-['md'] = {icon = iconMarkdown,
+["md"] = {icon = iconMarkdown,
 color = "#000000",name = "md"
 };
-['mdj'] = {icon = iconDiagram,
+["mdj"] = {icon = iconDiagram,
 color = "#000000",name = "mdj"
 };
-['mdl'] = {icon = icon3D,
+["mdl"] = {icon = icon3D,
 color = "#000000",name = "mdl"
 };
-['mk'] = {icon = iconMake,
+["mk"] = {icon = iconMake,
 color = "#000000",name = "mk"
 };
-['mkd'] = {icon = iconMarkdown,
+["mkd"] = {icon = iconMarkdown,
 color = "#000000",name = "mkd"
 };
-['mkv'] = {icon = iconVideo,
+["mkv"] = {icon = iconVideo,
 color = "#000000",name = "mkv"
 };
-['ml'] = {icon = iconReason,
+["ml"] = {icon = iconReason,
 color = "#000000",name = "ml"
 };
-['mli'] = {icon = iconInterface,
+["mli"] = {icon = iconInterface,
 color = "#000000",name = "mli"
 };
-['mlt'] = {icon = iconVideo,
+["mlt"] = {icon = iconVideo,
 color = "#000000",name = "mlt"
 };
-['mm'] = {icon = iconObjective,
+["mm"] = {icon = iconObjective,
 color = "#000000",name = "mm"
 };
-['mo'] = {icon = iconGnuText,
+["mo"] = {icon = iconGnuText,
 color = "#000000",name = "mo"
 };
-['moon'] = {icon = iconLua,
+["moon"] = {icon = iconLua,
 color = "#000000",name = "moon"
 };
-['mov'] = {icon = iconVideo,
+["mov"] = {icon = iconVideo,
 color = "#000000",name = "mov"
 };
-['mp3'] = {icon = iconSound,
+["mp3"] = {icon = iconSound,
 color = "#000000",name = "mp3"
 };
-['mp4'] = {icon = iconVideo,
+["mp4"] = {icon = iconVideo,
 color = "#000000",name = "mp4"
 };
-['mpeg'] = {icon = iconVideo,
+["mpeg"] = {icon = iconVideo,
 color = "#000000",name = "mpeg"
 };
-['mpg'] = {icon = iconVideo,
+["mpg"] = {icon = iconVideo,
 color = "#000000",name = "mpg"
 };
-['mq4'] = {icon = iconMql,
+["mq4"] = {icon = iconMql,
 color = "#000000",name = "mq4"
 };
-['mq5'] = {icon = iconMql,
+["mq5"] = {icon = iconMql,
 color = "#000000",name = "mq5"
 };
-['mqlh'] = {icon = iconInterface,
+["mqlh"] = {icon = iconInterface,
 color = "#000000",name = "mqlh"
 };
-['nib'] = {icon = iconInterface,
+["nib"] = {icon = iconInterface,
 color = "#000000",name = "nib"
 };
-['nim'] = {icon = iconNim,
+["nim"] = {icon = iconNim,
 color = "#000000",name = "nim"
 };
-['norg'] = {icon = iconOrg,
+["norg"] = {icon = iconOrg,
 color = "#000000",name = "norg"
 };
-['nupkg'] = {icon = iconPackage,
+["nupkg"] = {icon = iconPackage,
 color = "#000000",name = "nupkg"
 };
-['nuspec'] = {icon = iconXml,
+["nuspec"] = {icon = iconXml,
 color = "#000000",name = "nuspec"
 };
-['obj'] = {icon = icon3D,
+["obj"] = {icon = icon3D,
 color = "#000000",name = "obj"
 };
-['odp'] = {icon = iconOfficePresentation,
+["odp"] = {icon = iconOfficePresentation,
 color = "#000000",name = "odp"
 };
-['ods'] = {icon = iconOfficeSpreadsheet,
+["ods"] = {icon = iconOfficeSpreadsheet,
 color = "#000000",name = "ods"
 };
-['odt'] = {icon = iconOfficeDoc,
+["odt"] = {icon = iconOfficeDoc,
 color = "#000000",name = "odt"
 };
-['ogg'] = {icon = iconSound,
+["ogg"] = {icon = iconSound,
 color = "#000000",name = "ogg"
 };
-['org'] = {icon = iconOrg,
+["org"] = {icon = iconOrg,
 color = "#000000",name = "org"
 };
-['os'] = {icon = iconLanguage,
+["os"] = {icon = iconLanguage,
 color = "#000000",name = "os"
 };
-['ovpn'] = {icon = iconCert,
+["ovpn"] = {icon = iconCert,
 color = "#000000",name = "ovpn"
 };
-['pages'] = {icon = iconOfficeDoc,
+["pages"] = {icon = iconOfficeDoc,
 color = "#000000",name = "pages"
 };
-['pas'] = {icon = iconPascal,
+["pas"] = {icon = iconPascal,
 color = "#000000",name = "pas"
 };
-['pdb'] = {icon = iconBinary,
+["pdb"] = {icon = iconBinary,
 color = "#000000",name = "pdb"
 };
-['pde'] = {icon = iconArduino,
+["pde"] = {icon = iconArduino,
 color = "#000000",name = "pde"
 };
-['pdf'] = {icon = iconPdf,
+["pdf"] = {icon = iconPdf,
 color = "#000000",name = "pdf"
 };
-['pem'] = {icon = iconCert,
+["pem"] = {icon = iconCert,
 color = "#000000",name = "pem"
 };
-['pepk'] = {icon = iconCert,
+["pepk"] = {icon = iconCert,
 color = "#000000",name = "pepk"
 };
-['pfx'] = {icon = iconCert,
+["pfx"] = {icon = iconCert,
 color = "#000000",name = "pfx"
 };
-['pgsql'] = {icon = iconSql,
+["pgsql"] = {icon = iconSql,
 color = "#000000",name = "pgsql"
 };
-['php'] = {icon = iconPhp,
+["php"] = {icon = iconPhp,
 color = "#000000",name = "php"
 };
-['pkg'] = {icon = iconPackage,
+["pkg"] = {icon = iconPackage,
 color = "#000000",name = "pkg"
 };
-['pl'] = {icon = iconPerl,
+["pl"] = {icon = iconPerl,
 color = "#000000",name = "pl"
 };
-['plist'] = {icon = iconXml,
+["plist"] = {icon = iconXml,
 color = "#000000",name = "plist"
 };
-['png'] = {icon = iconImage,
+["png"] = {icon = iconImage,
 color = "#000000",name = "png"
 };
-['po'] = {icon = iconGnuText,
+["po"] = {icon = iconGnuText,
 color = "#000000",name = "po"
 };
-['pot'] = {icon = iconGnuText,
+["pot"] = {icon = iconGnuText,
 color = "#000000",name = "pot"
 };
-['ppk'] = {icon = iconCert,
+["ppk"] = {icon = iconCert,
 color = "#000000",name = "ppk"
 };
-['ppt'] = {icon = iconOfficePresentation,
+["ppt"] = {icon = iconOfficePresentation,
 color = "#000000",name = "ppt"
 };
-['pptx'] = {icon = iconOfficePresentation,
+["pptx"] = {icon = iconOfficePresentation,
 color = "#000000",name = "pptx"
 };
-['prefs'] = {icon = iconConfig,
+["prefs"] = {icon = iconConfig,
 color = "#000000",name = "prefs"
 };
-['pro'] = {icon = iconConfig,
+["pro"] = {icon = iconConfig,
 color = "#000000",name = "pro"
 };
-['profile'] = {icon = iconProfile,
+["profile"] = {icon = iconProfile,
 color = "#000000",name = "profile"
 };
-['properties'] = {icon = iconConfig,
+["properties"] = {icon = iconConfig,
 color = "#000000",name = "properties"
 };
-['props'] = {icon = iconXml,
+["props"] = {icon = iconXml,
 color = "#000000",name = "props"
 };
-['proto'] = {icon = iconProto,
+["proto"] = {icon = iconProto,
 color = "#000000",name = "proto"
 };
-['ps1'] = {icon = iconShell,
-color = "#000000",name = "ps1"
+["ps1"] = {
+    icon = iconShell,
+    color = "#000000",
+    name = "ps1"
 };
-['psb'] = {icon = iconImage,
+["psb"] = {icon = iconImage,
 color = "#000000",name = "psb"
 };
-['psd'] = {icon = iconImage,
+["psd"] = {icon = iconImage,
 color = "#000000",name = "psd"
 };
-['psl'] = {icon = iconsSpec,
+["psl"] = {icon = iconsSpec,
 color = "#000000",name = "psl"
 };
-['pug'] = {icon = iconPug,
+["pug"] = {icon = iconPug,
 color = "#000000",name = "pug"
 };
-['puml'] = {icon = iconDiagram,
+["puml"] = {icon = iconDiagram,
 color = "#000000",name = "puml"
 };
-['py'] = {icon = iconPython,
+["py"] = {icon = iconPython,
 color = "#000000",name = "py"
 };
-['python'] = {icon = iconPython,
+["python"] = {icon = iconPython,
 color = "#000000",name = "python"
 };
-['pyc'] = {icon = iconPython,
+["pyc"] = {icon = iconPython,
 color = "#000000",name = "pyc"
 };
-['pyd'] = {icon = iconPython,
+["pyd"] = {icon = iconPython,
 color = "#000000",name = "pyd"
 };
-['pyo'] = {icon = iconPython,
+["pyo"] = {icon = iconPython,
 color = "#000000",name = "pyo"
 };
-['python'] = {icon = iconPython,
+["python"] = {icon = iconPython,
 color = "#000000",name = "python"
 };
-['r'] = {icon = iconR,
+["r"] = {icon = iconR,
 color = "#000000",name = "r"
 };
-['rar'] = {icon = iconPackage,
+["rar"] = {icon = iconPackage,
 color = "#000000",name = "rar"
 };
-['rb'] = {icon = iconRuby,
+["rb"] = {icon = iconRuby,
 color = "#000000",name = "rb"
 };
-['rc'] = {icon = iconDelphi,
+["rc"] = {icon = iconDelphi,
 color = "#000000",name = "rc"
 };
-['re'] = {icon = iconReason,
+["re"] = {icon = iconReason,
 color = "#000000",name = "re"
 };
-['reality'] = {icon = icon3D,
+["reality"] = {icon = icon3D,
 color = "#000000",name = "reality"
 };
-['reg'] = {icon = iconLock,
+["reg"] = {icon = iconLock,
 color = "#000000",name = "reg"
 };
-['rei'] = {icon = iconInterface,
+["rei"] = {icon = iconInterface,
 color = "#000000",name = "rei"
 };
-['res'] = {icon = iconReason,
+["res"] = {icon = iconReason,
 color = "#000000",name = "res"
 };
-['resi'] = {icon = iconInterface,
+["resi"] = {icon = iconInterface,
 color = "#000000",name = "resi"
 };
-['rest'] = {icon = iconRest,
+["rest"] = {icon = iconRest,
 color = "#000000",name = "rest"
 };
-['resx'] = {icon = iconXml,
+["resx"] = {icon = iconXml,
 color = "#000000",name = "resx"
 };
-['rh'] = {icon = iconShell,
+["rh"] = {icon = iconShell,
 color = "#000000",name = "rh"
 };
-['rlib'] = {icon = iconBinary,
+["rlib"] = {icon = iconBinary,
 color = "#000000",name = "rlib"
 };
-['rmd'] = {icon = iconOfficePresentation,
+["rmd"] = {icon = iconOfficePresentation,
 color = "#000000",name = "rmd"
 };
-['rpm'] = {icon = iconPackage,
+["rpm"] = {icon = iconPackage,
 color = "#000000",name = "rpm"
 };
-['rql'] = {icon = iconRest,
+["rql"] = {icon = iconRest,
 color = "#000000",name = "rql"
 };
-['rproj'] = {icon = iconConfig,
+["rproj"] = {icon = iconConfig,
 color = "#000000",name = "rproj"
 };
-['rs'] = {icon = iconRust,
+["rs"] = {icon = iconRust,
 color = "#000000",name = "rs"
 };
-['rss'] = {icon = iconXml,
+["rss"] = {icon = iconXml,
 color = "#000000",name = "rss"
 };
-['rst'] = {icon = iconRST,
+["rst"] = {icon = iconRST,
 color = "#000000",name = "rst"
 };
-['ru'] = {icon = iconRuby,
+["ru"] = {icon = iconRuby,
 color = "#000000",name = "ru"
 };
-['s'] = {icon = iconAssembly,
+["s"] = {icon = iconAssembly,
 color = "#000000",name = "s"
 };
-['sar'] = {icon = iconPackage,
+["sar"] = {icon = iconPackage,
 color = "#000000",name = "sar"
 };
-['sass'] = {icon = iconSass,
+["sass"] = {icon = iconSass,
 color = "#000000",name = "sass"
 };
-['sbt'] = {icon = iconConfig,
+["sbt"] = {icon = iconConfig,
 color = "#000000",name = "sbt"
 };
-['sc'] = {icon = iconScala,
+["sc"] = {icon = iconScala,
 color = "#000000",name = "sc"
 };
-['scala'] = {icon = iconScala,
+["scala"] = {icon = iconScala,
 color = "#000000",name = "scala"
 };
-['scd'] = {icon = iconSound,
+["scd"] = {icon = iconSound,
 color = "#000000",name = "scd"
 };
-['scm'] = {icon = iconScheme,
+["scm"] = {icon = iconScheme,
 color = "#000000",name = "scm"
 };
-['scss'] = {icon = iconCss,
+["scss"] = {icon = iconCss,
 color = "#000000",name = "scss"
 };
-['sfb'] = {icon = icon3D,
+["sfb"] = {icon = icon3D,
 color = "#000000",name = "sfb"
 };
-['sfz'] = {icon = iconSound,
+["sfz"] = {icon = iconSound,
 color = "#000000",name = "sfz"
 };
-['sh'] = {icon = iconShell,
+["sh"] = {icon = iconShell,
 color = "#000000",name = "sh"
 };
-['slime'] = {icon = iconSlime,
+["slime"] = {icon = iconSlime,
 color = "#000000",name = "slime"
 };
-['sln'] = {icon = iconConfig,
+["sln"] = {icon = iconConfig,
 color = "#000000",name = "sln"
 };
-['snap'] = {icon = iconPackage,
+["snap"] = {icon = iconPackage,
 color = "#000000",name = "snap"
 };
-['so'] = {icon = iconBinary,
+["so"] = {icon = iconBinary,
 color = "#000000",name = "so"
 };
-['sol'] = {icon = iconLanguage,
+["sol"] = {icon = iconLanguage,
 color = "#000000",name = "sol"
 };
-['sql'] = {icon = iconSql,
+["sql"] = {icon = iconSql,
 color = "#000000",name = "sql"
 };
-['storyboard'] = {icon = iconXml,
+["storyboard"] = {icon = iconXml,
 color = "#000000",name = "storyboard"
 };
-['strings'] = {icon = iconXml,
+["strings"] = {icon = iconXml,
 color = "#000000",name = "strings"
 };
-['styl'] = {icon = iconCss,
+["styl"] = {icon = iconCss,
 color = "#000000",name = "styl"
 };
-['suo'] = {icon = iconCSharp,
+["suo"] = {icon = iconCSharp,
 color = "#000000",name = "suo"
 };
-['svelte'] = {icon = iconSvelte,
+["svelte"] = {icon = iconSvelte,
 color = "#000000",name = "svelte"
 };
-['svg'] = {icon = iconImage,
+["svg"] = {icon = iconImage,
 color = "#000000",name = "svg"
 };
-['swift'] = {icon = iconSwift,
+["swift"] = {icon = iconSwift,
 color = "#000000",name = "swift"
 };
-['swo'] = {icon = iconTemp,
+["swo"] = {icon = iconTemp,
 color = "#000000",name = "swo"
 };
-['swp'] = {icon = iconTemp,
+["swp"] = {icon = iconTemp,
 color = "#000000",name = "swp"
 };
-['t'] = {icon = iconT,
+["t"] = {icon = iconT,
 color = "#000000",name = "t"
 };
-['tar'] = {icon = iconPackage,
+["tar"] = {icon = iconPackage,
 color = "#000000",name = "tar"
 };
-['tera'] = {icon = iconHtml,
+["tera"] = {icon = iconHtml,
 color = "#000000",name = "tera"
 };
-['tflite'] = {icon = iconMachineLearning,
+["tflite"] = {icon = iconMachineLearning,
 color = "#000000",name = "tflite"
 };
-['tga'] = {icon = iconImage,
+["tga"] = {icon = iconImage,
 color = "#000000",name = "tga"
 };
-['tgz'] = {icon = iconPackage,
+["tgz"] = {icon = iconPackage,
 color = "#000000",name = "tgz"
 };
-['tif'] = {icon = iconImage,
+["tif"] = {icon = iconImage,
 color = "#000000",name = "tif"
 };
-['tiff'] = {icon = iconFont,
+["tiff"] = {icon = iconFont,
 color = "#000000",name = "tiff"
 };
-['tlb'] = {icon = iconInterface,
+["tlb"] = {icon = iconInterface,
 color = "#000000",name = "tlb"
 };
-['toml'] = {icon = iconConfig,
+["toml"] = {icon = iconConfig,
 color = "#000000",name = "toml"
 };
-['tpl'] = {icon = iconTemplate,
+["tpl"] = {icon = iconTemplate,
 color = "#000000",name = "tpl"
 };
-['ts'] = {icon = iconTypeScript,
+["ts"] = {icon = iconTypeScript,
 color = "#000000",name = "ts"
 };
-['tsx'] = {icon = iconTypeScript,
+["tsx"] = {icon = iconTypeScript,
 color = "#000000",name = "tsx"
 };
-['ttf'] = {icon = iconFont,
+["ttf"] = {icon = iconFont,
 color = "#000000",name = "ttf"
 };
-['txt'] = {icon = iconText,
+["txt"] = {icon = iconText,
 color = "#000000",name = "txt"
 };
-['uml'] = {icon = iconDiagram,
+["uml"] = {icon = iconDiagram,
 color = "#000000",name = "uml"
 };
-['usd'] = {icon = icon3D,
+["usd"] = {icon = icon3D,
 color = "#000000",name = "usd"
 };
-['usda'] = {icon = icon3D,
+["usda"] = {icon = icon3D,
 color = "#000000",name = "usda"
 };
-['usdc'] = {icon = icon3D,
+["usdc"] = {icon = icon3D,
 color = "#000000",name = "usdc"
 };
-['usdz'] = {icon = icon3D,
+["usdz"] = {icon = icon3D,
 color = "#000000",name = "usdz"
 };
-['userprefs'] = {icon = iconConfig,
+["userprefs"] = {icon = iconConfig,
 color = "#000000",name = "userprefs"
 };
-['v'] = {icon = iconV,
+["v"] = {icon = iconV,
 color = "#000000",name = "v"
 };
-['vbs'] = {icon = iconVisualBasic,
+["vbs"] = {icon = iconVisualBasic,
 color = "#000000",name = "vbs"
 };
-['vcxproj'] = {icon = iconXml,
+["vcxproj"] = {icon = iconXml,
 color = "#000000",name = "vcxproj"
 };
-['vdf'] = {icon = iconConfig,
+["vdf"] = {icon = iconConfig,
 color = "#000000",name = "vdf"
 };
-['vgb'] = {icon = iconConfig,
+["vgb"] = {icon = iconConfig,
 color = "#000000",name = "vgb"
 };
-['vh'] = {icon = iconInterface,
+["vh"] = {icon = iconInterface,
 color = "#000000",name = "vh"
 };
-['vim'] = {icon = iconVim,
+["vim"] = {icon = iconVim,
 color = "#000000",name = "vim"
 };
-['vimrc'] = {icon = iconVim,
+["vimrc"] = {icon = iconVim,
 color = "#000000",name = "vimrc"
 };
-['vimspec'] = {icon = iconVim,
+["vimspec"] = {icon = iconVim,
 color = "#000000",name = "vimspec"
 };
-['vmb'] = {icon = iconPackage,
+["vmb"] = {icon = iconPackage,
 color = "#000000",name = "vmb"
 };
-['vpp'] = {icon = iconDiagram,
+["vpp"] = {icon = iconDiagram,
 color = "#000000",name = "vpp"
 };
-['vrx'] = {icon = icon3D,
+["vrx"] = {icon = icon3D,
 color = "#000000",name = "vrx"
 };
-['vsh'] = {icon = iconV,
+["vsh"] = {icon = iconV,
 color = "#000000",name = "vsh"
 };
-['vue'] = {icon = iconVue,
+["vue"] = {icon = iconVue,
 color = "#000000",name = "vue"
 };
-['vv'] = {icon = iconV,
+["vv"] = {icon = iconV,
 color = "#000000",name = "vv"
 };
-['wad'] = {icon = iconBinary,
+["wad"] = {icon = iconBinary,
 color = "#000000",name = "wad"
 };
-['war'] = {icon = iconPackage,
+["war"] = {icon = iconPackage,
 color = "#000000",name = "war"
 };
-['wav'] = {icon = iconSound,
+["wav"] = {icon = iconSound,
 color = "#000000",name = "wav"
 };
-['wbmp'] = {icon = iconImage,
+["wbmp"] = {icon = iconImage,
 color = "#000000",name = "wbmp"
 };
-['webp'] = {icon = iconImage,
+["webp"] = {icon = iconImage,
 color = "#000000",name = "webp"
 };
-['woff'] = {icon = iconFont,
+["woff"] = {icon = iconFont,
 color = "#000000",name = "woff"
 };
-['wscene'] = {icon = iconVideo,
+["wscene"] = {icon = iconVideo,
 color = "#000000",name = "wscene"
 };
-['wsdl'] = {icon = iconXml,
+["wsdl"] = {icon = iconXml,
 color = "#000000",name = "wsdl"
 };
-['xaml'] = {icon = iconXml,
+["xaml"] = {icon = iconXml,
 color = "#000000",name = "xaml"
 };
-['xcf'] = {icon = iconImage,
+["xcf"] = {icon = iconImage,
 color = "#000000",name = "xcf"
 };
-['xdata'] = {icon = iconXml,
+["xdata"] = {icon = iconXml,
 color = "#000000",name = "xdata"
 };
-['xhtml'] = {icon = iconHtml,
+["xhtml"] = {icon = iconHtml,
 color = "#000000",name = "xhtml"
 };
-['xib'] = {icon = iconXml,
+["xib"] = {icon = iconXml,
 color = "#000000",name = "xib"
 };
-['xlf'] = {icon = iconXml,
+["xlf"] = {icon = iconXml,
 color = "#000000",name = "xlf"
 };
-['xjb'] = {icon = iconXml,
+["xjb"] = {icon = iconXml,
 color = "#000000",name = "xjb"
 };
-['xls'] = {icon = iconOfficeSpreadsheet,
+["xls"] = {icon = iconOfficeSpreadsheet,
 color = "#000000",name = "xls"
 };
-['xlsx'] = {icon = iconOfficeSpreadsheet,
+["xlsx"] = {icon = iconOfficeSpreadsheet,
 color = "#000000",name = "xlsx"
 };
-['xml'] = {icon = iconXml,
+["xml"] = {icon = iconXml,
 color = "#000000",name = "xml"
 };
-['xsd'] = {icon = iconXml,
+["xsd"] = {icon = iconXml,
 color = "#000000",name = "xsd"
 };
-['xsl'] = {icon = iconXml,
+["xsl"] = {icon = iconXml,
 color = "#000000",name = "xsl"
 };
-['xz'] = {icon = iconPackage,
+["xz"] = {icon = iconPackage,
 color = "#000000",name = "xz"
 };
-['yaml'] = {icon = iconYaml,
+["yaml"] = {icon = iconYaml,
 color = "#000000",name = "yaml"
 };
-['yml'] = {icon = iconYaml,
+["yml"] = {icon = iconYaml,
 color = "#000000",name = "yml"
 };
-['zig'] = {icon = iconZig,
+["zig"] = {icon = iconZig,
 color = "#000000",name = "zig"
 };
-['zip'] = {icon = iconPackage,
+["zip"] = {icon = iconPackage,
 color = "#000000",name = "zip"
 };
-['zsh'] = {icon = iconShell,
+["zsh"] = {icon = iconShell,
 color = "#000000",name = "zsh"
 };
-['zst'] = {icon = iconPackage,
+["zst"] = {icon = iconPackage,
 color = "#000000",name = "zst"
 };
-['5vw'] = {icon = iconNetworkTrace,
+["5vw"] = {icon = iconNetworkTrace,
 color = "#000000",name = "5vw"
 };
-['acp'] = {icon = iconNetworkTrace,
+["acp"] = {icon = iconNetworkTrace,
 color = "#000000",name = "acp"
 };
-['apc'] = {icon = iconNetworkTrace,
+["apc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "apc"
 };
-['atc'] = {icon = iconNetworkTrace,
+["atc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "atc"
 };
-['bfr'] = {icon = iconNetworkTrace,
+["bfr"] = {icon = iconNetworkTrace,
 color = "#000000",name = "bfr"
 };
-['cap'] = {icon = iconNetworkTrace,
+["cap"] = {icon = iconNetworkTrace,
 color = "#000000",name = "cap"
 };
-['enc'] = {icon = iconNetworkTrace,
+["enc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "enc"
 };
-['erf'] = {icon = iconNetworkTrace,
+["erf"] = {icon = iconNetworkTrace,
 color = "#000000",name = "erf"
 };
-['fdc'] = {icon = iconNetworkTrace,
+["fdc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "fdc"
 };
-['ipfix'] = {icon = iconNetworkTrace,
+["ipfix"] = {icon = iconNetworkTrace,
 color = "#000000",name = "ipfix"
 };
-['lcap'] = {icon = iconNetworkTrace,
+["lcap"] = {icon = iconNetworkTrace,
 color = "#000000",name = "lcap"
 };
-['mplog'] = {icon = iconNetworkTrace,
+["mplog"] = {icon = iconNetworkTrace,
 color = "#000000",name = "mplog"
 };
-['out'] = {icon = iconNetworkTrace,
+["out"] = {icon = iconNetworkTrace,
 color = "#000000",name = "out"
 };
-['pcap'] = {icon = iconNetworkTrace,
+["pcap"] = {icon = iconNetworkTrace,
 color = "#000000",name = "pcap"
 };
-['pcapng'] = {icon = iconNetworkTrace,
+["pcapng"] = {icon = iconNetworkTrace,
 color = "#000000",name = "pcapng"
 };
-['pklg'] = {icon = iconNetworkTrace,
+["pklg"] = {icon = iconNetworkTrace,
 color = "#000000",name = "pklg"
 };
-['pkt'] = {icon = iconNetworkTrace,
+["pkt"] = {icon = iconNetworkTrace,
 color = "#000000",name = "pkt"
 };
-['rf5'] = {icon = iconNetworkTrace,
+["rf5"] = {icon = iconNetworkTrace,
 color = "#000000",name = "rf5"
 };
-['snoop'] = {icon = iconNetworkTrace,
+["snoop"] = {icon = iconNetworkTrace,
 color = "#000000",name = "snoop"
 };
-['syc'] = {icon = iconNetworkTrace,
+["syc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "syc"
 };
-['tpc'] = {icon = iconNetworkTrace,
+["tpc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "tpc"
 };
-['tr1'] = {icon = iconNetworkTrace,
+["tr1"] = {icon = iconNetworkTrace,
 color = "#000000",name = "tr1"
 };
-['trace'] = {icon = iconNetworkTrace,
+["trace"] = {icon = iconNetworkTrace,
 color = "#000000",name = "trace"
 };
-['trc'] = {icon = iconNetworkTrace,
+["trc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "trc"
 };
-['tup'] = {icon = iconMake,
+["tup"] = {icon = iconMake,
 color = "#000000",name = "tup"
 };
-['vwr'] = {icon = iconNetworkTrace,
+["vwr"] = {icon = iconNetworkTrace,
 color = "#000000",name = "vwr"
 };
-['wasm'] = {icon = iconBinary,
+["wasm"] = {icon = iconBinary,
 color = "#000000",name = "wasm"
 };
-['wast'] = {icon = iconBinary,
+["wast"] = {icon = iconBinary,
 color = "#000000",name = "wast"
 };
-['wat'] = {icon = iconBinary,
+["wat"] = {icon = iconBinary,
 color = "#000000",name = "wat"
 };
-['wpc'] = {icon = iconNetworkTrace,
+["wpc"] = {icon = iconNetworkTrace,
 color = "#000000",name = "wpc"
 };
-['wpz'] = {icon = iconNetworkTrace,
+["wpz"] = {icon = iconNetworkTrace,
 color = "#000000",name = "wpz"
 }
 };
