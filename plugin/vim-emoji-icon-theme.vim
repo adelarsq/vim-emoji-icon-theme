@@ -57,6 +57,10 @@ let s:iconFennel = '🌜'
 let s:iconFlare = '🎆'
 let s:iconFolder = '📁'
 let s:iconFolderOpen = '📂'
+let s:iconFolderEmpty = '📪'
+let s:iconFolderEmptyOpen = '📭'
+let s:iconFolderSymlink = '📫'
+let s:iconFolderSymlinkOpen = '📬'
 let s:iconFont = '🀄️'
 let s:iconFsharp = '🔷'
 let s:iconGit = '🐙'
@@ -65,6 +69,8 @@ let s:iconGitStaged = '✅'
 let s:iconGitUnmerged = '⛎'
 let s:iconGitUnstaged = '❎'
 let s:iconGitUntracked = '❓'
+let s:iconGitDeleted = '❌'
+let s:iconGitIgnored = '⛔️'
 let s:iconGleam = '✨'
 let s:iconGnuText = '🗽'
 let s:iconGo = '🌰'
@@ -543,7 +549,7 @@ if has('nvim')
 endif
 
 " kyazdani42/nvim-tree.lua
-let g:lua_tree_icons = {
+let g:nvim_tree_icons = {
     \ 'default': s:iconDefault,
     \ 'symlink': s:iconLink,
     \ 'git': {
@@ -551,11 +557,25 @@ let g:lua_tree_icons = {
     \   'staged': s:iconGitStaged,
     \   'unmerged': s:iconGitUnmerged,
     \   'renamed': s:iconGitRenamed,
-    \   'untracked': s:iconGitUntracked
+    \   'untracked': s:iconGitUntracked,
+    \   'deleted': s:iconGitDeleted,
+    \   'ignored': s:iconGitIgnored
     \   },
     \ 'folder': {
+    \   'arrow_open': "",
+    \   'arrow_closed': "",
     \   'default': s:iconFolder,
-    \   'open': s:iconFolderOpen
+    \   'open': s:iconFolderOpen,
+    \   'empty': s:iconFolderEmpty,
+    \   'empty_open': s:iconFolderEmptyOpen,
+    \   'symlink': s:iconFolderSymlink,
+    \   'symlink_open': s:iconFolderSymlinkOpen,
+    \   },
+    \   'lsp': {
+    \     'hint': "💡",
+    \     'info': "💬",
+    \     'warning': "💩",
+    \     'error': "💥",
     \   }
     \ }
 
@@ -1100,6 +1120,10 @@ local iconFennel = '🌜'
 local iconFlare = '🎆'
 local iconFolder = '📁'
 local iconFolderOpen = '📂'
+local iconFolderEmpty = '📪'
+local iconFolderEmptyOpen = '📭'
+local iconFolderSymlink = '📫'
+local iconFolderSymlinkOpen = '📬'
 local iconFont = '🀄️'
 local iconFsharp = '🔷'
 local iconGit = '🐙'
@@ -1108,6 +1132,8 @@ local iconGitStaged = '✅'
 local iconGitUnmerged = '⛎'
 local iconGitUnstaged = '❎'
 local iconGitUntracked = '❓'
+local iconGitDeleted = '❌'
+local iconGitIgnored = '⛔️'
 local iconGleam = '✨'
 local iconGnuText = '🗽'
 local iconGo = '🌰'
