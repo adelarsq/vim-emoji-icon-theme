@@ -1,5 +1,13 @@
 # Changelog 🍁
 
+## Version 0.81
+
+- Added support for the plugins:
+  - [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
+
+- Better supoort for the plugins:
+  - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+
 ## Version 0.80
 
 - Change some config files with better icons.

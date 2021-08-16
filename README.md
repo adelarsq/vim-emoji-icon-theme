@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.80**
+**Version 0.81**
 
 🚧 **Work in progress** 🚧
 
@@ -14,6 +14,14 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 
 ## Plugins Support 🤗
 
+Icon plugins:
+
+- [x] [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) [1](https://github.com/kyazdani42/nvim-web-devicons/pull/11)
+- [x] [kristijanhusak/defx-icons](https://github.com/kristijanhusak/defx-icons)
+- [x] [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - For filetype support
+
+Others plugins:
+
 - [x] [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) `*`
 - [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
 - [x] [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
@@ -26,7 +34,6 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 - [x] [glepnir/spaceline.vim](https://github.com/glepnir/spaceline.vim) `****`
 - [x] [idanarye/vim-vebugger](https://github.com/idanarye/vim-vebugger)
 - [x] [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) `*`
-- [x] [kristijanhusak/defx-icons](https://github.com/kristijanhusak/defx-icons)
 - [x] [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
 - [x] [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) `*****`
 - [x] [liuchengxu/Vista](https://github.com/liuchengxu/vista.vim)
@@ -42,7 +49,6 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 - [x] [powerline/powerline](https://github.com/powerline/powerline) `*`
 - [x] [preservim/nerdtree](https://github.com/preservim/nerdtree) `*`
 - [x] [puremourning/vimspector](https://github.com/puremourning/vimspector)
-- [x] [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - For filetype support
 - [x] [shougo/defx.nvim](https://github.com/shougo/defx.nvim)
 - [x] [shougo/denite](https://github.com/Shougo/denite.nvim) `*`
 - [x] [shougo/unite](https://github.com/shougo/unite.vim) `*`
@@ -58,7 +64,7 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 - [x] [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim)
 - [x] [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 - [ ] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
-- [ ] [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) [WIP](https://github.com/kyazdani42/nvim-web-devicons/pull/11)
+- [x] [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) `*****`
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
