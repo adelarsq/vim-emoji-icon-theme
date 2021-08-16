@@ -7,6 +7,7 @@
 
 - Better supoort for the plugins:
   - [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+- Add support for `*.alda` files (from the [Alda](https://alda.io/) language).
 
 ## Version 0.80
 

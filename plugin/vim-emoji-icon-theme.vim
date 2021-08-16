@@ -589,6 +589,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['60'] = s:iconGui " Si
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['7z'] = s:iconPackage " 7-Zip compressed file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['aar'] = s:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ahk'] = s:iconConfig " AutoHotkey file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['alda'] = s:iconSound " Alda script file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ani'] = s:icon3D " ani 3D file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apk'] = s:iconPackage " Android package file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['as'] = s:iconAngel " angel script
@@ -1253,6 +1254,9 @@ color = "#000000",name = "aar"
 };
 ["ahk"] = {icon = iconConfig,
 color = "#000000",name = "ahk"
+};
+["alda"] = {icon = iconSound,
+color = "#000000",name = "alda"
 };
 ["ani"] = {icon = icon3D,
 color = "#000000",name = "ani"
