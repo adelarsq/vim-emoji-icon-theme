@@ -716,6 +716,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['icns'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ico'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ics'] = s:iconTemp " iCalendar file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['idl'] = s:iconInterface " Source code file created using the Microsoft Interface Definition Language (MIDL)
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['imba'] = s:iconJavaScript " Imba full-stack language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['iml'] = s:iconConfig " Intellig IDEA config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['info'] = s:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ini'] = s:iconConfig

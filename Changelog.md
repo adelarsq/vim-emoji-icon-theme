@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.82
+
+- Add support for `*.imba` files.
+
 ## Version 0.81
 
 - Added support for the plugins:
