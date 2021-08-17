@@ -63,7 +63,7 @@ Others plugins:
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 - [x] [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim)
 - [x] [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
-- [ ] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
+- [x] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) `*****`
 - [x] [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) `*****`
 
 Labels:
