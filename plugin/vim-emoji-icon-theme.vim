@@ -580,11 +580,11 @@ let g:nvim_tree_icons = {
     \ }
 
 " romgrk/barbar.nvim
-let bufferline.icon_separator_active = '|'
-let bufferline.icon_separator_inactive = '|'
-let bufferline.icon_close_tab = '❎'
-let bufferline.icon_close_tab_modified = '⏺ '
-let bufferline.icon_pinned = '📌'
+" let bufferline.icon_separator_active = '|'
+" let bufferline.icon_separator_inactive = '|'
+" let bufferline.icon_close_tab = '❎'
+" let bufferline.icon_close_tab_modified = '⏺ '
+" let bufferline.icon_pinned = '📌'
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
@@ -1242,15 +1242,15 @@ imported.setup {
     override = {
 
 ["default"] = {
-    icon = iconDefault,
-    color = "#000000",
-    name = "3ds"
-    };
+icon = iconDefault,
+color = "#000000",
+name = "3ds"
+};
 ["3ds"] = {
-    icon = icon3D,
-    color = "#000000",
-    name = "3ds"
-    };
+icon = icon3D,
+color = "#000000",
+name = "3ds"
+};
 ["60"] = {icon = iconGui,
 color = "#000000",name = "60"
 };
@@ -1937,9 +1937,9 @@ color = "#000000",name = "props"
 color = "#000000",name = "proto"
 };
 ["ps1"] = {
-    icon = iconShell,
-    color = "#000000",
-    name = "ps1"
+icon = iconShell,
+color = "#000000",
+name = "ps1"
 };
 ["psb"] = {icon = iconImage,
 color = "#000000",name = "psb"
