@@ -16,8 +16,8 @@ For filetypes support this plugins extends [vim-devicons](https://github.com/rya
 
 Icon plugins:
 
-- [x] [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) [1](https://github.com/kyazdani42/nvim-web-devicons/pull/11)
 - [x] [kristijanhusak/defx-icons](https://github.com/kristijanhusak/defx-icons)
+- [x] [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) [1](https://github.com/kyazdani42/nvim-web-devicons/pull/11)
 - [x] [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - For filetype support
 
 Others plugins:
@@ -31,6 +31,7 @@ Others plugins:
 - [x] [dense-analysis/ale](https://github.com/dense-analysis/ale)
 - [x] [drzel/vim-line-no-indicator](https://github.com/drzel/vim-line-no-indicator)
 - [x] [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
+- [x] [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 - [x] [glepnir/spaceline.vim](https://github.com/glepnir/spaceline.vim) `****`
 - [x] [idanarye/vim-vebugger](https://github.com/idanarye/vim-vebugger)
 - [x] [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) `*`
@@ -46,25 +47,24 @@ Others plugins:
 - [x] [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
 - [x] [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
 - [x] [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
+- [x] [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim)
 - [x] [powerline/powerline](https://github.com/powerline/powerline) `*`
 - [x] [preservim/nerdtree](https://github.com/preservim/nerdtree) `*`
 - [x] [puremourning/vimspector](https://github.com/puremourning/vimspector)
+- [x] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) `*****`
 - [x] [shougo/defx.nvim](https://github.com/shougo/defx.nvim)
 - [x] [shougo/denite](https://github.com/Shougo/denite.nvim) `*`
 - [x] [shougo/unite](https://github.com/shougo/unite.vim) `*`
 - [x] [shougo/vimfiler.vim](https://github.com/Shougo/vimfiler.vim)
 - [x] [shougo/vimfiler](https://github.com/shougo/vimfiler.vim) `*`
 - [x] [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)
+- [x] [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) `*****`
 - [x] [tpope/flagship](https://github.com/tpope/vim-flagship) `*`
 - [x] [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) `*`
 - [x] [vim-ctrlspace](https://github.com/vim-ctrlspace)
 - [x] [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
 - [x] [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
-- [x] [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim)
-- [x] [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
-- [x] [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) `*****`
-- [x] [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) `*****`
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
@@ -96,21 +96,35 @@ request.
 
 ### [Plug](https://github.com/junegunn/vim-plug)
 
-Add the following lines on the Vim/NeoVim config file:
+Add the following lines on the **Vim/NeoVim** config file:
 
 ```vim
 Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
 
+Or with [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) on **Neovim** config file:
+
+```vim
+Plug 'https://github.com/ryanoasis/vim-devicons'
+Plug 'https://github.com/kyazdani42/nvim-web-devicons'
+```
+
 Then open the editor and install with `PlugInstall`.
 
 ### [Dein](https://github.com/Shougo/dein.vim)
 
-Add the following lines on the Vim/NeoVim config file:
+Add the following lines on the **Vim/NeoVim** config file:
 
 ```vim
 call dein#add('ryanoasis/vim-devicons')
+call dein#add('adelarsq/vim-devicons-emoji')
+```
+
+Or with [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) on **Neovim** config file:
+
+```vim
+call dein#add('kyazdani42/nvim-web-devicons')
 call dein#add('adelarsq/vim-devicons-emoji')
 ```
 
