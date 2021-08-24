@@ -1,5 +1,5 @@
 " Vim Emoji Icon Theme
-" By Adelar da Silva Queiróz - 2020
+" By Adelar da Silva Queiróz - 2021
 " MIT License
 
 if exists('g:vim_emoji_icon_theme')
@@ -64,13 +64,13 @@ let s:iconFolderSymlinkOpen = '📬'
 let s:iconFont = '🀄️'
 let s:iconFsharp = '🔷'
 let s:iconGit = '🐙'
-let s:iconGitRenamed = '🔄'
 let s:iconGitStaged = '✅'
-let s:iconGitUnmerged = '⛎'
-let s:iconGitUnstaged = '❎'
-let s:iconGitUntracked = '❓'
-let s:iconGitDeleted = '❌'
-let s:iconGitIgnored = '⛔️'
+let s:iconGitUnstaged = '✴️ ' " with space
+let s:iconGitDeleted = '⛔️'
+let s:iconGitRenamed = '🔄'
+let s:iconGitUnmerged = '⏪'
+let s:iconGitUntracked = '🆕'
+let s:iconGitIgnored = 'ℹ️ ' " with space
 let s:iconGleam = '✨'
 let s:iconGnuText = '🗽'
 let s:iconGo = '🌰'
@@ -687,6 +687,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fs'] = s:iconFsharp "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsi'] = s:iconFsharp " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsproj'] = s:iconFsharp " F# config file XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsx'] = s:iconFsharp " F# source code
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsy'] = s:iconFsharp " FsYacc file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsl'] = s:iconFsharp " FsLex file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['functions'] = s:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fxml'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gdb'] = s:iconDebugger
@@ -1136,13 +1138,13 @@ local iconFolderSymlinkOpen = '📬'
 local iconFont = '🀄️'
 local iconFsharp = '🔷'
 local iconGit = '🐙'
-local iconGitRenamed = '🔄'
 local iconGitStaged = '✅'
-local iconGitUnmerged = '⛎'
-local iconGitUnstaged = '❎'
-local iconGitUntracked = '❓'
-local iconGitDeleted = '❌'
-local iconGitIgnored = '⛔️'
+local iconGitUnstaged = '✴️ '
+local iconGitDeleted = '⛔️'
+local iconGitRenamed = '🔄'
+local iconGitUnmerged = '⏪'
+local iconGitUntracked = '🆕'
+local iconGitIgnored = 'ℹ️ '
 local iconGleam = '✨'
 local iconGnuText = '🗽'
 local iconGo = '🌰'
@@ -1535,6 +1537,12 @@ color = "#000000",name = "fsproj"
 };
 ["fsx"] = {icon = iconFsharp,
 color = "#000000",name = "fsx"
+};
+["fsy"] = {icon = iconFsharp,
+color = "#000000",name = "fsy"
+};
+["fsl"] = {icon = iconFsharp,
+color = "#000000",name = "fsl"
 };
 ["functions"] = {icon = iconShell,
 color = "#000000",name = "functions"

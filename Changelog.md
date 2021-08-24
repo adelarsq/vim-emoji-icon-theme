@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.83
+
+- Add support for `*.fsl` and `*.fsy` files.
+
 ## Version 0.82
 
 - Add support for `*.imba` files.
