@@ -168,8 +168,8 @@ let g:WebDevIconsNerdTreeAfterGlyphPadding = ' '
 
 " ale
 let g:ale_sign_error = '💥'
+let g:ale_sign_info = '⚠️ '
 let g:ale_sign_warning = '💩'
-let g:ale_sign_info = '💬'
 let g:ale_sign_style_error = '💥'
 let g:ale_sign_style_warning = '💩'
 
@@ -210,7 +210,7 @@ let g:db_ui_icons = {
     \ 'saved_query': '  📀',
     \ 'new_query': '  📄',
     \ 'tables': '  📋',
-    \ 'buffers': '  🅱️',
+    \ 'buffers': ' 🅱️ ',
     \ 'add_connection': '  🔋',
     \ 'connection_ok': '✅',
     \ 'connection_error': '❌',
@@ -333,9 +333,9 @@ let g:coc_user_config = {
 \ "codeLens.separator": "🔎",
 \ "diagnostic.errorSign": "💥",
 \ "diagnostic.hintSign": "💡",
-\ "diagnostic.infoSign": "💬",
-\ "diagnostic.virtualTextPrefix": "💭",
+\ "diagnostic.infoSign": "⚠️ ",
 \ "diagnostic.warningSign": "💩",
+\ "diagnostic.virtualTextPrefix": "💭",
 \ "coc.source.around.shortcut":"🅰️ ",
 \ "coc.source.buffer.shortcut":"🅱️ ",
 \ "coc.source.file.shortcut": "🗄 ",
@@ -457,9 +457,9 @@ lua << EOF
     imported.config {
       status_symbol = '🔥',
       indicator_errors = '💥',
-      indicator_warnings = '💩',
-      indicator_info = '🙃',
       indicator_hint = '💡',
+      indicator_info = '⚠️ ',
+      indicator_warnings = '💩',
       indicator_ok = '✅',
       spinner_frames = {'🌎','🌍','🌏'}
     }
@@ -470,14 +470,14 @@ lua << EOF
   if useLspSaga then
       importedLspSaga.init_lsp_saga({
         error_sign = '💥',
-        warn_sign = '💩',
         hint_sign = '💡',
         infor_sign = '⚠️ ',
-        dianostic_header_icon = ' 🐞  ',
+        warn_sign = '💩',
         code_action_icon = '💭',
+        definition_preview_icon = '🔭 ',
+        dianostic_header_icon = ' 🐞  ',
         finder_definition_icon = '🐣  ',
-        finder_reference_icon = '⛳️  ',
-        definition_preview_icon = '🔭 '
+        finder_reference_icon = '⛳️  '
       })
 
   end
@@ -531,9 +531,9 @@ let g:buffet_right_trun_icon = '‹'
 " nvim-lua/diagnostic-nvim
 if has('nvim')
     call sign_define("LspDiagnosticsErrorSign", {"text" : "💥", "texthl" : "LspDiagnosticsError"})
-    call sign_define("LspDiagnosticsWarningSign", {"text" : "💩", "texthl" : "LspDiagnosticsWarning"})
-    call sign_define("LspDiagnosticsInformationSign", {"text" : "🙃", "texthl" : "LspDiagnosticsInformation"})
     call sign_define("LspDiagnosticsHintSign", {"text" : "💡", "texthl" : "LspDiagnosticsHint"})
+    call sign_define("LspDiagnosticsWarningSign", {"text" : "💩", "texthl" : "LspDiagnosticsWarning"})
+    call sign_define("LspDiagnosticsInformationSign", {"text" : "⚠️ ", "texthl" : "LspDiagnosticsInformation"})
 endif
 
 " glepnir/dashboard-nvim
@@ -572,10 +572,10 @@ let g:nvim_tree_icons = {
     \   'symlink_open': s:iconFolderSymlinkOpen,
     \   },
     \   'lsp': {
-    \     'hint': "💡",
-    \     'info': "💬",
-    \     'warning': "💩",
     \     'error': "💥",
+    \     'hint': "💡",
+    \     'info': "⚠️ ",
+    \     'warning': "💩",
     \   }
     \ }
 
