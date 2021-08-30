@@ -1331,8 +1331,8 @@ color = "#000000",name = "bsl"
 ["c"] = {icon = iconC,
 color = "#000000",name = "c"
 };
-["cbl"] = {icon = iconCobol,
-color = "#000000",name = "cbl"
+["cobol"] = {icon = iconCobol,
+color = "#000000",name = "cobol"
 };
 ["cer"] = {icon = iconCert,
 color = "#000000",name = "cer"
