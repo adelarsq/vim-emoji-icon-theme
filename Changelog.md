@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.84
+
+- Better org mode icons.
+
 ## Version 0.83
 
 - Add support for `*.fsl` and `*.fsy` files.

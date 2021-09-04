@@ -1,6 +1,6 @@
 # Vim Emoji Icon Theme 🎨
 
-**Version 0.83**
+**Version 0.84**
 
 This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.
 
