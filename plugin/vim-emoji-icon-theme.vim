@@ -119,6 +119,7 @@ let s:iconPascal = '🌡 '
 let s:iconPdf = '🅿️ '
 let s:iconPerl = '🍐'
 let s:iconPhp = '🐘'
+let s:iconPony = '🐴'
 let s:iconProfile = '👤'
 let s:iconProto = '⚛️ '
 let s:iconPug = '🐶'
@@ -138,6 +139,7 @@ let s:iconGui = '🦋'
 let s:iconSlime = '🍨'
 let s:iconSound = '🎶'
 let s:iconSql = '🎲'
+let s:iconSpiral = '🌀'
 let s:iconSvelte = '💃🏻' " icon based on the Svelte and Sapper in Action Book's cover
 let s:iconSvn = '🐢'
 let s:iconSwift = '🐦'
@@ -813,6 +815,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pl'] = s:iconPerl " P
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['plist'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['png'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['po'] = s:iconGnuText " GNU gettext file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pony'] = s:iconPony " Pony source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pot'] = s:iconGnuText " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppk'] = s:iconCert " putty key file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppt'] = s:iconOfficePresentation
@@ -873,6 +876,9 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sln'] = s:iconConfig 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snap'] = s:iconPackage " SNAP file 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['so'] = s:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sol'] = s:iconLanguage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spi'] = s:iconSpiral " Spiral language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spir'] = s:iconSpiral " Spiral language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spiproj'] = s:iconSpiral " Spiral language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sql'] = s:iconSql " sql -> SQLYog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['storyboard'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['strings'] = s:iconXml " XML plist strings file
@@ -1193,6 +1199,7 @@ local iconPascal = '🌡 '
 local iconPdf = '🅿️ '
 local iconPerl = '🍐'
 local iconPhp = '🐘'
+local iconPony = '🐴'
 local iconProfile = '👤'
 local iconProto = '⚛️ '
 local iconPug = '🐶'
@@ -1211,6 +1218,7 @@ local iconShell = '🐚'
 local iconGui = '🦋'
 local iconSlime = '🍨'
 local iconSound = '🎶'
+local iconSpiral = '🌀'
 local iconSql = '🎲'
 local iconSvelte = '💃'
 local iconSvn = '🐢'
@@ -1914,6 +1922,9 @@ color = "#000000",name = "png"
 ["po"] = {icon = iconGnuText,
 color = "#000000",name = "po"
 };
+["pony"] = {icon = iconPony,
+color = "#000000",name = "pony"
+};
 ["pot"] = {icon = iconGnuText,
 color = "#000000",name = "pot"
 };
@@ -2092,6 +2103,15 @@ color = "#000000",name = "sln"
 };
 ["snap"] = {icon = iconPackage,
 color = "#000000",name = "snap"
+};
+["spi"] = {icon = iconSpiral,
+color = "#000000",name = "spi"
+};
+["spir"] = {icon = iconSpiral,
+color = "#000000",name = "spir"
+};
+["spiproj"] = {icon = iconSpiral,
+color = "#000000",name = "spiproj"
 };
 ["so"] = {icon = iconBinary,
 color = "#000000",name = "so"

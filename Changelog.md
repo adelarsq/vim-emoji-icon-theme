@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.85
+
+- Add support for [Pony language](https://www.ponylang.io) (`*.pony`);
+- Add support for [Spiral language](https://github.com/mrakgr/The-Spiral-Language) (`*.spi`, `*.spir` and `*.spiproj`).
+
 ## Version 0.84
 
 - Better org mode icons.
