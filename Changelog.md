@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.86
+
+- Add support for `*.ai` files.
+
 ## Version 0.85
 
 - Add support for [Pony language](https://www.ponylang.io) (`*.pony`);
