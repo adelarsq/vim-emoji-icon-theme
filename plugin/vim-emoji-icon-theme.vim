@@ -589,6 +589,10 @@ let g:nvim_tree_icons = {
 " let bufferline.icon_close_tab_modified = '⏺ '
 " let bufferline.icon_pinned = '📌'
 
+" andymass/vim-matchup                                                        "
+let g:matchup_matchparen_start_sign = '➡️'
+let g:matchup_matchparen_end_sign = '⬅️'
+
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 

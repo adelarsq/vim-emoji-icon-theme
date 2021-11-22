@@ -4,6 +4,8 @@
 
 - Add support for `*.mint` files.
 - Add support for `*.heex` files.
+- Add support for the plugins:
+  - [andymass/vim-matchup](https://github.com/andymass/vim-matchup)
 
 ## Version 0.86
 
