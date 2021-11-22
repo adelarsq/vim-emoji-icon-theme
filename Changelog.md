@@ -3,6 +3,7 @@
 ## Version 0.87
 
 - Add support for `*.mint` files.
+- Add support for `*.heex` files.
 
 ## Version 0.86
 

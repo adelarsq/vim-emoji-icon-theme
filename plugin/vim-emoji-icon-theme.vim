@@ -724,6 +724,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hsig'] = s:iconHaskel
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hss'] = s:iconCss " High Level CSS preprocessor - https://github.com/ncannasse/hss
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['htm'] = s:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = s:iconHtml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['heex'] = s:iconHtml " Elixir's HTML EEx
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hx'] = s:iconGraphQL " Haxe source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['icns'] = s:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ico'] = s:iconImage
@@ -1389,6 +1390,7 @@ imported.setup {
 ["hss"] = {icon = iconCss, color = "#000000",name = "hss" };
 ["htm"] = {icon = iconHtml, color = "#000000",name = "htm" };
 ["html"] = {icon = iconHtml, color = "#000000",name = "html" };
+["heex"] = {icon = iconHtml, color = "#000000",name = "heex" };
 ["hx"] = {icon = iconGraphQL, color = "#000000",name = "hx" };
 ["icns"] = {icon = iconImage, color = "#000000",name = "icns" };
 ["ico"] = {icon = iconImage, color = "#000000",name = "ico" };
