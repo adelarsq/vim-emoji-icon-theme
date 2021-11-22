@@ -64,12 +64,12 @@ Others plugins:
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 
 Labels:
- - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
- - `**` Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392)
+ - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons);
+ - `**` Partial support. Waiting [#392](https://github.com/liuchengxu/vim-clap/issues/392);
  - `***` Support by an automated process using CI pipeline whenever this plugin
-     has an update
- - `****` Partial support by [vim-devicons](https://github.com/ryanoasis/vim-devicons)
- - `*****` Need support for kyazdani42/nvim-web-devicons.
+     has an update;
+ - `****` Partial support by [vim-devicons](https://github.com/ryanoasis/vim-devicons);
+ - `*****` Supported by kyazdani42/nvim-web-devicons.
 
 ## How to use 🤔
 
