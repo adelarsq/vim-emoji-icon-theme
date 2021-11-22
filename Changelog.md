@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.87
+
+- Add support for `*.mint` files.
+
 ## Version 0.86
 
 - Add support for `*.ai` files.
