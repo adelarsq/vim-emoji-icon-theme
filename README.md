@@ -62,6 +62,8 @@ Others plugins:
 - [x] [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
 - [x] [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
+- [x] [andymass/vim-matchup](https://github.com/andymass/vim-matchup)
+- [x] [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim/)
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons);

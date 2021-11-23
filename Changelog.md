@@ -6,6 +6,7 @@
 - Add support for `*.heex` files.
 - Add support for the plugins:
   - [andymass/vim-matchup](https://github.com/andymass/vim-matchup)
+  - [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim/)
 
 ## Version 0.86
 

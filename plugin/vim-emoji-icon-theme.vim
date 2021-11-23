@@ -593,6 +593,22 @@ let g:nvim_tree_icons = {
 let g:matchup_matchparen_start_sign = '➡️'
 let g:matchup_matchparen_end_sign = '⬅️'
 
+" stevearc/aerial.nvim
+if has('nvim')
+lua << EOF
+vim.g.aerial = {
+  icons = {
+    Class          = '📦';
+    ClassCollapsed = '📦';
+    Function       = '🧵';
+    Constant       = '🧊';
+    Collapsed      = '📄';
+  }
+}
+EOF
+endif
+
+
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault
 
