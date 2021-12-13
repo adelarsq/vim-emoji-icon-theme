@@ -1269,416 +1269,408 @@ local iconYarn = '🐈'
 local iconZig = '⚡️'
 local iconNetworkTrace = '🔬'
 
-  local use, imported = pcall(require, "nvim-web-devicons")
+local use, imported = pcall(require, "nvim-web-devicons")
 
-  if use then
-imported.setup {
+if use then
 
-    override = {
+    imported.set_default_icon(iconDefault, '#6d8086');
 
-["default"] = { icon = iconDefault, color = "#000000", name = "3ds" };
-["3ds"] = { icon = icon3D, color = "#000000", name = "3ds" };
-["60"] = {icon = iconGui, color = "#000000",name = "60" };
-["7z"] = {icon = iconPackage, color = "#000000",name = "7z" };
-["aar"] = {icon = iconPackage, color = "#000000",name = "aar" };
-["ahk"] = {icon = iconConfig, color = "#000000",name = "ahk" };
-["ai"] = {icon = iconImage, color = "#000000",name = "ai" };
-["alda"] = {icon = iconSound, color = "#000000",name = "alda" };
-["ani"] = {icon = icon3D, color = "#000000",name = "ani" };
-["apk"] = {icon = iconPackage, color = "#000000",name = "apk" };
-["as"] = {icon = iconAngel, color = "#000000",name = "as" };
-["asm"] = {icon = iconAssembly, color = "#000000",name = "asm" };
-["asta"] = {icon = iconDiagram, color = "#000000",name = "asta" };
-["astro"] = {icon = iconJavaScript, color = "#000000",name = "astro" };
-["atom"] = {icon = iconXml, color = "#000000",name = "atom" };
-["avi"] = {icon = iconVideo, color = "#000000",name = "avi" };
-["axml"] = {icon = iconXml, color = "#000000",name = "axml" };
-["bat"] = {icon = iconBat, color = "#000000",name = "bat" };
-["beam"] = {icon = iconBinary, color = "#000000",name = "beam" };
-["bf"] = {icon = iconBeef, color = "#000000",name = "bf" };
-["bib"] = {icon = iconDocument, color = "#000000",name = "bib" };
-["bin"] = {icon = iconBinary, color = "#000000",name = "bin" };
-["blend"] = {icon = icon3D, color = "#000000",name = "blend" };
-["blob"] = {icon = iconBinary, color = "#000000",name = "blob" };
-["bmp"] = {icon = iconImage, color = "#000000",name = "bmp" };
-["bpg"] = {icon = iconImage, color = "#000000",name = "bpg" };
-["bsdl"] = {icon = iconBsdl, color = "#000000",name = "bsdl" };
-["bsl"] = {icon = iconLanguage, color = "#000000",name = "bsl" };
-["c"] = {icon = iconC, color = "#000000",name = "c" };
-["cobol"] = {icon = iconCobol, color = "#000000",name = "cobol" };
-["cer"] = {icon = iconCert, color = "#000000",name = "cer" };
-["cff"] = {icon = iconDocument, color = "#000000",name = "cff" };
-["chs"] = {icon = iconHaskell, color = "#000000",name = "chs" };
-["class"] = {icon = iconBinary, color = "#000000",name = "class" };
-["clj"] = {icon = iconClojure, color = "#000000",name = "clj" };
-["cmd"] = {icon = iconBat, color = "#000000",name = "cmd" };
-["cmi"] = {icon = iconBinary, color = "#000000",name = "cmi" };
-["coffee"] = {icon = iconCoffee, color = "#000000",name = "coffee" };
-["conf"] = {icon = iconConfig, color = "#000000",name = "conf" };
-["config"] = {icon = iconConfig, color = "#000000",name = "config" };
-["cpp"] = {icon = iconC, color = "#000000",name = "cpp" };
-["cql"] = {icon = iconSql, color = "#000000",name = "cql" };
-["cr"] = {icon = iconCrystal, color = "#000000",name = "cr" };
-["crt"] = {icon = iconCert, color = "#000000",name = "crt" };
-["cs"] = {icon = iconCSharp, color = "#000000",name = "cs" };
-["cshtml"] = {icon = iconCSharp, color = "#000000",name = "cshtml" };
-["csproj"] = {icon = iconConfig, color = "#000000",name = "csproj" };
-["css"] = {icon = iconCss, color = "#000000",name = "css" };
-["csv"] = {icon = iconCsv, color = "#000000",name = "csv" };
-["csx"] = {icon = iconCSharp, color = "#000000",name = "csx" };
-["cu"] = {icon = icon3D, color = "#000000",name = "cu" };
-["cuh"] = {icon = icon3D, color = "#000000",name = "cuh" };
-["d"] = {icon = iconD, color = "#000000",name = "d" };
-["dae"] = {icon = icon3D, color = "#000000",name = "dae" };
-["dart"] = {icon = iconDart, color = "#000000",name = "dart" };
-["dat"] = {icon = iconBinary, color = "#000000",name = "dat" };
-["data"] = {icon = iconBinary, color = "#000000",name = "data" };
-["db"] = {icon = iconSql, color = "#000000",name = "db" };
-["dds"] = {icon = iconImage, color = "#000000",name = "dds" };
-["deb"] = {icon = iconPackage, color = "#000000",name = "deb" };
-["dib"] = {icon = iconNote, color = "#000000",name = "dib" };
-["diff"] = {icon = iconDiff, color = "#000000",name = "diff" };
-["dll"] = {icon = iconBinary, color = "#000000",name = "dll" };
-["dmg"] = {icon = iconPackage, color = "#000000",name = "dmg" };
-["doc"] = {icon = iconOfficeDoc, color = "#000000",name = "doc" };
-["docx"] = {icon = iconOfficeDoc, color = "#000000",name = "docx" };
-["dpk"] = {icon = iconDelphi, color = "#000000",name = "dpk" };
-["dproj"] = {icon = iconDelphi, color = "#000000",name = "dproj" };
-["drc"] = {icon = iconVideo, color = "#000000",name = "drc" };
-["drcs"] = {icon = iconVideo, color = "#000000",name = "drcs" };
-["dtd"] = {icon = iconXml, color = "#000000",name = "dtd" };
-["duel"] = {icon = iconDuel, color = "#000000",name = "duel" };
-["dump"] = {icon = iconDump, color = "#000000",name = "dump" };
-["dxf"] = {icon = icon3D, color = "#000000",name = "dxf" };
-["dylib"] = {icon = iconBinary, color = "#000000",name = "dylib" };
-["ear"] = {icon = iconPackage, color = "#000000",name = "ear" };
-["eex"] = {icon = iconElixir, color = "#000000",name = "eex" };
-["elm"] = {icon = iconElm, color = "#000000",name = "elm" };
-["elmi"] = {icon = iconBinary, color = "#000000",name = "elmi" };
-["elmo"] = {icon = iconBinary, color = "#000000",name = "elmo" };
-["epub"] = {icon = iconBook, color = "#000000",name = "epub" };
-["erb"] = {icon = iconRuby, color = "#000000",name = "erb" };
-["erl"] = {icon = iconErlang, color = "#000000",name = "erl" };
-["erm"] = {icon = iconXml, color = "#000000",name = "erm" };
-["erwin"] = {icon = iconSql, color = "#000000",name = "erwin" };
-["ex"] = {icon = iconElixir, color = "#000000",name = "ex" };
-["exe"] = {icon = iconExe, color = "#000000",name = "exe" };
-["exs"] = {icon = iconElixir, color = "#000000",name = "exs" };
-["ez"] = {icon = iconPackage, color = "#000000",name = "ez" };
-["fbx"] = {icon = icon3D, color = "#000000",name = "fbx" };
-["fish"] = {icon = iconShell, color = "#000000",name = "fish" };
-["flr"] = {icon = iconFlare, color = "#000000",name = "flr" };
-["fnl"] = {icon = iconFennel, color = "#000000",name = "fnl" };
-["frxml"] = {icon = iconXml, color = "#000000",name = "frxml" };
-["fs"] = {icon = iconFsharp, color = "#000000",name = "fs" };
-["fsi"] = {icon = iconFsharp, color = "#000000",name = "fsi" };
-["fsproj"] = {icon = iconFsharp, color = "#000000",name = "fsproj" };
-["fsx"] = {icon = iconFsharp, color = "#000000",name = "fsx" };
-["fsy"] = {icon = iconFsharp, color = "#000000",name = "fsy" };
-["fsl"] = {icon = iconFsharp, color = "#000000",name = "fsl" };
-["functions"] = {icon = iconShell, color = "#000000",name = "functions" };
-["fxml"] = {icon = iconXml, color = "#000000",name = "fxml" };
-["gdb"] = {icon = iconDebugger, color = "#000000",name = "gdb" };
-["gif"] = {icon = iconImage, color = "#000000",name = "gif" };
-["gift"] = {icon = iconNote, color = "#000000",name = "gift" };
-["git"] = {icon = iconGit, color = "#000000",name = "git" };
-["glb"] = {icon = icon3D, color = "#000000",name = "glb" };
-["gleam"] = {icon = iconGleam, color = "#000000",name = "gleam" };
-["glsl"] = {icon = icon3D, color = "#000000",name = "glsl" };
-["gltf"] = {icon = icon3D, color = "#000000",name = "gltf" };
-["go"] = {icon = iconGo, color = "#000000",name = "go" };
-["gql"] = {icon = iconGraphQL, color = "#000000",name = "gql" };
-["gr"] = {icon = iconGrain, color = "#000000",name = "gr" };
-["gradle"] = {icon = iconGradle, color = "#000000",name = "gradle" };
-["graphql"] = {icon = iconGraphQL, color = "#000000",name = "graphql" };
-["graphqls"] = {icon = iconGraphQL, color = "#000000",name = "graphqls" };
-["gravity"] = {icon = iconGravity, color = "#000000",name = "gravity" };
-["groovy"] = {icon = iconGroovy, color = "#000000",name = "groovy" };
-["gvdesign"] = {icon = iconDiagram, color = "#000000",name = "gvdesign" };
-["gz"] = {icon = iconPackage, color = "#000000",name = "gz" };
-["h"] = {icon = iconInterface, color = "#000000",name = "h" };
-["hbs"] = {icon = iconTemplate, color = "#000000",name = "hbs" };
-["hdr"] = {icon = iconImage, color = "#000000",name = "hdr" };
-["hive"] = {icon = iconBinary, color = "#000000",name = "hive" };
-["hs"] = {icon = iconHaskell, color = "#000000",name = "hs" };
--- FIXME
--- ["hs-boot"] = {icon = iconHaskell,
--- color = "#000000",name = "hs-boot"
--- };
-["hsc"] = {icon = iconHaskell, color = "#000000",name = "hsc" };
-["hsig"] = {icon = iconHaskell, color = "#000000",name = "hsig" };
-["hss"] = {icon = iconCss, color = "#000000",name = "hss" };
-["htm"] = {icon = iconHtml, color = "#000000",name = "htm" };
-["html"] = {icon = iconHtml, color = "#000000",name = "html" };
-["heex"] = {icon = iconHtml, color = "#000000",name = "heex" };
-["hx"] = {icon = iconGraphQL, color = "#000000",name = "hx" };
-["icns"] = {icon = iconImage, color = "#000000",name = "icns" };
-["ico"] = {icon = iconImage, color = "#000000",name = "ico" };
-["ics"] = {icon = iconTemp, color = "#000000",name = "ics" };
-["idl"] = {icon = iconInterface, color = "#000000",name = "idl" };
-["iml"] = {icon = iconConfig, color = "#000000",name = "iml" };
-["info"] = {icon = iconDocument, color = "#000000",name = "info" };
-["ini"] = {icon = iconConfig, color = "#000000",name = "ini" };
-["ino"] = {icon = iconArduino, color = "#000000",name = "ino" };
-["ipa"] = {icon = iconPackage, color = "#000000",name = "ipa" };
-["ipynb"] = {icon = iconNote, color = "#000000",name = "ipynb" };
-["iso"] = {icon = iconIso, color = "#000000",name = "iso" };
-["jade"] = {icon = iconTemplate, color = "#000000",name = "jade" };
-["jar"] = {icon = iconPackage, color = "#000000",name = "jar" };
-["jasper"] = {icon = iconJasper, color = "#000000",name = "jasper" };
-["java"] = {icon = iconJava, color = "#000000",name = "java" };
-["jenkinsfile"] = {icon = iconJenkins, color = "#000000",name = "jenkinsfile" };
-["jks"] = {icon = iconCert, color = "#000000",name = "jks" };
-["jl"] = {icon = iconJulia, color = "#000000",name = "jl" };
-["jmx"] = {icon = iconXml, color = "#000000",name = "jmx" };
-["jnlp"] = {icon = iconXml, color = "#000000",name = "jnlp" };
-["jpeg"] = {icon = iconImage, color = "#000000",name = "jpeg" };
-["jpg"] = {icon = iconImage, color = "#000000",name = "jpg" };
-["jrxml"] = {icon = iconXml, color = "#000000",name = "jrxml" };
-["js"] = {icon = iconJavaScript, color = "#000000",name = "js" };
-["json"] = {icon = iconJavaScript, color = "#000000",name = "json" };
-["jsx"] = {icon = iconJsx, color = "#000000",name = "jsx" };
-["jws"] = {icon = iconConfig, color = "#000000",name = "jws" };
-["jxl"] = {icon = iconImage, color = "#000000",name = "jxl" };
-["key"] = {icon = iconCert, color = "#000000",name = "key" };
-["kt"] = {icon = iconKotlyn, color = "#000000",name = "kt" };
-["kts"] = {icon = iconKotlyn, color = "#000000",name = "kts" };
-["latex"] = {icon = iconDocument, color = "#000000",name = "latex" };
-["leex"] = {icon = iconElixir, color = "#000000",name = "leex" };
-["less"] = {icon = iconCss, color = "#000000",name = "less" };
-["lhs"] = {icon = iconHaskell, color = "#000000",name = "lhs" };
-["lock"] = {icon = iconLock, color = "#000000",name = "lock" };
-["log"] = {icon = iconLog, color = "#000000",name = "log" };
-["lua"] = {icon = iconLua, color = "#000000",name = "lua" };
-["lz4"] = {icon = iconPackage, color = "#000000",name = "lz4" };
-["m"] = {icon = iconObjective, color = "#000000",name = "m" };
-["mak"] = {icon = iconMake, color = "#000000",name = "mak" };
-["markdown"] = {icon = iconMarkdown, color = "#000000",name = "markdown" };
-["marko"] = {icon = iconMarkdown, color = "#000000",name = "marko" };
-["md"] = {icon = iconMarkdown, color = "#000000",name = "md" };
-["mdj"] = {icon = iconDiagram, color = "#000000",name = "mdj" };
-["mdl"] = {icon = icon3D, color = "#000000",name = "mdl" };
-["mint"] = {icon = iconMint, color = "#000000",name = "mint" };
-["mk"] = {icon = iconMake, color = "#000000",name = "mk" };
-["mkd"] = {icon = iconMarkdown, color = "#000000",name = "mkd" };
-["mkv"] = {icon = iconVideo, color = "#000000",name = "mkv" };
-["ml"] = {icon = iconReason, color = "#000000",name = "ml" };
-["mli"] = {icon = iconInterface, color = "#000000",name = "mli" };
-["mlt"] = {icon = iconVideo, color = "#000000",name = "mlt" };
-["mm"] = {icon = iconObjective, color = "#000000",name = "mm" };
-["mo"] = {icon = iconGnuText, color = "#000000",name = "mo" };
-["moon"] = {icon = iconLua, color = "#000000",name = "moon" };
-["mov"] = {icon = iconVideo, color = "#000000",name = "mov" };
-["mp3"] = {icon = iconSound, color = "#000000",name = "mp3" };
-["mp4"] = {icon = iconVideo, color = "#000000",name = "mp4" };
-["mpeg"] = {icon = iconVideo, color = "#000000",name = "mpeg" };
-["mpg"] = {icon = iconVideo, color = "#000000",name = "mpg" };
-["mq4"] = {icon = iconMql, color = "#000000",name = "mq4" };
-["mq5"] = {icon = iconMql, color = "#000000",name = "mq5" };
-["mqlh"] = {icon = iconInterface, color = "#000000",name = "mqlh" };
-["nib"] = {icon = iconInterface, color = "#000000",name = "nib" };
-["nim"] = {icon = iconNim, color = "#000000",name = "nim" };
-["norg"] = {icon = iconOrg, color = "#000000",name = "norg" };
-["nupkg"] = {icon = iconPackage, color = "#000000",name = "nupkg" };
-["nuspec"] = {icon = iconXml, color = "#000000",name = "nuspec" };
-["obj"] = {icon = icon3D, color = "#000000",name = "obj" };
-["odp"] = {icon = iconOfficePresentation, color = "#000000",name = "odp" };
-["ods"] = {icon = iconOfficeSpreadsheet, color = "#000000",name = "ods" };
-["odt"] = {icon = iconOfficeDoc, color = "#000000",name = "odt" };
-["ogg"] = {icon = iconSound, color = "#000000",name = "ogg" };
-["org"] = {icon = iconOrg, color = "#000000",name = "org" };
-["os"] = {icon = iconLanguage, color = "#000000",name = "os" };
-["ovpn"] = {icon = iconCert, color = "#000000",name = "ovpn" };
-["pages"] = {icon = iconOfficeDoc, color = "#000000",name = "pages" };
-["pas"] = {icon = iconPascal, color = "#000000",name = "pas" };
-["pdb"] = {icon = iconBinary, color = "#000000",name = "pdb" };
-["pde"] = {icon = iconArduino, color = "#000000",name = "pde" };
-["pdf"] = {icon = iconPdf, color = "#000000",name = "pdf" };
-["pem"] = {icon = iconCert, color = "#000000",name = "pem" };
-["pepk"] = {icon = iconCert, color = "#000000",name = "pepk" };
-["pfx"] = {icon = iconCert, color = "#000000",name = "pfx" };
-["pgsql"] = {icon = iconSql, color = "#000000",name = "pgsql" };
-["php"] = {icon = iconPhp, color = "#000000",name = "php" };
-["pkg"] = {icon = iconPackage, color = "#000000",name = "pkg" };
-["pl"] = {icon = iconPerl, color = "#000000",name = "pl" };
-["plist"] = {icon = iconXml, color = "#000000",name = "plist" };
-["png"] = {icon = iconImage, color = "#000000",name = "png" };
-["po"] = {icon = iconGnuText, color = "#000000",name = "po" };
-["pony"] = {icon = iconPony, color = "#000000",name = "pony" };
-["pot"] = {icon = iconGnuText, color = "#000000",name = "pot" };
-["ppk"] = {icon = iconCert, color = "#000000",name = "ppk" };
-["ppt"] = {icon = iconOfficePresentation, color = "#000000",name = "ppt" };
-["pptx"] = {icon = iconOfficePresentation, color = "#000000",name = "pptx" };
-["prefs"] = {icon = iconConfig, color = "#000000",name = "prefs" };
-["pro"] = {icon = iconConfig, color = "#000000",name = "pro" };
-["profile"] = {icon = iconProfile, color = "#000000",name = "profile" };
-["properties"] = {icon = iconConfig, color = "#000000",name = "properties" };
-["props"] = {icon = iconXml, color = "#000000",name = "props" };
-["proto"] = {icon = iconProto, color = "#000000",name = "proto" };
-["ps1"] = { icon = iconShell, color = "#000000", name = "ps1" };
-["psb"] = {icon = iconImage, color = "#000000",name = "psb" };
-["psd"] = {icon = iconImage, color = "#000000",name = "psd" };
-["psl"] = {icon = iconsSpec, color = "#000000",name = "psl" };
-["pug"] = {icon = iconPug, color = "#000000",name = "pug" };
-["puml"] = {icon = iconDiagram, color = "#000000",name = "puml" };
-["py"] = {icon = iconPython, color = "#000000",name = "py" };
-["python"] = {icon = iconPython, color = "#000000",name = "python" };
-["pyc"] = {icon = iconPython, color = "#000000",name = "pyc" };
-["pyd"] = {icon = iconPython, color = "#000000",name = "pyd" };
-["pyo"] = {icon = iconPython, color = "#000000",name = "pyo" };
-["python"] = {icon = iconPython, color = "#000000",name = "python" };
-["r"] = {icon = iconR, color = "#000000",name = "r" };
-["rar"] = {icon = iconPackage, color = "#000000",name = "rar" };
-["rb"] = {icon = iconRuby, color = "#000000",name = "rb" };
-["rc"] = {icon = iconDelphi, color = "#000000",name = "rc" };
-["re"] = {icon = iconReason, color = "#000000",name = "re" };
-["reality"] = {icon = icon3D, color = "#000000",name = "reality" };
-["reg"] = {icon = iconLock, color = "#000000",name = "reg" };
-["rei"] = {icon = iconInterface, color = "#000000",name = "rei" };
-["res"] = {icon = iconReason, color = "#000000",name = "res" };
-["resi"] = {icon = iconInterface, color = "#000000",name = "resi" };
-["rest"] = {icon = iconRest, color = "#000000",name = "rest" };
-["resx"] = {icon = iconXml, color = "#000000",name = "resx" };
-["rh"] = {icon = iconShell, color = "#000000",name = "rh" };
-["rlib"] = {icon = iconBinary, color = "#000000",name = "rlib" };
-["rmd"] = {icon = iconOfficePresentation, color = "#000000",name = "rmd" };
-["rpm"] = {icon = iconPackage, color = "#000000",name = "rpm" };
-["rql"] = {icon = iconRest, color = "#000000",name = "rql" };
-["rproj"] = {icon = iconConfig, color = "#000000",name = "rproj" };
-["rs"] = {icon = iconRust, color = "#000000",name = "rs" };
-["rss"] = {icon = iconXml, color = "#000000",name = "rss" };
-["rst"] = {icon = iconRST, color = "#000000",name = "rst" };
-["ru"] = {icon = iconRuby, color = "#000000",name = "ru" };
-["s"] = {icon = iconAssembly, color = "#000000",name = "s" };
-["sar"] = {icon = iconPackage, color = "#000000",name = "sar" };
-["sass"] = {icon = iconSass, color = "#000000",name = "sass" };
-["sbt"] = {icon = iconConfig, color = "#000000",name = "sbt" };
-["sc"] = {icon = iconScala, color = "#000000",name = "sc" };
-["scala"] = {icon = iconScala, color = "#000000",name = "scala" };
-["scd"] = {icon = iconSound, color = "#000000",name = "scd" };
-["scm"] = {icon = iconScheme, color = "#000000",name = "scm" };
-["scss"] = {icon = iconCss, color = "#000000",name = "scss" };
-["sfb"] = {icon = icon3D, color = "#000000",name = "sfb" };
-["sfz"] = {icon = iconSound, color = "#000000",name = "sfz" };
-["sh"] = {icon = iconShell, color = "#000000",name = "sh" };
-["slime"] = {icon = iconSlime, color = "#000000",name = "slime" };
-["sln"] = {icon = iconConfig, color = "#000000",name = "sln" };
-["snap"] = {icon = iconPackage, color = "#000000",name = "snap" };
-["spi"] = {icon = iconSpiral, color = "#000000",name = "spi" };
-["spir"] = {icon = iconSpiral, color = "#000000",name = "spir" };
-["spiproj"] = {icon = iconSpiral, color = "#000000",name = "spiproj" };
-["so"] = {icon = iconBinary, color = "#000000",name = "so" };
-["sol"] = {icon = iconLanguage, color = "#000000",name = "sol" };
-["sql"] = {icon = iconSql, color = "#000000",name = "sql" };
-["storyboard"] = {icon = iconXml, color = "#000000",name = "storyboard" };
-["strings"] = {icon = iconXml, color = "#000000",name = "strings" };
-["styl"] = {icon = iconCss, color = "#000000",name = "styl" };
-["suo"] = {icon = iconCSharp, color = "#000000",name = "suo" };
-["svelte"] = {icon = iconSvelte, color = "#000000",name = "svelte" };
-["svg"] = {icon = iconImage, color = "#000000",name = "svg" };
-["swift"] = {icon = iconSwift, color = "#000000",name = "swift" };
-["swo"] = {icon = iconTemp, color = "#000000",name = "swo" };
-["swp"] = {icon = iconTemp, color = "#000000",name = "swp" };
-["t"] = {icon = iconT, color = "#000000",name = "t" };
-["tar"] = {icon = iconPackage, color = "#000000",name = "tar" };
-["tera"] = {icon = iconHtml, color = "#000000",name = "tera" };
-["tflite"] = {icon = iconMachineLearning, color = "#000000",name = "tflite" };
-["tga"] = {icon = iconImage, color = "#000000",name = "tga" };
-["tgz"] = {icon = iconPackage, color = "#000000",name = "tgz" };
-["tif"] = {icon = iconImage, color = "#000000",name = "tif" };
-["tiff"] = {icon = iconFont, color = "#000000",name = "tiff" };
-["tlb"] = {icon = iconInterface, color = "#000000",name = "tlb" };
-["toml"] = {icon = iconConfig, color = "#000000",name = "toml" };
-["tpl"] = {icon = iconTemplate, color = "#000000",name = "tpl" };
-["ts"] = {icon = iconTypeScript, color = "#000000",name = "ts" };
-["tsx"] = {icon = iconTypeScript, color = "#000000",name = "tsx" };
-["ttf"] = {icon = iconFont, color = "#000000",name = "ttf" };
-["txt"] = {icon = iconText, color = "#000000",name = "txt" };
-["uml"] = {icon = iconDiagram, color = "#000000",name = "uml" };
-["usd"] = {icon = icon3D, color = "#000000",name = "usd" };
-["usda"] = {icon = icon3D, color = "#000000",name = "usda" };
-["usdc"] = {icon = icon3D, color = "#000000",name = "usdc" };
-["usdz"] = {icon = icon3D, color = "#000000",name = "usdz" };
-["userprefs"] = {icon = iconConfig, color = "#000000",name = "userprefs" };
-["v"] = {icon = iconV, color = "#000000",name = "v" };
-["vbs"] = {icon = iconVisualBasic, color = "#000000",name = "vbs" };
-["vcxproj"] = {icon = iconXml, color = "#000000",name = "vcxproj" };
-["vdf"] = {icon = iconConfig, color = "#000000",name = "vdf" };
-["vgb"] = {icon = iconConfig, color = "#000000",name = "vgb" };
-["vh"] = {icon = iconInterface, color = "#000000",name = "vh" };
-["vim"] = {icon = iconVim, color = "#000000",name = "vim" };
-["vimrc"] = {icon = iconVim, color = "#000000",name = "vimrc" };
-["vimspec"] = {icon = iconVim, color = "#000000",name = "vimspec" };
-["vmb"] = {icon = iconPackage, color = "#000000",name = "vmb" };
-["vpp"] = {icon = iconDiagram, color = "#000000",name = "vpp" };
-["vrx"] = {icon = icon3D, color = "#000000",name = "vrx" };
-["vsh"] = {icon = iconV, color = "#000000",name = "vsh" };
-["vue"] = {icon = iconVue, color = "#000000",name = "vue" };
-["vv"] = {icon = iconV, color = "#000000",name = "vv" };
-["wad"] = {icon = iconBinary, color = "#000000",name = "wad" };
-["war"] = {icon = iconPackage, color = "#000000",name = "war" };
-["wav"] = {icon = iconSound, color = "#000000",name = "wav" };
-["wbmp"] = {icon = iconImage, color = "#000000",name = "wbmp" };
-["webp"] = {icon = iconImage, color = "#000000",name = "webp" };
-["woff"] = {icon = iconFont, color = "#000000",name = "woff" };
-["wscene"] = {icon = iconVideo, color = "#000000",name = "wscene" };
-["wsdl"] = {icon = iconXml, color = "#000000",name = "wsdl" };
-["xaml"] = {icon = iconXml, color = "#000000",name = "xaml" };
-["xcf"] = {icon = iconImage, color = "#000000",name = "xcf" };
-["xdata"] = {icon = iconXml, color = "#000000",name = "xdata" };
-["xhtml"] = {icon = iconHtml, color = "#000000",name = "xhtml" };
-["xib"] = {icon = iconXml, color = "#000000",name = "xib" };
-["xlf"] = {icon = iconXml, color = "#000000",name = "xlf" };
-["xjb"] = {icon = iconXml, color = "#000000",name = "xjb" };
-["xls"] = {icon = iconOfficeSpreadsheet, color = "#000000",name = "xls" };
-["xlsx"] = {icon = iconOfficeSpreadsheet, color = "#000000",name = "xlsx" };
-["xml"] = {icon = iconXml, color = "#000000",name = "xml" };
-["xsd"] = {icon = iconXml, color = "#000000",name = "xsd" };
-["xsl"] = {icon = iconXml, color = "#000000",name = "xsl" };
-["xz"] = {icon = iconPackage, color = "#000000",name = "xz" };
-["yaml"] = {icon = iconYaml, color = "#000000",name = "yaml" };
-["yml"] = {icon = iconYaml, color = "#000000",name = "yml" };
-["zig"] = {icon = iconZig, color = "#000000",name = "zig" };
-["zip"] = {icon = iconPackage, color = "#000000",name = "zip" };
-["zsh"] = {icon = iconShell, color = "#000000",name = "zsh" };
-["zst"] = {icon = iconPackage, color = "#000000",name = "zst" };
-["5vw"] = {icon = iconNetworkTrace, color = "#000000",name = "5vw" };
-["acp"] = {icon = iconNetworkTrace, color = "#000000",name = "acp" };
-["apc"] = {icon = iconNetworkTrace, color = "#000000",name = "apc" };
-["atc"] = {icon = iconNetworkTrace, color = "#000000",name = "atc" };
-["bfr"] = {icon = iconNetworkTrace, color = "#000000",name = "bfr" };
-["cap"] = {icon = iconNetworkTrace, color = "#000000",name = "cap" };
-["enc"] = {icon = iconNetworkTrace, color = "#000000",name = "enc" };
-["erf"] = {icon = iconNetworkTrace, color = "#000000",name = "erf" };
-["fdc"] = {icon = iconNetworkTrace, color = "#000000",name = "fdc" };
-["ipfix"] = {icon = iconNetworkTrace, color = "#000000",name = "ipfix" };
-["lcap"] = {icon = iconNetworkTrace, color = "#000000",name = "lcap" };
-["mplog"] = {icon = iconNetworkTrace, color = "#000000",name = "mplog" };
-["out"] = {icon = iconNetworkTrace, color = "#000000",name = "out" };
-["pcap"] = {icon = iconNetworkTrace, color = "#000000",name = "pcap" };
-["pcapng"] = {icon = iconNetworkTrace, color = "#000000",name = "pcapng" };
-["pklg"] = {icon = iconNetworkTrace, color = "#000000",name = "pklg" };
-["pkt"] = {icon = iconNetworkTrace, color = "#000000",name = "pkt" };
-["rf5"] = {icon = iconNetworkTrace, color = "#000000",name = "rf5" };
-["snoop"] = {icon = iconNetworkTrace, color = "#000000",name = "snoop" };
-["syc"] = {icon = iconNetworkTrace, color = "#000000",name = "syc" };
-["tpc"] = {icon = iconNetworkTrace, color = "#000000",name = "tpc" };
-["tr1"] = {icon = iconNetworkTrace, color = "#000000",name = "tr1" };
-["trace"] = {icon = iconNetworkTrace, color = "#000000",name = "trace" };
-["trc"] = {icon = iconNetworkTrace, color = "#000000",name = "trc" };
-["tup"] = {icon = iconMake, color = "#000000",name = "tup" };
-["vwr"] = {icon = iconNetworkTrace, color = "#000000",name = "vwr" };
-["wasm"] = {icon = iconBinary, color = "#000000",name = "wasm" };
-["wast"] = {icon = iconBinary, color = "#000000",name = "wast" };
-["wat"] = {icon = iconBinary, color = "#000000",name = "wat" };
-["wpc"] = {icon = iconNetworkTrace, color = "#000000",name = "wpc" };
-["wpz"] = {icon = iconNetworkTrace, color = "#000000",name = "wpz" };
+    -- imported.set_icon { 3ds = { icon = icon3D, color = "#000000", name = "3ds" } }
+    -- imported.set_icon { 60 = {icon = iconGui, color = "#000000",name = "60" } }
+    -- imported.set_icon { 7z = {icon = iconPackage, color = "#000000",name = "7z" } }
+    -- imported.set_icon { 5vw = {icon = iconNetworkTrace, color = "#000000",name = "5vw" } }
 
-};
+    imported.set_icon { aar = {icon = iconPackage, color = "#000000",name = "aar" } }
+    imported.set_icon { ahk = {icon = iconConfig, color = "#000000",name = "ahk" } }
+    imported.set_icon { ai = {icon = iconImage, color = "#000000",name = "ai" } }
+    imported.set_icon { alda = {icon = iconSound, color = "#000000",name = "alda" } }
+    imported.set_icon { ani = {icon = icon3D, color = "#000000",name = "ani" } }
+    imported.set_icon { apk = {icon = iconPackage, color = "#000000",name = "apk" } }
+    imported.set_icon { as = {icon = iconAngel, color = "#000000",name = "as" } }
+    imported.set_icon { asm = {icon = iconAssembly, color = "#000000",name = "asm" } }
+    imported.set_icon { asta = {icon = iconDiagram, color = "#000000",name = "asta" } }
+    imported.set_icon { astro = {icon = iconJavaScript, color = "#000000",name = "astro" } }
+    imported.set_icon { atom = {icon = iconXml, color = "#000000",name = "atom" } }
+    imported.set_icon { avi = {icon = iconVideo, color = "#000000",name = "avi" } }
+    imported.set_icon { axml = {icon = iconXml, color = "#000000",name = "axml" } }
+    imported.set_icon { bat = {icon = iconBat, color = "#000000",name = "bat" } }
+    imported.set_icon { beam = {icon = iconBinary, color = "#000000",name = "beam" } }
+    imported.set_icon { bf = {icon = iconBeef, color = "#000000",name = "bf" } }
+    imported.set_icon { bib = {icon = iconDocument, color = "#000000",name = "bib" } }
+    imported.set_icon { bin = {icon = iconBinary, color = "#000000",name = "bin" } }
+    imported.set_icon { blend = {icon = icon3D, color = "#000000",name = "blend" } }
+    imported.set_icon { blob = {icon = iconBinary, color = "#000000",name = "blob" } }
+    imported.set_icon { bmp = {icon = iconImage, color = "#000000",name = "bmp" } }
+    imported.set_icon { bpg = {icon = iconImage, color = "#000000",name = "bpg" } }
+    imported.set_icon { bsdl = {icon = iconBsdl, color = "#000000",name = "bsdl" } }
+    imported.set_icon { bsl = {icon = iconLanguage, color = "#000000",name = "bsl" } }
+    imported.set_icon { c = {icon = iconC, color = "#000000",name = "c" } }
+    imported.set_icon { cobol = {icon = iconCobol, color = "#000000",name = "cobol" } }
+    imported.set_icon { cer = {icon = iconCert, color = "#000000",name = "cer" } }
+    imported.set_icon { cff = {icon = iconDocument, color = "#000000",name = "cff" } }
+    imported.set_icon { chs = {icon = iconHaskell, color = "#000000",name = "chs" } }
+    imported.set_icon { class = {icon = iconBinary, color = "#000000",name = "class" } }
+    imported.set_icon { clj = {icon = iconClojure, color = "#000000",name = "clj" } }
+    imported.set_icon { cmd = {icon = iconBat, color = "#000000",name = "cmd" } }
+    imported.set_icon { cmi = {icon = iconBinary, color = "#000000",name = "cmi" } }
+    imported.set_icon { coffee = {icon = iconCoffee, color = "#000000",name = "coffee" } }
+    imported.set_icon { conf = {icon = iconConfig, color = "#000000",name = "conf" } }
+    imported.set_icon { config = {icon = iconConfig, color = "#000000",name = "config" } }
+    imported.set_icon { cpp = {icon = iconC, color = "#000000",name = "cpp" } }
+    imported.set_icon { cql = {icon = iconSql, color = "#000000",name = "cql" } }
+    imported.set_icon { cr = {icon = iconCrystal, color = "#000000",name = "cr" } }
+    imported.set_icon { crt = {icon = iconCert, color = "#000000",name = "crt" } }
+    imported.set_icon { cs = {icon = iconCSharp, color = "#000000",name = "cs" } }
+    imported.set_icon { cshtml = {icon = iconCSharp, color = "#000000",name = "cshtml" } }
+    imported.set_icon { csproj = {icon = iconConfig, color = "#000000",name = "csproj" } }
+    imported.set_icon { css = {icon = iconCss, color = "#000000",name = "css" } }
+    imported.set_icon { csv = {icon = iconCsv, color = "#000000",name = "csv" } }
+    imported.set_icon { csx = {icon = iconCSharp, color = "#000000",name = "csx" } }
+    imported.set_icon { cu = {icon = icon3D, color = "#000000",name = "cu" } }
+    imported.set_icon { cuh = {icon = icon3D, color = "#000000",name = "cuh" } }
+    imported.set_icon { d = {icon = iconD, color = "#000000",name = "d" } }
+    imported.set_icon { dae = {icon = icon3D, color = "#000000",name = "dae" } }
+    imported.set_icon { dart = {icon = iconDart, color = "#000000",name = "dart" } }
+    imported.set_icon { dat = {icon = iconBinary, color = "#000000",name = "dat" } }
+    imported.set_icon { data = {icon = iconBinary, color = "#000000",name = "data" } }
+    imported.set_icon { db = {icon = iconSql, color = "#000000",name = "db" } }
+    imported.set_icon { dds = {icon = iconImage, color = "#000000",name = "dds" } }
+    imported.set_icon { deb = {icon = iconPackage, color = "#000000",name = "deb" } }
+    imported.set_icon { dib = {icon = iconNote, color = "#000000",name = "dib" } }
+    imported.set_icon { diff = {icon = iconDiff, color = "#000000",name = "diff" } }
+    imported.set_icon { dll = {icon = iconBinary, color = "#000000",name = "dll" } }
+    imported.set_icon { dmg = {icon = iconPackage, color = "#000000",name = "dmg" } }
+    imported.set_icon { doc = {icon = iconOfficeDoc, color = "#000000",name = "doc" } }
+    imported.set_icon { docx = {icon = iconOfficeDoc, color = "#000000",name = "docx" } }
+    imported.set_icon { dpk = {icon = iconDelphi, color = "#000000",name = "dpk" } }
+    imported.set_icon { dproj = {icon = iconDelphi, color = "#000000",name = "dproj" } }
+    imported.set_icon { drc = {icon = iconVideo, color = "#000000",name = "drc" } }
+    imported.set_icon { drcs = {icon = iconVideo, color = "#000000",name = "drcs" } }
+    imported.set_icon { dtd = {icon = iconXml, color = "#000000",name = "dtd" } }
+    imported.set_icon { duel = {icon = iconDuel, color = "#000000",name = "duel" } }
+    imported.set_icon { dump = {icon = iconDump, color = "#000000",name = "dump" } }
+    imported.set_icon { dxf = {icon = icon3D, color = "#000000",name = "dxf" } }
+    imported.set_icon { dylib = {icon = iconBinary, color = "#000000",name = "dylib" } }
+    imported.set_icon { ear = {icon = iconPackage, color = "#000000",name = "ear" } }
+    imported.set_icon { eex = {icon = iconElixir, color = "#000000",name = "eex" } }
+    imported.set_icon { elm = {icon = iconElm, color = "#000000",name = "elm" } }
+    imported.set_icon { elmi = {icon = iconBinary, color = "#000000",name = "elmi" } }
+    imported.set_icon { elmo = {icon = iconBinary, color = "#000000",name = "elmo" } }
+    imported.set_icon { epub = {icon = iconBook, color = "#000000",name = "epub" } }
+    imported.set_icon { erb = {icon = iconRuby, color = "#000000",name = "erb" } }
+    imported.set_icon { erl = {icon = iconErlang, color = "#000000",name = "erl" } }
+    imported.set_icon { erm = {icon = iconXml, color = "#000000",name = "erm" } }
+    imported.set_icon { erwin = {icon = iconSql, color = "#000000",name = "erwin" } }
+    imported.set_icon { ex = {icon = iconElixir, color = "#000000",name = "ex" } }
+    imported.set_icon { exe = {icon = iconExe, color = "#000000",name = "exe" } }
+    imported.set_icon { exs = {icon = iconElixir, color = "#000000",name = "exs" } }
+    imported.set_icon { ez = {icon = iconPackage, color = "#000000",name = "ez" } }
+    imported.set_icon { fbx = {icon = icon3D, color = "#000000",name = "fbx" } }
+    imported.set_icon { fish = {icon = iconShell, color = "#000000",name = "fish" } }
+    imported.set_icon { flr = {icon = iconFlare, color = "#000000",name = "flr" } }
+    imported.set_icon { fnl = {icon = iconFennel, color = "#000000",name = "fnl" } }
+    imported.set_icon { frxml = {icon = iconXml, color = "#000000",name = "frxml" } }
+    imported.set_icon { fs = {icon = iconFsharp, color = "#000000",name = "fs" } }
+    imported.set_icon { fsi = {icon = iconFsharp, color = "#000000",name = "fsi" } }
+    imported.set_icon { fsproj = {icon = iconFsharp, color = "#000000",name = "fsproj" } }
+    imported.set_icon { fsx = {icon = iconFsharp, color = "#000000",name = "fsx" } }
+    imported.set_icon { fsy = {icon = iconFsharp, color = "#000000",name = "fsy" } }
+    imported.set_icon { fsl = {icon = iconFsharp, color = "#000000",name = "fsl" } }
+    imported.set_icon { functions = {icon = iconShell, color = "#000000",name = "functions" } }
+    imported.set_icon { fxml = {icon = iconXml, color = "#000000",name = "fxml" } }
+    imported.set_icon { gdb = {icon = iconDebugger, color = "#000000",name = "gdb" } }
+    imported.set_icon { gif = {icon = iconImage, color = "#000000",name = "gif" } }
+    imported.set_icon { gift = {icon = iconNote, color = "#000000",name = "gift" } }
+    imported.set_icon { git = {icon = iconGit, color = "#000000",name = "git" } }
+    imported.set_icon { glb = {icon = icon3D, color = "#000000",name = "glb" } }
+    imported.set_icon { gleam = {icon = iconGleam, color = "#000000",name = "gleam" } }
+    imported.set_icon { glsl = {icon = icon3D, color = "#000000",name = "glsl" } }
+    imported.set_icon { gltf = {icon = icon3D, color = "#000000",name = "gltf" } }
+    imported.set_icon { go = {icon = iconGo, color = "#000000",name = "go" } }
+    imported.set_icon { gql = {icon = iconGraphQL, color = "#000000",name = "gql" } }
+    imported.set_icon { gr = {icon = iconGrain, color = "#000000",name = "gr" } }
+    imported.set_icon { gradle = {icon = iconGradle, color = "#000000",name = "gradle" } }
+    imported.set_icon { graphql = {icon = iconGraphQL, color = "#000000",name = "graphql" } }
+    imported.set_icon { graphqls = {icon = iconGraphQL, color = "#000000",name = "graphqls" } }
+    imported.set_icon { gravity = {icon = iconGravity, color = "#000000",name = "gravity" } }
+    imported.set_icon { groovy = {icon = iconGroovy, color = "#000000",name = "groovy" } }
+    imported.set_icon { gvdesign = {icon = iconDiagram, color = "#000000",name = "gvdesign" } }
+    imported.set_icon { gz = {icon = iconPackage, color = "#000000",name = "gz" } }
+    imported.set_icon { h = {icon = iconInterface, color = "#000000",name = "h" } }
+    imported.set_icon { hbs = {icon = iconTemplate, color = "#000000",name = "hbs" } }
+    imported.set_icon { hdr = {icon = iconImage, color = "#000000",name = "hdr" } }
+    imported.set_icon { hive = {icon = iconBinary, color = "#000000",name = "hive" } }
+    imported.set_icon { hs = {icon = iconHaskell, color = "#000000",name = "hs" } }
+    imported.set_icon { hsc = {icon = iconHaskell, color = "#000000",name = "hsc" } }
+    imported.set_icon { hsig = {icon = iconHaskell, color = "#000000",name = "hsig" } }
+    imported.set_icon { hss = {icon = iconCss, color = "#000000",name = "hss" } }
+    imported.set_icon { htm = {icon = iconHtml, color = "#000000",name = "htm" } }
+    imported.set_icon { html = {icon = iconHtml, color = "#000000",name = "html" } }
+    imported.set_icon { heex = {icon = iconHtml, color = "#000000",name = "heex" } }
+    imported.set_icon { hx = {icon = iconGraphQL, color = "#000000",name = "hx" } }
+    imported.set_icon { icns = {icon = iconImage, color = "#000000",name = "icns" } }
+    imported.set_icon { ico = {icon = iconImage, color = "#000000",name = "ico" } }
+    imported.set_icon { ics = {icon = iconTemp, color = "#000000",name = "ics" } }
+    imported.set_icon { idl = {icon = iconInterface, color = "#000000",name = "idl" } }
+    imported.set_icon { iml = {icon = iconConfig, color = "#000000",name = "iml" } }
+    imported.set_icon { info = {icon = iconDocument, color = "#000000",name = "info" } }
+    imported.set_icon { ini = {icon = iconConfig, color = "#000000",name = "ini" } }
+    imported.set_icon { ino = {icon = iconArduino, color = "#000000",name = "ino" } }
+    imported.set_icon { ipa = {icon = iconPackage, color = "#000000",name = "ipa" } }
+    imported.set_icon { ipynb = {icon = iconNote, color = "#000000",name = "ipynb" } }
+    imported.set_icon { iso = {icon = iconIso, color = "#000000",name = "iso" } }
+    imported.set_icon { jade = {icon = iconTemplate, color = "#000000",name = "jade" } }
+    imported.set_icon { jar = {icon = iconPackage, color = "#000000",name = "jar" } }
+    imported.set_icon { jasper = {icon = iconJasper, color = "#000000",name = "jasper" } }
+    imported.set_icon { java = {icon = iconJava, color = "#000000",name = "java" } }
+    imported.set_icon { jenkinsfile = {icon = iconJenkins, color = "#000000",name = "jenkinsfile" } }
+    imported.set_icon { jks = {icon = iconCert, color = "#000000",name = "jks" } }
+    imported.set_icon { jl = {icon = iconJulia, color = "#000000",name = "jl" } }
+    imported.set_icon { jmx = {icon = iconXml, color = "#000000",name = "jmx" } }
+    imported.set_icon { jnlp = {icon = iconXml, color = "#000000",name = "jnlp" } }
+    imported.set_icon { jpeg = {icon = iconImage, color = "#000000",name = "jpeg" } }
+    imported.set_icon { jpg = {icon = iconImage, color = "#000000",name = "jpg" } }
+    imported.set_icon { jrxml = {icon = iconXml, color = "#000000",name = "jrxml" } }
+    imported.set_icon { js = {icon = iconJavaScript, color = "#000000",name = "js" } }
+    imported.set_icon { json = {icon = iconJavaScript, color = "#000000",name = "json" } }
+    imported.set_icon { jsx = {icon = iconJsx, color = "#000000",name = "jsx" } }
+    imported.set_icon { jws = {icon = iconConfig, color = "#000000",name = "jws" } }
+    imported.set_icon { jxl = {icon = iconImage, color = "#000000",name = "jxl" } }
+    imported.set_icon { key = {icon = iconCert, color = "#000000",name = "key" } }
+    imported.set_icon { kt = {icon = iconKotlyn, color = "#000000",name = "kt" } }
+    imported.set_icon { kts = {icon = iconKotlyn, color = "#000000",name = "kts" } }
+    imported.set_icon { latex = {icon = iconDocument, color = "#000000",name = "latex" } }
+    imported.set_icon { leex = {icon = iconElixir, color = "#000000",name = "leex" } }
+    imported.set_icon { less = {icon = iconCss, color = "#000000",name = "less" } }
+    imported.set_icon { lhs = {icon = iconHaskell, color = "#000000",name = "lhs" } }
+    imported.set_icon { lock = {icon = iconLock, color = "#000000",name = "lock" } }
+    imported.set_icon { log = {icon = iconLog, color = "#000000",name = "log" } }
+    imported.set_icon { lua = {icon = iconLua, color = "#000000",name = "lua" } }
+    imported.set_icon { lz4 = {icon = iconPackage, color = "#000000",name = "lz4" } }
+    imported.set_icon { m = {icon = iconObjective, color = "#000000",name = "m" } }
+    imported.set_icon { mak = {icon = iconMake, color = "#000000",name = "mak" } }
+    imported.set_icon { md = {icon = iconMarkdown, color = "#000000",name = "markdown" } }
+    imported.set_icon { markdown = {icon = iconMarkdown, color = "#000000",name = "markdown" } }
+    imported.set_icon { marko = {icon = iconMarkdown, color = "#000000",name = "marko" } }
+    imported.set_icon { md = {icon = iconMarkdown, color = "#000000",name = "md" } }
+    imported.set_icon { mdj = {icon = iconDiagram, color = "#000000",name = "mdj" } }
+    imported.set_icon { mdl = {icon = icon3D, color = "#000000",name = "mdl" } }
+    imported.set_icon { mint = {icon = iconMint, color = "#000000",name = "mint" } }
+    imported.set_icon { mk = {icon = iconMake, color = "#000000",name = "mk" } }
+    imported.set_icon { mkd = {icon = iconMarkdown, color = "#000000",name = "mkd" } }
+    imported.set_icon { mkv = {icon = iconVideo, color = "#000000",name = "mkv" } }
+    imported.set_icon { ml = {icon = iconReason, color = "#000000",name = "ml" } }
+    imported.set_icon { mli = {icon = iconInterface, color = "#000000",name = "mli" } }
+    imported.set_icon { mlt = {icon = iconVideo, color = "#000000",name = "mlt" } }
+    imported.set_icon { mm = {icon = iconObjective, color = "#000000",name = "mm" } }
+    imported.set_icon { mo = {icon = iconGnuText, color = "#000000",name = "mo" } }
+    imported.set_icon { moon = {icon = iconLua, color = "#000000",name = "moon" } }
+    imported.set_icon { mov = {icon = iconVideo, color = "#000000",name = "mov" } }
+    imported.set_icon { mp3 = {icon = iconSound, color = "#000000",name = "mp3" } }
+    imported.set_icon { mp4 = {icon = iconVideo, color = "#000000",name = "mp4" } }
+    imported.set_icon { mpeg = {icon = iconVideo, color = "#000000",name = "mpeg" } }
+    imported.set_icon { mpg = {icon = iconVideo, color = "#000000",name = "mpg" } }
+    imported.set_icon { mq4 = {icon = iconMql, color = "#000000",name = "mq4" } }
+    imported.set_icon { mq5 = {icon = iconMql, color = "#000000",name = "mq5" } }
+    imported.set_icon { mqlh = {icon = iconInterface, color = "#000000",name = "mqlh" } }
+    imported.set_icon { nib = {icon = iconInterface, color = "#000000",name = "nib" } }
+    imported.set_icon { nim = {icon = iconNim, color = "#000000",name = "nim" } }
+    imported.set_icon { norg = {icon = iconOrg, color = "#000000",name = "norg" } }
+    imported.set_icon { nupkg = {icon = iconPackage, color = "#000000",name = "nupkg" } }
+    imported.set_icon { nuspec = {icon = iconXml, color = "#000000",name = "nuspec" } }
+    imported.set_icon { obj = {icon = icon3D, color = "#000000",name = "obj" } }
+    imported.set_icon { odp = {icon = iconOfficePresentation, color = "#000000",name = "odp" } }
+    imported.set_icon { ods = {icon = iconOfficeSpreadsheet, color = "#000000",name = "ods" } }
+    imported.set_icon { odt = {icon = iconOfficeDoc, color = "#000000",name = "odt" } }
+    imported.set_icon { ogg = {icon = iconSound, color = "#000000",name = "ogg" } }
+    imported.set_icon { org = {icon = iconOrg, color = "#000000",name = "org" } }
+    imported.set_icon { os = {icon = iconLanguage, color = "#000000",name = "os" } }
+    imported.set_icon { ovpn = {icon = iconCert, color = "#000000",name = "ovpn" } }
+    imported.set_icon { pages = {icon = iconOfficeDoc, color = "#000000",name = "pages" } }
+    imported.set_icon { pas = {icon = iconPascal, color = "#000000",name = "pas" } }
+    imported.set_icon { pdb = {icon = iconBinary, color = "#000000",name = "pdb" } }
+    imported.set_icon { pde = {icon = iconArduino, color = "#000000",name = "pde" } }
+    imported.set_icon { pdf = {icon = iconPdf, color = "#000000",name = "pdf" } }
+    imported.set_icon { pem = {icon = iconCert, color = "#000000",name = "pem" } }
+    imported.set_icon { pepk = {icon = iconCert, color = "#000000",name = "pepk" } }
+    imported.set_icon { pfx = {icon = iconCert, color = "#000000",name = "pfx" } }
+    imported.set_icon { pgsql = {icon = iconSql, color = "#000000",name = "pgsql" } }
+    imported.set_icon { php = {icon = iconPhp, color = "#000000",name = "php" } }
+    imported.set_icon { pkg = {icon = iconPackage, color = "#000000",name = "pkg" } }
+    imported.set_icon { pl = {icon = iconPerl, color = "#000000",name = "pl" } }
+    imported.set_icon { plist = {icon = iconXml, color = "#000000",name = "plist" } }
+    imported.set_icon { png = {icon = iconImage, color = "#000000",name = "png" } }
+    imported.set_icon { po = {icon = iconGnuText, color = "#000000",name = "po" } }
+    imported.set_icon { pony = {icon = iconPony, color = "#000000",name = "pony" } }
+    imported.set_icon { pot = {icon = iconGnuText, color = "#000000",name = "pot" } }
+    imported.set_icon { ppk = {icon = iconCert, color = "#000000",name = "ppk" } }
+    imported.set_icon { ppt = {icon = iconOfficePresentation, color = "#000000",name = "ppt" } }
+    imported.set_icon { pptx = {icon = iconOfficePresentation, color = "#000000",name = "pptx" } }
+    imported.set_icon { prefs = {icon = iconConfig, color = "#000000",name = "prefs" } }
+    imported.set_icon { pro = {icon = iconConfig, color = "#000000",name = "pro" } }
+    imported.set_icon { profile = {icon = iconProfile, color = "#000000",name = "profile" } }
+    imported.set_icon { properties = {icon = iconConfig, color = "#000000",name = "properties" } }
+    imported.set_icon { props = {icon = iconXml, color = "#000000",name = "props" } }
+    imported.set_icon { proto = {icon = iconProto, color = "#000000",name = "proto" } }
+    imported.set_icon { ps1 = { icon = iconShell, color = "#000000", name = "ps1" } }
+    imported.set_icon { psb = {icon = iconImage, color = "#000000",name = "psb" } }
+    imported.set_icon { psd = {icon = iconImage, color = "#000000",name = "psd" } }
+    imported.set_icon { psl = {icon = iconsSpec, color = "#000000",name = "psl" } }
+    imported.set_icon { pug = {icon = iconPug, color = "#000000",name = "pug" } }
+    imported.set_icon { puml = {icon = iconDiagram, color = "#000000",name = "puml" } }
+    imported.set_icon { py = {icon = iconPython, color = "#000000",name = "py" } }
+    imported.set_icon { python = {icon = iconPython, color = "#000000",name = "python" } }
+    imported.set_icon { pyc = {icon = iconPython, color = "#000000",name = "pyc" } }
+    imported.set_icon { pyd = {icon = iconPython, color = "#000000",name = "pyd" } }
+    imported.set_icon { pyo = {icon = iconPython, color = "#000000",name = "pyo" } }
+    imported.set_icon { python = {icon = iconPython, color = "#000000",name = "python" } }
+    imported.set_icon { r = {icon = iconR, color = "#000000",name = "r" } }
+    imported.set_icon { rar = {icon = iconPackage, color = "#000000",name = "rar" } }
+    imported.set_icon { rb = {icon = iconRuby, color = "#000000",name = "rb" } }
+    imported.set_icon { rc = {icon = iconDelphi, color = "#000000",name = "rc" } }
+    imported.set_icon { re = {icon = iconReason, color = "#000000",name = "re" } }
+    imported.set_icon { reality = {icon = icon3D, color = "#000000",name = "reality" } }
+    imported.set_icon { reg = {icon = iconLock, color = "#000000",name = "reg" } }
+    imported.set_icon { rei = {icon = iconInterface, color = "#000000",name = "rei" } }
+    imported.set_icon { res = {icon = iconReason, color = "#000000",name = "res" } }
+    imported.set_icon { resi = {icon = iconInterface, color = "#000000",name = "resi" } }
+    imported.set_icon { rest = {icon = iconRest, color = "#000000",name = "rest" } }
+    imported.set_icon { resx = {icon = iconXml, color = "#000000",name = "resx" } }
+    imported.set_icon { rh = {icon = iconShell, color = "#000000",name = "rh" } }
+    imported.set_icon { rlib = {icon = iconBinary, color = "#000000",name = "rlib" } }
+    imported.set_icon { rmd = {icon = iconOfficePresentation, color = "#000000",name = "rmd" } }
+    imported.set_icon { rpm = {icon = iconPackage, color = "#000000",name = "rpm" } }
+    imported.set_icon { rql = {icon = iconRest, color = "#000000",name = "rql" } }
+    imported.set_icon { rproj = {icon = iconConfig, color = "#000000",name = "rproj" } }
+    imported.set_icon { rs = {icon = iconRust, color = "#000000",name = "rs" } }
+    imported.set_icon { rss = {icon = iconXml, color = "#000000",name = "rss" } }
+    imported.set_icon { rst = {icon = iconRST, color = "#000000",name = "rst" } }
+    imported.set_icon { ru = {icon = iconRuby, color = "#000000",name = "ru" } }
+    imported.set_icon { s = {icon = iconAssembly, color = "#000000",name = "s" } }
+    imported.set_icon { sar = {icon = iconPackage, color = "#000000",name = "sar" } }
+    imported.set_icon { sass = {icon = iconSass, color = "#000000",name = "sass" } }
+    imported.set_icon { sbt = {icon = iconConfig, color = "#000000",name = "sbt" } }
+    imported.set_icon { sc = {icon = iconScala, color = "#000000",name = "sc" } }
+    imported.set_icon { scala = {icon = iconScala, color = "#000000",name = "scala" } }
+    imported.set_icon { scd = {icon = iconSound, color = "#000000",name = "scd" } }
+    imported.set_icon { scm = {icon = iconScheme, color = "#000000",name = "scm" } }
+    imported.set_icon { scss = {icon = iconCss, color = "#000000",name = "scss" } }
+    imported.set_icon { sfb = {icon = icon3D, color = "#000000",name = "sfb" } }
+    imported.set_icon { sfz = {icon = iconSound, color = "#000000",name = "sfz" } }
+    imported.set_icon { sh = {icon = iconShell, color = "#000000",name = "sh" } }
+    imported.set_icon { slime = {icon = iconSlime, color = "#000000",name = "slime" } }
+    imported.set_icon { sln = {icon = iconConfig, color = "#000000",name = "sln" } }
+    imported.set_icon { snap = {icon = iconPackage, color = "#000000",name = "snap" } }
+    imported.set_icon { spi = {icon = iconSpiral, color = "#000000",name = "spi" } }
+    imported.set_icon { spir = {icon = iconSpiral, color = "#000000",name = "spir" } }
+    imported.set_icon { spiproj = {icon = iconSpiral, color = "#000000",name = "spiproj" } }
+    imported.set_icon { so = {icon = iconBinary, color = "#000000",name = "so" } }
+    imported.set_icon { sol = {icon = iconLanguage, color = "#000000",name = "sol" } }
+    imported.set_icon { sql = {icon = iconSql, color = "#000000",name = "sql" } }
+    imported.set_icon { storyboard = {icon = iconXml, color = "#000000",name = "storyboard" } }
+    imported.set_icon { strings = {icon = iconXml, color = "#000000",name = "strings" } }
+    imported.set_icon { styl = {icon = iconCss, color = "#000000",name = "styl" } }
+    imported.set_icon { suo = {icon = iconCSharp, color = "#000000",name = "suo" } }
+    imported.set_icon { svelte = {icon = iconSvelte, color = "#000000",name = "svelte" } }
+    imported.set_icon { svg = {icon = iconImage, color = "#000000",name = "svg" } }
+    imported.set_icon { swift = {icon = iconSwift, color = "#000000",name = "swift" } }
+    imported.set_icon { swo = {icon = iconTemp, color = "#000000",name = "swo" } }
+    imported.set_icon { swp = {icon = iconTemp, color = "#000000",name = "swp" } }
+    imported.set_icon { t = {icon = iconT, color = "#000000",name = "t" } }
+    imported.set_icon { tar = {icon = iconPackage, color = "#000000",name = "tar" } }
+    imported.set_icon { tera = {icon = iconHtml, color = "#000000",name = "tera" } }
+    imported.set_icon { tflite = {icon = iconMachineLearning, color = "#000000",name = "tflite" } }
+    imported.set_icon { tga = {icon = iconImage, color = "#000000",name = "tga" } }
+    imported.set_icon { tgz = {icon = iconPackage, color = "#000000",name = "tgz" } }
+    imported.set_icon { tif = {icon = iconImage, color = "#000000",name = "tif" } }
+    imported.set_icon { tiff = {icon = iconFont, color = "#000000",name = "tiff" } }
+    imported.set_icon { tlb = {icon = iconInterface, color = "#000000",name = "tlb" } }
+    imported.set_icon { toml = {icon = iconConfig, color = "#000000",name = "toml" } }
+    imported.set_icon { tpl = {icon = iconTemplate, color = "#000000",name = "tpl" } }
+    imported.set_icon { ts = {icon = iconTypeScript, color = "#000000",name = "ts" } }
+    imported.set_icon { tsx = {icon = iconTypeScript, color = "#000000",name = "tsx" } }
+    imported.set_icon { ttf = {icon = iconFont, color = "#000000",name = "ttf" } }
+    imported.set_icon { txt = {icon = iconText, color = "#000000",name = "txt" } }
+    imported.set_icon { uml = {icon = iconDiagram, color = "#000000",name = "uml" } }
+    imported.set_icon { usd = {icon = icon3D, color = "#000000",name = "usd" } }
+    imported.set_icon { usda = {icon = icon3D, color = "#000000",name = "usda" } }
+    imported.set_icon { usdc = {icon = icon3D, color = "#000000",name = "usdc" } }
+    imported.set_icon { usdz = {icon = icon3D, color = "#000000",name = "usdz" } }
+    imported.set_icon { userprefs = {icon = iconConfig, color = "#000000",name = "userprefs" } }
+    imported.set_icon { v = {icon = iconV, color = "#000000",name = "v" } }
+    imported.set_icon { vbs = {icon = iconVisualBasic, color = "#000000",name = "vbs" } }
+    imported.set_icon { vcxproj = {icon = iconXml, color = "#000000",name = "vcxproj" } }
+    imported.set_icon { vdf = {icon = iconConfig, color = "#000000",name = "vdf" } }
+    imported.set_icon { vgb = {icon = iconConfig, color = "#000000",name = "vgb" } }
+    imported.set_icon { vh = {icon = iconInterface, color = "#000000",name = "vh" } }
+    imported.set_icon { vim = {icon = iconVim, color = "#000000",name = "vim" } }
+    imported.set_icon { vimrc = {icon = iconVim, color = "#000000",name = "vimrc" } }
+    imported.set_icon { vimspec = {icon = iconVim, color = "#000000",name = "vimspec" } }
+    imported.set_icon { vmb = {icon = iconPackage, color = "#000000",name = "vmb" } }
+    imported.set_icon { vpp = {icon = iconDiagram, color = "#000000",name = "vpp" } }
+    imported.set_icon { vrx = {icon = icon3D, color = "#000000",name = "vrx" } }
+    imported.set_icon { vsh = {icon = iconV, color = "#000000",name = "vsh" } }
+    imported.set_icon { vue = {icon = iconVue, color = "#000000",name = "vue" } }
+    imported.set_icon { vv = {icon = iconV, color = "#000000",name = "vv" } }
+    imported.set_icon { wad = {icon = iconBinary, color = "#000000",name = "wad" } }
+    imported.set_icon { war = {icon = iconPackage, color = "#000000",name = "war" } }
+    imported.set_icon { wav = {icon = iconSound, color = "#000000",name = "wav" } }
+    imported.set_icon { wbmp = {icon = iconImage, color = "#000000",name = "wbmp" } }
+    imported.set_icon { webp = {icon = iconImage, color = "#000000",name = "webp" } }
+    imported.set_icon { woff = {icon = iconFont, color = "#000000",name = "woff" } }
+    imported.set_icon { wscene = {icon = iconVideo, color = "#000000",name = "wscene" } }
+    imported.set_icon { wsdl = {icon = iconXml, color = "#000000",name = "wsdl" } }
+    imported.set_icon { xaml = {icon = iconXml, color = "#000000",name = "xaml" } }
+    imported.set_icon { xcf = {icon = iconImage, color = "#000000",name = "xcf" } }
+    imported.set_icon { xdata = {icon = iconXml, color = "#000000",name = "xdata" } }
+    imported.set_icon { xhtml = {icon = iconHtml, color = "#000000",name = "xhtml" } }
+    imported.set_icon { xib = {icon = iconXml, color = "#000000",name = "xib" } }
+    imported.set_icon { xlf = {icon = iconXml, color = "#000000",name = "xlf" } }
+    imported.set_icon { xjb = {icon = iconXml, color = "#000000",name = "xjb" } }
+    imported.set_icon { xls = {icon = iconOfficeSpreadsheet, color = "#000000",name = "xls" } }
+    imported.set_icon { xlsx = {icon = iconOfficeSpreadsheet, color = "#000000",name = "xlsx" } }
+    imported.set_icon { xml = {icon = iconXml, color = "#000000",name = "xml" } }
+    imported.set_icon { xsd = {icon = iconXml, color = "#000000",name = "xsd" } }
+    imported.set_icon { xsl = {icon = iconXml, color = "#000000",name = "xsl" } }
+    imported.set_icon { xz = {icon = iconPackage, color = "#000000",name = "xz" } }
+    imported.set_icon { yaml = {icon = iconYaml, color = "#000000",name = "yaml" } }
+    imported.set_icon { yml = {icon = iconYaml, color = "#000000",name = "yml" } }
+    imported.set_icon { zig = {icon = iconZig, color = "#000000",name = "zig" } }
+    imported.set_icon { zip = {icon = iconPackage, color = "#000000",name = "zip" } }
+    imported.set_icon { zsh = {icon = iconShell, color = "#000000",name = "zsh" } }
+    imported.set_icon { zst = {icon = iconPackage, color = "#000000",name = "zst" } }
+    imported.set_icon { acp = {icon = iconNetworkTrace, color = "#000000",name = "acp" } }
+    imported.set_icon { apc = {icon = iconNetworkTrace, color = "#000000",name = "apc" } }
+    imported.set_icon { atc = {icon = iconNetworkTrace, color = "#000000",name = "atc" } }
+    imported.set_icon { bfr = {icon = iconNetworkTrace, color = "#000000",name = "bfr" } }
+    imported.set_icon { cap = {icon = iconNetworkTrace, color = "#000000",name = "cap" } }
+    imported.set_icon { enc = {icon = iconNetworkTrace, color = "#000000",name = "enc" } }
+    imported.set_icon { erf = {icon = iconNetworkTrace, color = "#000000",name = "erf" } }
+    imported.set_icon { fdc = {icon = iconNetworkTrace, color = "#000000",name = "fdc" } }
+    imported.set_icon { ipfix = {icon = iconNetworkTrace, color = "#000000",name = "ipfix" } }
+    imported.set_icon { lcap = {icon = iconNetworkTrace, color = "#000000",name = "lcap" } }
+    imported.set_icon { mplog = {icon = iconNetworkTrace, color = "#000000",name = "mplog" } }
+    imported.set_icon { out = {icon = iconNetworkTrace, color = "#000000",name = "out" } }
+    imported.set_icon { pcap = {icon = iconNetworkTrace, color = "#000000",name = "pcap" } }
+    imported.set_icon { pcapng = {icon = iconNetworkTrace, color = "#000000",name = "pcapng" } }
+    imported.set_icon { pklg = {icon = iconNetworkTrace, color = "#000000",name = "pklg" } }
+    imported.set_icon { pkt = {icon = iconNetworkTrace, color = "#000000",name = "pkt" } }
+    imported.set_icon { rf5 = {icon = iconNetworkTrace, color = "#000000",name = "rf5" } }
+    imported.set_icon { snoop = {icon = iconNetworkTrace, color = "#000000",name = "snoop" } }
+    imported.set_icon { syc = {icon = iconNetworkTrace, color = "#000000",name = "syc" } }
+    imported.set_icon { tpc = {icon = iconNetworkTrace, color = "#000000",name = "tpc" } }
+    imported.set_icon { tr1 = {icon = iconNetworkTrace, color = "#000000",name = "tr1" } }
+    imported.set_icon { trace = {icon = iconNetworkTrace, color = "#000000",name = "trace" } }
+    imported.set_icon { trc = {icon = iconNetworkTrace, color = "#000000",name = "trc" } }
+    imported.set_icon { tup = {icon = iconMake, color = "#000000",name = "tup" } }
+    imported.set_icon { vwr = {icon = iconNetworkTrace, color = "#000000",name = "vwr" } }
+    imported.set_icon { wasm = {icon = iconBinary, color = "#000000",name = "wasm" } }
+    imported.set_icon { wast = {icon = iconBinary, color = "#000000",name = "wast" } }
+    imported.set_icon { wat = {icon = iconBinary, color = "#000000",name = "wat" } }
+    imported.set_icon { wpc = {icon = iconNetworkTrace, color = "#000000",name = "wpc" } }
+    imported.set_icon { wpz = {icon = iconNetworkTrace, color = "#000000",name = "wpz" } }
 
-default=true;
-}
-  end
+end
 
 EOF
 endif

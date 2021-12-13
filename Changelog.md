@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.88
+
+  - Better support [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons).
+
 ## Version 0.87
 
 - Add support for `*.mint` files.
