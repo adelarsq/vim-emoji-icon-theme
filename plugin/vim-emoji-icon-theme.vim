@@ -608,6 +608,9 @@ vim.g.aerial = {
 EOF
 endif
 
+" lambdalisue/battery.vim
+let g:battery#symbol_charging='⚡'
+let g:battery#symbol_discharging='📉'
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = s:iconDefault

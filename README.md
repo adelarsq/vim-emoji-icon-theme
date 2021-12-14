@@ -64,6 +64,7 @@ Others plugins:
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
 - [x] [andymass/vim-matchup](https://github.com/andymass/vim-matchup)
 - [x] [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim/)
+- [x] [lambdalisue/battery.vim](https://github.com/lambdalisue/battery.vim)
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons);

@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.90
+
+- Initial support for [lambdalisue/battery.vim](https://github.com/lambdalisue/battery.vim).
+
 ## Version 0.89
 
 - Better support for `3ds`, `60`, `7z`, `5vw`, `5vw`, `License`, `LICENSE`, `Makefile` and `dockerfile` files on [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons).
