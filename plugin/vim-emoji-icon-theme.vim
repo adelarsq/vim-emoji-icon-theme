@@ -1275,10 +1275,13 @@ if use then
 
     imported.set_default_icon(iconDefault, '#6d8086');
 
-    -- imported.set_icon { 3ds = { icon = icon3D, color = "#000000", name = "3ds" } }
-    -- imported.set_icon { 60 = {icon = iconGui, color = "#000000",name = "60" } }
-    -- imported.set_icon { 7z = {icon = iconPackage, color = "#000000",name = "7z" } }
-    -- imported.set_icon { 5vw = {icon = iconNetworkTrace, color = "#000000",name = "5vw" } }
+    imported.set_icon { ["3ds"] = { icon = icon3D, color = "#000000", name = "3ds" } }
+    imported.set_icon { ["60"] = {icon = iconGui, color = "#000000",name = "60" } }
+    imported.set_icon { ["7z"] = {icon = iconPackage, color = "#000000",name = "7z" } }
+    imported.set_icon { ["5vw"] = {icon = iconNetworkTrace, color = "#000000",name = "5vw" } }
+    imported.set_icon { ["5vw"] = {icon = iconNetworkTrace, color = "#000000",name = "5vw" } }
+    imported.set_icon { ["License"] = {icon = iconDocument, color = "#000000",name = "License" } }
+    imported.set_icon { ["LICENSE"] = {icon = iconDocument, color = "#000000",name = "License" } }
 
     imported.set_icon { aar = {icon = iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { ahk = {icon = iconConfig, color = "#000000",name = "ahk" } }
@@ -1341,6 +1344,7 @@ if use then
     imported.set_icon { dll = {icon = iconBinary, color = "#000000",name = "dll" } }
     imported.set_icon { dmg = {icon = iconPackage, color = "#000000",name = "dmg" } }
     imported.set_icon { doc = {icon = iconOfficeDoc, color = "#000000",name = "doc" } }
+    imported.set_icon { dockerfile = {icon = iconDocker, color = "#000000",name = "dockerfile" } }
     imported.set_icon { docx = {icon = iconOfficeDoc, color = "#000000",name = "docx" } }
     imported.set_icon { dpk = {icon = iconDelphi, color = "#000000",name = "dpk" } }
     imported.set_icon { dproj = {icon = iconDelphi, color = "#000000",name = "dproj" } }
