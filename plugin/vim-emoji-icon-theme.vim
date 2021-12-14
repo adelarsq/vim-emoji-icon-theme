@@ -1282,6 +1282,7 @@ if use then
     imported.set_icon { ["5vw"] = {icon = iconNetworkTrace, color = "#000000",name = "5vw" } }
     imported.set_icon { ["License"] = {icon = iconDocument, color = "#000000",name = "License" } }
     imported.set_icon { ["LICENSE"] = {icon = iconDocument, color = "#000000",name = "License" } }
+    -- imported.set_icon { ["Makefile"] = {icon = iconMake, color = "#000000",name = "Makefile" } }
 
     imported.set_icon { aar = {icon = iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { ahk = {icon = iconConfig, color = "#000000",name = "ahk" } }
@@ -1461,7 +1462,6 @@ if use then
     imported.set_icon { mdl = {icon = icon3D, color = "#000000",name = "mdl" } }
     imported.set_icon { mint = {icon = iconMint, color = "#000000",name = "mint" } }
     imported.set_icon { mk = {icon = iconMake, color = "#000000",name = "mk" } }
-    imported.set_icon { ["Makefile"] = {icon = iconMake, color = "#000000",name = "Makefile" } }
     imported.set_icon { mkd = {icon = iconMarkdown, color = "#000000",name = "mkd" } }
     imported.set_icon { mkv = {icon = iconVideo, color = "#000000",name = "mkv" } }
     imported.set_icon { ml = {icon = iconReason, color = "#000000",name = "ml" } }
