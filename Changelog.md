@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.91
+
+- Add support for [Puppet](https://puppet.com) files.
+
 ## Version 0.90
 
 - Initial support for [lambdalisue/battery.vim](https://github.com/lambdalisue/battery.vim).

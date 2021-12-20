@@ -164,6 +164,7 @@ let s:iconYaml = '🎴'
 let s:iconYarn = '🐈'
 let s:iconZig = '⚡️'
 let s:iconNetworkTrace = '🔬'
+let s:iconPuppet = '👻'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
@@ -1010,6 +1011,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wast'] = s:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wat'] = s:iconBinary " WebAssembly text format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpc'] = s:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpz'] = s:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pp'] = s:iconPuppet
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['epp'] = s:iconPuppet
 
 " Files
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
@@ -1271,6 +1274,7 @@ local iconYaml = '🎴'
 local iconYarn = '🐈'
 local iconZig = '⚡️'
 local iconNetworkTrace = '🔬'
+local iconPuppet = '👻'
 
 local use, imported = pcall(require, "nvim-web-devicons")
 
@@ -1677,6 +1681,9 @@ if use then
     imported.set_icon { wat = {icon = iconBinary, color = "#000000",name = "wat" } }
     imported.set_icon { wpc = {icon = iconNetworkTrace, color = "#000000",name = "wpc" } }
     imported.set_icon { wpz = {icon = iconNetworkTrace, color = "#000000",name = "wpz" } }
+    imported.set_icon { ["pp"] = { icon = iconPuppet, color = "#FFA61A", name = "Pp" } }
+    imported.set_icon { ["epp"] = { icon = iconPuppet, color = "#FFA61A", name = "Epp" } }
+
 
 end
 
