@@ -908,6 +908,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spi'] = s:iconSpiral 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spir'] = s:iconSpiral " Spiral language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spiproj'] = s:iconSpiral " Spiral language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sql'] = s:iconSql " sql -> SQLYog
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sqlite'] = s:iconSql " sqlite database file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['storyboard'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['strings'] = s:iconXml " XML plist strings file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['styl'] = s:iconCss " stylus
@@ -1683,6 +1684,7 @@ if use then
     imported.set_icon { wpz = {icon = iconNetworkTrace, color = "#000000",name = "wpz" } }
     imported.set_icon { ["pp"] = { icon = iconPuppet, color = "#FFA61A", name = "Pp" } }
     imported.set_icon { ["epp"] = { icon = iconPuppet, color = "#FFA61A", name = "Epp" } }
+    imported.set_icon { ["sqlite"] = { icon = iconSql, color = "#FFA61A", name = "sqlite" } }
 
 
 end

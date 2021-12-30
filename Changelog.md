@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.92
+
+- Add support for `sqlite` files.
+
 ## Version 0.91
 
 - Add support for [Puppet](https://puppet.com) files.
