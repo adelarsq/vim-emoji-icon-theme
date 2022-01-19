@@ -1,5 +1,5 @@
 " Vim Emoji Icon Theme
-" By Adelar da Silva Queiróz - 2021
+" By Adelar da Silva Queiróz - 2022
 " MIT License
 
 if exists('g:vim_emoji_icon_theme')
