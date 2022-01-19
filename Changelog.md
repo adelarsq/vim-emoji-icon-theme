@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.93
+
+- Add support for `.gitignore` and `*.fsscript` files.
+
 ## Version 0.92
 
 - Add support for `sqlite` files.
