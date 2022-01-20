@@ -717,7 +717,6 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsproj'] = s:iconFsha
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsx'] = s:iconFsharp " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsy'] = s:iconFsharp " FsYacc file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsl'] = s:iconFsharp " FsLex file
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsscript'] = s:iconFsharp
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['functions'] = s:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fxml'] = s:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gdb'] = s:iconDebugger
@@ -1030,7 +1029,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.envrc'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.git'] = s:iconGit " github symbol
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitattributes'] = s:iconGit " github symbol
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitconfig'] = s:iconGit " github symbol
-let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitignore'] = s:iconGitIgnored " github symbol
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitignore'] = s:iconGit " github symbol
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitlab-ci.yml'] = s:iconYaml " gitlab ci config file
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gqlconfig'] = s:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.hackernews'] = s:iconNews
@@ -1284,7 +1283,6 @@ if use then
 
     imported.set_default_icon(iconDefault, '#6d8086');
 
-    imported.set_icon { [".gitignore"] = { icon = iconGitIgnored, color = "#000000", name = ".gitignore" } }
     imported.set_icon { ["3ds"] = { icon = icon3D, color = "#000000", name = "3ds" } }
     imported.set_icon { ["60"] = {icon = iconGui, color = "#000000",name = "60" } }
     imported.set_icon { ["7z"] = {icon = iconPackage, color = "#000000",name = "7z" } }
@@ -1391,7 +1389,6 @@ if use then
     imported.set_icon { fsx = {icon = iconFsharp, color = "#000000",name = "fsx" } }
     imported.set_icon { fsy = {icon = iconFsharp, color = "#000000",name = "fsy" } }
     imported.set_icon { fsl = {icon = iconFsharp, color = "#000000",name = "fsl" } }
-    imported.set_icon { fsscript = {icon = iconFsharp, color = "#000000",name = "fsscript" } }
     imported.set_icon { functions = {icon = iconShell, color = "#000000",name = "functions" } }
     imported.set_icon { fxml = {icon = iconXml, color = "#000000",name = "fxml" } }
     imported.set_icon { gdb = {icon = iconDebugger, color = "#000000",name = "gdb" } }
