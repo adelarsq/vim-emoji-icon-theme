@@ -490,7 +490,7 @@ lua << EOF
   local useLspKind, importedLspKind = pcall(require, "lspkind")
   if useLspKind then
     importedLspKind.init({
-       with_text = true,
+       mode = 'symbol_text',
        symbol_map = {
          Text = '📜',
          Method = '🧶',
