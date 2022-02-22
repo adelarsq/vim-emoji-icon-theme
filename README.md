@@ -3,7 +3,7 @@
 This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.
 
 For filetypes support this plugins extends [vim-devicons](https://github.com/ryanoasis/vim-devicons)
-and [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) , adding support for icons as emojis on Vim and Neovim.
+and [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons), adding support for icons as emojis on Vim and Neovim.
 
 [NERDTree](https://github.com/preservim/nerdtree) with this plugin using [material.nvim](https://github.com/marko-cerovac/material.nvim) colorscheme:
 
@@ -14,7 +14,7 @@ and [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devico
 Icon plugins:
 
 - [x] [kristijanhusak/defx-icons](https://github.com/kristijanhusak/defx-icons)
-- [x] [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) [1](https://github.com/kyazdani42/nvim-web-devicons/pull/11)
+- [x] [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) [1](https://github.com/kyazdani42/nvim-web-devicons/pull/11)                                      or 
 - [x] [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - For filetype support
 
 Others plugins:
@@ -76,9 +76,16 @@ Labels:
 
 ## How to use 🤔
 
-This plugin depends on [vim-devicons](https://github.com/ryanoasis/vim-devicons). With this dependency satisfied the plugin should work out of box.
+This plugin was tested with:
 
-Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/emoji-12.0)), so one have to be configured. I have tested with [iTerm](https://www.iterm2.com) (MacOS) and [Kitty](https://sw.kovidgoyal.net/kitty) (GNU/Linux).
+- [x] [Wez's Terminal](https://github.com/wez/wezterm) - MacOS, GNU/Linux and Windows **recomended**
+- [x] [iTerm](https://www.iterm2.com) - MacOS
+- [x] [Kitty](https://sw.kovidgoyal.net/kitty) - GNU/Linux
+- [x] [Windows Terminal](https://github.com/microsoft/terminal) - Windows
+
+This plugin depends on [vim-devicons](https://github.com/ryanoasis/vim-devicons) or [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons). With this dependency satisfied the plugin should work out of box.
+
+Also the editor will be using Emoji fonts ([version 12](https://emojipedia.org/emoji-12.0)), so one have to be configured.
 
 For [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim) you
 use the `Emoji_Icon_Theme_Asyncrun()` function to show on the statusline.
