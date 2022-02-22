@@ -7,7 +7,7 @@ and [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devico
 
 [NERDTree](https://github.com/preservim/nerdtree) with this plugin using [material.nvim](https://github.com/marko-cerovac/material.nvim) colorscheme:
 
-![nerdtree](https://user-images.githubusercontent.com/430272/112572478-fd71c780-8dc8-11eb-8a5d-eda343deb467.png)
+![Screenshot](https://user-images.githubusercontent.com/430272/155048699-7031540f-af62-4aa9-90df-f5efc09f1f9a.png)
 
 ## Plugins Support 🤗
 
