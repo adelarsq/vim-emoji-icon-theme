@@ -1293,8 +1293,8 @@ if use then
     imported.set_icon { ["License"] = {icon = iconDocument, color = "#000000",name = "License" } }
     imported.set_icon { ["LICENSE"] = {icon = iconDocument, color = "#000000",name = "License" } }
     imported.set_icon { ["Dockerfile"] = {icon = iconDocker, color = "#000000",name = "Dockerfile" } }
-    imported.set_icon { [".gitattributes"] = {icon = iconVCS, color = "#000000",name = ".gitattributes" } }
-    imported.set_icon { [".gitignore"] = {icon = iconVCS, color = "#000000",name = ".gitignore" } }
+    imported.set_icon { [".gitattributes"] = {icon = iconVCS, color = "#000000",name = "gitattributes" } }
+    imported.set_icon { [".gitignore"] = {icon = iconVCS, color = "#000000",name = "gitignore" } }
     -- imported.set_icon { ["Makefile"] = {icon = iconMake, color = "#000000",name = "Makefile" } }
 
     imported.set_icon { aar = {icon = iconPackage, color = "#000000",name = "aar" } }
