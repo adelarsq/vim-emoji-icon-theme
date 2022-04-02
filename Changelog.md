@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.94
+
+- Better support for git files
+
 ## Version 0.93
 
 - Add support for `.gitignore` and `*.fsscript` files.
