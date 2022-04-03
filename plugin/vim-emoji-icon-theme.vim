@@ -167,20 +167,29 @@ let s:iconZig = '⚡️'
 let s:iconNetworkTrace = '🔬'
 let s:iconPuppet = '👻'
 
+let s:signSuccess = '🎉'
+let s:signRunning = '🚀'
+let s:signError = '💥'
+let s:signInfo = '⚠️ '
+let s:signWarning = '💩'
+let s:signHint = '💡'
+let s:signBookmarkSign = '⭐'
+let s:signBookmarkAnnotationSign = '❤️ '
+
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = ' '
 
 " ale
-let g:ale_sign_error = '💥'
-let g:ale_sign_info = '⚠️ '
-let g:ale_sign_warning = '💩'
-let g:ale_sign_style_error = '💥'
-let g:ale_sign_style_warning = '💩'
+let g:ale_sign_error = s:signError
+let g:ale_sign_info = s:signInfo
+let g:ale_sign_warning = s:signWarning
+let g:ale_sign_style_error = s:signError
+let g:ale_sign_style_warning = s:signWarning
 
 " vim-bookmarks
-let g:bookmark_sign = '⭐'
-let g:bookmark_annotation_sign = '❤️ '
+let g:bookmark_sign = s:signBookmarkSign
+let g:bookmark_annotation_sign = s:signBookmarkAnnotationSign
 
 " vim-clap
 let g:clap_spinner_frames =  ['🌎 ','🌍 ','🌏 ']
@@ -332,8 +341,8 @@ let g:gitgutter_sign_removed = '🔺'
 let g:gitgutter_sign_modified_removed = '💔'
 
 " coc.nvim
-let g:coc_status_error_sign="💥"
-let g:coc_status_warning_sign="💩"
+let g:coc_status_error_sign=s:signError
+let g:coc_status_warning_sign=s:signWarning
 let g:coc_user_config = {
 \ "codeLens.separator": "🔎",
 \ "diagnostic.errorSign": "💥",
@@ -401,11 +410,11 @@ let g:line_no_indicator_chars = [
 function! g:Emoji_Icon_Theme_Asyncrun()
     if exists('g:asyncrun_status')
         if g:asyncrun_status ==# 'running'
-            return '🚀'
+            return s:signRunning
         elseif g:asyncrun_status ==# 'success'
-            return '🎉'
+            return s:signSuccess
         elseif g:asyncrun_status ==# 'failure'
-            return '💥'
+            return s:signError
         endif
     endif
     return ''
@@ -461,11 +470,11 @@ lua << EOF
   if use then
     imported.config {
       status_symbol = '🔥',
-      indicator_errors = '💥',
-      indicator_hint = '💡',
-      indicator_info = '⚠️ ',
-      indicator_warnings = '💩',
       indicator_ok = '✅',
+      indicator_errors = vim.s.signError,
+      indicator_hint = vim.s.signHint,
+      indicator_info = vim.s.signInfo,
+      indicator_warnings = vim.s.signWarning,
       spinner_frames = {'🌎','🌍','🌏'}
     }
   end
@@ -474,10 +483,10 @@ lua << EOF
   local useLspSaga, importedLspSaga = pcall(require, "lspsaga")
   if useLspSaga then
       importedLspSaga.init_lsp_saga({
-        error_sign = '💥',
-        hint_sign = '💡',
-        infor_sign = '⚠️ ',
-        warn_sign = '💩',
+        error_sign = vim.s.signError,
+        hint_sign = vim.s.signHint,
+        infor_sign = vim.s.signInfo,
+        warn_sign = vim.s.signWarning,
         code_action_icon = '💭',
         definition_preview_icon = '🔭 ',
         dianostic_header_icon = ' 🐞  ',
@@ -535,10 +544,10 @@ let g:buffet_right_trun_icon = '‹'
 
 " nvim-lua/diagnostic-nvim
 if has('nvim')
-    call sign_define("LspDiagnosticsErrorSign", {"text" : "💥", "texthl" : "LspDiagnosticsError"})
-    call sign_define("LspDiagnosticsHintSign", {"text" : "💡", "texthl" : "LspDiagnosticsHint"})
-    call sign_define("LspDiagnosticsWarningSign", {"text" : "💩", "texthl" : "LspDiagnosticsWarning"})
-    call sign_define("LspDiagnosticsInformationSign", {"text" : "⚠️ ", "texthl" : "LspDiagnosticsInformation"})
+    call sign_define("LspDiagnosticsErrorSign", {"text" : s:signError, "texthl" : "LspDiagnosticsError"})
+    call sign_define("LspDiagnosticsHintSign", {"text" : s:signHint, "texthl" : "LspDiagnosticsHint"})
+    call sign_define("LspDiagnosticsWarningSign", {"text" : s:signWarning, "texthl" : "LspDiagnosticsWarning"})
+    call sign_define("LspDiagnosticsInformationSign", {"text" : s:signInfo, "texthl" : "LspDiagnosticsInformation"})
 endif
 
 " glepnir/dashboard-nvim
@@ -577,10 +586,10 @@ let g:nvim_tree_icons = {
     \   'symlink_open': s:iconFolderSymlinkOpen,
     \   },
     \   'lsp': {
-    \     'error': "💥",
-    \     'hint': "💡",
-    \     'info': "⚠️ ",
-    \     'warning': "💩",
+    \     'error': s:signError,
+    \     'hint': s:signHint,
+    \     'info': s:signInfo,
+    \     'warning': s:signWarning,
     \   }
     \ }
 
@@ -1690,7 +1699,6 @@ if use then
     imported.set_icon { ["pp"] = { icon = iconPuppet, color = "#FFA61A", name = "Pp" } }
     imported.set_icon { ["epp"] = { icon = iconPuppet, color = "#FFA61A", name = "Epp" } }
     imported.set_icon { ["sqlite"] = { icon = iconSql, color = "#FFA61A", name = "sqlite" } }
-
 
 end
 
