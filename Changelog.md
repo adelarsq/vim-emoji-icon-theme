@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.95
+
+- Initial support for [hsanson/vim-android](https://github.com/hsanson/vim-android).
+
 ## Version 0.94
 
 - Better support for git files
