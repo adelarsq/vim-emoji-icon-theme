@@ -65,6 +65,7 @@ Others plugins:
 - [x] [andymass/vim-matchup](https://github.com/andymass/vim-matchup)
 - [x] [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim/)
 - [x] [lambdalisue/battery.vim](https://github.com/lambdalisue/battery.vim)
+- [x] [hsanson/vim-android](https://github.com/hsanson/vim-android)
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons);

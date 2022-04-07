@@ -168,6 +168,7 @@ let g:iconNetworkTrace = '🔬'
 let g:iconPuppet = '👻'
 
 let s:signSuccess = '🎉'
+let s:signBuilding = '📦'
 let s:signRunning = '🚀'
 let s:signError = '💥'
 let s:signInfo = '⚠️ '
@@ -622,6 +623,13 @@ endif
 " lambdalisue/battery.vim
 let g:battery#symbol_charging='⚡'
 let g:battery#symbol_discharging='📉'
+
+" hsanson/vim-android
+let g:gradle_glyph_error = s:signError
+let g:gradle_glyph_warning = s:signWarning
+let g:gradle_glyph_gradle = g:iconAndroid
+let g:gradle_glyph_android = g:iconAndroid
+let g:gradle_glyph_building = s:signBuilding
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = g:iconDefault
