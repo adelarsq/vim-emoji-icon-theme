@@ -3,6 +3,7 @@
 ## Version 0.95
 
 - Initial support for [hsanson/vim-android](https://github.com/hsanson/vim-android).
+- Better Cobol support
 
 ## Version 0.94
 
