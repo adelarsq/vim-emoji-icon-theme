@@ -4,6 +4,7 @@
 
 - Initial support for [hsanson/vim-android](https://github.com/hsanson/vim-android).
 - Better Cobol support
+- Better support for JavaScript config files
 
 ## Version 0.94
 
