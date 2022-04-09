@@ -1155,7 +1155,9 @@ if use then
     imported.set_icon { ["Dockerfile"] = {icon = vim.g.iconDocker, color = "#000000",name = "Dockerfile" } }
     imported.set_icon { [".gitattributes"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitattributes" } }
     imported.set_icon { [".gitignore"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitignore" } }
-    -- imported.set_icon { ["Makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "Makefile" } }
+    imported.set_icon { ["package-lock.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "packagelock" } }
+    imported.set_icon { ["package.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "package" } }
+    -- imported.set_icon { ["makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "makefile" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { ahk = {icon = vim.g.iconConfig, color = "#000000",name = "ahk" } }
