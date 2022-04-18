@@ -499,7 +499,7 @@ lua << EOF
 
   end
 
-  -- https://github.com/onsails/lspkind-nvim
+  -- https://github.com/onsails/lspkind.nvim
   local useLspKind, importedLspKind = pcall(require, "lspkind")
   if useLspKind then
     importedLspKind.setup({

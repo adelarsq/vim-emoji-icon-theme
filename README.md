@@ -44,7 +44,7 @@ Others plugins:
 - [x] [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
 - [x] [nvim-lua/diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)
 - [x] [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)
-- [x] [onsails/lspkind-nvim](https://github.com/onsails/lspkind-nvim)
+- [x] [onsails/lspkind.nvim](https://github.com/onsails/lspkind.nvim)
 - [x] [powerline/powerline](https://github.com/powerline/powerline) `*`
 - [x] [preservim/nerdtree](https://github.com/preservim/nerdtree) `*`
 - [x] [puremourning/vimspector](https://github.com/puremourning/vimspector)
