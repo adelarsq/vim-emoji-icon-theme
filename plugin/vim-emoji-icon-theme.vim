@@ -500,7 +500,7 @@ lua << EOF
   -- https://github.com/onsails/lspkind-nvim
   local useLspKind, importedLspKind = pcall(require, "lspkind")
   if useLspKind then
-    importedLspKind.init({
+    importedLspKind.setup({
        mode = 'symbol_text',
        symbol_map = {
          Text = '📜',
