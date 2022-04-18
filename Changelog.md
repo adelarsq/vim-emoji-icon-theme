@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.96
+
+- Update icons for [lspkind](https://github.com/onsails/lspkind.nvim)
+
 ## Version 0.95
 
 - Initial support for [hsanson/vim-android](https://github.com/hsanson/vim-android).
