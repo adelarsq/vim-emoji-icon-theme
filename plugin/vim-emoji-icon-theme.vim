@@ -167,6 +167,8 @@ let g:iconZig = '⚡️'
 let g:iconNetworkTrace = '🔬'
 let g:iconPuppet = '👻'
 
+let g:iconBuffer = '🐃' " Bufferlo
+
 let s:signSuccess = '🎉'
 let s:signBuilding = '📦'
 let s:signRunning = '🚀'
@@ -206,7 +208,7 @@ let s:db_ui_collapsed_icon = '▸'
 let g:db_ui_icons = {
     \ 'expanded': {
     \   'db': s:db_ui_expanded_icon.' 🎲',
-    \   'buffers': s:db_ui_expanded_icon.' 🅱️ ',
+    \   'buffers': s:db_ui_expanded_icon.' '.g:iconBuffer,
     \   'saved_queries': s:db_ui_expanded_icon.' 💾',
     \   'schemas': s:db_ui_expanded_icon.' 🗄 ',
     \   'schema': s:db_ui_expanded_icon.' 🗂',
@@ -215,7 +217,7 @@ let g:db_ui_icons = {
     \ },
     \ 'collapsed': {
     \   'db': s:db_ui_collapsed_icon.' 🎲',
-    \   'buffers': s:db_ui_collapsed_icon.' 🅱️ ',
+    \   'buffers': s:db_ui_collapsed_icon.' '.g:iconBuffer,
     \   'saved_queries': s:db_ui_collapsed_icon.' 💾',
     \   'schemas': s:db_ui_collapsed_icon.' 🗄 ',
     \   'schema': s:db_ui_collapsed_icon.' 🗂',
@@ -225,7 +227,7 @@ let g:db_ui_icons = {
     \ 'saved_query': '  📀',
     \ 'new_query': '  📄',
     \ 'tables': '  📋',
-    \ 'buffers': ' 🅱️ ',
+    \ 'buffers': ' '.g:iconBuffer,
     \ 'add_connection': '  🔋',
     \ 'connection_ok': '✅',
     \ 'connection_error': '❌',
@@ -503,32 +505,41 @@ lua << EOF
     importedLspKind.setup({
        mode = 'symbol_text',
        symbol_map = {
-         Text = '📜',
-         Method = '🧶',
-         Function = '🧵',
+         Array = '🅰️',
+         Boolean = '☯️',
+         Buffer = vim.g.iconBuffer,
+         Class = '🆑',
+         Color = '🎨',
+         Constant = '🧊',
          Constructor = '🚧',
+         Enum = '🧫',
+         EnumMember = '🦠',
+         Event = '📅',
          Field = '🔘',
-         Variable = '🔻',
-         Class = '📦',
+         File = '🗄 ',
+         Folder = '📁',
+         Function = '🧵',
          Interface = '🧩',
+         Key = '🔑',
+         Keyword = '🔑',
+         Method = '🧶',
          Module = '🚛',
+         Namespace = '🪐',
+         Null = '☢️',
+         Number = '🔢',
+         Object = '🅾️',
+         Operator = '❎',
+         Package = '📦',
          Property = '💊',
+         Reference = '⛳',
+         Snippet = '🌱',
+         String = '🔠',
+         Struct = '🧱',
+         Text = '📜',
+         TypeParameter = '🧬',
          Unit = '🗳 ',
          Value = '🧪',
-         Enum = '🧫',
-         Keyword = '🔑',
-         Snippet = '🌱',
-         Color = '🎨',
-         File = '🗄 ',
-         Reference = '⛳',
-         Folder = '📁',
-         EnumMember = '🦠',
-         Constant = '🧊',
-         Struct = '🧱',
-         Event = '📅',
-         Operator = '❎',
-         Buffer = '🪐',
-         TypeParameter = '🧬'
+         Variable = '🔻'
        },
     })
   end
