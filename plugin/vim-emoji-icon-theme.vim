@@ -167,7 +167,7 @@ let g:iconZig = '⚡️'
 let g:iconNetworkTrace = '🔬'
 let g:iconPuppet = '👻'
 
-let g:iconBuffer = '🐃' " Bufferlo
+let g:iconBuffer = '🐃' " 'Buffer'lo
 
 let s:signSuccess = '🎉'
 let s:signBuilding = '📦'
@@ -330,7 +330,7 @@ let g:import_cost_virtualtext_prefix = " 💰 "
 " vim-package-info
 let g:vim_package_info_virutaltext_prefix = ' 🎉 '
 
-" vim.g.gnify
+" vim.g.signify
 let g:signify_sign_add               = '■'
 let g:signify_sign_delete            = '■'
 let g:signify_sign_delete_first_line = '■'
