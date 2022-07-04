@@ -656,6 +656,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ai'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['alda'] = g:iconSound " Alda script file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ani'] = g:icon3D " ani 3D file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apk'] = g:iconPackage " Android package file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['arb'] = g:iconJavaScript " Application Resource Bundle
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['as'] = g:iconAngel " angel script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asm'] = g:iconAssembly " Assembly source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asta'] = g:iconDiagram " Astah diagrams
@@ -1176,6 +1177,7 @@ if use then
     imported.set_icon { alda = {icon = vim.g.iconSound, color = "#000000",name = "alda" } }
     imported.set_icon { ani = {icon = vim.g.icon3D, color = "#000000",name = "ani" } }
     imported.set_icon { apk = {icon = vim.g.iconPackage, color = "#000000",name = "apk" } }
+    imported.set_icon { arb = {icon = vim.g.iconJavaScript, color = "#000000",name = "arb" } }
     imported.set_icon { as = {icon = vim.g.iconAngel, color = "#000000",name = "as" } }
     imported.set_icon { asm = {icon = vim.g.iconAssembly, color = "#000000",name = "asm" } }
     imported.set_icon { asta = {icon = vim.g.iconDiagram, color = "#000000",name = "asta" } }
