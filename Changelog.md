@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.97
+
+- Add support for .arb files.
+
 ## Version 0.96
 
 - Update icons for [lspkind](https://github.com/onsails/lspkind.nvim)
