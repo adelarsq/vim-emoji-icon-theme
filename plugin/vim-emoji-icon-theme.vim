@@ -483,21 +483,21 @@ lua << EOF
   end
 
   -- https://github.com/glepnir/lspsaga.nvim
-  local useLspSaga, importedLspSaga = pcall(require, "lspsaga")
-  if useLspSaga then
-      importedLspSaga.init_lsp_saga({
-        error_sign = vim.g.signError,
-        hint_sign = vim.g.signHint,
-        infor_sign = vim.g.signInfo,
-        warn_sign = vim.g.signWarning,
-        code_action_icon = '💭',
-        definition_preview_icon = '🔭 ',
-        dianostic_header_icon = ' 🐞  ',
-        finder_definition_icon = '🐣  ',
-        finder_reference_icon = '⛳️  '
-      })
-
-  end
+  -- local useLspSaga, importedLspSaga = pcall(require, "lspsaga")
+  -- if useLspSaga then
+  --     importedLspSaga.init_lsp_saga({
+  --       error_sign = vim.g.signError,
+  --       hint_sign = vim.g.signHint,
+  --       infor_sign = vim.g.signInfo,
+  --       warn_sign = vim.g.signWarning,
+  --       code_action_icon = '💭',
+  --       definition_preview_icon = '🔭 ',
+  --       dianostic_header_icon = ' 🐞  ',
+  --       finder_definition_icon = '🐣  ',
+  --       finder_reference_icon = '⛳️  '
+  --     })
+  --
+  -- end
 
   -- https://github.com/onsails/lspkind.nvim
   local useLspKind, importedLspKind = pcall(require, "lspkind")
