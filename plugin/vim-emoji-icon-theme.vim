@@ -813,6 +813,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jsx'] = g:iconJsx " j
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jws'] = g:iconConfig " JDeveloper config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jxl'] = g:iconImage " JPEG XL file format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['key'] = g:iconCert " cert key
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kind'] = g:iconJavaScript " Kind Language Source
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kt'] = g:iconKotlyn " Kotlyn source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kts'] = g:iconKotlyn " Kotlyn source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['latex'] = g:iconDocument
@@ -1337,6 +1338,7 @@ if use then
     imported.set_icon { jws = {icon = vim.g.iconConfig, color = "#000000",name = "jws" } }
     imported.set_icon { jxl = {icon = vim.g.iconImage, color = "#000000",name = "jxl" } }
     imported.set_icon { key = {icon = vim.g.iconCert, color = "#000000",name = "key" } }
+    imported.set_icon { kind = {icon = vim.g.iconJavaScript, color = "#000000",name = "kind" } }
     imported.set_icon { kt = {icon = vim.g.iconKotlyn, color = "#000000",name = "kt" } }
     imported.set_icon { kts = {icon = vim.g.iconKotlyn, color = "#000000",name = "kts" } }
     imported.set_icon { latex = {icon = vim.g.iconDocument, color = "#000000",name = "latex" } }
