@@ -122,6 +122,7 @@ let g:iconPdf = '🅿️ '
 let g:iconPerl = '🍐'
 let g:iconPhp = '🐘'
 let g:iconPony = '🐴'
+let g:iconPrisma = '🔷'
 let g:iconProfile = '👤'
 let g:iconProto = '⚛️ '
 let g:iconPug = '🐶'
@@ -884,6 +885,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppk'] = g:iconCert " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppt'] = g:iconOfficePresentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pptx'] = g:iconOfficePresentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['prefs'] = g:iconConfig " Eclipse preferences file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['prisma'] = g:iconPrisma
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pro'] = g:iconConfig " ProGuard rules file 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['profile'] = g:iconProfile
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['properties'] = g:iconConfig
@@ -1410,6 +1412,7 @@ if use then
     imported.set_icon { ppt = {icon = vim.g.iconOfficePresentation, color = "#000000",name = "ppt" } }
     imported.set_icon { pptx = {icon = vim.g.iconOfficePresentation, color = "#000000",name = "pptx" } }
     imported.set_icon { prefs = {icon = vim.g.iconConfig, color = "#000000",name = "prefs" } }
+    imported.set_icon { prisma = {icon = vim.g.iconPrisma, color = "#000000",name = "prisma" } }
     imported.set_icon { pro = {icon = vim.g.iconConfig, color = "#000000",name = "pro" } }
     imported.set_icon { profile = {icon = vim.g.iconProfile, color = "#000000",name = "profile" } }
     imported.set_icon { properties = {icon = vim.g.iconConfig, color = "#000000",name = "properties" } }
