@@ -781,6 +781,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hss'] = g:iconCss " H
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['htm'] = g:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = g:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['heex'] = g:iconHtml " Elixir's HTML EEx
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hvm'] = g:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hx'] = g:iconGraphQL " Haxe source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['icns'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ico'] = g:iconImage
@@ -1305,6 +1306,7 @@ if use then
     imported.set_icon { htm = {icon = vim.g.iconHtml, color = "#000000",name = "htm" } }
     imported.set_icon { html = {icon = vim.g.iconHtml, color = "#000000",name = "html" } }
     imported.set_icon { heex = {icon = vim.g.iconHtml, color = "#000000",name = "heex" } }
+    imported.set_icon { hvm = {icon = vim.g.iconHaskell, color = "#000000",name = "hvm" } }
     imported.set_icon { hx = {icon = vim.g.iconGraphQL, color = "#000000",name = "hx" } }
     imported.set_icon { icns = {icon = vim.g.iconImage, color = "#000000",name = "icns" } }
     imported.set_icon { ico = {icon = vim.g.iconImage, color = "#000000",name = "ico" } }
