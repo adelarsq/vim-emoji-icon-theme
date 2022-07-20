@@ -100,6 +100,7 @@ let g:iconLocked = '🔒'
 let g:iconLog = '🦎'
 let g:iconLua = '🌕'
 let g:iconObjective = '🐄' " another funny cow for Objective-C and Objective-C++
+let g:iconOdin = '🔵'
 let g:iconMake = '🐃'
 let g:iconMarkdown = '⬇️ '
 let g:iconMarko = '🌈'
@@ -852,6 +853,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['norg'] = g:iconOrg " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nupkg'] = g:iconPackage " NuGet package config
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nuspec'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['obj'] = g:icon3D
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['odin'] = g:iconOdin
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['odp'] = g:iconOfficePresentation "OpenOffice/StarOffice presentation file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ods'] = g:iconOfficeSpreadsheet " OpenOffice/StarOffice spreadsheet file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['odt'] = g:iconOfficeDoc "OpenOffice/StarOffice doc file
@@ -1375,6 +1377,7 @@ if use then
     imported.set_icon { nupkg = {icon = vim.g.iconPackage, color = "#000000",name = "nupkg" } }
     imported.set_icon { nuspec = {icon = vim.g.iconXml, color = "#000000",name = "nuspec" } }
     imported.set_icon { obj = {icon = vim.g.icon3D, color = "#000000",name = "obj" } }
+    imported.set_icon { odin = {icon = vim.g.iconOdin, color = "#000000",name = "odin" } }
     imported.set_icon { odp = {icon = vim.g.iconOfficePresentation, color = "#000000",name = "odp" } }
     imported.set_icon { ods = {icon = vim.g.iconOfficeSpreadsheet, color = "#000000",name = "ods" } }
     imported.set_icon { odt = {icon = vim.g.iconOfficeDoc, color = "#000000",name = "odt" } }

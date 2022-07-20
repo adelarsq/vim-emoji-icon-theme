@@ -2,6 +2,7 @@
 
 ## Version 0.98
 
+- Add support for .odin files.
 - Add support for .carbon files.
 
 ## Version 0.97
