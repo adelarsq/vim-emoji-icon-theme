@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.98
+
+- Add support for .carbon files.
+
 ## Version 0.97
 
 - Add support for .arb files.

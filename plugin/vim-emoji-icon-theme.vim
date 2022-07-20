@@ -676,6 +676,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bpg'] = g:iconImage "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsdl'] = g:iconBsdl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsl'] = g:iconLanguage " Language 1C (BSL) language file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = g:iconC
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['carbon'] = g:iconC " Carbon Language Source File
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cbl'] = g:iconCobol " Cobol source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cer'] = g:iconCert " Certificate file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cff'] = g:iconDocument
@@ -1197,6 +1198,7 @@ if use then
     imported.set_icon { bsdl = {icon = vim.g.iconBsdl, color = "#000000",name = "bsdl" } }
     imported.set_icon { bsl = {icon = vim.g.iconLanguage, color = "#000000",name = "bsl" } }
     imported.set_icon { c = {icon = vim.g.iconC, color = "#000000",name = "c" } }
+    imported.set_icon { carbon = {icon = vim.g.iconC, color = "#000000",name = "carbon" } }
     imported.set_icon { cbl = {icon = vim.g.iconCobol, color = "#000000",name = "cbl" } }
     imported.set_icon { cobol = {icon = vim.g.iconCobol, color = "#000000",name = "cobol" } }
     imported.set_icon { cer = {icon = vim.g.iconCert, color = "#000000",name = "cer" } }
