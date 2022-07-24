@@ -1580,6 +1580,7 @@ if use then
     imported.set_icon { ["pp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Pp" } }
     imported.set_icon { ["epp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Epp" } }
     imported.set_icon { ["sqlite"] = { icon = vim.g.iconSql, color = "#FFA61A", name = "sqlite" } }
+    imported.set_icon { ["js.map"] = { icon = vim.g.iconJavaScript, color = "#FFA61A", name = "js_map" } }
 
 end
 
