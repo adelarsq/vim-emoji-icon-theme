@@ -918,6 +918,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resx'] = g:iconXml " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rh'] = g:iconShell " Rash script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rlib'] = g:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rmd'] = g:iconOfficePresentation " RMD file presentation
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rock'] = g:iconLua " Lua Rocks
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rockspec'] = g:iconLua " Lua Rocks
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rpm'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rql'] = g:iconRest " restQL https://github.com/B2W-BIT/restQL-core
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rproj'] = g:iconConfig
@@ -1447,6 +1449,8 @@ if use then
     imported.set_icon { rh = {icon = vim.g.iconShell, color = "#000000",name = "rh" } }
     imported.set_icon { rlib = {icon = vim.g.iconBinary, color = "#000000",name = "rlib" } }
     imported.set_icon { rmd = {icon = vim.g.iconOfficePresentation, color = "#000000",name = "rmd" } }
+    imported.set_icon { rock = {icon = vim.g.iconLua, color = "#000000",name = "rock" } }
+    imported.set_icon { rockspec = {icon = vim.g.iconLua, color = "#000000",name = "rockspec" } }
     imported.set_icon { rpm = {icon = vim.g.iconPackage, color = "#000000",name = "rpm" } }
     imported.set_icon { rql = {icon = vim.g.iconRest, color = "#000000",name = "rql" } }
     imported.set_icon { rproj = {icon = vim.g.iconConfig, color = "#000000",name = "rproj" } }

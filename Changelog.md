@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.99
+
+- Add support for .rock and .rockspec files (Lua Rocks).
+
 ## Version 0.98
 
 - Add support for .prisma files.
