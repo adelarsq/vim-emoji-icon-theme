@@ -128,6 +128,7 @@ let g:iconProto = '⚛️ '
 let g:iconPug = '🐶'
 let g:iconPython = '🐍'
 let g:iconR = '®️ '
+let g:iconRazor = '🟣'
 let g:iconRST = '🍇'
 let g:iconReason = '🐫'
 let g:iconReasonMerlin= '🧙'
@@ -904,6 +905,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pyd'] = g:iconPython 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pyo'] = g:iconPython " Python
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['python'] = g:iconPython " Python
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['r'] = g:iconR " R language source code
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['razor'] = g:iconRazor
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rar'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rb'] = g:iconRuby " Ruby source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rc'] = g:iconDelphi " Delphi resource file
@@ -1435,6 +1437,7 @@ if use then
     imported.set_icon { pyo = {icon = vim.g.iconPython, color = "#000000",name = "pyo" } }
     imported.set_icon { python = {icon = vim.g.iconPython, color = "#000000",name = "python" } }
     imported.set_icon { r = {icon = vim.g.iconR, color = "#000000",name = "r" } }
+    imported.set_icon { razor = {icon = vim.g.iconRazor, color = "#000000",name = "razor" } }
     imported.set_icon { rar = {icon = vim.g.iconPackage, color = "#000000",name = "rar" } }
     imported.set_icon { rb = {icon = vim.g.iconRuby, color = "#000000",name = "rb" } }
     imported.set_icon { rc = {icon = vim.g.iconDelphi, color = "#000000",name = "rc" } }
