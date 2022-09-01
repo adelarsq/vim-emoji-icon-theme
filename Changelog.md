@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.100
+
+- Add support for *.razor files.
+
 ## Version 0.99
 
 - Add support for .rock and .rockspec files (Lua Rocks).
