@@ -835,6 +835,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['md'] = g:iconMarkdown
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mdj'] = g:iconDiagram " StarUML project file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mdl'] = g:icon3D " mdl 3D file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mint'] = g:iconMint " mint language source file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mjs'] = g:iconJavaScript " ES Module (ECMAScript Module)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mk'] = g:iconMake " Makefile
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mkd'] = g:iconMarkdown " Markdown
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mkv'] = g:iconVideo " MKV multimedia file
@@ -1366,6 +1367,7 @@ if use then
     imported.set_icon { mdj = {icon = vim.g.iconDiagram, color = "#000000",name = "mdj" } }
     imported.set_icon { mdl = {icon = vim.g.icon3D, color = "#000000",name = "mdl" } }
     imported.set_icon { mint = {icon = vim.g.iconMint, color = "#000000",name = "mint" } }
+    imported.set_icon { mjs = {icon = vim.g.iconJavaScript, color = "#000000",name = "mjs" } }
     imported.set_icon { mk = {icon = vim.g.iconMake, color = "#000000",name = "mk" } }
     imported.set_icon { mkd = {icon = vim.g.iconMarkdown, color = "#000000",name = "mkd" } }
     imported.set_icon { mkv = {icon = vim.g.iconVideo, color = "#000000",name = "mkv" } }

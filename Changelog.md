@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.101
+
+- Add support for *.mjs files.
+
 ## Version 0.100
 
 - Add support for *.razor files.
