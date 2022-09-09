@@ -3,6 +3,7 @@
 ## Version 0.101
 
 - Add support for *.mjs files.
+- Add support for *.nelua files.
 
 ## Version 0.100
 

@@ -853,6 +853,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mpg'] = g:iconVideo
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mq4'] = g:iconMql " Metatrader language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mq5'] = g:iconMql " Metatrader language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mqlh'] = g:iconInterface " Metatrader language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nelua'] = g:iconLua " Nelua language source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nib'] = g:iconInterface
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['nim'] = g:iconNim " Nim source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['norg'] = g:iconOrg " Org-mode file for neorg neovim plugin
@@ -1386,6 +1387,7 @@ if use then
     imported.set_icon { mq4 = {icon = vim.g.iconMql, color = "#000000",name = "mq4" } }
     imported.set_icon { mq5 = {icon = vim.g.iconMql, color = "#000000",name = "mq5" } }
     imported.set_icon { mqlh = {icon = vim.g.iconInterface, color = "#000000",name = "mqlh" } }
+    imported.set_icon { nelua = {icon = vim.g.iconLua, color = "#000000",name = "nelua" } }
     imported.set_icon { nib = {icon = vim.g.iconInterface, color = "#000000",name = "nib" } }
     imported.set_icon { nim = {icon = vim.g.iconNim, color = "#000000",name = "nim" } }
     imported.set_icon { norg = {icon = vim.g.iconOrg, color = "#000000",name = "norg" } }
