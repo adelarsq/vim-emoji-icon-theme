@@ -120,7 +120,7 @@ Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 
 Then open the editor and install with `PlugInstall`.
 
-### [Packer](https://github.com/wbthomason/packer.nvim):
+### [Packer](https://github.com/wbthomason/packer.nvim)
 
 ```vim
 use 'https://github.com/kyazdani42/nvim-web-devicons'
