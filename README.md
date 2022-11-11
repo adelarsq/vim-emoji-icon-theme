@@ -114,8 +114,14 @@ Plug 'https://github.com/adelarsq/vim-devicons-emoji'
 Or with [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) on **Neovim** config file:
 
 ```vim
-Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/kyazdani42/nvim-web-devicons'
+Plug 'https://github.com/adelarsq/vim-devicons-emoji'
+```
+or with [Packer](https://github.com/wbthomason/packer.nvim):
+
+```vim
+use 'https://github.com/kyazdani42/nvim-web-devicons'
+use 'https://github.com/adelarsq/vim-devicons-emoji'
 ```
 
 Then open the editor and install with `PlugInstall`.
