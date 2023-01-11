@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.102
+
+- Add support for *.inc, *.a80, *.z80, *.lis and *.list files.
+
 ## Version 0.101
 
 - Add support for *.mjs files.
