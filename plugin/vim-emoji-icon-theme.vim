@@ -1,5 +1,5 @@
 " Vim Emoji Icon Theme
-" By Adelar da Silva Queiróz - 2022
+" By Adelar da Silva Queiróz - 2023
 " MIT License
 
 if exists('g:vim_emoji_icon_theme')
@@ -651,25 +651,31 @@ let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = g:iconDefault
 " Extensions
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['3ds'] = g:icon3D " Autodesk 3ds Max 3D modeling file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['5vw'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['60'] = g:iconGui " SixtyFPS toolkit source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['7z'] = g:iconPackage " 7-Zip compressed file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['a80'] = g:iconAssembly
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['aar'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['acp'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ahk'] = g:iconConfig " AutoHotkey file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ai'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['alda'] = g:iconSound " Alda script file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ani'] = g:icon3D " ani 3D file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apk'] = g:iconPackage " Android package file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['arb'] = g:iconJavaScript " Application Resource Bundle
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['as'] = g:iconAngel " angel script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asm'] = g:iconAssembly " Assembly source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asta'] = g:iconDiagram " Astah diagrams
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['astro'] = g:iconJavaScript " Astro JavaScript framework
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['atc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['atom'] = g:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['avi'] = g:iconVideo " *.avi video file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['axml'] = g:iconXml " Android XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bat'] = g:iconBat " MS DOS bat file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['beam'] = g:iconBinary " compile Elixir file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bf'] = g:iconBeef " Beef language source code
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bfr'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bib'] = g:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bin'] = g:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['blend'] = g:icon3D " 3D Blender
@@ -679,6 +685,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bpg'] = g:iconImage "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsdl'] = g:iconBsdl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsl'] = g:iconLanguage " Language 1C (BSL) language file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = g:iconC
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['carbon'] = g:iconC " Carbon Language Source File
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cbl'] = g:iconCobol " Cobol source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cer'] = g:iconCert " Certificate file
@@ -731,8 +738,11 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['eex'] = g:iconElixir 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['elm'] = g:iconElm " Elm language source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['elmi'] = g:iconBinary " Elm internal binary file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['elmo'] = g:iconBinary " Elm internal binary file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['enc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['epp'] = g:iconPuppet
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['epub'] = g:iconBook
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erb'] = g:iconRuby " Ruby source code
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erf'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erl'] = g:iconErlang " Erlang source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erm'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erwin'] = g:iconSql " Erwin file
@@ -741,16 +751,17 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['exe'] = g:iconExe
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['exs'] = g:iconElixir " Elixir test code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ez'] = g:iconPackage " Elixir mix installer package
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fbx'] = g:icon3D " 3D filmbox
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fdc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fish'] = g:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['flr'] = g:iconFlare
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fnl'] = g:iconFennel " Fennel lang source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['frxml'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fs'] = g:iconFsharp " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsi'] = g:iconFsharp " F# source code
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsl'] = g:iconFsharp " FsLex file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsproj'] = g:iconFsharp " F# config file XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsx'] = g:iconFsharp " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsy'] = g:iconFsharp " FsYacc file
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsl'] = g:iconFsharp " FsLex file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['functions'] = g:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fxml'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gdb'] = g:iconDebugger
@@ -774,6 +785,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gz'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['h'] = g:iconInterface " *.h do C e C++
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hbs'] = g:iconTemplate " https://github.com/pillarjs/hbs
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hdr'] = g:iconImage " raster image or digital photo saved in HDRsoft's High Dynamic Range (HDR) image format
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['heex'] = g:iconHtml " Elixir's HTML EEx
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hive'] = g:iconBinary " HiveDB file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hs'] = g:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hs-boot'] = g:iconHaskell
@@ -782,7 +794,6 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hsig'] = g:iconHaskel
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hss'] = g:iconCss " High Level CSS preprocessor - https://github.com/ncannasse/hss
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['htm'] = g:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = g:iconHtml
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['heex'] = g:iconHtml " Elixir's HTML EEx
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hvm'] = g:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hx'] = g:iconGraphQL " Haxe source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['icns'] = g:iconImage
@@ -791,10 +802,12 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ics'] = g:iconTemp " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['idl'] = g:iconInterface " Source code file created using the Microsoft Interface Definition Language (MIDL)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['imba'] = g:iconJavaScript " Imba full-stack language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['iml'] = g:iconConfig " Intellig IDEA config file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['inc'] = g:iconAssembly
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['info'] = g:iconDocument
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ini'] = g:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ino'] = g:iconArduino " Arduino *ino file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipa'] = g:iconPackage " iOS App Store Package
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipfix'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipynb'] = g:iconNote " Jupyter notebook - Python
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['iso'] = g:iconIso
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['jade'] = g:iconTemplate " jade template language
@@ -820,9 +833,12 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kind2'] = g:iconJavaS
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kt'] = g:iconKotlyn " Kotlyn source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kts'] = g:iconKotlyn " Kotlyn source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['latex'] = g:iconDocument
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lcap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['leex'] = g:iconElixir " Elixir source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['less'] = g:iconCss
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lhs'] = g:iconHaskell
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lis'] = g:iconAssembly
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['list'] = g:iconAssembly
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lock'] = g:iconLock
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['log'] = g:iconLog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lua'] = g:iconLua
@@ -850,6 +866,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mp3'] = g:iconSound
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mp4'] = g:iconVideo
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mpeg'] = g:iconVideo
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mpg'] = g:iconVideo
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mplog'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mq4'] = g:iconMql " Metatrader language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mq5'] = g:iconMql " Metatrader language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mqlh'] = g:iconInterface " Metatrader language
@@ -867,9 +884,12 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['odt'] = g:iconOfficeD
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ogg'] = g:iconSound
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['org'] = g:iconOrg " Org-mode file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['os'] = g:iconLanguage " Language 1C (BSL) *.os file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['out'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ovpn'] = g:iconCert " cert file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pages'] = g:iconOfficeDoc
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pas'] = g:iconPascal
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcapng'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pdb'] = g:iconBinary " C# program database (PDB) file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pde'] = g:iconArduino " Arduino *.pdf file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pdf'] = g:iconPdf
@@ -879,12 +899,15 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pfx'] = g:iconCert " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pgsql'] = g:iconSql " sql -> SQLYog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['php'] = g:iconPhp
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkg'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pklg'] = g:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkt'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pl'] = g:iconPerl " Perl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['plist'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['png'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['po'] = g:iconGnuText " GNU gettext file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pony'] = g:iconPony " Pony source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pot'] = g:iconGnuText " GNU gettext file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pp'] = g:iconPuppet
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppk'] = g:iconCert " putty key file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ppt'] = g:iconOfficePresentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pptx'] = g:iconOfficePresentation
@@ -907,8 +930,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pyd'] = g:iconPython 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pyo'] = g:iconPython " Python
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['python'] = g:iconPython " Python
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['r'] = g:iconR " R language source code
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['razor'] = g:iconRazor
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rar'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['razor'] = g:iconRazor
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rb'] = g:iconRuby " Ruby source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rc'] = g:iconDelphi " Delphi resource file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['re'] = g:iconReason " ReasonML source code
@@ -919,14 +942,15 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['res'] = g:iconReason 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resi'] = g:iconInterface " ReasonML interface file (new syntax)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rest'] = g:iconRest
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resx'] = g:iconXml " Android XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rf5'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rh'] = g:iconShell " Rash script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rlib'] = g:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rmd'] = g:iconOfficePresentation " RMD file presentation
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rock'] = g:iconLua " Lua Rocks
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rockspec'] = g:iconLua " Lua Rocks
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rpm'] = g:iconPackage
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rql'] = g:iconRest " restQL https://github.com/B2W-BIT/restQL-core
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rproj'] = g:iconConfig
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rql'] = g:iconRest " restQL https://github.com/B2W-BIT/restQL-core
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rs'] = g:iconRust " Rust
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rss'] = g:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rst'] = g:iconRST
@@ -946,11 +970,12 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sh'] = g:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['slime'] = g:iconSlime " http://slime-lang.com/
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sln'] = g:iconConfig " Solution file config for .NET
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snap'] = g:iconPackage " SNAP file 
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snoop'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['so'] = g:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sol'] = g:iconLanguage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spi'] = g:iconSpiral " Spiral language
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spir'] = g:iconSpiral " Spiral language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spiproj'] = g:iconSpiral " Spiral language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spir'] = g:iconSpiral " Spiral language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sql'] = g:iconSql " sql -> SQLYog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sqlite'] = g:iconSql " sqlite database file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['storyboard'] = g:iconXml " XML
@@ -962,6 +987,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['svg'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['swift'] = g:iconSwift " Swift file source
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['swo'] = g:iconTemp " vim.g.ap file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['swp'] = g:iconTemp " vim.g.ap file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['syc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['t'] = g:iconT " Turing Source Code File
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tar'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tera'] = g:iconHtml
@@ -972,10 +998,15 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tif'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tiff'] = g:iconFont " font
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tlb'] = g:iconInterface " interface data for programs that support Microsoft Object Linking and Embedding (OLE)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['toml'] = g:iconConfig
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tpc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tpl'] = g:iconTemplate " ariatemplates.com
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tr1'] = g:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trace'] = g:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ts'] = g:iconTypeScript
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tsx'] = g:iconTypeScript
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ttf'] = g:iconFont " font
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tup'] = g:iconMake " Tup build system config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['txt'] = g:iconText
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['uml'] = g:iconDiagram
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['usd'] = g:icon3D " Universal Scene Description file
@@ -998,12 +1029,18 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vrx'] = g:icon3D " Vi
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vsh'] = g:iconV " v language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = g:iconVue " VueJS file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vv'] = g:iconV " v language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vwr'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wad'] = g:iconBinary " WAD file used by Doom and Doom II
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['war'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wasm'] = g:iconBinary " WebAssembly binary format
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wast'] = g:iconBinary " WebAssembly text format
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wat'] = g:iconBinary " WebAssembly text format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wav'] = g:iconSound " wav audio file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wbmp'] = g:iconImage " WBMP image
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['webp'] = g:iconImage " WebP image
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['woff'] = g:iconFont " font
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpz'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wscene'] = g:iconVideo " XML media config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wsdl'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xaml'] = g:iconXml " XML
@@ -1011,8 +1048,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xcf'] = g:iconImage "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xdata'] = g:iconXml " XML data file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xhtml'] = g:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xib'] = g:iconXml " XML
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xlf'] = g:iconXml " XLIFF (XML Localization Interchange File Format) 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xjb'] = g:iconXml " jaxb external curstomization binding file - XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xlf'] = g:iconXml " XLIFF (XML Localization Interchange File Format) 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xls'] = g:iconOfficeSpreadsheet
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xlsx'] = g:iconOfficeSpreadsheet
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xml'] = g:iconXml " XML
@@ -1021,43 +1058,11 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xsl'] = g:iconXml " X
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['xz'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['yaml'] = g:iconYaml " YAML file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['yml'] = g:iconYaml " YAML file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['z80'] = g:iconAssembly
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zig'] = g:iconZig " Zig source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zip'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zsh'] = g:iconShell " zsh script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zst'] = g:iconPackage
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['5vw'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['acp'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['apc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['atc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bfr'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['enc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erf'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fdc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ipfix'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lcap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mplog'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['out'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcapng'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pklg'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkt'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rf5'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snoop'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['syc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tpc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tr1'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trace'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['trc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['tup'] = g:iconMake " Tup build system config file
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vwr'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wasm'] = g:iconBinary " WebAssembly binary format
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wast'] = g:iconBinary " WebAssembly text format
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wat'] = g:iconBinary " WebAssembly text format
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpz'] = g:iconNetworkTrace " network file trace (Wireshark) and others
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pp'] = g:iconPuppet
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['epp'] = g:iconPuppet
 
 " Files
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
@@ -1171,38 +1176,48 @@ if use then
 
     imported.set_default_icon(vim.g.iconDefault, '#6d8086');
 
-    imported.set_icon { ["3ds"] = { icon = vim.g.icon3D, color = "#000000", name = "3ds" } }
-    imported.set_icon { ["60"] = {icon = vim.g.iconGui, color = "#000000",name = "60" } }
-    imported.set_icon { ["7z"] = {icon = vim.g.iconPackage, color = "#000000",name = "7z" } }
-    imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
-    imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
-    imported.set_icon { ["License"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
-    imported.set_icon { ["LICENSE"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
-    imported.set_icon { ["Dockerfile"] = {icon = vim.g.iconDocker, color = "#000000",name = "Dockerfile" } }
     imported.set_icon { [".gitattributes"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitattributes" } }
     imported.set_icon { [".gitignore"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitignore" } }
+    imported.set_icon { ["3ds"] = { icon = vim.g.icon3D, color = "#000000", name = "3ds" } }
+    imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
+    imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
+    imported.set_icon { ["60"] = {icon = vim.g.iconGui, color = "#000000",name = "60" } }
+    imported.set_icon { ["7z"] = {icon = vim.g.iconPackage, color = "#000000",name = "7z" } }
+    imported.set_icon { ["Dockerfile"] = {icon = vim.g.iconDocker, color = "#000000",name = "Dockerfile" } }
+    imported.set_icon { ["LICENSE"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
+    imported.set_icon { ["License"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
+    imported.set_icon { ["Makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "makefile" } }
+    imported.set_icon { ["Podfile"] = {icon = vim.g.iconConfig, color = "#000000",name = "podfile" } }
+    imported.set_icon { ["a80"] = {icon = vim.g.iconAssembly, color = "#000000",name = "a80" } }
+    imported.set_icon { ["epp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Epp" } }
+    imported.set_icon { ["js.map"] = { icon = vim.g.iconJavaScript, color = "#FFA61A", name = "js_map" } }
     imported.set_icon { ["package-lock.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "packagelock" } }
     imported.set_icon { ["package.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "package" } }
-    imported.set_icon { ["Podfile"] = {icon = vim.g.iconConfig, color = "#000000",name = "podfile" } }
-    imported.set_icon { ["Makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "makefile" } }
+    imported.set_icon { ["pp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Pp" } }
+    imported.set_icon { ["sqlite"] = { icon = vim.g.iconSql, color = "#FFA61A", name = "sqlite" } }
+    imported.set_icon { ["z80"] = {icon = vim.g.iconAssembly, color = "#000000",name = "z80" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
+    imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
     imported.set_icon { ahk = {icon = vim.g.iconConfig, color = "#000000",name = "ahk" } }
     imported.set_icon { ai = {icon = vim.g.iconImage, color = "#000000",name = "ai" } }
     imported.set_icon { alda = {icon = vim.g.iconSound, color = "#000000",name = "alda" } }
     imported.set_icon { ani = {icon = vim.g.icon3D, color = "#000000",name = "ani" } }
+    imported.set_icon { apc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "apc" } }
     imported.set_icon { apk = {icon = vim.g.iconPackage, color = "#000000",name = "apk" } }
     imported.set_icon { arb = {icon = vim.g.iconJavaScript, color = "#000000",name = "arb" } }
     imported.set_icon { as = {icon = vim.g.iconAngel, color = "#000000",name = "as" } }
     imported.set_icon { asm = {icon = vim.g.iconAssembly, color = "#000000",name = "asm" } }
     imported.set_icon { asta = {icon = vim.g.iconDiagram, color = "#000000",name = "asta" } }
     imported.set_icon { astro = {icon = vim.g.iconJavaScript, color = "#000000",name = "astro" } }
+    imported.set_icon { atc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "atc" } }
     imported.set_icon { atom = {icon = vim.g.iconXml, color = "#000000",name = "atom" } }
     imported.set_icon { avi = {icon = vim.g.iconVideo, color = "#000000",name = "avi" } }
     imported.set_icon { axml = {icon = vim.g.iconXml, color = "#000000",name = "axml" } }
     imported.set_icon { bat = {icon = vim.g.iconBat, color = "#000000",name = "bat" } }
     imported.set_icon { beam = {icon = vim.g.iconBinary, color = "#000000",name = "beam" } }
     imported.set_icon { bf = {icon = vim.g.iconBeef, color = "#000000",name = "bf" } }
+    imported.set_icon { bfr = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "bfr" } }
     imported.set_icon { bib = {icon = vim.g.iconDocument, color = "#000000",name = "bib" } }
     imported.set_icon { bin = {icon = vim.g.iconBinary, color = "#000000",name = "bin" } }
     imported.set_icon { blend = {icon = vim.g.icon3D, color = "#000000",name = "blend" } }
@@ -1212,9 +1227,9 @@ if use then
     imported.set_icon { bsdl = {icon = vim.g.iconBsdl, color = "#000000",name = "bsdl" } }
     imported.set_icon { bsl = {icon = vim.g.iconLanguage, color = "#000000",name = "bsl" } }
     imported.set_icon { c = {icon = vim.g.iconC, color = "#000000",name = "c" } }
+    imported.set_icon { cap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "cap" } }
     imported.set_icon { carbon = {icon = vim.g.iconC, color = "#000000",name = "carbon" } }
     imported.set_icon { cbl = {icon = vim.g.iconCobol, color = "#000000",name = "cbl" } }
-    imported.set_icon { cobol = {icon = vim.g.iconCobol, color = "#000000",name = "cobol" } }
     imported.set_icon { cer = {icon = vim.g.iconCert, color = "#000000",name = "cer" } }
     imported.set_icon { cff = {icon = vim.g.iconDocument, color = "#000000",name = "cff" } }
     imported.set_icon { chs = {icon = vim.g.iconHaskell, color = "#000000",name = "chs" } }
@@ -1222,6 +1237,7 @@ if use then
     imported.set_icon { clj = {icon = vim.g.iconClojure, color = "#000000",name = "clj" } }
     imported.set_icon { cmd = {icon = vim.g.iconBat, color = "#000000",name = "cmd" } }
     imported.set_icon { cmi = {icon = vim.g.iconBinary, color = "#000000",name = "cmi" } }
+    imported.set_icon { cobol = {icon = vim.g.iconCobol, color = "#000000",name = "cobol" } }
     imported.set_icon { coffee = {icon = vim.g.iconCoffee, color = "#000000",name = "coffee" } }
     imported.set_icon { conf = {icon = vim.g.iconConfig, color = "#000000",name = "conf" } }
     imported.set_icon { config = {icon = vim.g.iconConfig, color = "#000000",name = "config" } }
@@ -1266,8 +1282,10 @@ if use then
     imported.set_icon { elm = {icon = vim.g.iconElm, color = "#000000",name = "elm" } }
     imported.set_icon { elmi = {icon = vim.g.iconBinary, color = "#000000",name = "elmi" } }
     imported.set_icon { elmo = {icon = vim.g.iconBinary, color = "#000000",name = "elmo" } }
+    imported.set_icon { enc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "enc" } }
     imported.set_icon { epub = {icon = vim.g.iconBook, color = "#000000",name = "epub" } }
     imported.set_icon { erb = {icon = vim.g.iconRuby, color = "#000000",name = "erb" } }
+    imported.set_icon { erf = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "erf" } }
     imported.set_icon { erl = {icon = vim.g.iconErlang, color = "#000000",name = "erl" } }
     imported.set_icon { erm = {icon = vim.g.iconXml, color = "#000000",name = "erm" } }
     imported.set_icon { erwin = {icon = vim.g.iconSql, color = "#000000",name = "erwin" } }
@@ -1276,16 +1294,17 @@ if use then
     imported.set_icon { exs = {icon = vim.g.iconElixir, color = "#000000",name = "exs" } }
     imported.set_icon { ez = {icon = vim.g.iconPackage, color = "#000000",name = "ez" } }
     imported.set_icon { fbx = {icon = vim.g.icon3D, color = "#000000",name = "fbx" } }
+    imported.set_icon { fdc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "fdc" } }
     imported.set_icon { fish = {icon = vim.g.iconShell, color = "#000000",name = "fish" } }
     imported.set_icon { flr = {icon = vim.g.iconFlare, color = "#000000",name = "flr" } }
     imported.set_icon { fnl = {icon = vim.g.iconFennel, color = "#000000",name = "fnl" } }
     imported.set_icon { frxml = {icon = vim.g.iconXml, color = "#000000",name = "frxml" } }
     imported.set_icon { fs = {icon = vim.g.iconFsharp, color = "#000000",name = "fs" } }
     imported.set_icon { fsi = {icon = vim.g.iconFsharp, color = "#000000",name = "fsi" } }
+    imported.set_icon { fsl = {icon = vim.g.iconFsharp, color = "#000000",name = "fsl" } }
     imported.set_icon { fsproj = {icon = vim.g.iconFsharp, color = "#000000",name = "fsproj" } }
     imported.set_icon { fsx = {icon = vim.g.iconFsharp, color = "#000000",name = "fsx" } }
     imported.set_icon { fsy = {icon = vim.g.iconFsharp, color = "#000000",name = "fsy" } }
-    imported.set_icon { fsl = {icon = vim.g.iconFsharp, color = "#000000",name = "fsl" } }
     imported.set_icon { functions = {icon = vim.g.iconShell, color = "#000000",name = "functions" } }
     imported.set_icon { fxml = {icon = vim.g.iconXml, color = "#000000",name = "fxml" } }
     imported.set_icon { gdb = {icon = vim.g.iconDebugger, color = "#000000",name = "gdb" } }
@@ -1309,6 +1328,7 @@ if use then
     imported.set_icon { h = {icon = vim.g.iconInterface, color = "#000000",name = "h" } }
     imported.set_icon { hbs = {icon = vim.g.iconTemplate, color = "#000000",name = "hbs" } }
     imported.set_icon { hdr = {icon = vim.g.iconImage, color = "#000000",name = "hdr" } }
+    imported.set_icon { heex = {icon = vim.g.iconHtml, color = "#000000",name = "heex" } }
     imported.set_icon { hive = {icon = vim.g.iconBinary, color = "#000000",name = "hive" } }
     imported.set_icon { hs = {icon = vim.g.iconHaskell, color = "#000000",name = "hs" } }
     imported.set_icon { hsc = {icon = vim.g.iconHaskell, color = "#000000",name = "hsc" } }
@@ -1316,7 +1336,6 @@ if use then
     imported.set_icon { hss = {icon = vim.g.iconCss, color = "#000000",name = "hss" } }
     imported.set_icon { htm = {icon = vim.g.iconHtml, color = "#000000",name = "htm" } }
     imported.set_icon { html = {icon = vim.g.iconHtml, color = "#000000",name = "html" } }
-    imported.set_icon { heex = {icon = vim.g.iconHtml, color = "#000000",name = "heex" } }
     imported.set_icon { hvm = {icon = vim.g.iconHaskell, color = "#000000",name = "hvm" } }
     imported.set_icon { hx = {icon = vim.g.iconGraphQL, color = "#000000",name = "hx" } }
     imported.set_icon { icns = {icon = vim.g.iconImage, color = "#000000",name = "icns" } }
@@ -1324,10 +1343,12 @@ if use then
     imported.set_icon { ics = {icon = vim.g.iconTemp, color = "#000000",name = "ics" } }
     imported.set_icon { idl = {icon = vim.g.iconInterface, color = "#000000",name = "idl" } }
     imported.set_icon { iml = {icon = vim.g.iconConfig, color = "#000000",name = "iml" } }
+    imported.set_icon { inc = {icon = vim.g.iconAssembly, color = "#000000",name = "inc" } }
     imported.set_icon { info = {icon = vim.g.iconDocument, color = "#000000",name = "info" } }
     imported.set_icon { ini = {icon = vim.g.iconConfig, color = "#000000",name = "ini" } }
     imported.set_icon { ino = {icon = vim.g.iconArduino, color = "#000000",name = "ino" } }
     imported.set_icon { ipa = {icon = vim.g.iconPackage, color = "#000000",name = "ipa" } }
+    imported.set_icon { ipfix = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "ipfix" } }
     imported.set_icon { ipynb = {icon = vim.g.iconNote, color = "#000000",name = "ipynb" } }
     imported.set_icon { iso = {icon = vim.g.iconIso, color = "#000000",name = "iso" } }
     imported.set_icon { jade = {icon = vim.g.iconTemplate, color = "#000000",name = "jade" } }
@@ -1353,18 +1374,21 @@ if use then
     imported.set_icon { kt = {icon = vim.g.iconKotlyn, color = "#000000",name = "kt" } }
     imported.set_icon { kts = {icon = vim.g.iconKotlyn, color = "#000000",name = "kts" } }
     imported.set_icon { latex = {icon = vim.g.iconDocument, color = "#000000",name = "latex" } }
+    imported.set_icon { lcap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "lcap" } }
     imported.set_icon { leex = {icon = vim.g.iconElixir, color = "#000000",name = "leex" } }
     imported.set_icon { less = {icon = vim.g.iconCss, color = "#000000",name = "less" } }
     imported.set_icon { lhs = {icon = vim.g.iconHaskell, color = "#000000",name = "lhs" } }
+    imported.set_icon { lis = {icon = vim.g.iconAssembly, color = "#000000",name = "lis" } }
+    imported.set_icon { list = {icon = vim.g.iconAssembly, color = "#000000",name = "list" } }
     imported.set_icon { lock = {icon = vim.g.iconLock, color = "#000000",name = "lock" } }
     imported.set_icon { log = {icon = vim.g.iconLog, color = "#000000",name = "log" } }
     imported.set_icon { lua = {icon = vim.g.iconLua, color = "#000000",name = "lua" } }
     imported.set_icon { lz4 = {icon = vim.g.iconPackage, color = "#000000",name = "lz4" } }
     imported.set_icon { m = {icon = vim.g.iconObjective, color = "#000000",name = "m" } }
     imported.set_icon { mak = {icon = vim.g.iconMake, color = "#000000",name = "mak" } }
-    imported.set_icon { md = {icon = vim.g.iconMarkdown, color = "#000000",name = "markdown" } }
     imported.set_icon { markdown = {icon = vim.g.iconMarkdown, color = "#000000",name = "markdown" } }
     imported.set_icon { marko = {icon = vim.g.iconMarkdown, color = "#000000",name = "marko" } }
+    imported.set_icon { md = {icon = vim.g.iconMarkdown, color = "#000000",name = "markdown" } }
     imported.set_icon { md = {icon = vim.g.iconMarkdown, color = "#000000",name = "md" } }
     imported.set_icon { mdj = {icon = vim.g.iconDiagram, color = "#000000",name = "mdj" } }
     imported.set_icon { mdl = {icon = vim.g.icon3D, color = "#000000",name = "mdl" } }
@@ -1384,6 +1408,7 @@ if use then
     imported.set_icon { mp4 = {icon = vim.g.iconVideo, color = "#000000",name = "mp4" } }
     imported.set_icon { mpeg = {icon = vim.g.iconVideo, color = "#000000",name = "mpeg" } }
     imported.set_icon { mpg = {icon = vim.g.iconVideo, color = "#000000",name = "mpg" } }
+    imported.set_icon { mplog = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "mplog" } }
     imported.set_icon { mq4 = {icon = vim.g.iconMql, color = "#000000",name = "mq4" } }
     imported.set_icon { mq5 = {icon = vim.g.iconMql, color = "#000000",name = "mq5" } }
     imported.set_icon { mqlh = {icon = vim.g.iconInterface, color = "#000000",name = "mqlh" } }
@@ -1401,9 +1426,12 @@ if use then
     imported.set_icon { ogg = {icon = vim.g.iconSound, color = "#000000",name = "ogg" } }
     imported.set_icon { org = {icon = vim.g.iconOrg, color = "#000000",name = "org" } }
     imported.set_icon { os = {icon = vim.g.iconLanguage, color = "#000000",name = "os" } }
+    imported.set_icon { out = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "out" } }
     imported.set_icon { ovpn = {icon = vim.g.iconCert, color = "#000000",name = "ovpn" } }
     imported.set_icon { pages = {icon = vim.g.iconOfficeDoc, color = "#000000",name = "pages" } }
     imported.set_icon { pas = {icon = vim.g.iconPascal, color = "#000000",name = "pas" } }
+    imported.set_icon { pcap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pcap" } }
+    imported.set_icon { pcapng = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pcapng" } }
     imported.set_icon { pdb = {icon = vim.g.iconBinary, color = "#000000",name = "pdb" } }
     imported.set_icon { pde = {icon = vim.g.iconArduino, color = "#000000",name = "pde" } }
     imported.set_icon { pdf = {icon = vim.g.iconPdf, color = "#000000",name = "pdf" } }
@@ -1413,6 +1441,8 @@ if use then
     imported.set_icon { pgsql = {icon = vim.g.iconSql, color = "#000000",name = "pgsql" } }
     imported.set_icon { php = {icon = vim.g.iconPhp, color = "#000000",name = "php" } }
     imported.set_icon { pkg = {icon = vim.g.iconPackage, color = "#000000",name = "pkg" } }
+    imported.set_icon { pklg = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pklg" } }
+    imported.set_icon { pkt = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pkt" } }
     imported.set_icon { pl = {icon = vim.g.iconPerl, color = "#000000",name = "pl" } }
     imported.set_icon { plist = {icon = vim.g.iconXml, color = "#000000",name = "plist" } }
     imported.set_icon { png = {icon = vim.g.iconImage, color = "#000000",name = "png" } }
@@ -1436,14 +1466,14 @@ if use then
     imported.set_icon { pug = {icon = vim.g.iconPug, color = "#000000",name = "pug" } }
     imported.set_icon { puml = {icon = vim.g.iconDiagram, color = "#000000",name = "puml" } }
     imported.set_icon { py = {icon = vim.g.iconPython, color = "#000000",name = "py" } }
-    imported.set_icon { python = {icon = vim.g.iconPython, color = "#000000",name = "python" } }
     imported.set_icon { pyc = {icon = vim.g.iconPython, color = "#000000",name = "pyc" } }
     imported.set_icon { pyd = {icon = vim.g.iconPython, color = "#000000",name = "pyd" } }
     imported.set_icon { pyo = {icon = vim.g.iconPython, color = "#000000",name = "pyo" } }
     imported.set_icon { python = {icon = vim.g.iconPython, color = "#000000",name = "python" } }
+    imported.set_icon { python = {icon = vim.g.iconPython, color = "#000000",name = "python" } }
     imported.set_icon { r = {icon = vim.g.iconR, color = "#000000",name = "r" } }
-    imported.set_icon { razor = {icon = vim.g.iconRazor, color = "#000000",name = "razor" } }
     imported.set_icon { rar = {icon = vim.g.iconPackage, color = "#000000",name = "rar" } }
+    imported.set_icon { razor = {icon = vim.g.iconRazor, color = "#000000",name = "razor" } }
     imported.set_icon { rb = {icon = vim.g.iconRuby, color = "#000000",name = "rb" } }
     imported.set_icon { rc = {icon = vim.g.iconDelphi, color = "#000000",name = "rc" } }
     imported.set_icon { re = {icon = vim.g.iconReason, color = "#000000",name = "re" } }
@@ -1454,14 +1484,15 @@ if use then
     imported.set_icon { resi = {icon = vim.g.iconInterface, color = "#000000",name = "resi" } }
     imported.set_icon { rest = {icon = vim.g.iconRest, color = "#000000",name = "rest" } }
     imported.set_icon { resx = {icon = vim.g.iconXml, color = "#000000",name = "resx" } }
+    imported.set_icon { rf5 = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "rf5" } }
     imported.set_icon { rh = {icon = vim.g.iconShell, color = "#000000",name = "rh" } }
     imported.set_icon { rlib = {icon = vim.g.iconBinary, color = "#000000",name = "rlib" } }
     imported.set_icon { rmd = {icon = vim.g.iconOfficePresentation, color = "#000000",name = "rmd" } }
     imported.set_icon { rock = {icon = vim.g.iconLua, color = "#000000",name = "rock" } }
     imported.set_icon { rockspec = {icon = vim.g.iconLua, color = "#000000",name = "rockspec" } }
     imported.set_icon { rpm = {icon = vim.g.iconPackage, color = "#000000",name = "rpm" } }
-    imported.set_icon { rql = {icon = vim.g.iconRest, color = "#000000",name = "rql" } }
     imported.set_icon { rproj = {icon = vim.g.iconConfig, color = "#000000",name = "rproj" } }
+    imported.set_icon { rql = {icon = vim.g.iconRest, color = "#000000",name = "rql" } }
     imported.set_icon { rs = {icon = vim.g.iconRust, color = "#000000",name = "rs" } }
     imported.set_icon { rss = {icon = vim.g.iconXml, color = "#000000",name = "rss" } }
     imported.set_icon { rst = {icon = vim.g.iconRST, color = "#000000",name = "rst" } }
@@ -1481,11 +1512,12 @@ if use then
     imported.set_icon { slime = {icon = vim.g.iconSlime, color = "#000000",name = "slime" } }
     imported.set_icon { sln = {icon = vim.g.iconConfig, color = "#000000",name = "sln" } }
     imported.set_icon { snap = {icon = vim.g.iconPackage, color = "#000000",name = "snap" } }
-    imported.set_icon { spi = {icon = vim.g.iconSpiral, color = "#000000",name = "spi" } }
-    imported.set_icon { spir = {icon = vim.g.iconSpiral, color = "#000000",name = "spir" } }
-    imported.set_icon { spiproj = {icon = vim.g.iconSpiral, color = "#000000",name = "spiproj" } }
+    imported.set_icon { snoop = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "snoop" } }
     imported.set_icon { so = {icon = vim.g.iconBinary, color = "#000000",name = "so" } }
     imported.set_icon { sol = {icon = vim.g.iconLanguage, color = "#000000",name = "sol" } }
+    imported.set_icon { spi = {icon = vim.g.iconSpiral, color = "#000000",name = "spi" } }
+    imported.set_icon { spiproj = {icon = vim.g.iconSpiral, color = "#000000",name = "spiproj" } }
+    imported.set_icon { spir = {icon = vim.g.iconSpiral, color = "#000000",name = "spir" } }
     imported.set_icon { sql = {icon = vim.g.iconSql, color = "#000000",name = "sql" } }
     imported.set_icon { storyboard = {icon = vim.g.iconXml, color = "#000000",name = "storyboard" } }
     imported.set_icon { strings = {icon = vim.g.iconXml, color = "#000000",name = "strings" } }
@@ -1496,6 +1528,7 @@ if use then
     imported.set_icon { swift = {icon = vim.g.iconSwift, color = "#000000",name = "swift" } }
     imported.set_icon { swo = {icon = vim.g.iconTemp, color = "#000000",name = "swo" } }
     imported.set_icon { swp = {icon = vim.g.iconTemp, color = "#000000",name = "swp" } }
+    imported.set_icon { syc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "syc" } }
     imported.set_icon { t = {icon = vim.g.iconT, color = "#000000",name = "t" } }
     imported.set_icon { tar = {icon = vim.g.iconPackage, color = "#000000",name = "tar" } }
     imported.set_icon { tera = {icon = vim.g.iconHtml, color = "#000000",name = "tera" } }
@@ -1506,10 +1539,15 @@ if use then
     imported.set_icon { tiff = {icon = vim.g.iconFont, color = "#000000",name = "tiff" } }
     imported.set_icon { tlb = {icon = vim.g.iconInterface, color = "#000000",name = "tlb" } }
     imported.set_icon { toml = {icon = vim.g.iconConfig, color = "#000000",name = "toml" } }
+    imported.set_icon { tpc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "tpc" } }
     imported.set_icon { tpl = {icon = vim.g.iconTemplate, color = "#000000",name = "tpl" } }
+    imported.set_icon { tr1 = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "tr1" } }
+    imported.set_icon { trace = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "trace" } }
+    imported.set_icon { trc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "trc" } }
     imported.set_icon { ts = {icon = vim.g.iconTypeScript, color = "#000000",name = "ts" } }
     imported.set_icon { tsx = {icon = vim.g.iconTypeScript, color = "#000000",name = "tsx" } }
     imported.set_icon { ttf = {icon = vim.g.iconFont, color = "#000000",name = "ttf" } }
+    imported.set_icon { tup = {icon = vim.g.iconMake, color = "#000000",name = "tup" } }
     imported.set_icon { txt = {icon = vim.g.iconText, color = "#000000",name = "txt" } }
     imported.set_icon { uml = {icon = vim.g.iconDiagram, color = "#000000",name = "uml" } }
     imported.set_icon { usd = {icon = vim.g.icon3D, color = "#000000",name = "usd" } }
@@ -1532,12 +1570,18 @@ if use then
     imported.set_icon { vsh = {icon = vim.g.iconV, color = "#000000",name = "vsh" } }
     imported.set_icon { vue = {icon = vim.g.iconVue, color = "#000000",name = "vue" } }
     imported.set_icon { vv = {icon = vim.g.iconV, color = "#000000",name = "vv" } }
+    imported.set_icon { vwr = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "vwr" } }
     imported.set_icon { wad = {icon = vim.g.iconBinary, color = "#000000",name = "wad" } }
     imported.set_icon { war = {icon = vim.g.iconPackage, color = "#000000",name = "war" } }
+    imported.set_icon { wasm = {icon = vim.g.iconBinary, color = "#000000",name = "wasm" } }
+    imported.set_icon { wast = {icon = vim.g.iconBinary, color = "#000000",name = "wast" } }
+    imported.set_icon { wat = {icon = vim.g.iconBinary, color = "#000000",name = "wat" } }
     imported.set_icon { wav = {icon = vim.g.iconSound, color = "#000000",name = "wav" } }
     imported.set_icon { wbmp = {icon = vim.g.iconImage, color = "#000000",name = "wbmp" } }
     imported.set_icon { webp = {icon = vim.g.iconImage, color = "#000000",name = "webp" } }
     imported.set_icon { woff = {icon = vim.g.iconFont, color = "#000000",name = "woff" } }
+    imported.set_icon { wpc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "wpc" } }
+    imported.set_icon { wpz = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "wpz" } }
     imported.set_icon { wscene = {icon = vim.g.iconVideo, color = "#000000",name = "wscene" } }
     imported.set_icon { wsdl = {icon = vim.g.iconXml, color = "#000000",name = "wsdl" } }
     imported.set_icon { xaml = {icon = vim.g.iconXml, color = "#000000",name = "xaml" } }
@@ -1545,8 +1589,8 @@ if use then
     imported.set_icon { xdata = {icon = vim.g.iconXml, color = "#000000",name = "xdata" } }
     imported.set_icon { xhtml = {icon = vim.g.iconHtml, color = "#000000",name = "xhtml" } }
     imported.set_icon { xib = {icon = vim.g.iconXml, color = "#000000",name = "xib" } }
-    imported.set_icon { xlf = {icon = vim.g.iconXml, color = "#000000",name = "xlf" } }
     imported.set_icon { xjb = {icon = vim.g.iconXml, color = "#000000",name = "xjb" } }
+    imported.set_icon { xlf = {icon = vim.g.iconXml, color = "#000000",name = "xlf" } }
     imported.set_icon { xls = {icon = vim.g.iconOfficeSpreadsheet, color = "#000000",name = "xls" } }
     imported.set_icon { xlsx = {icon = vim.g.iconOfficeSpreadsheet, color = "#000000",name = "xlsx" } }
     imported.set_icon { xml = {icon = vim.g.iconXml, color = "#000000",name = "xml" } }
@@ -1559,40 +1603,6 @@ if use then
     imported.set_icon { zip = {icon = vim.g.iconPackage, color = "#000000",name = "zip" } }
     imported.set_icon { zsh = {icon = vim.g.iconShell, color = "#000000",name = "zsh" } }
     imported.set_icon { zst = {icon = vim.g.iconPackage, color = "#000000",name = "zst" } }
-    imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
-    imported.set_icon { apc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "apc" } }
-    imported.set_icon { atc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "atc" } }
-    imported.set_icon { bfr = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "bfr" } }
-    imported.set_icon { cap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "cap" } }
-    imported.set_icon { enc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "enc" } }
-    imported.set_icon { erf = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "erf" } }
-    imported.set_icon { fdc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "fdc" } }
-    imported.set_icon { ipfix = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "ipfix" } }
-    imported.set_icon { lcap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "lcap" } }
-    imported.set_icon { mplog = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "mplog" } }
-    imported.set_icon { out = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "out" } }
-    imported.set_icon { pcap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pcap" } }
-    imported.set_icon { pcapng = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pcapng" } }
-    imported.set_icon { pklg = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pklg" } }
-    imported.set_icon { pkt = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pkt" } }
-    imported.set_icon { rf5 = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "rf5" } }
-    imported.set_icon { snoop = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "snoop" } }
-    imported.set_icon { syc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "syc" } }
-    imported.set_icon { tpc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "tpc" } }
-    imported.set_icon { tr1 = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "tr1" } }
-    imported.set_icon { trace = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "trace" } }
-    imported.set_icon { trc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "trc" } }
-    imported.set_icon { tup = {icon = vim.g.iconMake, color = "#000000",name = "tup" } }
-    imported.set_icon { vwr = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "vwr" } }
-    imported.set_icon { wasm = {icon = vim.g.iconBinary, color = "#000000",name = "wasm" } }
-    imported.set_icon { wast = {icon = vim.g.iconBinary, color = "#000000",name = "wast" } }
-    imported.set_icon { wat = {icon = vim.g.iconBinary, color = "#000000",name = "wat" } }
-    imported.set_icon { wpc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "wpc" } }
-    imported.set_icon { wpz = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "wpz" } }
-    imported.set_icon { ["pp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Pp" } }
-    imported.set_icon { ["epp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Epp" } }
-    imported.set_icon { ["sqlite"] = { icon = vim.g.iconSql, color = "#FFA61A", name = "sqlite" } }
-    imported.set_icon { ["js.map"] = { icon = vim.g.iconJavaScript, color = "#FFA61A", name = "js_map" } }
 
 end
 
