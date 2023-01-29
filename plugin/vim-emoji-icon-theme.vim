@@ -172,30 +172,32 @@ let g:iconPuppet = '👻'
 
 let g:iconBuffer = '🐃' " 'Buffer'lo
 
-let s:signSuccess = '🎉'
-let s:signBuilding = '📦'
-let s:signRunning = '🚀'
-let s:signError = '💥'
-let s:signInfo = '⚠️ '
-let s:signWarning = '💩'
-let s:signHint = '💡'
-let s:signBookmarkSign = '⭐'
-let s:signBookmarkAnnotationSign = '❤️ '
+let g:signSuccess = '🎉'
+let g:signBuilding = '📦'
+let g:signRunning = '🚀'
+let g:signError = '💥'
+let g:signInfo = '⚠️ '
+let g:signWarning = '💩'
+let g:signHint = '💡'
+let g:signBookmarkSign = '⭐'
+let g:signBookmarkAnnotationSign = '❤️ '
+
+let g:iconModified = '✏️'
 
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = ' '
 
 " ale
-let g:ale_sign_error = s:signError
-let g:ale_sign_info = s:signInfo
-let g:ale_sign_warning = s:signWarning
-let g:ale_sign_style_error = s:signError
-let g:ale_sign_style_warning = s:signWarning
+let g:ale_sign_error = g:signError
+let g:ale_sign_info = g:signInfo
+let g:ale_sign_warning = g:signWarning
+let g:ale_sign_style_error = g:signError
+let g:ale_sign_style_warning = g:signWarning
 
 " vim-bookmarks
-let g:bookmark_sign = s:signBookmarkSign
-let g:bookmark_annotation_sign = s:signBookmarkAnnotationSign
+let g:bookmark_sign = g:signBookmarkSign
+let g:bookmark_annotation_sign = g:signBookmarkAnnotationSign
 
 " vim-clap
 let g:clap_spinner_frames =  ['🌎 ','🌍 ','🌏 ']
@@ -347,8 +349,8 @@ let g:gitgutter_sign_removed = '🔺'
 let g:gitgutter_sign_modified_removed = '💔'
 
 " coc.nvim
-let g:coc_status_error_sign=s:signError
-let g:coc_status_warning_sign=s:signWarning
+let g:coc_status_error_sign=g:signError
+let g:coc_status_warning_sign=g:signWarning
 let g:coc_user_config = {
 \ "codeLens.separator": "🔎",
 \ "diagnostic.errorSign": "💥",
@@ -416,11 +418,11 @@ let g:line_no_indicator_chars = [
 function! g:Emoji_Icon_Theme_Asyncrun()
     if exists('g:asyncrun_status')
         if g:asyncrun_status ==# 'running'
-            return s:signRunning
+            return g:signRunning
         elseif g:asyncrun_status ==# 'success'
-            return s:signSuccess
+            return g:signSuccess
         elseif g:asyncrun_status ==# 'failure'
-            return s:signError
+            return g:signError
         endif
     endif
     return ''
@@ -485,22 +487,19 @@ lua << EOF
     }
   end
 
-  -- https://github.com/glepnir/lspsaga.nvim
-  -- local useLspSaga, importedLspSaga = pcall(require, "lspsaga")
-  -- if useLspSaga then
-  --     importedLspSaga.init_lsp_saga({
-  --       error_sign = vim.g.signError,
-  --       hint_sign = vim.g.signHint,
-  --       infor_sign = vim.g.signInfo,
-  --       warn_sign = vim.g.signWarning,
-  --       code_action_icon = '💭',
-  --       definition_preview_icon = '🔭 ',
-  --       dianostic_header_icon = ' 🐞  ',
-  --       finder_definition_icon = '🐣  ',
-  --       finder_reference_icon = '⛳️  '
-  --     })
-  --
-  -- end
+  -- glepnir/lspsaga.nvim
+  -- TODO
+  -- {
+  --   error_sign = vim.g.signError,
+  --   hint_sign = vim.g.signHint,
+  --   infor_sign = vim.g.signInfo,
+  --   warn_sign = vim.g.signWarning,
+  --   code_action_icon = '💭',
+  --   definition_preview_icon = '🔭 ',
+  --   dianostic_header_icon = ' 🐞  ',
+  --   finder_definition_icon = '🐣  ',
+  --   finder_reference_icon = '⛳️  '
+  -- })
 
   -- https://github.com/onsails/lspkind.nvim
   local useLspKind, importedLspKind = pcall(require, "lspkind")
@@ -559,10 +558,10 @@ let g:buffet_right_trun_icon = '‹'
 
 " nvim-lua/diagnostic-nvim
 if has('nvim')
-    call sign_define("LspDiagnosticsErrorSign", {"text" : s:signError, "texthl" : "LspDiagnosticsError"})
-    call sign_define("LspDiagnosticsHintSign", {"text" : s:signHint, "texthl" : "LspDiagnosticsHint"})
-    call sign_define("LspDiagnosticsWarningSign", {"text" : s:signWarning, "texthl" : "LspDiagnosticsWarning"})
-    call sign_define("LspDiagnosticsInformationSign", {"text" : s:signInfo, "texthl" : "LspDiagnosticsInformation"})
+    call sign_define("LspDiagnosticsErrorSign", {"text" : g:signError, "texthl" : "LspDiagnosticsError"})
+    call sign_define("LspDiagnosticsHintSign", {"text" : g:signHint, "texthl" : "LspDiagnosticsHint"})
+    call sign_define("LspDiagnosticsWarningSign", {"text" : g:signWarning, "texthl" : "LspDiagnosticsWarning"})
+    call sign_define("LspDiagnosticsInformationSign", {"text" : g:signInfo, "texthl" : "LspDiagnosticsInformation"})
 endif
 
 " glepnir/dashboard-nvim
@@ -581,6 +580,18 @@ endif
 let g:nvim_tree_icons = {
     \ 'default': g:iconDefault,
     \ 'symlink': g:iconLink,
+    \ 'bookmark': g:iconBook,
+    \ 'modified': g:iconModified,
+    \ 'folder': {
+    \   'arrow_closed': "",
+    \   'arrow_open': "",
+    \   'default': g:iconFolder,
+    \   'open': g:iconFolderOpen,
+    \   'empty': g:iconFolderEmpty,
+    \   'empty_open': g:iconFolderEmptyOpen,
+    \   'symlink': g:iconFolderSymlink,
+    \   'symlink_open': g:iconFolderSymlinkOpen,
+    \ },
     \ 'git': {
     \   'unstaged': g:iconGitUnstaged,
     \   'staged': g:iconGitStaged,
@@ -589,23 +600,14 @@ let g:nvim_tree_icons = {
     \   'untracked': g:iconGitUntracked,
     \   'deleted': g:iconGitDeleted,
     \   'ignored': g:iconGitIgnored
-    \   },
-    \ 'folder': {
-    \   'arrow_open': "",
-    \   'arrow_closed': "",
-    \   'default': g:iconFolder,
-    \   'open': g:iconFolderOpen,
-    \   'empty': g:iconFolderEmpty,
-    \   'empty_open': g:iconFolderEmptyOpen,
-    \   'symlink': g:iconFolderSymlink,
-    \   'symlink_open': g:iconFolderSymlinkOpen,
-    \   },
-    \   'lsp': {
-    \     'error': s:signError,
-    \     'hint': s:signHint,
-    \     'info': s:signInfo,
-    \     'warning': s:signWarning,
-    \   }
+    \ },
+    \ }
+
+let g:nvim_tree_icons_diagnostics = {
+    \ 'hint': g:signHint,
+    \ 'info': g:signInfo,
+    \ 'warning': g:signWarning,
+    \ 'error': g:signError,
     \ }
 
 " romgrk/barbar.nvim
@@ -639,11 +641,11 @@ let g:battery#symbol_charging='⚡'
 let g:battery#symbol_discharging='📉'
 
 " hsanson/vim-android
-let g:gradle_glyph_error = s:signError
-let g:gradle_glyph_warning = s:signWarning
+let g:gradle_glyph_error = g:signError
+let g:gradle_glyph_warning = g:signWarning
 let g:gradle_glyph_gradle = g:iconAndroid
 let g:gradle_glyph_android = g:iconAndroid
-let g:gradle_glyph_building = s:signBuilding
+let g:gradle_glyph_building = g:signBuilding
 
 " webdevicons
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = g:iconDefault
@@ -833,6 +835,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kind2'] = g:iconJavaS
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kt'] = g:iconKotlyn " Kotlyn source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['kts'] = g:iconKotlyn " Kotlyn source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['latex'] = g:iconDocument
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lc'] = g:iconHaskell " Elsa source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lcap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['leex'] = g:iconElixir " Elixir source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['less'] = g:iconCss
@@ -1374,6 +1377,7 @@ if use then
     imported.set_icon { kt = {icon = vim.g.iconKotlyn, color = "#000000",name = "kt" } }
     imported.set_icon { kts = {icon = vim.g.iconKotlyn, color = "#000000",name = "kts" } }
     imported.set_icon { latex = {icon = vim.g.iconDocument, color = "#000000",name = "latex" } }
+    imported.set_icon { lc = {icon = vim.g.iconHaskell, color = "#000000",name = "elsa" } }
     imported.set_icon { lcap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "lcap" } }
     imported.set_icon { leex = {icon = vim.g.iconElixir, color = "#000000",name = "leex" } }
     imported.set_icon { less = {icon = vim.g.iconCss, color = "#000000",name = "less" } }
