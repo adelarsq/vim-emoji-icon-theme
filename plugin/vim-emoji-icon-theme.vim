@@ -761,7 +761,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['frxml'] = g:iconXml "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fs'] = g:iconFsharp " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsi'] = g:iconFsharp " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsl'] = g:iconFsharp " FsLex file
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsproj'] = g:iconFsharp " F# config file XML
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsproj'] = g:iconConfig " F# config file XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsx'] = g:iconFsharp " F# source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['fsy'] = g:iconFsharp " FsYacc file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['functions'] = g:iconShell
@@ -1305,7 +1305,7 @@ if use then
     imported.set_icon { fs = {icon = vim.g.iconFsharp, color = "#000000",name = "fs" } }
     imported.set_icon { fsi = {icon = vim.g.iconFsharp, color = "#000000",name = "fsi" } }
     imported.set_icon { fsl = {icon = vim.g.iconFsharp, color = "#000000",name = "fsl" } }
-    imported.set_icon { fsproj = {icon = vim.g.iconFsharp, color = "#000000",name = "fsproj" } }
+    imported.set_icon { fsproj = {icon = vim.g.iconConfig, color = "#000000",name = "fsproj" } }
     imported.set_icon { fsx = {icon = vim.g.iconFsharp, color = "#000000",name = "fsx" } }
     imported.set_icon { fsy = {icon = vim.g.iconFsharp, color = "#000000",name = "fsy" } }
     imported.set_icon { functions = {icon = vim.g.iconShell, color = "#000000",name = "functions" } }
