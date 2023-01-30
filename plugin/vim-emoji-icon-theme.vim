@@ -132,7 +132,7 @@ let g:iconRazor = '🟣'
 let g:iconRST = '🍇'
 let g:iconReason = '🐫'
 let g:iconReasonMerlin= '🧙'
-let g:iconRest = '😴'
+let g:iconNetwork = '🌐'
 let g:iconRuby = '🔻'
 let g:iconRust = '🦀'
 let g:iconSass = '👓'
@@ -796,6 +796,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hsig'] = g:iconHaskel
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hss'] = g:iconCss " High Level CSS preprocessor - https://github.com/ncannasse/hss
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['htm'] = g:iconHtml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = g:iconHtml
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['http'] = g:iconNetwork
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hvm'] = g:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hx'] = g:iconGraphQL " Haxe source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['icns'] = g:iconImage
@@ -943,7 +944,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['reg'] = g:iconLock " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rei'] = g:iconInterface " ReasonML interface file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['res'] = g:iconReason " ReasonML source code (new syntax)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resi'] = g:iconInterface " ReasonML interface file (new syntax)
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rest'] = g:iconRest
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rest'] = g:iconNetwork
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['resx'] = g:iconXml " Android XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rf5'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rh'] = g:iconShell " Rash script
@@ -1338,6 +1339,7 @@ if use then
     imported.set_icon { hss = {icon = vim.g.iconCss, color = "#000000",name = "hss" } }
     imported.set_icon { htm = {icon = vim.g.iconHtml, color = "#000000",name = "htm" } }
     imported.set_icon { html = {icon = vim.g.iconHtml, color = "#000000",name = "html" } }
+    imported.set_icon { http = {icon = vim.g.iconNetwork, color = "#000000",name = "http" } }
     imported.set_icon { hvm = {icon = vim.g.iconHaskell, color = "#000000",name = "hvm" } }
     imported.set_icon { hx = {icon = vim.g.iconGraphQL, color = "#000000",name = "hx" } }
     imported.set_icon { icns = {icon = vim.g.iconImage, color = "#000000",name = "icns" } }
@@ -1485,7 +1487,7 @@ if use then
     imported.set_icon { rei = {icon = vim.g.iconInterface, color = "#000000",name = "rei" } }
     imported.set_icon { res = {icon = vim.g.iconReason, color = "#000000",name = "res" } }
     imported.set_icon { resi = {icon = vim.g.iconInterface, color = "#000000",name = "resi" } }
-    imported.set_icon { rest = {icon = vim.g.iconRest, color = "#000000",name = "rest" } }
+    imported.set_icon { rest = {icon = vim.g.iconNetwork, color = "#000000",name = "rest" } }
     imported.set_icon { resx = {icon = vim.g.iconXml, color = "#000000",name = "resx" } }
     imported.set_icon { rf5 = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "rf5" } }
     imported.set_icon { rh = {icon = vim.g.iconShell, color = "#000000",name = "rh" } }
