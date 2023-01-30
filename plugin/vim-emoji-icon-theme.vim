@@ -17,13 +17,14 @@ let g:iconLanguage = '🐲' " icon for other languages
 let g:iconAndroid = '🤖'
 let g:iconAngel = '👼🏻'
 let g:iconArduino = '📟'
-let g:iconAssembly = '🧮'
+let g:iconAssembly = '🧩'
 let g:iconBat = '🦇'
 let g:iconBeef= '🥩'
 let g:iconBinary = '🔟'
 let g:iconBook = '📙'
 let g:iconBsdl = '🅱️ '
 let g:iconC = '🐮' " cow because its funny
+let g:iconCarp = '🎏'
 let g:iconCSharp = '☪️ '
 let g:iconCert = '🔑'
 let g:iconChangelog = '🍁'
@@ -39,7 +40,7 @@ let g:iconD = '🆔'
 let g:iconDart = '🎯'
 let g:iconDebugger = '🐞'
 let g:iconDelphi = '🥏'
-let g:iconDeps = '🚼'
+let g:iconDeps = '🚼' " baby depends from mama
 let g:iconDiagram = '🔀'
 let g:iconDiff = '💊'
 let g:iconDocker= '🐳'
@@ -84,7 +85,6 @@ let g:iconHaskell = '🎩'
 let g:iconHtml = '🌏'
 let g:iconIOS = '📱'
 let g:iconImage = '🎨'
-let g:iconInterface = '🧩'
 let g:iconIso = '💿'
 let g:iconJasper = '💹'
 let g:iconJava = '☕️'
@@ -127,12 +127,11 @@ let g:iconProfile = '👤'
 let g:iconProto = '⚛️ '
 let g:iconPug = '🐶'
 let g:iconPython = '🐍'
-let g:iconR = '®️ '
+let g:iconR = '🧮'
 let g:iconRazor = '🟣'
 let g:iconRST = '🍇'
 let g:iconReason = '🐫'
 let g:iconReasonMerlin= '🧙'
-let g:iconNetwork = '🌐'
 let g:iconRuby = '🔻'
 let g:iconRust = '🦀'
 let g:iconSass = '👓'
@@ -170,6 +169,8 @@ let g:iconZig = '⚡️'
 let g:iconNetworkTrace = '🔬'
 let g:iconPuppet = '👻'
 
+let g:iconNetwork = '🌐'
+let g:iconInterface = '🧩'
 let g:iconBuffer = '🐃' " 'Buffer'lo
 
 let g:signSuccess = '🎉'
@@ -687,6 +688,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bpg'] = g:iconImage "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsdl'] = g:iconBsdl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsl'] = g:iconLanguage " Language 1C (BSL) language file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = g:iconC
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['carp'] = g:iconCarp
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['carbon'] = g:iconC " Carbon Language Source File
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cbl'] = g:iconCobol " Cobol source file
@@ -1230,6 +1232,7 @@ if use then
     imported.set_icon { bsdl = {icon = vim.g.iconBsdl, color = "#000000",name = "bsdl" } }
     imported.set_icon { bsl = {icon = vim.g.iconLanguage, color = "#000000",name = "bsl" } }
     imported.set_icon { c = {icon = vim.g.iconC, color = "#000000",name = "c" } }
+    imported.set_icon { carp = {icon = vim.g.iconCarp, color = "#000000",name = "carp" } }
     imported.set_icon { cap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "cap" } }
     imported.set_icon { carbon = {icon = vim.g.iconC, color = "#000000",name = "carbon" } }
     imported.set_icon { cbl = {icon = vim.g.iconCobol, color = "#000000",name = "cbl" } }
