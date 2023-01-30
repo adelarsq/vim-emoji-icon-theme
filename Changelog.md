@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.104
+
+- Add support for [Carp](https://github.com/carp-lang/Carp) files (*.carp).
+
 ## Version 0.103
 
 - Add support for [Elsa](https://github.com/ucsd-progsys/elsa) files (*.lc).
