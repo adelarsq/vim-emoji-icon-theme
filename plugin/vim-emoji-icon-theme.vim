@@ -474,8 +474,15 @@ let g:defx_icons_nested_closed_tree_icon = g:iconFolder
 " neovim/nvim-lsp
 if has('nvim')
 lua << EOF
-  local use, imported = pcall(require, "lsp-status")
 
+  -- Custom signs
+  vim.fn.sign_define('DiagnosticSignError', { text = '💥', texthl = 'TextError', linehl = '', numhl = '' })
+  vim.fn.sign_define('DiagnosticSignWarn', { text = '💩', texthl = 'TextWarn', linehl = '', numhl = '' })
+  vim.fn.sign_define('DiagnosticSignInfo', { text = '⚠️', texthl = 'TextInfo', linehl = '', numhl = '' })
+  vim.fn.sign_define('DiagnosticSignHint', { text = '💡', texthl = 'TextHint', linehl = '', numhl = '' })
+
+  -- nvim-lua/lsp-status.nvim
+  local use, imported = pcall(require, "lsp-status")
   if use then
     imported.config {
       status_symbol = '🔥',
