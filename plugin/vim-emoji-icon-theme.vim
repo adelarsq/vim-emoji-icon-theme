@@ -1,4 +1,4 @@
-" Vim Emoji Icon Theme
+ " Vim Emoji Icon Theme
 " By Adelar da Silva Queiróz - 2023
 " MIT License
 
@@ -133,7 +133,6 @@ let g:iconRST = '🍇'
 let g:iconReason = '🐫'
 let g:iconReasonMerlin= '🧙'
 let g:iconRuby = '🔻'
-let g:iconRust = '🦀'
 let g:iconSass = '👓'
 let g:iconScala = '💈'
 let g:iconScheme = '🌻'
@@ -963,7 +962,6 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rock'] = g:iconLua " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rockspec'] = g:iconLua " Lua Rocks
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rpm'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rproj'] = g:iconConfig
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rs'] = g:iconRust " Rust
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rss'] = g:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['rst'] = g:iconRST
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ru'] = g:iconRuby " Ruby source code
@@ -1507,7 +1505,6 @@ if use then
     imported.set_icon { rockspec = {icon = vim.g.iconLua, color = "#000000",name = "rockspec" } }
     imported.set_icon { rpm = {icon = vim.g.iconPackage, color = "#000000",name = "rpm" } }
     imported.set_icon { rproj = {icon = vim.g.iconConfig, color = "#000000",name = "rproj" } }
-    imported.set_icon { rs = {icon = vim.g.iconRust, color = "#000000",name = "rs" } }
     imported.set_icon { rss = {icon = vim.g.iconXml, color = "#000000",name = "rss" } }
     imported.set_icon { rst = {icon = vim.g.iconRST, color = "#000000",name = "rst" } }
     imported.set_icon { ru = {icon = vim.g.iconRuby, color = "#000000",name = "ru" } }
