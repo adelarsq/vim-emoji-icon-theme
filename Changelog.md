@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.105
+
+- Add support for Crablang and Rust. Note: Not affiliated with Rust Foundation.
+
 ## Version 0.104
 
 - Add support for [Carp](https://github.com/carp-lang/Carp) files (*.carp).
