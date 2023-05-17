@@ -1195,11 +1195,10 @@ if use then
     imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
     imported.set_icon { ["60"] = {icon = vim.g.iconGui, color = "#000000",name = "60" } }
     imported.set_icon { ["7z"] = {icon = vim.g.iconPackage, color = "#000000",name = "7z" } }
-    imported.set_icon { ["Dockerfile"] = {icon = vim.g.iconDocker, color = "#000000",name = "Dockerfile" } }
-    imported.set_icon { ["LICENSE"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
-    imported.set_icon { ["License"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
-    imported.set_icon { ["Makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "makefile" } }
-    imported.set_icon { ["Podfile"] = {icon = vim.g.iconConfig, color = "#000000",name = "podfile" } }
+    imported.set_icon { ["dockerfile"] = {icon = vim.g.iconDocker, color = "#000000",name = "Dockerfile" } }
+    imported.set_icon { ["license"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
+    imported.set_icon { ["makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "makefile" } }
+    imported.set_icon { ["podfile"] = {icon = vim.g.iconConfig, color = "#000000",name = "podfile" } }
     imported.set_icon { ["a80"] = {icon = vim.g.iconAssembly, color = "#000000",name = "a80" } }
     imported.set_icon { ["epp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Epp" } }
     imported.set_icon { ["js.map"] = { icon = vim.g.iconJavaScript, color = "#FFA61A", name = "js_map" } }
@@ -1404,7 +1403,6 @@ if use then
     imported.set_icon { markdown = {icon = vim.g.iconMarkdown, color = "#000000",name = "markdown" } }
     imported.set_icon { marko = {icon = vim.g.iconMarkdown, color = "#000000",name = "marko" } }
     imported.set_icon { md = {icon = vim.g.iconMarkdown, color = "#000000",name = "markdown" } }
-    imported.set_icon { md = {icon = vim.g.iconMarkdown, color = "#000000",name = "md" } }
     imported.set_icon { mdj = {icon = vim.g.iconDiagram, color = "#000000",name = "mdj" } }
     imported.set_icon { mdl = {icon = vim.g.icon3D, color = "#000000",name = "mdl" } }
     imported.set_icon { mint = {icon = vim.g.iconMint, color = "#000000",name = "mint" } }
