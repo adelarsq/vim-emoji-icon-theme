@@ -1200,6 +1200,7 @@ if use then
     imported.set_icon { ["60"] = {icon = vim.g.iconGui, color = "#000000",name = "60" } }
     imported.set_icon { ["7z"] = {icon = vim.g.iconPackage, color = "#000000",name = "7z" } }
     imported.set_icon { ["dockerfile"] = {icon = vim.g.iconDocker, color = "#000000",name = "Dockerfile" } }
+    imported.set_icon { ["docker-compose.yml"] = {icon = vim.g.iconDocker, color = "#000000",name = "Docker Compose" } }
     imported.set_icon { ["license"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
     imported.set_icon { ["makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "makefile" } }
     imported.set_icon { ["podfile"] = {icon = vim.g.iconConfig, color = "#000000",name = "podfile" } }
