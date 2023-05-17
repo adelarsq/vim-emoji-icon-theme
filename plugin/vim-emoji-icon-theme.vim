@@ -185,6 +185,10 @@ let g:signBookmarkAnnotationSign = '❤️ '
 
 let g:iconModified = '✏️'
 
+let g:iconSpinner1 = '🌎'
+let g:iconSpinner2 = '🌎'
+let g:iconSpinner3 = '🌎'
+
 " webdevicons config
 let g:webdevicons_enable_nerdtree = 1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = ' '
@@ -201,11 +205,11 @@ let g:bookmark_sign = g:signBookmarkSign
 let g:bookmark_annotation_sign = g:signBookmarkAnnotationSign
 
 " vim-clap
-let g:clap_spinner_frames =  ['🌎 ','🌍 ','🌏 ']
+let g:clap_spinner_frames =  [g:iconSpinner1..' ',g:iconSpinner2..' ',g:iconSpinner3..' ']
 let g:clap_current_selection_sign = { 'text': '➤', 'texthl': 'WarningMsg', 'linehl': 'ClapCurrentSelection'}
 let g:clap_selected_sign = { 'text': '✓', 'texthl': 'WarningMsg', 'linehl': 'ClapSelected'}
-let g:clap_enable_icon = 0 " TODO disabled for now
-let g:clap_provider_grep_enable_icon = 0 " TODO disabled for now
+let g:clap_enable_icon = 1
+let g:clap_provider_grep_enable_icon = 1
 
 " vim-dadbod-ui
 let s:db_ui_expanded_icon = '▾'
