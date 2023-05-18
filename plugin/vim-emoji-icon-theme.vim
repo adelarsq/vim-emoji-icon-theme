@@ -1213,6 +1213,12 @@ if use then
     imported.set_icon { ["sqlite"] = { icon = vim.g.iconSql, color = "#FFA61A", name = "sqlite" } }
     imported.set_icon { ["z80"] = {icon = vim.g.iconAssembly, color = "#000000",name = "z80" } }
     imported.set_icon { ["procfile"] = {icon = vim.g.iconConfig, color = "#000000",name = "Procfile" } }
+    imported.set_icon { [".tern-project"] = {icon = vim.g.iconConfig, color = "#000000",name = "Tern" } }
+    imported.set_icon { [".bowerrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "Bower" } }
+    imported.set_icon { [".editorconfig"] = {icon = vim.g.iconConfig, color = "#000000",name = "EditorConfig" } }
+    imported.set_icon { [".eslintrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslint" } }
+    imported.set_icon { [".yo-rc.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "yo" } }
+    imported.set_icon { [".gitlab-ci.yml"] = {icon = vim.g.iconConfig, color = "#000000",name = "gitlab" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
