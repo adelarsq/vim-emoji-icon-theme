@@ -863,6 +863,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lua'] = g:iconLua
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lz4'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['m'] = g:iconObjective " Objective-C source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mak'] = g:iconMake " Makefile
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['map'] = g:iconNetwork
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['markdown'] = g:iconMarkdown " Markdown
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['marko'] = g:iconMarkdown " MarkoJS file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['md'] = g:iconMarkdown " Markdown
@@ -1414,6 +1415,7 @@ if use then
     imported.set_icon { lz4 = {icon = vim.g.iconPackage, color = "#000000",name = "lz4" } }
     imported.set_icon { m = {icon = vim.g.iconObjective, color = "#000000",name = "m" } }
     imported.set_icon { mak = {icon = vim.g.iconMake, color = "#000000",name = "mak" } }
+    imported.set_icon { map = {icon = vim.g.iconNetwork, color = "#000000",name = "map" } }
     imported.set_icon { markdown = {icon = vim.g.iconMarkdown, color = "#000000",name = "markdown" } }
     imported.set_icon { marko = {icon = vim.g.iconMarkdown, color = "#000000",name = "marko" } }
     imported.set_icon { md = {icon = vim.g.iconMarkdown, color = "#000000",name = "markdown" } }
