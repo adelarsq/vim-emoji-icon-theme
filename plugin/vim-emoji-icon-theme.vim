@@ -1349,6 +1349,7 @@ if use then
     imported.set_icon { groovy = {icon = vim.g.iconGroovy, color = "#000000",name = "groovy" } }
     imported.set_icon { gvdesign = {icon = vim.g.iconDiagram, color = "#000000",name = "gvdesign" } }
     imported.set_icon { gz = {icon = vim.g.iconPackage, color = "#000000",name = "gz" } }
+    imported.set_icon { gzip = {icon = vim.g.iconPackage, color = "#000000",name = "gzip" } }
     imported.set_icon { h = {icon = vim.g.iconInterface, color = "#000000",name = "h" } }
     imported.set_icon { hbs = {icon = vim.g.iconTemplate, color = "#000000",name = "hbs" } }
     imported.set_icon { hdr = {icon = vim.g.iconImage, color = "#000000",name = "hdr" } }
