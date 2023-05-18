@@ -797,6 +797,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gravity'] = g:iconGra
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['groovy'] = g:iconGroovy
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gvdesign'] = g:iconDiagram
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gz'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['gzip'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['h'] = g:iconInterface " *.h do C e C++
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hbs'] = g:iconTemplate " https://github.com/pillarjs/hbs
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['hdr'] = g:iconImage " raster image or digital photo saved in HDRsoft's High Dynamic Range (HDR) image format
