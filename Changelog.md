@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.106
+
+- Add support for *.etlua files.
+
 ## Version 0.105
 
 - Add support for Crablang and Rust. Note: Not affiliated with Rust Foundation.
