@@ -2,7 +2,7 @@
 
 ## Version 0.106
 
-- Add support for *.etlua files.
+- Add support for [*.etlua](https://github.com/leafo/etlua) files.
 
 ## Version 0.105
 
