@@ -761,6 +761,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erf'] = g:iconNetwork
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erl'] = g:iconErlang " Erlang source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erm'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['erwin'] = g:iconSql " Erwin file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['etlua'] = g:iconHtml " Embedded Lua templating
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ex'] = g:iconElixir " Elixir source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['exe'] = g:iconExe
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['exs'] = g:iconElixir " Elixir test code
@@ -1316,6 +1317,7 @@ if use then
     imported.set_icon { erl = {icon = vim.g.iconErlang, color = "#000000",name = "erl" } }
     imported.set_icon { erm = {icon = vim.g.iconXml, color = "#000000",name = "erm" } }
     imported.set_icon { erwin = {icon = vim.g.iconSql, color = "#000000",name = "erwin" } }
+    imported.set_icon { etlua = {icon = vim.g.iconHtml, color = "#000000",name = "etlua" } }
     imported.set_icon { ex = {icon = vim.g.iconElixir, color = "#000000",name = "ex" } }
     imported.set_icon { exe = {icon = vim.g.iconExe, color = "#000000",name = "exe" } }
     imported.set_icon { exs = {icon = vim.g.iconElixir, color = "#000000",name = "exs" } }
