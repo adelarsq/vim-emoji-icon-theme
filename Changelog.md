@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.107
+
+- Add support for [*.val](https://github.com/val-lang/val) files.
+
 ## Version 0.106
 
 - Add support for [*.etlua](https://github.com/leafo/etlua) files.
