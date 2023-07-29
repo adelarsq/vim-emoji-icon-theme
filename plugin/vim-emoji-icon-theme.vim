@@ -156,6 +156,7 @@ let g:iconText = '📝'
 let g:iconTodo = '🚧'
 let g:iconTypeScript = '🔷'
 let g:iconV = '✅'
+let g:iconVal = '✔️'
 let g:iconVCS = '🌱'
 let g:iconVSCode = '🆚'
 let g:iconVideo = '🎞 '
@@ -1034,6 +1035,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['usdc'] = g:icon3D " U
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['usdz'] = g:icon3D " Universal Scene Description file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['userprefs'] = g:iconConfig " XML user preferences file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['v'] = g:iconV " v language
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['val'] = g:iconVal " val language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vbs'] = g:iconVisualBasic " VisualBasic
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vcxproj'] = g:iconXml " XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vdf'] = g:iconConfig " VDF file (Valve's Source game engine config file)
@@ -1587,6 +1589,7 @@ if use then
     imported.set_icon { usdz = {icon = vim.g.icon3D, color = "#000000",name = "usdz" } }
     imported.set_icon { userprefs = {icon = vim.g.iconConfig, color = "#000000",name = "userprefs" } }
     imported.set_icon { v = {icon = vim.g.iconV, color = "#000000",name = "v" } }
+    imported.set_icon { val = {icon = vim.g.iconVal, color = "#000000",name = "val" } }
     imported.set_icon { vbs = {icon = vim.g.iconVisualBasic, color = "#000000",name = "vbs" } }
     imported.set_icon { vcxproj = {icon = vim.g.iconXml, color = "#000000",name = "vcxproj" } }
     imported.set_icon { vdf = {icon = vim.g.iconConfig, color = "#000000",name = "vdf" } }
