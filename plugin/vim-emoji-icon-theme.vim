@@ -688,6 +688,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['atom'] = g:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['avi'] = g:iconVideo " *.avi video file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['axml'] = g:iconXml " Android XML
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bat'] = g:iconBat " MS DOS bat file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bb'] = g:iconShell " Babashka scripts
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['beam'] = g:iconBinary " compile Elixir file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bf'] = g:iconBeef " Beef language source code
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bfr'] = g:iconNetworkTrace " network file trace (Wireshark) and others
@@ -1244,6 +1245,7 @@ if use then
     imported.set_icon { avi = {icon = vim.g.iconVideo, color = "#000000",name = "avi" } }
     imported.set_icon { axml = {icon = vim.g.iconXml, color = "#000000",name = "axml" } }
     imported.set_icon { bat = {icon = vim.g.iconBat, color = "#000000",name = "bat" } }
+    imported.set_icon { bb = {icon = vim.g.iconShell, color = "#000000",name = "bb" } }
     imported.set_icon { beam = {icon = vim.g.iconBinary, color = "#000000",name = "beam" } }
     imported.set_icon { bf = {icon = vim.g.iconBeef, color = "#000000",name = "bf" } }
     imported.set_icon { bfr = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "bfr" } }
