@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.108
+
+- Add support for [*.bb](https://babashka.org) files.
+
 ## Version 0.107
 
 - Add support for [*.val](https://github.com/val-lang/val) files.
