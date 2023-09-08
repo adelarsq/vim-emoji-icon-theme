@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.109
+
+- Add support for *.mod files.
+
 ## Version 0.108
 
 - Add support for [*.bb](https://babashka.org) files.
