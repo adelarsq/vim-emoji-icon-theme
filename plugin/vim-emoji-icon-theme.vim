@@ -882,6 +882,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mli'] = g:iconInterfa
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mlt'] = g:iconVideo " XML media config file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mm'] = g:iconObjective " Objective-C++ source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mo'] = g:iconGnuText " GNU gettext file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mod'] = g:iconConfig " mod file (v language)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['moon'] = g:iconLua " Moonscript filetype
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mov'] = g:iconVideo " *.mov video file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mp3'] = g:iconSound
@@ -1438,6 +1439,7 @@ if use then
     imported.set_icon { mlt = {icon = vim.g.iconVideo, color = "#000000",name = "mlt" } }
     imported.set_icon { mm = {icon = vim.g.iconObjective, color = "#000000",name = "mm" } }
     imported.set_icon { mo = {icon = vim.g.iconGnuText, color = "#000000",name = "mo" } }
+    imported.set_icon { mod = {icon = vim.g.iconConfig, color = "#000000",name = "mod" } }
     imported.set_icon { moon = {icon = vim.g.iconLua, color = "#000000",name = "moon" } }
     imported.set_icon { mov = {icon = vim.g.iconVideo, color = "#000000",name = "mov" } }
     imported.set_icon { mp3 = {icon = vim.g.iconSound, color = "#000000",name = "mp3" } }
