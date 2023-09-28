@@ -1156,6 +1156,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['procfile'] = g:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['rakefile'] = g:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['react.jsx'] = g:iconXml
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['routes'] = g:iconConfig " Playframework routes file
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['spec.ts'] = g:iconTypeScript
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['tags'] = g:iconTag
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['test'] = g:iconTest
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['tests'] = g:iconTest
@@ -1193,11 +1194,12 @@ let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['dockerfile..*'] = g:ico
 if has('nvim')
 lua << EOF
 
+-- https://github.com/nvim-tree/nvim-web-devicons
 local use, imported = pcall(require, "nvim-web-devicons")
 
 if use then
 
-    imported.set_default_icon(vim.g.iconDefault, '#6d8086');
+    imported.set_default_icon(vim.g.iconDefault, 65);
 
     imported.set_icon { [".gitattributes"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitattributes" } }
     imported.set_icon { [".gitignore"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitignore" } }
@@ -1227,6 +1229,9 @@ if use then
     imported.set_icon { [".yo-rc.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "yo" } }
     imported.set_icon { [".gitlab-ci.yml"] = {icon = vim.g.iconConfig, color = "#000000",name = "gitlab" } }
     imported.set_icon { [".spec.ts"] = {icon = vim.g.iconsSpec, color = "#000000",name = "specTs" } }
+    imported.set_icon { ["spec.ts"] = {icon = vim.g.iconsSpec, color = "#000000",name = "specTs" } }
+    imported.set_icon { ["routes"] = {icon = vim.g.iconConfig, color = "#000000",name = "routes" } } -- Playframework routes file
+    imported.set_icon { [".gitkeep"] = {icon = vim.g.iconGit, color = "#000000",name = "gitkeep" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
