@@ -117,6 +117,7 @@ let g:iconOfficePresentation = '🎭'
 let g:iconOfficeSpreadsheet = '📊'
 let g:iconOrg = '🦄'
 let g:iconPackage = '📦'
+let g:iconParquet = '🟫'
 let g:iconPascal = '🌡 '
 let g:iconPdf = '🅿️ '
 let g:iconPerl = '🍐'
@@ -910,6 +911,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['os'] = g:iconLanguage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['out'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ovpn'] = g:iconCert " cert file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pages'] = g:iconOfficeDoc
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['parquet'] = g:iconParquet
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pas'] = g:iconPascal
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pcapng'] = g:iconNetworkTrace " network file trace (Wireshark) and others
@@ -1472,6 +1474,7 @@ if use then
     imported.set_icon { out = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "out" } }
     imported.set_icon { ovpn = {icon = vim.g.iconCert, color = "#000000",name = "ovpn" } }
     imported.set_icon { pages = {icon = vim.g.iconOfficeDoc, color = "#000000",name = "pages" } }
+    imported.set_icon { parquet = {icon = vim.g.iconParquet, color = "#000000",name = "parquet" } }
     imported.set_icon { pas = {icon = vim.g.iconPascal, color = "#000000",name = "pas" } }
     imported.set_icon { pcap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pcap" } }
     imported.set_icon { pcapng = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pcapng" } }
