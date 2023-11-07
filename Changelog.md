@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.110
+
+- Add support for *.parquet files.
+
 ## Version 0.109
 
 - Add support for *.mod files.
