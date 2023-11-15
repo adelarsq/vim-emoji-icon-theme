@@ -1193,6 +1193,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*vcxproj.filters'] = g
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*vimrc.*'] = g:iconVim
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['dockerfile..*'] = g:iconDocker
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.npmrc'] = g:iconConfig
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.gitconfig'] = g:iconGit
 
 if has('nvim')
 lua << EOF
@@ -1236,6 +1237,7 @@ if use then
     imported.set_icon { ["routes"] = {icon = vim.g.iconConfig, color = "#000000",name = "routes" } } -- Playframework routes file
     imported.set_icon { [".gitkeep"] = {icon = vim.g.iconGit, color = "#000000",name = "gitkeep" } }
     imported.set_icon { [".npmrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "npmrc" } }
+    imported.set_icon { [".gitconfig"] = {icon = vim.g.iconGit, color = "#000000",name = "gitconfig" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
