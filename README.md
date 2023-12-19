@@ -22,6 +22,7 @@ Others plugins:
 - [x] [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) `*`
 - [x] [adelarsq/vim-pomodoro](https://github.com/adelarsq/vim-pomodoro)
 - [x] [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+- [x] [andymass/vim-matchup](https://github.com/andymass/vim-matchup)
 - [x] [arecarn/vim-crunch](https://github.com/arecarn/vim-crunch)
 - [x] [bagrat/vim-buffet](https://github.com/bagrat/vim-buffet) `*`
 - [x] [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) `*`
@@ -30,10 +31,12 @@ Others plugins:
 - [x] [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
 - [x] [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 - [x] [glepnir/spaceline.vim](https://github.com/glepnir/spaceline.vim) `****`
+- [x] [hsanson/vim-android](https://github.com/hsanson/vim-android)
 - [x] [idanarye/vim-vebugger](https://github.com/idanarye/vim-vebugger)
 - [x] [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) `*`
 - [x] [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
 - [x] [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) `*****`
+- [x] [lambdalisue/battery.vim](https://github.com/lambdalisue/battery.vim)
 - [x] [liuchengxu/Vista](https://github.com/liuchengxu/vista.vim)
 - [x] [liuchengxu/vim-clap](https://github.com/liuchengxu/vim-clap) `**`
 - [x] [mattesgroeger/vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
@@ -55,6 +58,8 @@ Others plugins:
 - [x] [shougo/vimfiler.vim](https://github.com/Shougo/vimfiler.vim)
 - [x] [shougo/vimfiler](https://github.com/shougo/vimfiler.vim) `*`
 - [x] [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim)
+- [x] [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim/)
+- [x] [stevearc/oil.nvim](https://github.com/stevearc/oil.nvim)
 - [x] [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) `*****`
 - [x] [tpope/flagship](https://github.com/tpope/vim-flagship) `*`
 - [x] [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) `*`
@@ -62,10 +67,6 @@ Others plugins:
 - [x] [voldikss/vim-translator](https://github.com/voldikss/vim-translator)
 - [x] [yardnsm/vim-import-cost](https://github.com/yardnsm/vim-import-cost)
 - [x] [yuki-ycino/fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim)
-- [x] [andymass/vim-matchup](https://github.com/andymass/vim-matchup)
-- [x] [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim/)
-- [x] [lambdalisue/battery.vim](https://github.com/lambdalisue/battery.vim)
-- [x] [hsanson/vim-android](https://github.com/hsanson/vim-android)
 
 Labels:
  - `*` Supported by [vim-devicons](https://github.com/ryanoasis/vim-devicons);
