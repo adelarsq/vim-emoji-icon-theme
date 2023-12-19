@@ -1,5 +1,11 @@
 # Changelog 🍁
 
+## Version 0.111
+
+- Add support for .dropbox files;
+- Better git support;
+- Add support for *.cfg files.
+
 ## Version 0.110
 
 - Add support for *.parquet files.

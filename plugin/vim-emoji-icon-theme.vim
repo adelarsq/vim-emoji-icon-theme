@@ -708,6 +708,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['carbon'] = g:iconC " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cbl'] = g:iconCobol " Cobol source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cer'] = g:iconCert " Certificate file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cff'] = g:iconDocument
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cfg'] = g:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['chs'] = g:iconHaskell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['class'] = g:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['clj'] = g:iconClojure " Clojure source code
@@ -1194,6 +1195,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*vimrc.*'] = g:iconVim
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['dockerfile..*'] = g:iconDocker
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.npmrc'] = g:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.gitconfig'] = g:iconGit
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.dropbox'] = g:iconDropbox
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['commit_editmsg'] = g:iconGit
 
 if has('nvim')
 lua << EOF
@@ -1213,6 +1216,7 @@ if use then
     imported.set_icon { ["60"] = {icon = vim.g.iconGui, color = "#000000",name = "60" } }
     imported.set_icon { ["7z"] = {icon = vim.g.iconPackage, color = "#000000",name = "7z" } }
     imported.set_icon { ["dockerfile"] = {icon = vim.g.iconDocker, color = "#000000",name = "Dockerfile" } }
+    imported.set_icon { ["commit_editmsg"] = {icon = vim.g.iconGit, color = "#000000",name = "commit_editmsg" } }
     imported.set_icon { ["docker-compose.yml"] = {icon = vim.g.iconDocker, color = "#000000",name = "DockerCompose" } }
     imported.set_icon { ["license"] = {icon = vim.g.iconDocument, color = "#000000",name = "License" } }
     imported.set_icon { ["makefile"] = {icon = vim.g.iconMake, color = "#000000",name = "makefile" } }
@@ -1238,6 +1242,7 @@ if use then
     imported.set_icon { [".gitkeep"] = {icon = vim.g.iconGit, color = "#000000",name = "gitkeep" } }
     imported.set_icon { [".npmrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "npmrc" } }
     imported.set_icon { [".gitconfig"] = {icon = vim.g.iconGit, color = "#000000",name = "gitconfig" } }
+    imported.set_icon { [".dropbox"] = {icon = vim.g.iconDropbox, color = "#000000",name = "dropbox" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
@@ -1276,6 +1281,7 @@ if use then
     imported.set_icon { cbl = {icon = vim.g.iconCobol, color = "#000000",name = "cbl" } }
     imported.set_icon { cer = {icon = vim.g.iconCert, color = "#000000",name = "cer" } }
     imported.set_icon { cff = {icon = vim.g.iconDocument, color = "#000000",name = "cff" } }
+    imported.set_icon { cfg = {icon = vim.g.iconConfig, color = "#000000",name = "cfg" } }
     imported.set_icon { chs = {icon = vim.g.iconHaskell, color = "#000000",name = "chs" } }
     imported.set_icon { class = {icon = vim.g.iconBinary, color = "#000000",name = "class" } }
     imported.set_icon { clj = {icon = vim.g.iconClojure, color = "#000000",name = "clj" } }
