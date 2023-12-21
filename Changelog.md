@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.112
+
+- Add support for *.ebnf files.
+
 ## Version 0.111
 
 - Add support for .dropbox files;

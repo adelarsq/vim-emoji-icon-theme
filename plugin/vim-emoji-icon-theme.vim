@@ -701,6 +701,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bmp'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bpg'] = g:iconImage " BPG (Better Portable Graphics) image format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsdl'] = g:iconBsdl
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['bsl'] = g:iconLanguage " Language 1C (BSL) language file
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ebnf'] = g:iconLanguage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = g:iconC
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['carp'] = g:iconCarp
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cap'] = g:iconNetworkTrace " network file trace (Wireshark) and others
@@ -1274,6 +1275,7 @@ if use then
     imported.set_icon { bpg = {icon = vim.g.iconImage, color = "#000000",name = "bpg" } }
     imported.set_icon { bsdl = {icon = vim.g.iconBsdl, color = "#000000",name = "bsdl" } }
     imported.set_icon { bsl = {icon = vim.g.iconLanguage, color = "#000000",name = "bsl" } }
+    imported.set_icon { ebnf = {icon = vim.g.iconLanguage, color = "#000000",name = "ebnf" } }
     imported.set_icon { c = {icon = vim.g.iconC, color = "#000000",name = "c" } }
     imported.set_icon { carp = {icon = vim.g.iconCarp, color = "#000000",name = "carp" } }
     imported.set_icon { cap = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "cap" } }
