@@ -998,6 +998,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sln'] = g:iconConfig 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snap'] = g:iconPackage " SNAP file 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['snoop'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['so'] = g:iconBinary
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['socket'] = g:iconNetwork
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pid'] = g:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sol'] = g:iconLanguage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spi'] = g:iconSpiral " Spiral language
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['spiproj'] = g:iconSpiral " Spiral language
@@ -1571,6 +1573,8 @@ if use then
     imported.set_icon { snap = {icon = vim.g.iconPackage, color = "#000000",name = "snap" } }
     imported.set_icon { snoop = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "snoop" } }
     imported.set_icon { so = {icon = vim.g.iconBinary, color = "#000000",name = "so" } }
+    imported.set_icon { socket = {icon = vim.g.iconNetwork, color = "#000000",name = "socket" } }
+    imported.set_icon { pid = {icon = vim.g.iconBinary, color = "#000000",name = "pid" } }
     imported.set_icon { sol = {icon = vim.g.iconLanguage, color = "#000000",name = "sol" } }
     imported.set_icon { spi = {icon = vim.g.iconSpiral, color = "#000000",name = "spi" } }
     imported.set_icon { spiproj = {icon = vim.g.iconSpiral, color = "#000000",name = "spiproj" } }

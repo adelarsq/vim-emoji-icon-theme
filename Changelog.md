@@ -2,7 +2,7 @@
 
 ## Version 0.112
 
-- Add support for *.ebnf files.
+- Add support for *.ebnf, *.socket and *.pid files.
 
 ## Version 0.111
 
