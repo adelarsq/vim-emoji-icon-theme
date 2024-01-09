@@ -1092,6 +1092,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zig'] = g:iconZig " Z
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zip'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zsh'] = g:iconShell " zsh script
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['zst'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['eot'] = g:iconFont
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['cjs'] = g:iconJavaScript
 
 " Files
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
@@ -1246,6 +1248,7 @@ if use then
     imported.set_icon { [".npmrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "npmrc" } }
     imported.set_icon { [".gitconfig"] = {icon = vim.g.iconGit, color = "#000000",name = "gitconfig" } }
     imported.set_icon { [".dropbox"] = {icon = vim.g.iconDropbox, color = "#000000",name = "dropbox" } }
+    imported.set_icon { ["tsconfig.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "tsconfigjson" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
@@ -1665,6 +1668,8 @@ if use then
     imported.set_icon { zip = {icon = vim.g.iconPackage, color = "#000000",name = "zip" } }
     imported.set_icon { zsh = {icon = vim.g.iconShell, color = "#000000",name = "zsh" } }
     imported.set_icon { zst = {icon = vim.g.iconPackage, color = "#000000",name = "zst" } }
+    imported.set_icon { eot = {icon = vim.g.iconFont, color = "#000000",name = "eot" } }
+    imported.set_icon { cjs = {icon = vim.g.iconJavaScript, color = "#000000",name = "cjs" } }
 
 end
 
