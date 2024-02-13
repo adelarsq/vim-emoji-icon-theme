@@ -926,6 +926,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pfx'] = g:iconCert " 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pgsql'] = g:iconSql " sql -> SQLYog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['php'] = g:iconPhp
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkg'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkl'] = g:iconConfig " Pkl language 
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pklg'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pkt'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pl'] = g:iconPerl " Perl
@@ -1504,6 +1505,7 @@ if use then
     imported.set_icon { pgsql = {icon = vim.g.iconSql, color = "#000000",name = "pgsql" } }
     imported.set_icon { php = {icon = vim.g.iconPhp, color = "#000000",name = "php" } }
     imported.set_icon { pkg = {icon = vim.g.iconPackage, color = "#000000",name = "pkg" } }
+    imported.set_icon { pkl = {icon = vim.g.iconConfig, color = "#000000",name = "pkl" } }
     imported.set_icon { pklg = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pklg" } }
     imported.set_icon { pkt = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "pkt" } }
     imported.set_icon { pl = {icon = vim.g.iconPerl, color = "#000000",name = "pl" } }
