@@ -867,6 +867,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lock'] = g:iconLock
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['log'] = g:iconLog
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lua'] = g:iconLua
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lz4'] = g:iconPackage
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lnk'] = g:iconLink
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['m'] = g:iconObjective " Objective-C source file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['mak'] = g:iconMake " Makefile
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['map'] = g:iconNetwork
@@ -1446,6 +1447,7 @@ if use then
     imported.set_icon { log = {icon = vim.g.iconLog, color = "#000000",name = "log" } }
     imported.set_icon { lua = {icon = vim.g.iconLua, color = "#000000",name = "lua" } }
     imported.set_icon { lz4 = {icon = vim.g.iconPackage, color = "#000000",name = "lz4" } }
+    imported.set_icon { lnk = {icon = vim.g.iconLink, color = "#000000",name = "lnk" } }
     imported.set_icon { m = {icon = vim.g.iconObjective, color = "#000000",name = "m" } }
     imported.set_icon { mak = {icon = vim.g.iconMake, color = "#000000",name = "mak" } }
     imported.set_icon { map = {icon = vim.g.iconNetwork, color = "#000000",name = "map" } }
