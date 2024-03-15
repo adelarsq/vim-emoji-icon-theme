@@ -1251,6 +1251,7 @@ if use then
     imported.set_icon { [".gitconfig"] = {icon = vim.g.iconGit, color = "#000000",name = "gitconfig" } }
     imported.set_icon { [".dropbox"] = {icon = vim.g.iconDropbox, color = "#000000",name = "dropbox" } }
     imported.set_icon { ["tsconfig.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "tsconfigjson" } }
+    imported.set_icon { ["tailwind.config.js"] = {icon = vim.g.iconCss, color = "#000000",name = "tailwindconfigjs" } }
 
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
