@@ -1,5 +1,5 @@
 " Vim Emoji Icon Theme
-" By Adelar da Silva Queiróz - 2023
+" By Adelar da Silva Queiróz - 2024
 " MIT License
 
 if exists('g:vim_emoji_icon_theme')
@@ -1252,7 +1252,10 @@ if use then
     imported.set_icon { [".dropbox"] = {icon = vim.g.iconDropbox, color = "#000000",name = "dropbox" } }
     imported.set_icon { ["tsconfig.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "tsconfigjson" } }
     imported.set_icon { ["tailwind.config.js"] = {icon = vim.g.iconCss, color = "#000000",name = "tailwindconfigjs" } }
+    imported.set_icon { ["gnumakefile"] = {icon = vim.g.iconMake, color = "#000000",name = "gnumakefile" } }
 
+    imported.set_icon { alpine = {icon = vim.g.iconDocker, color = "#000000",name = "alpine" } }
+    imported.set_icon { ilk = {icon = vim.g.iconBinary, color = "#000000",name = "ilk" } }
     imported.set_icon { aar = {icon = vim.g.iconPackage, color = "#000000",name = "aar" } }
     imported.set_icon { acp = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "acp" } }
     imported.set_icon { ahk = {icon = vim.g.iconConfig, color = "#000000",name = "ahk" } }
