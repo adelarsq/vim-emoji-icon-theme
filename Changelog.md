@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.113
+
+- Add support for *.stp files.
+
 ## Version 0.112
 
 - Add support for *.ebnf, *.socket and *.pid files.
