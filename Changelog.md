@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.114
+
+- Better support for Git.
+
 ## Version 0.113
 
 - Add support for *.stp files.
