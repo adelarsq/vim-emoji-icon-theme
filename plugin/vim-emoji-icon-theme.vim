@@ -1234,6 +1234,8 @@ if use then
     imported.set_icon { ["js.map"] = { icon = vim.g.iconJavaScript, color = "#FFA61A", name = "js_map" } }
     imported.set_icon { ["package-lock.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "packagelock" } }
     imported.set_icon { ["package.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "package" } }
+    imported.set_icon { ["go.mod"] = {icon = vim.g.iconConfig, color = "#000000",name = "gomod" } }
+    imported.set_icon { ["go.sum"] = {icon = vim.g.iconConfig, color = "#000000",name = "gosum" } }
     imported.set_icon { ["pp"] = { icon = vim.g.iconPuppet, color = "#FFA61A", name = "Pp" } }
     imported.set_icon { ["sqlite"] = { icon = vim.g.iconSql, color = "#FFA61A", name = "sqlite" } }
     imported.set_icon { ["z80"] = {icon = vim.g.iconAssembly, color = "#000000",name = "z80" } }
