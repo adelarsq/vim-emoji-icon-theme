@@ -144,7 +144,7 @@ let g:iconSlime = '🍨'
 let g:iconSound = '🎶'
 let g:iconSql = '🎲'
 let g:iconSpiral = '🌀'
-let g:iconSvelte = '💃🏻' " icon based on the Svelte and Sapper in Action Book's cover
+let g:iconSvelte = '👠' " icon based on the Svelte and Sapper in Action Book's cover, but just shoe
 let g:iconSvn = '🐢'
 let g:iconSwift = '🐦'
 let g:iconT = '🌷'
@@ -1218,6 +1218,8 @@ if use then
 
     imported.set_icon { [".gitattributes"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitattributes" } }
     imported.set_icon { [".gitignore"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitignore" } }
+    imported.set_icon { [".prettierignore"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierignore" } }
+    imported.set_icon { [".prettierrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierrc" } }
     imported.set_icon { ["3ds"] = { icon = vim.g.icon3D, color = "#000000", name = "3ds" } }
     imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
     imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
