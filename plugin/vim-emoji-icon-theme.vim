@@ -1265,7 +1265,7 @@ if use then
     imported.set_icon { ["tailwind.config.js"] = {icon = vim.g.iconCss, color = "#000000",name = "tailwindconfigjs" } }
     imported.set_icon { ["gnumakefile"] = {icon = vim.g.iconMake, color = "#000000",name = "gnumakefile" } }
     imported.set_icon { [".dockerignore"] = {icon = vim.g.iconDocker, color = "#000000",name = "dockerignore" } } -- whale - Docker maskot
-    imported.set_icon { ["svelte.config.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "svelteconfig" } }
+    imported.set_icon { ["svelte.config.js"] = {icon = vim.g.iconConfig, color = "#000000",name = "svelteconfig" } }
 
     imported.set_icon { alpine = {icon = vim.g.iconDocker, color = "#000000",name = "alpine" } }
     imported.set_icon { ilk = {icon = vim.g.iconBinary, color = "#000000",name = "ilk" } }
