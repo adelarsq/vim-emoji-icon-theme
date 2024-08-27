@@ -1220,6 +1220,7 @@ if use then
     imported.set_icon { [".gitignore"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitignore" } }
     imported.set_icon { [".prettierignore"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierignore" } }
     imported.set_icon { [".prettierrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierrc" } }
+    imported.set_icon { ["eslint.config.js"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfig" } }
     imported.set_icon { ["3ds"] = { icon = vim.g.icon3D, color = "#000000", name = "3ds" } }
     imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
     imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
