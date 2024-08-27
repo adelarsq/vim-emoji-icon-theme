@@ -1220,7 +1220,12 @@ if use then
     imported.set_icon { [".gitignore"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitignore" } }
     imported.set_icon { [".prettierignore"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierignore" } }
     imported.set_icon { [".prettierrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierrc" } }
-    imported.set_icon { ["eslint.config.js"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfig" } }
+    imported.set_icon { ["eslint.config.js"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfigjs" } }
+    imported.set_icon { ["eslint.config.mjs"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfigmjs" } }
+    imported.set_icon { ["eslint.config.cjs"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfigcjs" } }
+    imported.set_icon { ["eslint.config.ts"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfigts" } }
+    imported.set_icon { ["eslint.config.mts"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfigmts" } }
+    imported.set_icon { ["eslint.config.cts"] = {icon = vim.g.iconConfig, color = "#000000",name = "eslintconfigcts" } }
     imported.set_icon { ["3ds"] = { icon = vim.g.icon3D, color = "#000000", name = "3ds" } }
     imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
     imported.set_icon { ["5vw"] = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "5vw" } }
@@ -1260,6 +1265,7 @@ if use then
     imported.set_icon { ["tailwind.config.js"] = {icon = vim.g.iconCss, color = "#000000",name = "tailwindconfigjs" } }
     imported.set_icon { ["gnumakefile"] = {icon = vim.g.iconMake, color = "#000000",name = "gnumakefile" } }
     imported.set_icon { [".dockerignore"] = {icon = vim.g.iconDocker, color = "#000000",name = "dockerignore" } } -- whale - Docker maskot
+    imported.set_icon { ["svelte.config.json"] = {icon = vim.g.iconConfig, color = "#000000",name = "svelteconfig" } }
 
     imported.set_icon { alpine = {icon = vim.g.iconDocker, color = "#000000",name = "alpine" } }
     imported.set_icon { ilk = {icon = vim.g.iconBinary, color = "#000000",name = "ilk" } }
