@@ -183,7 +183,7 @@ let g:signInfo = '⚠️'
 let g:signWarning = '💩'
 let g:signHint = '💡'
 let g:signBookmarkSign = '⭐'
-let g:signBookmarkAnnotationSign = '❤️ '
+let g:signBookmarkAnnotationSign = '❤️'
 
 let g:iconModified = '✏️'
 
