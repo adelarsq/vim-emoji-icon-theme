@@ -741,6 +741,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['deb'] = g:iconPackage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dib'] = g:iconNote
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['diff'] = g:iconDiff " diff file
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dll'] = g:iconBinary
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['def'] = g:iconBinary
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['dmg'] = g:iconPackage " Apple compressed/encrypted format
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['doc'] = g:iconOfficeDoc
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['docx'] = g:iconOfficeDoc
@@ -1105,6 +1106,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.bashrc'] = g:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.cabal'] = g:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.dart_tool'] = g:iconConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.dockerignore'] = g:iconDocker " whale - Docker maskot
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['keystore'] = g:iconLock
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.ds_store'] = g:iconTag
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.editorconfig'] = g:iconEditorConfig
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.env'] = g:iconEnv
@@ -1266,6 +1268,7 @@ if use then
     imported.set_icon { ["gnumakefile"] = {icon = vim.g.iconMake, color = "#000000",name = "gnumakefile" } }
     imported.set_icon { [".dockerignore"] = {icon = vim.g.iconDocker, color = "#000000",name = "dockerignore" } } -- whale - Docker maskot
     imported.set_icon { ["svelte.config.js"] = {icon = vim.g.iconConfig, color = "#000000",name = "svelteconfig" } }
+    imported.set_icon { ["keystore"] = {icon = vim.iconLock, color = "#000000",name = "keytore" } }
 
     imported.set_icon { alpine = {icon = vim.g.iconDocker, color = "#000000",name = "alpine" } }
     imported.set_icon { ilk = {icon = vim.g.iconBinary, color = "#000000",name = "ilk" } }
@@ -1340,6 +1343,7 @@ if use then
     imported.set_icon { dib = {icon = vim.g.iconNote, color = "#000000",name = "dib" } }
     imported.set_icon { diff = {icon = vim.g.iconDiff, color = "#000000",name = "diff" } }
     imported.set_icon { dll = {icon = vim.g.iconBinary, color = "#000000",name = "dll" } }
+    imported.set_icon { def = {icon = vim.g.iconBinary, color = "#000000",name = "def" } }
     imported.set_icon { dmg = {icon = vim.g.iconPackage, color = "#000000",name = "dmg" } }
     imported.set_icon { doc = {icon = vim.g.iconOfficeDoc, color = "#000000",name = "doc" } }
     imported.set_icon { dockerfile = {icon = vim.g.iconDocker, color = "#000000",name = "dockerfile" } }

@@ -1,5 +1,10 @@
 # Changelog 🍁
 
+## Version 0.115
+
+- Add support for *.def files;
+- Add supporrt for keystore files.
+
 ## Version 0.114
 
 - Better support for Git.
