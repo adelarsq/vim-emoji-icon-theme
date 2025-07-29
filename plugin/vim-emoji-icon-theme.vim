@@ -1072,6 +1072,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wav'] = g:iconSound "
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wbmp'] = g:iconImage " WBMP image
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['webp'] = g:iconImage " WebP image
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['woff'] = g:iconFont " font
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['woff2'] = g:iconFont " font
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpc'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wpz'] = g:iconNetworkTrace " network file trace (Wireshark) and others
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['wscene'] = g:iconVideo " XML media config file
@@ -1671,6 +1672,7 @@ if use then
     imported.set_icon { wbmp = {icon = vim.g.iconImage, color = "#000000",name = "wbmp" } }
     imported.set_icon { webp = {icon = vim.g.iconImage, color = "#000000",name = "webp" } }
     imported.set_icon { woff = {icon = vim.g.iconFont, color = "#000000",name = "woff" } }
+    imported.set_icon { woff2 = {icon = vim.g.iconFont, color = "#000000",name = "woff2" } }
     imported.set_icon { wpc = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "wpc" } }
     imported.set_icon { wpz = {icon = vim.g.iconNetworkTrace, color = "#000000",name = "wpz" } }
     imported.set_icon { wscene = {icon = vim.g.iconVideo, color = "#000000",name = "wscene" } }

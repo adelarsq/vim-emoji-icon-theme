@@ -1,5 +1,9 @@
 # Changelog 🍁
 
+## Version 0.116
+
+- Add support for *.woff2 files.
+
 ## Version 0.115
 
 - Add support for *.def files;
