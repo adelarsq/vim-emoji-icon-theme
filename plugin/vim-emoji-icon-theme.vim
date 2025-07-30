@@ -1220,6 +1220,8 @@ if use then
     imported.set_default_icon(vim.g.iconDefault, 65);
 
     imported.set_icon { [".gitattributes"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitattributes" } }
+    imported.set_icon { [".env"] = {icon = vim.g.iconEnv, color = "#000000",name = "env" } }
+    imported.set_icon { [".envrc"] = {icon = vim.g.iconEnv, color = "#000000",name = "envrc" } }
     imported.set_icon { [".gitignore"] = {icon = vim.g.iconVCS, color = "#000000",name = "gitignore" } }
     imported.set_icon { [".prettierignore"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierignore" } }
     imported.set_icon { [".prettierrc"] = {icon = vim.g.iconConfig, color = "#000000",name = "prettierrc" } }
