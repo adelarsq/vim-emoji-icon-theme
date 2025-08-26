@@ -1272,9 +1272,9 @@ if use then
     imported.set_icon { [".dockerignore"] = {icon = vim.g.iconDocker, color = "#000000",name = "dockerignore" } } -- whale - Docker maskot
     imported.set_icon { ["svelte.config.js"] = {icon = vim.g.iconConfig, color = "#000000",name = "svelteconfig" } }
     imported.set_icon { ["keystore"] = {icon = vim.iconLock, color = "#000000",name = "keytore" } }
-    imported.set_icon [".pnpmfile.cjs"] = { icon = vim.g.iconConfig, color = "#F9AD02", cterm_color = "214", name = "PNPMFile" },
-imported.set_icon ["pnpm-lock.yaml"] = { icon = vim.g.iconConfig, color = "#F9AD02", cterm_color = "214", name = "PNPMLock" },
-imported.set_icon ["pnpm-workspace.yaml"] = { icon = vim.g.iconConfig, color = "#F9AD02", cterm_color = "214", name = "PNPMWorkspace" },
+    imported.set_icon [".pnpmfile.cjs"] = { icon = vim.g.iconConfig, color = "#F9AD02", cterm_color = "214", name = "PNPMFile" }
+    imported.set_icon ["pnpm-lock.yaml"] = { icon = vim.g.iconConfig, color = "#F9AD02", cterm_color = "214", name = "PNPMLock" }
+    imported.set_icon ["pnpm-workspace.yaml"] = { icon = vim.g.iconConfig, color = "#F9AD02", cterm_color = "214", name = "PNPMWorkspace" }
 imported.set_icon ["vite.config.cjs"] = { icon = "", color = "#FFA800", cterm_color = "214", name = "ViteConfig" }
 imported.set_icon ["vite.config.cts"] = { icon = "", color = "#FFA800", cterm_color = "214", name = "ViteConfig" }
 imported.set_icon ["vite.config.js"] = { icon = "", color = "#FFA800", cterm_color = "214", name = "ViteConfig" }
