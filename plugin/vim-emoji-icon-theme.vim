@@ -192,8 +192,7 @@ let g:iconSpinner2 = '🌎'
 let g:iconSpinner3 = '🌎'
 
 " webdevicons config
-let g:webdevicons_enable_nerdtree = 1
-let g:WebDevIconsNerdTreeAfterGlyphPadding = ' '
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ' ' " fix for nerdtree behaviour with emoji icons
 
 " ale
 let g:ale_sign_error = g:signError
