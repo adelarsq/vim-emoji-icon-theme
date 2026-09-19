@@ -1,5 +1,7 @@
 # Vim Emoji Icon Theme 🎨
 
+> For now I don't have plans or time to improve this plugin (most of the time I use Neovim with few plugins). I am leaving as it is right now. For Neovim I did create another plugin at https://codeberg.org/adelarsq/emoji-theme.nvim just for my own needs. When possible I will answer issues here or there.
+
 This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.
 
 For filetypes support this plugins extends [vim-devicons](https://github.com/ryanoasis/vim-devicons)
